@@ -2,9 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://dnjs.xyz/57580.html</loc>
+    
+    <lastmod>2024-09-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://dnjs.xyz/4847.html</loc>
+    
+    <lastmod>2024-09-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://dnjs.xyz/gallery/index.html</loc>
     
-    <lastmod>2024-09-05</lastmod>
+    <lastmod>2024-09-07</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -13,7 +31,7 @@
   <url>
     <loc>https://dnjs.xyz/40780.html</loc>
     
-    <lastmod>2024-09-05</lastmod>
+    <lastmod>2024-09-06</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -67,29 +85,50 @@
 
   <url>
     <loc>https://dnjs.xyz/</loc>
-    <lastmod>2024-09-05</lastmod>
+    <lastmod>2024-09-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>https://dnjs.xyz/tags/vagrant/</loc>
-    <lastmod>2024-09-05</lastmod>
+    <loc>https://dnjs.xyz/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/</loc>
+    <lastmod>2024-09-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://dnjs.xyz/tags/Linux/</loc>
-    <lastmod>2024-09-05</lastmod>
+    <loc>https://dnjs.xyz/tags/esxi/</loc>
+    <lastmod>2024-09-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://dnjs.xyz/tags/%E5%B9%B4%E6%80%BB%E7%BB%93/</loc>
-    <lastmod>2024-09-05</lastmod>
+    <lastmod>2024-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://dnjs.xyz/tags/spring-boot/</loc>
+    <lastmod>2024-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://dnjs.xyz/tags/vagrant/</loc>
+    <lastmod>2024-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://dnjs.xyz/tags/Linux/</loc>
+    <lastmod>2024-09-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -97,15 +136,29 @@
 
   
   <url>
-    <loc>https://dnjs.xyz/categories/Linux/</loc>
-    <lastmod>2024-09-05</lastmod>
+    <loc>https://dnjs.xyz/categories/routing/</loc>
+    <lastmod>2024-09-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://dnjs.xyz/categories/%E5%8E%9F%E5%88%9B/</loc>
-    <lastmod>2024-09-05</lastmod>
+    <lastmod>2024-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://dnjs.xyz/categories/Java/</loc>
+    <lastmod>2024-09-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://dnjs.xyz/categories/Linux/</loc>
+    <lastmod>2024-09-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
