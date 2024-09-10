@@ -210,6 +210,26 @@
       </tags>
   </entry>
   <entry>
+    <title>Nslookup 查询DNS, TXT – nslookup指令集</title>
+    <url>/46768.html</url>
+    <content><![CDATA[<h4 id="基本指令"><a href="#基本指令" class="headerlink" title="基本指令"></a>基本指令</h4><p>nslookup [-option] [name | -] [server]<br>nslookup -type&#x3D;any domain.com<br>nslookup -type&#x3D;any domain.com 8.8.8.8<br><strong>type参数</strong></p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">any</span><br><span class="line">a: A Record (IP Address)</span><br><span class="line">mx: 邮件服务器</span><br><span class="line">ns: 名称服务器</span><br><span class="line">cname: 查別名</span><br><span class="line">ptr: 由 IP Address 反查域名</span><br><span class="line">hinfo: 查服务器的系统资源</span><br><span class="line">txt: Text如SPF讯息</span><br></pre></td></tr></table></figure>
+
+<h4 id="分段指令"><a href="#分段指令" class="headerlink" title="分段指令"></a>分段指令</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">nslookup -type=[Type] [NameServer]</span><br><span class="line">set q=[Type]</span><br><span class="line">[NameServer]</span><br></pre></td></tr></table></figure>
+<h4 id="扫描所有DNS-Zone-file"><a href="#扫描所有DNS-Zone-file" class="headerlink" title="扫描所有DNS Zone file"></a>扫描所有DNS Zone file</h4><p><strong>Linux:</strong></p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">dig @nameserver example.com axfr</span><br></pre></td></tr></table></figure>
+<p><strong>Windows:</strong></p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">nslookup</span><br><span class="line">server nameserver</span><br><span class="line">ls -d example.com</span><br></pre></td></tr></table></figure>
+<p>DNS Server一般会都关闭此查询权限…</p>
+]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>Nslookup</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>软路由上安装esxi</title>
     <url>/57580.html</url>
     <content><![CDATA[<p>最近一直都在找路由器上适配的openWt固件，但是一直找不到。油管上无意间发现现在大家玩的都是软路由，所以现在路由器固件的适配工作明显减少。经过几个月的煎熬，最后还是没有忍住，入手了软路由，那就让我们从软路由的系统着手吧！</p>

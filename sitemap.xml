@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.dnjs.xyz/46768.html</loc>
+    
+    <lastmod>2024-09-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.dnjs.xyz/gallery/index.html</loc>
     
     <lastmod>2024-09-10</lastmod>
@@ -13,7 +22,7 @@
   <url>
     <loc>https://www.dnjs.xyz/17582.html</loc>
     
-    <lastmod>2024-09-09</lastmod>
+    <lastmod>2024-09-10</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -117,6 +126,13 @@
   </url>
   
   <url>
+    <loc>https://www.dnjs.xyz/tags/Nslookup/</loc>
+    <lastmod>2024-09-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.dnjs.xyz/tags/%E8%BD%AF%E8%B7%AF%E7%94%B1/</loc>
     <lastmod>2024-09-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -189,6 +205,13 @@
   </url>
   
   <url>
+    <loc>https://www.dnjs.xyz/categories/Linux/</loc>
+    <lastmod>2024-09-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.dnjs.xyz/categories/routing/</loc>
     <lastmod>2024-09-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -197,13 +220,6 @@
   
   <url>
     <loc>https://www.dnjs.xyz/categories/Java/</loc>
-    <lastmod>2024-09-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.dnjs.xyz/categories/Linux/</loc>
     <lastmod>2024-09-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
