@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>2018年终总结</title>
+    <url>/50205.html</url>
+    <content><![CDATA[<h3 id="年度工作概述"><a href="#年度工作概述" class="headerlink" title="年度工作概述"></a>年度工作概述</h3><p>一年的时间，每当自己在总结它的时候，感觉是那么的短暂—弹指一挥间.而也就是在这一挥间，承载着太多太多，有收获与成就，有失败与不足.回头看看2017年的足迹，伴随着自己一年的是学习与坚持。</p>
+<span id="more"></span>
+<p>2017年是贝壳网划分产品线的第一年，很荣幸加入了贝壳网的主打产品线资源线。工作承接2016年的内容，继续维护和开发内网平台接口（主要数字内容生产管理系统调用），因为有外社版本的加入，今年的难点主要是在各接口性能的提升上。再加上原有教学大师和影视课堂资源比较陈旧，急需要更新换代新的资源，侧重点就落在了优课大师版本的开发方面。外网方面为了吸引老师的优质资源，提高贝壳网优质资源的数量，着重开发的版本落在了群建共享上，还参与了资源库和洋葱数学二个小版本的迭代，外网优课大师的优化工作。</p>
+<p>为了优化各接口的性能，加强了对mysql数据库索引的学习，学会使用了JProfiler java性能分析工具，SoapUI Pro工具的压测功能，业务逻辑方面理解更加透彻。为了解耦各个线的代码，在以沈亮为带头人的前提下，我们将以产品线为单位，把项目进行了拆分，并用maven进行版本控制管理，统一的将spring版本升级到了4.2.9，还进行了IntelliJ IDEA工具的培训使用。</p>
+<p>总之，随着贝壳网用户越来越多，资源越来越丰富，对接口的性能要求会越来越高，2018年要学的东西会越来越多，问题和任务会越来越重。路漫漫其修远兮，吾将上下而求索。</p>
+<h3 id="2017年总结"><a href="#2017年总结" class="headerlink" title="2017年总结"></a>2017年总结</h3><h4 id="全年重点工作完成情况"><a href="#全年重点工作完成情况" class="headerlink" title="全年重点工作完成情况"></a>全年重点工作完成情况</h4><h5 id="重点工作一：数字内容生产管理系统"><a href="#重点工作一：数字内容生产管理系统" class="headerlink" title="重点工作一：数字内容生产管理系统"></a>重点工作一：数字内容生产管理系统</h5><p>背景和起因：数字内容生产管理系统自贝壳网成立以来一直担负着数字内容的生产、审核和发布，是资源建设的基础。</p>
+<p>起始时间：2017年1月——2017年10月</p>
+<p>投入成本：4人天</p>
+<p>完成情况：已迭代至2.3.6版本</p>
+<p>取得的效益：除了常规的优化更新迭代，还对资源包进行了扩展，有优课资源包、专题资源包、课例资源包、二维码资源包，新增二维码管理功能，共享资源管理，共享教案管理，工作量统计功能，6月份还上了分社版本。现在供二十几个编辑部老师和实习生使用，主要负责数字资源的生产。</p>
+
+
+<h5 id="重点工作一：群建共享"><a href="#重点工作一：群建共享" class="headerlink" title="重点工作一：群建共享"></a>重点工作一：群建共享</h5><p>背景和起因：为了吸引老师分享自己优质的原创资源</p>
+<p>起始时间：2017年3月——2017年4月</p>
+<p>投入成本：7人天</p>
+<p>完成情况：100%，等待后续优化或版本迭代</p>
+<p>取得的效益：老师们开始分享自己的优质资源，共享交易额和下载量有明显提高。</p>
+
+
+<p>内网老师们可以对资源和教案进行审核和采集。</p>
+
+
+
+
+<h5 id="重点工作三：优课大师"><a href="#重点工作三：优课大师" class="headerlink" title="重点工作三：优课大师"></a>重点工作三：优课大师</h5><p>背景和起因：原有教学大师和影视课堂资源陈旧，不能随时更新，有问题不能随时更改 </p>
+<p>起始时间：2017年3月——2017年10月</p>
+<p>投入成本：4人天</p>
+<p>完成情况：100%，等待后续新增学科</p>
+<p>取得的效益：到目前为止共有小学、初中、高中49个优课模板 ，生产优课资源包4903个，月UV\PV平均在八千和一万左右。</p>
+
+
+
+
+<h4 id="全年日常工作完成情况"><a href="#全年日常工作完成情况" class="headerlink" title="全年日常工作完成情况"></a>全年日常工作完成情况</h4><h5 id="研发工作方面"><a href="#研发工作方面" class="headerlink" title="研发工作方面"></a>研发工作方面</h5><h6 id="研发工作概述"><a href="#研发工作概述" class="headerlink" title="研发工作概述"></a>研发工作概述</h6><p>研发方面主要负责数字内容生产系统的接口开发，由于业务教熟练，每次迭代都会满足千行代码少于5个</p>
+<p>bug的要求，但在外网接口的开发，千行代码的bug率会在6-8个左右。因为每次的代码提交都有review，</p>
+<p>每天都会有代码提交，加上有新的代码规范机制，相较去年有大幅改进。2.2.1.2.	迭代情况</p>
+<h5 id="迭代情况"><a href="#迭代情况" class="headerlink" title="迭代情况"></a>迭代情况</h5><p><strong>数字内容生产管理系统</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>迭代版本</strong></th>
+<th><strong>时间</strong></th>
+<th><strong>功能描述</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>V2.2.9</td>
+<td>2017.1.18-2017.2.15</td>
+<td>主要是对试题试卷部分进行修改，新增使用场景，优化新增接口，优化工作流发布、检校审核，联调新的WCF服务接口</td>
+</tr>
+<tr>
+<td>V2.2.10</td>
+<td>2017.2.17-2017.2.27</td>
+<td>资源新增是否隐藏功能，试题列表新增修改时间查询</td>
+</tr>
+<tr>
+<td>V2..3.0</td>
+<td>2017.2.28-2017.3.15</td>
+<td>主要是对出版物进行扩展，新增ISSN、总刊期、期刊刊期、二级分类，资源列表中新增是否关联资源类型查询，重刷所有试卷word文件，题库列表支持多批次ID查询</td>
+</tr>
+<tr>
+<td>V2.3.1</td>
+<td>2017.3.16-2017.3.31</td>
+<td>内网优课大师模块的开发</td>
+</tr>
+<tr>
+<td>V2.3.3</td>
+<td>2017.5.2-2017.5.17</td>
+<td>主要是修复bug为主</td>
+</tr>
+<tr>
+<td>V2.3.3sp01</td>
+<td>2017.5.26-2017.6.14</td>
+<td>这个版本是对优课的优化，修改存储优课的数据结构，修改所涉及到的优课的各接口，重刷所有PPT样式</td>
+</tr>
+<tr>
+<td>V2.3.4</td>
+<td>2017.6.14-2017.8.16</td>
+<td>优化个接口的性能，查询速度响应在1s内，分社版本需求和数据报表统计功能</td>
+</tr>
+<tr>
+<td>V2.3.5</td>
+<td>2017.8.16-2017.9.20</td>
+<td>课例资源包相关接口开发</td>
+</tr>
+<tr>
+<td>V2.3.6</td>
+<td>2017.10.16-2017.10.23</td>
+<td>新增视频打点功能、新增主讲人、优化资源包打开速度</td>
+</tr>
+</tbody></table>
+<p><strong>群建共享</strong></p>
+<table>
+<thead>
+<tr>
+<th align="left"><strong>迭代版本</strong></th>
+<th><strong>时间</strong></th>
+<th><strong>功能描述</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">V1.0</td>
+<td>2017.3.31-2017.4.28</td>
+<td>群建共享功能模块开发，优化推送接口，优化收藏接口，扫码三次查看资源需登陆贝壳网用户体验不好问题，根据知识点ID查询知识图谱，</td>
+</tr>
+<tr>
+<td align="left">V1.1</td>
+<td>2017.5.12-2017.5.25</td>
+<td>教学设计的共享</td>
+</tr>
+</tbody></table>
+<p><strong>洋葱数学</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>迭代版本</strong></th>
+<th><strong>时间</strong></th>
+<th><strong>功能描述</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>V2.0</td>
+<td>2017.8.3-2017.9.14</td>
+<td>我购买的金牌提分产品，购买金牌提分产品</td>
+</tr>
+</tbody></table>
+<p><strong>优课大师</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>迭代版本</strong></th>
+<th><strong>时间</strong></th>
+<th><strong>功能描述</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>V2.0</td>
+<td>2017.9.21-2017.9.26</td>
+<td>新增购买优课包，查询优课课程数，新增推荐资源</td>
+</tr>
+<tr>
+<td>V2.0.2</td>
+<td>2017.10.24-2017.10.26</td>
+<td>新增小学书法学科</td>
+</tr>
+<tr>
+<td>V2.1</td>
+<td>2017.11.14-2017.11.27</td>
+<td>修改购买接口，新增小学、初中美术和音乐学科</td>
+</tr>
+</tbody></table>
+<p><strong>资源库</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>迭代版本</strong></th>
+<th><strong>时间</strong></th>
+<th><strong>功能描述</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>V2.6.1</td>
+<td>2017.10.26-2017.11.14</td>
+<td>优化接口、销售单新增优课大师和虚拟实验室授权功能</td>
+</tr>
+</tbody></table>
+<p><strong>资源线报表统计功能</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>迭代版本</strong></th>
+<th><strong>时间</strong></th>
+<th><strong>功能描述</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>V1.0</td>
+<td>2017.11.28-2017.1月左右</td>
+<td>完成产品访客分析统计功能</td>
+</tr>
+</tbody></table>
+<h5 id="研发成果"><a href="#研发成果" class="headerlink" title="研发成果"></a>研发成果</h5><p>主要是对数字内容生产管理系统的维护和开发，从2.2.9版本升级到了2.3.6；对各接口的性能优化，提高了自己对数据库索引的认识且还在学习更高层次的数据库知识；全程参与了优课大师的需求评审、技术讨论、数据库设计，数据的生产和展示模块的开发；群建共享中数据如何进行内外网通信、状态管理，用新开数据统计表的思路去解决报表统计功能；有数据库设计文档和常量维护文档。</p>
+<h5 id="问题与求助"><a href="#问题与求助" class="headerlink" title="问题与求助"></a>问题与求助</h5><ol>
+<li><p>接口性能优化，请教测试如何使用性能压测工具，平台组其他同事共商解决之道，网上搜索检测测性能的工具；</p>
+</li>
+<li><p>优课大师开发过程中因为不了解前端的展示情况，导致后来又重新改了一版，在以后设计生产系统的功能模块之前会先对前端的展示情况做了解；</p>
+</li>
+<li><p>希望产品人员再对需求进行讲解的时候多给开发普及一些概念性的东西，比如为什么要做这个需求，用在哪里，实际作用是什么，而不是开发理解的仅仅在增删改查的方面；</p>
+</li>
+</ol>
+<h5 id="其他方面"><a href="#其他方面" class="headerlink" title="其他方面"></a>其他方面</h5><p>常年负责备课资源文件预览和视频转码功能的维护</p>
+<h4 id="个人成长与提高"><a href="#个人成长与提高" class="headerlink" title="个人成长与提高"></a>个人成长与提高</h4><p>使用JProfiler java 性能工具和soapUI Pro工具的压测功能解决了接口的性能问题。</p>
+<h3 id="2018年计划"><a href="#2018年计划" class="headerlink" title="2018年计划"></a>2018年计划</h3><h4 id="2018年年度目标预设"><a href="#2018年年度目标预设" class="headerlink" title="2018年年度目标预设"></a>2018年年度目标预设</h4><ol>
+<li>   完成各产品功能模块的开发和维护；</li>
+<li>   熟读两本书籍《深入理解Java虚拟机》和《高性能MySQL》;</li>
+<li>   为了阅读技术文档，每天英语词汇量累计是不能少的；</li>
+</ol>
+<h4 id="个人发展规划或其他补充"><a href="#个人发展规划或其他补充" class="headerlink" title="个人发展规划或其他补充"></a>个人发展规划或其他补充</h4><p>做程序员已经7、8年有余，除了负责日常的维护系统的功能模块和开发外，课外也自学了不少东西。来贝壳网的第一感觉就是这里的每个人都很牛，自己很普通，来年希望主攻一块贝壳网的弱项，为贝壳网的发展尽绵薄之力。也希望偶遇良人，为自己更上一层楼提供指引。</p>
+]]></content>
+      <categories>
+        <category>原创</category>
+      </categories>
+      <tags>
+        <tag>年总结</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>软路由上安装esxi</title>
+    <url>/57580.html</url>
+    <content><![CDATA[<p>最近一直都在找路由器上适配的openWt固件，但是一直找不到。油管上无意间发现现在大家玩的都是软路由，所以现在路由器固件的适配工作明显减少。经过几个月的煎熬，最后还是没有忍住，入手了软路由，那就让我们从软路由的系统着手吧！</p>
+<span id="more"></span>
+<h5 id="下载VMware"><a href="#下载VMware" class="headerlink" title="下载VMware"></a>下载VMware</h5><ul>
+<li><p>注册账号后进行产品评估，评估完成后即可下载</p>
+</li>
+<li><p><a href="https://my.vmware.com/cn/web/vmware/info/slug/datacenter_cloud_infrastructure/vmware_vsphere/7_0">下载地址：点击跳转到官网下载</a></p>
+</li>
+</ul>
+<h5 id="制作U盘启动工具"><a href="#制作U盘启动工具" class="headerlink" title="制作U盘启动工具"></a>制作U盘启动工具</h5><ul>
+<li><a href="https://www.laomaotao.net/">下载完成版老毛桃U盘启动工具</a></li>
+<li>插上U盘，解压缩下载文件，运行exe即可</li>
+</ul>
+<h5 id="安装ESXI系统流程"><a href="#安装ESXI系统流程" class="headerlink" title="安装ESXI系统流程"></a>安装ESXI系统流程</h5><ol>
+<li>在U盘根目录新建文件夹MyExt，将下载的VMware镜像放入到该文件夹下；或直接将镜像放到LMT文件夹下也可以</li>
+<li>软路由接好键鼠，显示器，插上刚刚制作好的U盘，加电开机，以U盘引导的方式启动进入老毛桃工具</li>
+<li>选择【05 DiskGenius 硬盘分区工具】，选择软路由上的硬盘，右键选择删除硬盘所有分区，保存并应用更改</li>
+<li>重启软路由，还是以U盘的方式进入引导进入老毛桃工具，选择【10 运行自定义镜像】，进入后选择放入到U盘的Esxi镜像，回车启动。</li>
+<li>F11同意协议进入系统，选择将系统安装到哪个盘。安装完成后重启完成</li>
+</ol>
+<h5 id="设置ESXI（F2进入设置界面）"><a href="#设置ESXI（F2进入设置界面）" class="headerlink" title="设置ESXI（F2进入设置界面）"></a>设置ESXI（F2进入设置界面）</h5><ul>
+<li><p>设置ESXI的密码为空</p>
+<p>Reset System Configuration（重置系统设置）</p>
+</li>
+<li><p>配置ESXI后台地址及网关</p>
+<p>选择 Configure Management Network—&gt; IPv4 configuration—-&gt;Set static IPv4 address and…..设置好对应的IP</p>
+</li>
+<li><p>排查ESXI的管理口是否配置正确</p>
+<p>选择 Configure Management Network—&gt; Network Adapters 设置所有的端口都为管理口</p>
+</li>
+<li><p>开启SSH\SHELL等功能</p>
+<p>选择 Configure Management Network—&gt;Iroubleshootimg options—&gt;Disable SSH—&gt;Enabled</p>
+</li>
+<li><p>如何将网卡驱东写入ESXI安装包</p>
+</li>
+</ul>
+<h5 id="填入密钥注册ESXI"><a href="#填入密钥注册ESXI" class="headerlink" title="填入密钥注册ESXI"></a>填入密钥注册ESXI</h5><h5 id="有多快硬盘可以新建数据存储"><a href="#有多快硬盘可以新建数据存储" class="headerlink" title="有多快硬盘可以新建数据存储"></a>有多快硬盘可以新建数据存储</h5><h5 id="让虚拟机自动启动"><a href="#让虚拟机自动启动" class="headerlink" title="让虚拟机自动启动"></a>让虚拟机自动启动</h5><ul>
+<li>虚拟机右键设置可自动启动，ESXI里的 管理—也设置成自动启动</li>
+</ul>
+<h3 id="ESXI设置"><a href="#ESXI设置" class="headerlink" title="ESXI设置"></a>ESXI设置</h3><h5 id="网路设置"><a href="#网路设置" class="headerlink" title="网路设置"></a>网路设置</h5><ul>
+<li><p>编辑默认的网络，右键编辑—&gt;安全混杂模式—&gt;接受</p>
+</li>
+<li><p>添加其他5个虚拟交换机，上行线路不用管【选择对应的】，安全全部接口</p>
+</li>
+<li><p>添加端口组，选择对应的虚拟交换机</p>
+</li>
+<li><p>上传固件</p>
+</li>
+<li><p>选择数据存储，数据存储浏览—&gt;新建文件夹分别存放固件</p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>routing</category>
+      </categories>
+      <tags>
+        <tag>软路由</tag>
+        <tag>esxi</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>spring boot启动服务卡住无日志输出</title>
+    <url>/4847.html</url>
+    <content><![CDATA[<p>今天我们来介绍下spring boot 启动时候如果卡住，就是无日志输出，也不报错的几种解决方法</p>
+<p><strong>断点设置太多</strong></p>
+<p>这时可以打开IDEA的断点视图，查看哪些代码有断点并去掉就行了。或者干脆禁用掉整个项目的断点功能也行。<br><img src="https://c5a6b8d.webp.li/2024/09/breakpoints.png"></p>
+<span id="more"></span>
+<p><strong>日志级别</strong></p>
+<p>检查自己项目中的日志级别，看是否是ERROR级别还是日志设置未生效等日志原因。</p>
+<p><strong>新增异常捕捉代码块</strong></p>
+<p>在spring boot的main方法的启动代码上新增try catch 代码块。</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">try</span> &#123;</span><br><span class="line">	<span class="comment">//...</span></span><br><span class="line">&#125; <span class="keyword">catch</span>(Exception e) &#123;</span><br><span class="line">	e.printStackTrace();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>日志被捕获</strong></p>
+<p>查看日志是否被其他框架捕获或者截取，先暂时屏蔽捕获的框架或停止使用这个框架。</p>
+]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>spring boot</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>vagrant</title>
+    <url>/40780.html</url>
+    <content><![CDATA[<h3 id="起源"><a href="#起源" class="headerlink" title="起源"></a>起源</h3><p>久闻Vagrant大名，之前经常看到有开源项目使用它作为分布式开发的环境配置。</p>
+<p>因为今天在看contiv正好里面使用vagrant搭建的开发测试环境，所以顺便了解下。它的Vagrantfile文件中定义了三台主机。并安装了很多依赖软件，如consul、etcd、docker、go等，整的比较复杂。</p>
+<span id="more"></span>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">vagrant status</span><br><span class="line">Current machine states:</span><br><span class="line"></span><br><span class="line">netplugin-node1           running (virtualbox)</span><br><span class="line">netplugin-node2           running (virtualbox)</span><br><span class="line">netplugin-node3           running (virtualbox)</span><br><span class="line"></span><br><span class="line">This environment represents multiple VMs. The VMs are all listed</span><br><span class="line">above with their current state. For more information about a specific</span><br><span class="line">VM, run `vagrant status NAME`.</span><br></pre></td></tr></table></figure>
+
+<p>Vagrant是hashicorp这家公司的产品，这家公司主要做数据中心PAAS和虚拟化，其名下大名鼎鼎的产品有Consul、Vault、Nomad、Terraform。他们的产品都是基于Open Source的Github地址。</p>
+<h3 id="用途"><a href="#用途" class="headerlink" title="用途"></a>用途</h3><p>Vagrant是用来管理虚拟机的，如VirtualBox、VMware、AWS等，主要好处是可以提供一个可配置、可移植和复用的软件环境，可以使用shell、chef、puppet等工具部署。所以vagrant不能单独使用，如果你用它来管理自己的开发环境的话，必须在自己的电脑里安装了虚拟机软件，我使用的是virtualbox。</p>
+<p>Vagrant提供一个命令行工具vagrant，通过这个命令行工具可以直接启动一个虚拟机，当然你需要提前定义一个Vagrantfile文件，这有点类似Dockerfile之于docker了。</p>
+<p>跟docker类比这来看vagrant就比较好理解了，vagrant也是用来提供一致性环境的，vagrant本身也提供一个镜像源，使用vagrant init hashicorp&#x2F;precise64就可以初始化一个Ubuntu 12.04的镜像。</p>
+<h3 id="用法"><a href="#用法" class="headerlink" title="用法"></a>用法</h3><p>你可以下载安装文件来安装vagrant，也可以使用RubyGem安装，它是用Ruby开发的。</p>
+<h4 id="Vagrantfile"><a href="#Vagrantfile" class="headerlink" title="Vagrantfile"></a>Vagrantfile</h4><p>Vagrantfile是用来定义vagrant project的，使用ruby语法，不过你不必了解ruby就可以写一个Vagrantfile。</p>
+<p>看个例子，选自<a href="https://github.com/fenbox/Vagrantfile">https://github.com/fenbox/Vagrantfile</a><br><img src="https://s21.ax1x.com/2024/09/06/pAeS8Qf.png"><br><img src="https://s21.ax1x.com/2024/09/06/pAeS3SP.png"></p>
+<h4 id="Boxes"><a href="#Boxes" class="headerlink" title="Boxes"></a>Boxes</h4><p>Vagrant的基础镜像，相当于docker images。可以在这些基础镜像的基础上制作自己的虚拟机镜像。</p>
+<p>添加一个box</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">vagrant box add hashicorp/precise64</span></span><br></pre></td></tr></table></figure>
+<p>在Vagrantfile中指定box</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">Vagrant.configure(&quot;2&quot;) do |config|</span><br><span class="line">  config.vm.box = &quot;hashicorp/precise64&quot;</span><br><span class="line">  config.vm.box_version = &quot;1.1.0&quot;</span><br><span class="line">end</span><br></pre></td></tr></table></figure>
+
+<h4 id="使用ssh进入vagrant"><a href="#使用ssh进入vagrant" class="headerlink" title="使用ssh进入vagrant"></a>使用ssh进入vagrant</h4><p>vagrant up后就可以用vagrant ssh $name进入虚拟机内，如果主机上就一个vagrant可以不指定名字。默认进入的用户是vagrant。</p>
+<h4 id="文件同步"><a href="#文件同步" class="headerlink" title="文件同步"></a>文件同步</h4><p>vagrant up后在虚拟机中会有一个&#x2F;vagrant目录，这跟你定义Vagrantfile是同一级目录。</p>
+<p>这个目录跟你宿主机上的目录文件是同步的。</p>
+<h4 id="软件安装"><a href="#软件安装" class="headerlink" title="软件安装"></a>软件安装</h4><p>在Vagrantfile中定义要安装的软件和操作。</p>
+<p>例如安装apache</p>
+<p>在与Vagrantfile同级的目录下创建一个bootstrap.sh文件。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_">#</span><span class="language-bash">!/usr/bin/env bash</span></span><br><span class="line"></span><br><span class="line">apt-get update</span><br><span class="line">apt-get install -y apache2</span><br><span class="line">if ! [ -L /var/www ]; then</span><br><span class="line">  rm -rf /var/www</span><br><span class="line">  ln -fs /vagrant /var/www</span><br><span class="line">fi</span><br></pre></td></tr></table></figure>
+<p>然后在Vagrantfile中使用它。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">Vagrant.configure(&quot;2&quot;) do |config|</span><br><span class="line">  config.vm.box = &quot;hashicorp/precise64&quot;</span><br><span class="line">  config.vm.box_version = &quot;1.1.0&quot;</span><br><span class="line">end</span><br></pre></td></tr></table></figure>
+
+<h4 id="网络"><a href="#网络" class="headerlink" title="网络"></a>网络</h4><p>端口转发</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">Vagrant.configure(&quot;2&quot;) do |config|</span><br><span class="line">  config.vm.box = &quot;hashicorp/precise64&quot;</span><br><span class="line">  config.vm.provision :shell, path: &quot;bootstrap.sh&quot;</span><br><span class="line">  config.vm.network :forwarded_port, guest: 80, host: 4567</span><br><span class="line">end</span><br></pre></td></tr></table></figure>
+<p>执行vagrant reload或者vagrant up可以生效。</p>
+<h4 id="分享"><a href="#分享" class="headerlink" title="分享"></a>分享</h4><p>你自己做的vagrant是可以分享给别人的用的，只要你有一个hashicorp账号，vagrant login后就可以执行vagrant share分享，会生成一个URL，其它人也可以访问到你的vagrant里的服务。</p>
+<h4 id="中止"><a href="#中止" class="headerlink" title="中止"></a>中止</h4><p>vagrant suspend<br>Vagrant halt<br>Vagrant destroy<br>重构</p>
+<p>再次执行vagrant up即可。</p>
+<h3 id="分布式环境"><a href="#分布式环境" class="headerlink" title="分布式环境"></a>分布式环境</h3><p>开发分布式环境下的应用时往往需要多个虚拟机用于测试，这时候才是vagrant显威力的时候。</p>
+<h4 id="定义多个主机"><a href="#定义多个主机" class="headerlink" title="定义多个主机"></a>定义多个主机</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">Vagrant.configure(&quot;2&quot;) do |config|</span><br><span class="line">  config.vm.provision &quot;shell&quot;, inline: &quot;echo Hello&quot;</span><br><span class="line"></span><br><span class="line">  config.vm.define &quot;web&quot; do |web|</span><br><span class="line">    web.vm.box = &quot;apache&quot;</span><br><span class="line">  end</span><br><span class="line"></span><br><span class="line">  config.vm.define &quot;db&quot; do |db|</span><br><span class="line">    db.vm.box = &quot;mysql&quot;</span><br><span class="line">  end</span><br><span class="line">end</span><br></pre></td></tr></table></figure>
+
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>总的来说说Vagrant没有Docker好用，但是对于协同开发，用它来定义分布式开发环境还可以，ruby的语法看着有点不习惯，好在也不复杂，如果是团队几个人开发，弄几个虚拟机大家互相拷贝一下也没那么复杂吧？</p>
+<blockquote><p>本文摘自网络</p>
+<footer><strong>jimmysong</strong><cite><a href="https://jimmysong.io/blog/vagrant-intro/">Vagrant从使用到放弃再到掌握完全指南</a></cite></footer></blockquote>]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>vagrant</tag>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>查找您的 Windows 10 、11 激活密钥，以及（OEM 数字许可证密钥）</title>
+    <url>/46926.html</url>
+    <content><![CDATA[<p><strong>1、CMD命令终端下以管理员身份输入命令：</strong></p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">wmic path softwareLicensingService get OA3xOriginalProductKey</span><br></pre></td></tr></table></figure>
+<p>如果你通过上方的命令运行后没有看到密钥，那是因为你用的是OEM数字许可证密钥，这种情况请使用下面的第2种方法来获取密钥。</p>
+<p><strong>2、注册表下：</strong><br>计算机</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SoftwareProtectionPlatform</span><br></pre></td></tr></table></figure>
+<p>找到 BackupProductKeyDefault，在其后面就能找到你的激活密钥</p>
+<p><strong>3、Windows10 &#x2F;11 KMS激活方式</strong></p>
+<p>注意：以管理员身份运行CMD，然后依次输入下面的命令即可</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">slmgr /ipk 这里填写你的OEM密钥</span><br><span class="line"></span><br><span class="line">slmgr /skms kms.loli.best</span><br><span class="line"></span><br><span class="line">slmgr /ato</span><br><span class="line"></span><br><span class="line">slmgr /xpr</span><br></pre></td></tr></table></figure>
+
+<p>OEM激活密钥可以去微软官方免费获取<a href="https://learn.microsoft.com/zh-cn/windows-server/get-started/kms-client-activation-keys?tabs=server2022,windows10ltsc,version1803,windows81">【点击前往】</a></p>
+]]></content>
+      <categories>
+        <category>Windows</category>
+      </categories>
+      <tags>
+        <tag>windows key</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>从零开始搭建你的免费图床系统 （Cloudflare R2 + WebP Cloud + PicGo）</title>
+    <url>/17582.html</url>
+    <content><![CDATA[<h1 id="图床方案迭代"><a href="#图床方案迭代" class="headerlink" title="图床方案迭代"></a>图床方案迭代</h1><p>其实在博客搭建之初因为内容并不多，也比较少有插图，所以大部分的图片都是直接放在我的 Hugo 博客仓库的 static 目录下，也没觉得有什么不便，直到有一段时间需要多平台发布，复制了博客的 markdown 源文件后，因为所有图片都是博客的相对路径，导致图片全部无法显示，需要把图片一张张重新上传，十分繁琐。</p>
+<p>那时才开始了解到图床（Image hosting）这个概念，把图片上传到一个专用的存储服务并通过公开链接使用，不但可以统一进行管理，还能有效减少博客仓库文件的体积，提高网站的加载速度。</p>
+<h2 id="GitHub-jsDelivr-CDN-PicGo"><a href="#GitHub-jsDelivr-CDN-PicGo" class="headerlink" title="GitHub + jsDelivr CDN + PicGo"></a>GitHub + jsDelivr CDN + PicGo</h2><p>一开始我是新建了一个 GitHub 仓库，通过 PicGo 直接上传到仓库，并在 PicGo 返回时的图片路径改为 jsDelivr CDN 加速后的链接，其实倒也还算方便，还多了一份版本管理。</p>
+<p>不过好景不长， jsDelivr 遭到了 DNS 污染，被大陆封锁，以至于我的博客图片在很长一段时间完全无法加载，也让我对这种纯依赖 CDN 的方式有了一些顾虑，再加上 GitHub 托管图片是基于代码仓库，上传图片依赖的是代码提交，容易污染 commit 记录，且终究算是一种滥用，万一账号&#x2F;仓库访问有问题也容易丢失所有图片，于是开始寻找其他方案。</p>
+<h2 id="阿里云-OSS-PicGo"><a href="#阿里云-OSS-PicGo" class="headerlink" title="阿里云 OSS + PicGo"></a>阿里云 OSS + PicGo</h2><p>第二个想到的就是云服务商提供的对象存储了，像是 Amazon S3、阿里云 OSS 等都是云厂商提供的对象存储服务，在提供可访问的公开链接的基础上还多了权限控制、数据备份、拓展性等优势，在相对低成本的前提下提供了针对文件数据存储和管理的较优解决方案。</p>
+<p>由于是想针对中国大陆用户进行访问优化，最终我选择了阿里云 OSS，配置不算复杂，同样是通过 PicGo 进行上传并转换为阿里云 OSS 的链接，在访问速度上有了明显的提升。</p>
+<p>不过由于多是按量计费，持续增长的成本对于非盈利的个人博客来说也是需要考虑的。23 年初有一阵子博客流量较大，月账单持续上涨，再加上阿里云 OSS 如果需要自定义访问域名则需要进行备案，我域名本身通过 Cloudflare 进行托管，并不考虑备案，所以在用了几个月后，还是考虑更换图床方案。</p>
+<h2 id="Chevereto-PicGo"><a href="#Chevereto-PicGo" class="headerlink" title="Chevereto + PicGo"></a>Chevereto + PicGo</h2><p>经过了一番调研，在我的服务器上使用 Docker 镜像部署了 Chevereto 的免费自部署版本，并将图片以 Docker Volume 的形式挂载在主机上。</p>
+<p>Chevereto 的界面实话说风格有些老旧，还是古早的 php 服务，免费版也很久就不再维护升级，但胜在功能完备，同样可以使用 PicGo 对接 Chevereto 的 API 进行图片上传等操作，稳定性也不错，于是就这样用了一年半。</p>
+<p>但自己对于自部署服务的稳定性和数据的珍贵性还是有些大意，前几天服务器突然挂了，内核报错直接无法重启，服务挂了倒还好说，但是我这一年半多的图片数据也无法导出。</p>
+<p>翻遍了网上各种方案，折腾了一天终于算是解决了，但这一次的教训让我对有重要数据的服务备份和自部署稳定程度都有了全新的认识，再加上想要重新部署的时候发现免费版镜像等已经下线，只剩一个按年付费的 License 版本，于是放弃了原方案。</p>
+<h2 id="Cloudflare-R2-WebP-Cloud-PicGo"><a href="#Cloudflare-R2-WebP-Cloud-PicGo" class="headerlink" title="Cloudflare R2 + WebP Cloud + PicGo"></a>Cloudflare R2 + WebP Cloud + PicGo</h2><p>于是重新转向了云服务厂商的对象存储，发现了赛博菩萨 Cloudflare 提供的 R2 对象存储这一服务，免费计划中有每月 10 GB 的存储容量，对于个人使用来说完全够用，大厂的服务与数据安全也有保障。</p>
+<p>为了优化用户的访问，又使用了一个「WebP Cloud」服务对 R2 的图片进行代理，在代理层面进一步减小图片体积，虽然对于国内用户来说速度肯定还是比不上阿里云 OSS 这种线路，但是在不用备案、稳定且免费的综合条件下，这是我能想到的最好的方案了。</p>
+<p>在电脑端同样是通过 PicGo 客户端几乎一键上传并生成博客直接可用的 markdown 图片链接，配置完成后使用起来很顺滑。</p>
+<h1 id="图床搭建说明"><a href="#图床搭建说明" class="headerlink" title="图床搭建说明"></a>图床搭建说明</h1><p>Cloudflare R2 + WebP Cloud + PicGo 的方案尽管牵扯到了多个组件和平台，但所有操作都在 Free Plan 中，也是我最终选定的方案，下面将从零开始介绍如何搭建这个免费图床系统。</p>
+<h2 id="Cloudflare-R2"><a href="#Cloudflare-R2" class="headerlink" title="Cloudflare R2"></a>Cloudflare R2</h2><p>R2 是 Cloudflare 推出的免费对象存储服务，需要免费注册一个 Cloudflare 账号才能使用，注册登录后，点击左侧边栏的 R2 访问服务，但需要注意的是开通 R2 服务需要绑定信用卡（国内外主流信用卡皆可），但并不会扣费，主要是为了验证用户身份使用。</p>
+<h2 id="创建图床-Bucket"><a href="#创建图床-Bucket" class="headerlink" title="创建图床 Bucket"></a>创建图床 Bucket</h2><p><img src="https://c5a6b8d.webp.li/2024/09/2024-09-09-205700.png"></p>
+<p>开通 R2 服务后，点击右上角「创建存储桶」按钮进行创建。</p>
+<p><img src="https://c5a6b8d.webp.li/2024/09/2024-09-09-205854.png"></p>
+<p>进入创建配置界面后，需要填写存储桶（Bucket）名称，建议有一些辨识度，后续在配置上传时会用到。</p>
+<p>位置则选择「自动」，但可以额外多配置一个位置提示，由于我后续还将使用「WebP Cloud」服务的美西机房进行图片代理优化，所以在此处选择的是「北美洲西部（WNAM）」，根据需求选其他区域也可以，但 Cloudflare 并不保证一定会分配到所指定的区域。<br><img src="https://c5a6b8d.webp.li/2024/09/2024-09-09-210024.png"><br>点击「创建存储桶」按钮即完成创建，此时我们已经可以向我们的「yu-r2-test」存储桶上传文件了，可以选择在网页直接上传文件或文件夹。</p>
+<p>也可以使用 S3 API 进行上传，我们后续使用 PicGo 客户端进行上传就依赖这种方式，但需要进行一些额外配置，点击导航栏「设置」选项进行配置。<br><img src="https://c5a6b8d.webp.li/2024/09/2024-09-09-210047.png"><br>首先我们需要打开「R2.dev 子域」，这是为了后续访问图片时需要的公网地址，点击「允许访问」，并按照提示输入「allow」即可开启。<br><img src="https://c5a6b8d.webp.li/2024/09/2024-09-09-210108.png"><br>完成后会显示一个以 r2.dev 结尾的公网网址，即我们后续访问图片的网址。</p>
+<h2 id="自定义图床域名（可选）"><a href="#自定义图床域名（可选）" class="headerlink" title="自定义图床域名（可选）"></a>自定义图床域名（可选）</h2><p>但是分配的网址比较长，不易于记忆，我们可以通过「自定义域」来绑定我们的专属域名，点击「连接域」按钮。<br><img src="https://c5a6b8d.webp.li/2024/09/2024-09-09-210445.png"><br>输入自己想绑定的域名，如 yu-r2-test.pseudoyu.com，点击继续。<br><img src="https://c5a6b8d.webp.li/2024/09/2024-09-09-210508.png"><br>连接域，并等待 DNS 解析生效即可。<br><img src="https://c5a6b8d.webp.li/2024/09/2024-09-09-210523.png"><br>完成后 bucket 状态处「公共 URL 访问」显示“已允许”，且「域」显示为我们刚自定义的域名即配置成功。<br><img src="https://c5a6b8d.webp.li/2024/09/2024-09-09-210544.png"></p>
+<h2 id="配置-Bucket-访问-API"><a href="#配置-Bucket-访问-API" class="headerlink" title="配置 Bucket 访问 API"></a>配置 Bucket 访问 API</h2><p><img src="https://c5a6b8d.webp.li/2024/09/2024-09-09-212507.png"><br>当我们完成上述配置后，可以回到存储桶「对象」界面，上传一张示例图片，点开详情则会显示该图片的访问地址，此时我们就拥有了一个可访问的图床服务了。</p>
+<p>但每次都要打开 Cloudflare 页面手动上传图片的方式显然不够便捷。R2 提供了 S3 兼容的 API，可以方便地使用一些客户端&#x2F;命令行工具进行上传、删除等操作。<br><img src="https://c5a6b8d.webp.li/2024/09/2024-09-09-212525.png"><br><img src="https://c5a6b8d.webp.li/2024/09/2024-09-09-212543.png"><br>回到 R2 主页面，点击右上角「管理 R2 API 令牌」，进入后点击「创建 API 令牌」。<br><img src="https://c5a6b8d.webp.li/2024/09/2024-09-09-212559.png"><br>输入令牌名称，「权限」选择“对象读和写”并将此 API 指定之前所创建的 Bucket，这样最小化权限也保障数据安全，其余选项保持默认即可。<br><img src="https://c5a6b8d.webp.li/2024/09/2024-09-09-212614.png"><br>完成创建后会显示所有密钥，我们使用 PicGo 需要的是下面三个信息，不过因为只会显示一次，建议在密码管理软件或其他地方妥善保管好这些参数信息。</p>
+<p>至此，我们需要在 Cloudflare R2 上配置的部分就完成了，接下来我们需要配置 PicGo 客户端。</p>
+<h2 id="PicGo"><a href="#PicGo" class="headerlink" title="PicGo"></a>PicGo</h2><p>PicGo 是一个用于快速上传并获取图片 URL 的工具软件，有着较为丰富的插件生态，支持多种图床服务，其 GitHub 仓库为「GitHub - Molunerfinn&#x2F;PicGo」，可以下载对应平台客户端使用。</p>
+<h2 id="配置-R2-图床"><a href="#配置-R2-图床" class="headerlink" title="配置 R2 图床"></a>配置 R2 图床</h2><p>PicGo 本体并不包括 S3 图床，但可以通过「GitHub - wayjam&#x2F;picgo-plugin-s3」插件来支持。<br><img src="https://c5a6b8d.webp.li/2024/09/2024-09-09-213010.png"><br>在「插件设置」中选择安装，「图床设置」中就新增了 Amazon S3 选项。点击进入配置选项。<br>这里有几项配置需要尤其注意。<br><img src="https://c5a6b8d.webp.li/2024/09/2024-09-09-213025.png"></p>
+<ul>
+<li><strong>应用密钥 ID</strong>，填写 R2 API 中的 Access Key ID（访问密钥 ID）</li>
+<li><strong>应用密钥</strong>，填写 R2 API 中的 Secret Access Key（机密访问密钥）</li>
+<li>桶名，填写 R2 中创建的 Bucket 名称，如我上文的 yu-r2-test</li>
+<li><strong>文件路径</strong>，上传到 R2 中的文件路径，我选择使用 {fileName}.{extName} 来保留原文件的文件名和扩展名。</li>
+<li><strong>自定义节点</strong>，填写 R2 API 中的「为 S3 客户端使用管辖权地特定的终结点」，即 xxx.r2.cloudflarestorage.com 格式的 S3 Endpoint</li>
+<li><strong>自定义域名</strong>，填写上文生成的 xxx.r2.dev 格式的域名或自定义域名，如我配置的 yu-r2-test.pseudoyu.com</li>
+</ul>
+<p>其他配置保持默认即可，确认参数无误后点击「确定」与「设置为默认图床」即可。</p>
+<p><strong>图片上传</strong><br><img src="https://c5a6b8d.webp.li/2024/09/2024-09-09-213048.png"><br>完成上述配置后，我们就可以在「上传区」直接拖入文件进行图片上传了，如上传后显示无误则为配置成功，生成的链接会自动在系统剪贴板中，直接在需要的地方粘贴即可。<br><img src="https://c5a6b8d.webp.li/2024/09/2024-09-09-213100.png"><br>并且可以在链接格式处选择对应格式，如 URL 或是博客可用的 Markdown 格式链接等。这里我还做了一个小的配置，在左侧「PicGo 设置」 - 「自定义链接格式」中修改为 <img src="/$url" alt="$fileName">，并在上传区的链接格式处选择了「Custom」，这样我上传后就会根据文件名生成以文件名为 Alt 文本的 Markdown 图片链接。</p>
+<h2 id="WebP-Cloud-图片优化"><a href="#WebP-Cloud-图片优化" class="headerlink" title="WebP Cloud 图片优化"></a>WebP Cloud 图片优化</h2><p>至此我们已经完成了整个图床的搭建、配置和上传，但通常我们本地截图或是相机拍摄的图片体积较大，对于访客来说加载时间会较长，并不直接适合互联网发布。<br><img src="https://c5a6b8d.webp.li/2024/09/2024-09-09-215114.png"><br>我在很长的一段时间都用了非常笨的方法，即「TinyPNG」这一在线网站的 api 配合一个开源的 macOS 客户端应用，将图片拖入其中进行压缩后再通过 PicGo 上传到图床，通常能够在图片质量损失较小的前提下减少图片 50% 以上的体积，繁琐却有效。</p>
+<p>这次更换图床方案后也开始寻找更智能的图片优化服务，想到了「WebP Cloud」。</p>
+<p>其实了解到这一服务是去年的一个晚上和 STRRL 正在杭州一个商城的电玩城里看人打音游，他给我看了 Nova Kwok 的一篇博客上了 hacker news 榜首的消息，一起围观了半天，不过当时大概只知道是优化图片的服务，并没有详细了解。<br>于是又去打开了官网「webp.se」看了一下更为详细的介绍。<br><img src="https://c5a6b8d.webp.li/2024/09/2024-09-09-215131.png"><br>简单来说这是一个类 CDN 的图片代理 SaaS 服务，可以在几乎不改变画质的情况下大幅缩小图片体积，加快整体站点加载速度。发展到现在除了图片体积减少外，还提供了缓存、添加水印、图片滤镜等更多实用的功能，并提供了自定义 Header 等配置选项。</p>
+<p>看了一圈，觉得能很好满足我的博客图片优化需求，开始折腾配置。</p>
+<p><strong>配置 WebP Cloud</strong><br><img src="https://c5a6b8d.webp.li/2024/09/2024-09-09-215212.png"><br>首先通过 GitHub 授权登录 WebP Cloud 平台。<br><img src="https://c5a6b8d.webp.li/2024/09/2024-09-09-215226.png"><br>页面非常直观，主要显示了当前 Plan 下的 Free Quota 和额外 Quota 的数据，以及一些用量统计。<br>点击「Create Proxy」按钮可以添加配置。<br><img src="https://c5a6b8d.webp.li/2024/09/2024-09-09-215246.png"></p>
+<ul>
+<li>为了优化国内访问，我「Proxy Region」选择的是美西「Hillsboro, OR」区域</li>
+<li>「Proxy Name」填写一个自定义名称即可</li>
+<li>「Proxy Origin URL」，比较重要，需要填写上文我们配置好的 R2 自定义域名，如我填写的是 yu-r2-test.pseudoyu.com，如果没配置自定义域名则填写 R2 提供的 xxx.r2.dev 格式的域名</li>
+</ul>
+<p><img src="https://c5a6b8d.webp.li/2024/09/2024-09-09-215302.png"><br>图中 Basic info 部分「Visitor」下显示的以 xxx.webp.li 格式即为我们的代理地址。</p>
+<p>例如我们之前通过 PicGo 上传到 R2 的文件 yu-r2-test.pseudoyu.com&#x2F;new_mbp_setup.jpg 则可以用 dc84642.webp.li&#x2F;new_mbp_setup.jpg 这一链接进行访问。</p>
+<p>如果不喜欢默认的代理地址，则可以右下角 Chat 或是邮箱联系开发者进行自定义域名修改，之后或许也会有更自动化的配置流程。</p>
+<p>下面可以通过滑动条来调整图片压缩比率，默认为 80%，5M 的 jpg 图片压缩后的 webp 大小通常小于 1M，基本满足了网络传播需求，其他配置保持默认即可，如有需要可以根据文档进行配置。</p>
+<h2 id="更改-PicGo-配置"><a href="#更改-PicGo-配置" class="headerlink" title="更改 PicGo 配置"></a>更改 PicGo 配置</h2><p><img src="https://c5a6b8d.webp.li/2024/09/2024-09-09-215324.png"><br>需要注意的是，由于我们最终需要放在博客中的图片是经过 WebP Cloud 代理过的链接，所以需要回到 PicGo 的「图床设置」中，将「自定义域名」改为我们刚配置的 WebP Cloud 代理地址，即格式为 xxx.webp.li 的代理链接或其他自定义域名。</p>
+<h2 id="WebP-Cloud-用量"><a href="#WebP-Cloud-用量" class="headerlink" title="WebP Cloud 用量"></a>WebP Cloud 用量</h2><p>免费用户每天有 2000 Free Quota，即能够代理 2000 次图片访问请求，并提供 100M 的图片缓存，对于一般用户来说完全够用，如有一些流量较大的特定时期也可以购买额外 Quota，价格很便宜。<br>如超过了 Quota，访问则会被 301 转发到源站图片地址，不经 WebP Cloud 服务压缩，但依然可用；超过 100M 的缓存则会按照 LRU 算法清理，所以依然能够保障一些高频请求的图片能够有较好的访问体验。<br><img src="https://c5a6b8d.webp.li/2024/09/2024-09-09-215338.png"><br>我博客的日访问量大概在 300-500 visits 左右，再加上一些 RSS 订阅和爬虫的流量，根据 WebP Cloud 统计测算来看，平日的请求大概在 4000-5000 次，发博文当天会有 10000+。<br><img src="https://c5a6b8d.webp.li/2024/09/2024-09-09-215355.png"><br>所以目前先选择了 Lite 计划，配合一些额外用量来 Cover 高峰流量，打算再观察一阵子看看。</p>
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>以上就是我的图床系统搭建方案，本文的所有图片也都使用 PicGo 上传、Cloudflare R2 存储并经 WebP Cloud 代理优化。<br>这是我的博客搭建部署系列教程之一，如对评论系统、数据统计系统等搭建感兴趣，请持续关注，希望能对大家有所参考。</p>
+<blockquote><p>从零开始搭建你的免费图床系统 </p>
+<footer><strong>少数派</strong><cite><a href="https://sspai.com/post/90170">从零开始搭建你的免费图床系统</a></cite></footer></blockquote>]]></content>
+      <categories>
+        <category>Windows</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
+        <tag>Cloudflare</tag>
+        <tag>PicGo</tag>
+      </tags>
+  </entry>
+</search>
