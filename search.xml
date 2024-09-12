@@ -210,6 +210,42 @@
       </tags>
   </entry>
   <entry>
+    <title>JSON基本概念和用途</title>
+    <url>/22725.html</url>
+    <content><![CDATA[<h3 id="JSON的定义"><a href="#JSON的定义" class="headerlink" title="JSON的定义"></a>JSON的定义</h3><p>JSON (Javascript Object Notation）是一种轻量級、基于文本的、与语言无关的数据交换格式。</p>
+<p>尽管JSON源于JavaScript，但它实际上是一种独立于編程语言的数据格式。这意味着它可以被任何支持JSON的編程语言使用。</p>
+<p>JSON的特点</p>
+<ol>
+<li><p><strong>易于人类调读和编写：</strong>JSON使用简单的键值对结构，类似于许多编程语言中的对象或字典。</p>
+<p>数据以层次结构组织，使用花括号 {} 表示对象，方括号 [] 表示数组。</p>
+<p>键值对使用冒号 : 分隔，多个项目之问使用逗号 , 分隔。不需要额外的标记或结束标签，减少了复杂性。</p>
+<p>JSON数据以键值对的形式表示。</p>
+<p>键 (keys）必须是宇符串。</p>
+<p>值 (values）可以是以下几种类型：宇符串，数字，对象，数组，布尔值，null。</p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">//###结构和语法</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="string">&quot;name&quot;</span>: <span class="string">&quot;Harry&quot;</span>,</span><br><span class="line">	<span class="string">&quot;age&quot;</span>: <span class="number">30</span>,</span><br><span class="line">	<span class="string">&quot;isStudent&quot;</span>: <span class="literal">false</span>,</span><br><span class="line">	<span class="string">&quot;address&quot;</span>: &#123;</span><br><span class="line">		<span class="string">&quot;street&quot;</span>: <span class="string">&quot;Fleet Street St&quot;</span><span class="string">&quot;city&quot;</span>,</span><br><span class="line">		<span class="string">&quot;Anytown&quot;</span><span class="string">&quot;zipcode&quot;</span>: <span class="string">&quot;263605&quot;</span></span><br><span class="line">	&#125;,</span><br><span class="line">	<span class="string">&quot;courses&quot;</span>: [<span class="string">&quot;Math&quot;</span>, <span class="string">&quot;Science&quot;</span>, <span class="string">&quot;History&quot;</span>],</span><br><span class="line">	<span class="string">&quot;score&quot;</span>: <span class="literal">null</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>易于机器解析和生成：</strong>JSON的语法规则非常简单，这使得创建解析器变得相对容易。</p>
+<p>解析过程直接，不需要处理复杂的标记或命名空间。</p>
+<p>大多数现代编程语言都内置了JSON解析和生成功能。并且许多第三方库提供了高效的JSON处理工具。</p>
+</li>
+</ol>
+<p><img src="https://c5a6b8d.webp.li/2024/09/json-users.png"></p>
+<h3 id="JSON的主要用途"><a href="#JSON的主要用途" class="headerlink" title="JSON的主要用途"></a>JSON的主要用途</h3><p>常用于在Web应用程序中传输数据，例如：从服务器向客户端发送数据，以便在网页上显示，也可以反向传输，即从客户端向服务器发送数据。</p>
+<h3 id="JSON的解析-Parsing）和宇符串化-Stringifying）过程"><a href="#JSON的解析-Parsing）和宇符串化-Stringifying）过程" class="headerlink" title="JSON的解析 (Parsing）和宇符串化 (Stringifying）过程"></a><strong>JSON的解析 (Parsing）和宇符串化 (Stringifying）过程</strong></h3><p><strong>将JSON宇符串转换为JavaScript对象</strong></p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> jsonString = &#123;<span class="string">&quot;name&quot;</span>: <span class="string">&quot;Harry&quot;</span>, <span class="string">&quot;age&quot;</span>: <span class="string">&quot;25&quot;</span>&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> obj = <span class="title class_">JSON</span>.<span class="property">parse</span> (jsonString) ;</span><br><span class="line"></span><br><span class="line"><span class="variable language_">console</span>. <span class="title function_">log</span> (obj.<span class="property">name</span>) ; <span class="comment">// &quot;Harry&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p><strong>将JavaScript对象转换为JSON字符串</strong></p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> obj = &#123;name; <span class="string">&quot;Harry&quot;</span>, <span class="attr">age</span>: <span class="number">25</span>&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> jsonString = <span class="title class_">JSON</span>.<span class="title function_">stringify</span>(obj);</span><br><span class="line"></span><br><span class="line"><span class="variable language_">console</span>. <span class="title function_">log</span> (jsonString) ;   <span class="comment">//(&quot;&#x27;name&quot; ; &quot;Harry&quot;, &quot;age&quot; :25)&#x27;</span></span><br></pre></td></tr></table></figure>
+<p><img src="https://c5a6b8d.webp.li/2024/09/json-parse.png"></p>
+]]></content>
+      <categories>
+        <category>Web</category>
+      </categories>
+      <tags>
+        <tag>json</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Nslookup 查询DNS, TXT – nslookup指令集</title>
     <url>/46768.html</url>
     <content><![CDATA[<h4 id="基本指令"><a href="#基本指令" class="headerlink" title="基本指令"></a>基本指令</h4><p>nslookup [-option] [name | -] [server]<br>nslookup -type&#x3D;any domain.com<br>nslookup -type&#x3D;any domain.com 8.8.8.8<br><strong>type参数</strong></p>
