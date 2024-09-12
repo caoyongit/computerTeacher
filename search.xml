@@ -328,6 +328,82 @@
       </tags>
   </entry>
   <entry>
+    <title>这六款神级软件！ 绝对让你相见恨晚，免费开源</title>
+    <url>/46815.html</url>
+    <content><![CDATA[<h2 id="Umi-OCR"><a href="#Umi-OCR" class="headerlink" title="Umi-OCR"></a>Umi-OCR</h2><ul>
+<li><p><strong>免费</strong>：本项目所有代码开源，完全免费。</p>
+</li>
+<li><p><strong>方便</strong>：解压即用，离线运行，无需网络。</p>
+</li>
+<li><p><strong>高效</strong>：自带高效率的离线OCR引擎，内置多种语言识别库。</p>
+</li>
+<li><p><strong>灵活</strong>：支持命令行、HTTP接口等外部调用方式。</p>
+</li>
+<li><p><strong>功能</strong>：截图OCR &#x2F; 批量OCR &#x2F; PDF识别 &#x2F; 二维码 &#x2F; 公式识别<br><img src="https://c5a6b8d.webp.li/2024/09/umi-ocr2.png"><br><img src="https://c5a6b8d.webp.li/2024/09/umi-ocr1.png"></p>
+</li>
+<li><p><strong>下载方式</strong></p>
+<p>GitHub：  <a href="https://github.com/hiroi-sora/Umi-OCR/releases">https://github.com/hiroi-sora/Umi-OCR/releases</a></p>
+<p>网盘下载：<a href="https://www.alipan.com/s/YuPQdwDNAPC">https://www.alipan.com/s/YuPQdwDNAPC</a></p>
+</li>
+</ul>
+<h2 id="NDM"><a href="#NDM" class="headerlink" title="NDM"></a>NDM</h2><p>许多人可能会认为IDM是最出色的下载器，但若要挑选一个与之匹敌的，NDM无疑也是一个极佳的选择。</p>
+<p>NDM也支持最高32线程的下载，从而使得原本耗时1-2小时的下载任务，如今可能仅在十几分钟乃至几分钟内便能迅速完成。</p>
+<p><img src="https://c5a6b8d.webp.li/2024/09/ndm.png"></p>
+<p><strong>简洁的下载管理器</strong></p>
+<ul>
+<li>使用优化的动态分割算法。</li>
+<li>加快您的下载速度，直至达到您的总可用带宽。</li>
+<li>根据下载状态（完成、不完整）和文件类型（视频、文档等）组织您的下载</li>
+<li>支持 HTTP、HTTPS 和 FTP 协议。</li>
+<li>支持 HTTP 代理和 SOCKS 协议。</li>
+<li>支持 HTTP 身份验证和代理身份验证（Basic、Digest、NTLM）</li>
+<li>具有暂停&#x2F;恢复功能并可以恢复崩溃的下载。</li>
+<li>具有浏览器扩展功能，可以向其发送下载链接并帮助您从任何网站下载视频&#x2F;音频。</li>
+<li>即使下载正在进行中，您也可以设置下载的带宽限制。</li>
+<li>即使下载正在进行中，您也可以设置下载的最大连接数。</li>
+<li>可以下载 HLS 视频的所有 .ts 文件，并在最后将所有片段合并为一个 .ts 文件。</li>
+<li>可以续订过期的下载。</li>
+<li>通过拖放操作进行操作</li>
+</ul>
+<p><strong>NMD 下载方式：</strong></p>
+<p>官方下载： <a href="https://www.neatdownloadmanager.com/index.php/en/">https://www.neatdownloadmanager.com/index.php/en/</a></p>
+<p>网盘下载：  <a href="https://www.alipan.com/s/YuPQdwDNAPC">https://www.alipan.com/s/YuPQdwDNAPC</a></p>
+<h2 id="DiskGenius"><a href="#DiskGenius" class="headerlink" title="DiskGenius"></a>DiskGenius</h2><p>专业的数据恢复和分区管理软件，各种文件恢复和分区问题都可以解决。这个软件更适合专业搞机用户使用，小白可以用分区助手，更好上手。</p>
+<p><img src="https://c5a6b8d.webp.li/2024/09/DiskGenius.png"></p>
+<p><strong>DiskGenius下载：</strong></p>
+<p>官方下载：<a href="https://www.diskgenius.com/">https://www.diskgenius.com/</a></p>
+<h2 id="HandBrake"><a href="#HandBrake" class="headerlink" title="HandBrake"></a>HandBrake</h2><p>HandBrake 是一个由志愿者构建的开源工具，用于将几乎任何格式的视频转换为多种现代且广泛支持的编解码器。</p>
+<p><img src="https://c5a6b8d.webp.li/2024/09/HandBrake.png"></p>
+<p><strong>您会喜欢 HandBrake 的原因：</strong></p>
+<ul>
+<li>转换几乎任何格式的视频</li>
+<li>免费且开源</li>
+<li>多平台（Windows、Mac 和 Linux）</li>
+</ul>
+<p><strong>下载方式：</strong></p>
+<p>1、官方下载：<a href="https://handbrake.fr/">https://handbrake.fr/</a></p>
+<p>2、网盘下载：<a href="https://www.alipan.com/s/YuPQdwDNAPC">https://www.alipan.com/s/YuPQdwDNAPC</a></p>
+<h2 id="Powertoys"><a href="#Powertoys" class="headerlink" title="Powertoys"></a>Powertoys</h2><p><strong>Microsoft PowerToys</strong>是一组免费的系统工具软件，由微软为Windows操作系统上的系统管理员设计。这些程序为系统加入或变更了一些功能，并加入更多自定义选项以提高生产力。PowerToys可用于Windows 95、Windows XP、Windows 10和Windows11。Windows 10版PowerToys为自由及开放源代码软件，并使用MIT授权条款托管于GitHub。</p>
+<p><img src="https://c5a6b8d.webp.li/2024/09/power-toys.png"></p>
+<p><strong>下载方式：</strong></p>
+<p>1、微软应用商店下载：<a href="https://apps.microsoft.com/store/detail/microsoft-powertoys/XP89DCGQ3K6VLD">https://apps.microsoft.com/store/detail/microsoft-powertoys/XP89DCGQ3K6VLD</a></p>
+<p>2、Github开源项目：<a href="https://github.com/microsoft/PowerToys">https://github.com/microsoft/PowerToys</a></p>
+<p>3、网盘打包下载：<a href="https://www.alipan.com/s/YuPQdwDNAPC">https://www.alipan.com/s/YuPQdwDNAPC</a></p>
+<h2 id="pdf-24"><a href="#pdf-24" class="headerlink" title="pdf-24"></a>pdf-24</h2><p>一个非常好用的 PDF 处理工具，共 27 个工具，完全免费、无广告，没有任何套路，而且支持离线使用。</p>
+<p><img src="https://c5a6b8d.webp.li/2024/09/pdf-24.png"></p>
+<p><strong>下载方式：</strong></p>
+<p>官方下载：<a href="https://tools.pdf24.org/zh/">https://tools.pdf24.org/zh/</a></p>
+<p>网盘下载：<a href="https://www.alipan.com/s/YuPQdwDNAPC">https://www.alipan.com/s/YuPQdwDNAPC</a></p>
+]]></content>
+      <categories>
+        <category>Windows</category>
+        <category>软件</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>spring boot启动服务卡住无日志输出</title>
     <url>/4847.html</url>
     <content><![CDATA[<p>今天我们来介绍下spring boot 启动时候如果卡住，就是无日志输出，也不报错的几种解决方法</p>

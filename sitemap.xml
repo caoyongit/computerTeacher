@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.dnjs.xyz/22725.html</loc>
+    <loc>https://www.dnjs.xyz/46815.html</loc>
     
     <lastmod>2024-09-12</lastmod>
     
@@ -13,7 +13,16 @@
   <url>
     <loc>https://www.dnjs.xyz/gallery/index.html</loc>
     
-    <lastmod>2024-09-11</lastmod>
+    <lastmod>2024-09-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.dnjs.xyz/22725.html</loc>
+    
+    <lastmod>2024-09-12</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -163,6 +172,13 @@
   </url>
   
   <url>
+    <loc>https://www.dnjs.xyz/tags/Windows/</loc>
+    <lastmod>2024-09-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.dnjs.xyz/tags/spring-boot/</loc>
     <lastmod>2024-09-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -185,13 +201,6 @@
   
   <url>
     <loc>https://www.dnjs.xyz/tags/windows-key/</loc>
-    <lastmod>2024-09-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.dnjs.xyz/tags/Windows/</loc>
     <lastmod>2024-09-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -242,6 +251,13 @@
   </url>
   
   <url>
+    <loc>https://www.dnjs.xyz/categories/Windows/</loc>
+    <lastmod>2024-09-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.dnjs.xyz/categories/Java/</loc>
     <lastmod>2024-09-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -249,7 +265,7 @@
   </url>
   
   <url>
-    <loc>https://www.dnjs.xyz/categories/Windows/</loc>
+    <loc>https://www.dnjs.xyz/categories/%E8%BD%AF%E4%BB%B6/</loc>
     <lastmod>2024-09-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
