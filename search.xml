@@ -246,26 +246,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Nslookup 查询DNS, TXT – nslookup指令集</title>
-    <url>/46768.html</url>
-    <content><![CDATA[<h4 id="基本指令"><a href="#基本指令" class="headerlink" title="基本指令"></a>基本指令</h4><p>nslookup [-option] [name | -] [server]<br>nslookup -type&#x3D;any domain.com<br>nslookup -type&#x3D;any domain.com 8.8.8.8<br><strong>type参数</strong></p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">any</span><br><span class="line">a: A Record (IP Address)</span><br><span class="line">mx: 邮件服务器</span><br><span class="line">ns: 名称服务器</span><br><span class="line">cname: 查別名</span><br><span class="line">ptr: 由 IP Address 反查域名</span><br><span class="line">hinfo: 查服务器的系统资源</span><br><span class="line">txt: Text如SPF讯息</span><br></pre></td></tr></table></figure>
-
-<h4 id="分段指令"><a href="#分段指令" class="headerlink" title="分段指令"></a>分段指令</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">nslookup -type=[Type] [NameServer]</span><br><span class="line">set q=[Type]</span><br><span class="line">[NameServer]</span><br></pre></td></tr></table></figure>
-<h4 id="扫描所有DNS-Zone-file"><a href="#扫描所有DNS-Zone-file" class="headerlink" title="扫描所有DNS Zone file"></a>扫描所有DNS Zone file</h4><p><strong>Linux:</strong></p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">dig @nameserver example.com axfr</span><br></pre></td></tr></table></figure>
-<p><strong>Windows:</strong></p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">nslookup</span><br><span class="line">server nameserver</span><br><span class="line">ls -d example.com</span><br></pre></td></tr></table></figure>
-<p>DNS Server一般会都关闭此查询权限…</p>
-]]></content>
-      <categories>
-        <category>Linux</category>
-      </categories>
-      <tags>
-        <tag>Nslookup</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>某宝花钱买的电脑单机游戏集合700+</title>
     <url>/22718.html</url>
     <content><![CDATA[<p>网友某宝花钱买的电脑单机游戏集合，一共700+款，附带游戏修改器、作弊、优惠代码等等信息，还有赠品，整理成了一个excel文档，游戏存放在百度网盘，感兴趣的可以前往学习。</p>
@@ -345,6 +325,26 @@
       </tags>
   </entry>
   <entry>
+    <title>Nslookup 查询DNS, TXT – nslookup指令集</title>
+    <url>/46768.html</url>
+    <content><![CDATA[<h4 id="基本指令"><a href="#基本指令" class="headerlink" title="基本指令"></a>基本指令</h4><p>nslookup [-option] [name | -] [server]<br>nslookup -type&#x3D;any domain.com<br>nslookup -type&#x3D;any domain.com 8.8.8.8<br><strong>type参数</strong></p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">any</span><br><span class="line">a: A Record (IP Address)</span><br><span class="line">mx: 邮件服务器</span><br><span class="line">ns: 名称服务器</span><br><span class="line">cname: 查別名</span><br><span class="line">ptr: 由 IP Address 反查域名</span><br><span class="line">hinfo: 查服务器的系统资源</span><br><span class="line">txt: Text如SPF讯息</span><br></pre></td></tr></table></figure>
+
+<h4 id="分段指令"><a href="#分段指令" class="headerlink" title="分段指令"></a>分段指令</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">nslookup -type=[Type] [NameServer]</span><br><span class="line">set q=[Type]</span><br><span class="line">[NameServer]</span><br></pre></td></tr></table></figure>
+<h4 id="扫描所有DNS-Zone-file"><a href="#扫描所有DNS-Zone-file" class="headerlink" title="扫描所有DNS Zone file"></a>扫描所有DNS Zone file</h4><p><strong>Linux:</strong></p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">dig @nameserver example.com axfr</span><br></pre></td></tr></table></figure>
+<p><strong>Windows:</strong></p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">nslookup</span><br><span class="line">server nameserver</span><br><span class="line">ls -d example.com</span><br></pre></td></tr></table></figure>
+<p>DNS Server一般会都关闭此查询权限…</p>
+]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>Nslookup</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>这六款神级软件！ 绝对让你相见恨晚，免费开源</title>
     <url>/46815.html</url>
     <content><![CDATA[<h2 id="Umi-OCR"><a href="#Umi-OCR" class="headerlink" title="Umi-OCR"></a>Umi-OCR</h2><ul>
@@ -421,6 +421,60 @@
       </tags>
   </entry>
   <entry>
+    <title>Windows电脑装机必备，精选7个神仙级软件工具</title>
+    <url>/45555.html</url>
+    <content><![CDATA[<h3 id="qBittorrent"><a href="#qBittorrent" class="headerlink" title="qBittorrent"></a>qBittorrent</h3><p>qBittorrent 是一个用 C++ &#x2F; Qt 编写的 bittorrent 客户端，它使用 Arvid Norberg 的 libtorrent（有时称为 libtorrent-rasterbar）。</p>
+<p>它旨在成为所有其他 bittorrent 客户端的良好替代品。qBittorrent 速度快、稳定，并提供 unicode 支持以及许多功能。</p>
+<p><a href="https://db-ip.com/">DB-IP</a>提供的免费<a href="https://db-ip.com/db/download/ip-to-country-lite">IP 到 Country Lite 数据库</a>用于解析同行的国家&#x2F;地区。该数据库根据<a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>获得许可。</p>
+<p><img src="https://c5a6b8d.webp.li/2024/09/SCR-20240916-pddf.png"></p>
+<p><strong>下载方式：</strong></p>
+<p>GitHub： <a href="https://github.com/c0re100/qBittorrent-Enhanced-Edition">https://github.com/c0re100/qBittorrent-Enhanced-Edition</a></p>
+<p>百度网盘：<a href="https://pan.baidu.com/s/1VYp2ZC52bFhSTf104UndbQ?pwd=8njw">https://pan.baidu.com/s/1VYp2ZC52bFhSTf104UndbQ?pwd=8njw</a><br>提取码：8njw </p>
+<h3 id="File-Converter"><a href="#File-Converter" class="headerlink" title="File Converter"></a>File Converter</h3><p><strong>Zamzar 的文件转换器</strong>是一款简单的工具，它允许您使用文件资源管理器中的上下文菜单转换文件。它支持 100 种不同的格式，包括文档、图像、音频、视频等。而且，您可以<strong>免费</strong>下载和转换前 25 个文件！</p>
+<p><img src="https://c5a6b8d.webp.li/2024/09/file-converter-usage-mac.gif"></p>
+<p><strong>下载方式：</strong></p>
+<p>官网：  <a href="https://file-converter.org/">https://file-converter.org/</a></p>
+<p>百度网盘：<a href="https://pan.baidu.com/s/1VYp2ZC52bFhSTf104UndbQ?pwd=8njw">https://pan.baidu.com/s/1VYp2ZC52bFhSTf104UndbQ?pwd=8njw</a><br>提取码：8njw </p>
+<h3 id="Kcleaner"><a href="#Kcleaner" class="headerlink" title="Kcleaner"></a>Kcleaner</h3><p>谁未曾在Windows系统中看见过关于 <em>磁盘空间</em> 的临时通知？文件信息不断增加，占用了越来越多的硬盘空间，还有不少其它程序占用了我们那少的可怜的硬盘空间。</p>
+<p><strong>KCleaner</strong>是一款免费的Windows软件，它允许你最大限度的释放硬盘空间。程序通过删除其它程序生成临时文件为你节省更多空间。</p>
+<p>使用KCleaner清除的文件可能是浏览器缓存、Windows临时文件、存储在电脑中的cookies或“回收站”中的临时文件。</p>
+<p>因此，有了KCleaner，你永远都能获取更多空间，以防紧急情况。</p>
+<p><img src="https://c5a6b8d.webp.li/2024/09/SCR-20240916-qflj.png"></p>
+<p><strong>下载方式：</strong></p>
+<p>百度网盘：<a href="https://pan.baidu.com/s/1VYp2ZC52bFhSTf104UndbQ?pwd=8njw">https://pan.baidu.com/s/1VYp2ZC52bFhSTf104UndbQ?pwd=8njw</a><br>提取码：8njw </p>
+<h3 id="dism"><a href="#dism" class="headerlink" title="dism++"></a>dism++</h3><p>DISM++，是一款轻量级的系统优化工具。我们常使使用它来修复系统，添加或者备份驱动。</p>
+<p><img src="https://c5a6b8d.webp.li/2024/09/SCR-20240916-qlhs.png"></p>
+<p><strong>下载方式：</strong></p>
+<p>GitHub：<a href="https://github.com/Chuyu-Team/Dism-Multi-language">https://github.com/Chuyu-Team/Dism-Multi-language</a></p>
+<p>百度网盘：<a href="https://pan.baidu.com/s/1VYp2ZC52bFhSTf104UndbQ?pwd=8njw">https://pan.baidu.com/s/1VYp2ZC52bFhSTf104UndbQ?pwd=8njw</a><br>提取码：8njw </p>
+<h3 id="hwinfo"><a href="#hwinfo" class="headerlink" title="hwinfo"></a>hwinfo</h3><p>专业系统信息和诊断，针对 Windows 和 DOS 的全面硬件分析、监控和报告。</p>
+<p>从快速概览开始深入介绍所有硬件组件。始终保持最新状态，支持最新技术和标准。</p>
+<p>准确监控所有系统组件的实际状态和故障预测。可定制的界面，具有多种选项。优化以降低开销。</p>
+<p>多种类型的报告、状态记录以及与其他工具或附加组件的交互。</p>
+<p><img src="https://c5a6b8d.webp.li/2024/09/SCR-20240916-qvhd.png"></p>
+<p><strong>下载方式：</strong></p>
+<p>官网：<a href="https://hwinfo.com/">https://hwinfo.com</a></p>
+<p>百度网盘：<a href="https://pan.baidu.com/s/1VYp2ZC52bFhSTf104UndbQ?pwd=8njw">https://pan.baidu.com/s/1VYp2ZC52bFhSTf104UndbQ?pwd=8njw</a><br>提取码：8njw </p>
+<h3 id="Pshutdown"><a href="#Pshutdown" class="headerlink" title="Pshutdown"></a>Pshutdown</h3><p>是一个轻量级但是功能强大的电脑开关机管理工具。可定时实现，关机、重启、注销、运行程序、运行报警，关掉显示器或显示一条消息。</p>
+<p><img src="https://c5a6b8d.webp.li/2024/09/SCR-20240916-qvly.png"></p>
+<p><strong>下载方式：</strong></p>
+<p>谷歌：<a href="https://code.google.com/archive/p/pshutdown/downloads">https://code.google.com/archive/p/pshutdown/downloads</a></p>
+<p>百度网盘：<a href="https://pan.baidu.com/s/1VYp2ZC52bFhSTf104UndbQ?pwd=8njw">https://pan.baidu.com/s/1VYp2ZC52bFhSTf104UndbQ?pwd=8njw</a><br>提取码：8njw </p>
+<h3 id="geek-uninstaller"><a href="#geek-uninstaller" class="headerlink" title="geek uninstaller"></a>geek uninstaller</h3><p>能够帮助我们卸载电脑上的程序，并且清理其在注册表留下的信心，从而做到彻底卸载。免费版已经足够使用！</p>
+<p><img src="https://c5a6b8d.webp.li/2024/09/SCR-20240916-rbou.png"></p>
+<p><strong>下载方式：</strong></p>
+<p>官网：<a href="https://geekuninstaller.com/">https://geekuninstaller.com/</a></p>
+<p>百度网盘：<a href="https://pan.baidu.com/s/1VYp2ZC52bFhSTf104UndbQ?pwd=8njw">https://pan.baidu.com/s/1VYp2ZC52bFhSTf104UndbQ?pwd=8njw</a><br>提取码：8njw </p>
+]]></content>
+      <categories>
+        <category>Windows</category>
+        <category>软件</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>spring boot启动服务卡住无日志输出</title>
     <url>/4847.html</url>
     <content><![CDATA[<p>今天我们来介绍下spring boot 启动时候如果卡住，就是无日志输出，也不报错的几种解决方法</p>
@@ -441,6 +495,28 @@
       </categories>
       <tags>
         <tag>spring boot</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>查找您的 Windows 10 、11 激活密钥，以及（OEM 数字许可证密钥）</title>
+    <url>/46926.html</url>
+    <content><![CDATA[<p><strong>1、CMD命令终端下以管理员身份输入命令：</strong></p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">wmic path softwareLicensingService get OA3xOriginalProductKey</span><br></pre></td></tr></table></figure>
+<p>如果你通过上方的命令运行后没有看到密钥，那是因为你用的是OEM数字许可证密钥，这种情况请使用下面的第2种方法来获取密钥。</p>
+<p><strong>2、注册表下：</strong><br>计算机</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SoftwareProtectionPlatform</span><br></pre></td></tr></table></figure>
+<p>找到 BackupProductKeyDefault，在其后面就能找到你的激活密钥</p>
+<p><strong>3、Windows10 &#x2F;11 KMS激活方式</strong></p>
+<p>注意：以管理员身份运行CMD，然后依次输入下面的命令即可</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">slmgr /ipk 这里填写你的OEM密钥</span><br><span class="line"></span><br><span class="line">slmgr /skms kms.loli.best</span><br><span class="line"></span><br><span class="line">slmgr /ato</span><br><span class="line"></span><br><span class="line">slmgr /xpr</span><br></pre></td></tr></table></figure>
+
+<p>OEM激活密钥可以去微软官方免费获取<a href="https://learn.microsoft.com/zh-cn/windows-server/get-started/kms-client-activation-keys?tabs=server2022,windows10ltsc,version1803,windows81">【点击前往】</a></p>
+]]></content>
+      <categories>
+        <category>Windows</category>
+      </categories>
+      <tags>
+        <tag>windows key</tag>
       </tags>
   </entry>
   <entry>
@@ -492,28 +568,6 @@
       <tags>
         <tag>vagrant</tag>
         <tag>Linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>查找您的 Windows 10 、11 激活密钥，以及（OEM 数字许可证密钥）</title>
-    <url>/46926.html</url>
-    <content><![CDATA[<p><strong>1、CMD命令终端下以管理员身份输入命令：</strong></p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">wmic path softwareLicensingService get OA3xOriginalProductKey</span><br></pre></td></tr></table></figure>
-<p>如果你通过上方的命令运行后没有看到密钥，那是因为你用的是OEM数字许可证密钥，这种情况请使用下面的第2种方法来获取密钥。</p>
-<p><strong>2、注册表下：</strong><br>计算机</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SoftwareProtectionPlatform</span><br></pre></td></tr></table></figure>
-<p>找到 BackupProductKeyDefault，在其后面就能找到你的激活密钥</p>
-<p><strong>3、Windows10 &#x2F;11 KMS激活方式</strong></p>
-<p>注意：以管理员身份运行CMD，然后依次输入下面的命令即可</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">slmgr /ipk 这里填写你的OEM密钥</span><br><span class="line"></span><br><span class="line">slmgr /skms kms.loli.best</span><br><span class="line"></span><br><span class="line">slmgr /ato</span><br><span class="line"></span><br><span class="line">slmgr /xpr</span><br></pre></td></tr></table></figure>
-
-<p>OEM激活密钥可以去微软官方免费获取<a href="https://learn.microsoft.com/zh-cn/windows-server/get-started/kms-client-activation-keys?tabs=server2022,windows10ltsc,version1803,windows81">【点击前往】</a></p>
-]]></content>
-      <categories>
-        <category>Windows</category>
-      </categories>
-      <tags>
-        <tag>windows key</tag>
       </tags>
   </entry>
   <entry>
