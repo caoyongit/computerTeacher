@@ -1,0 +1,348 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>wrk | 电脑教室</title><meta name="author" content="电脑教室"><meta name="copyright" content="电脑教室"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="wrk是一款针对 Http 协议的基准测试工具，它能够在单机多核 CPU 的条件下，使用系统自带的高性能 I&#x2F;O 机制，如 epoll，kqueue等，通过多线程和事件模式，对目标机器产生大量的负载。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="wrk">
+<meta property="og:url" content="https://www.dnjs.xyz/21973.html">
+<meta property="og:site_name" content="电脑教室">
+<meta property="og:description" content="wrk是一款针对 Http 协议的基准测试工具，它能够在单机多核 CPU 的条件下，使用系统自带的高性能 I&#x2F;O 机制，如 epoll，kqueue等，通过多线程和事件模式，对目标机器产生大量的负载。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://c5a6b8d.webp.li/2024/09/wrk.png">
+<meta property="article:published_time" content="2024-09-22T11:18:29.000Z">
+<meta property="article:modified_time" content="2024-09-22T11:29:30.296Z">
+<meta property="article:author" content="电脑教室">
+<meta property="article:tag" content="wrk">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://c5a6b8d.webp.li/2024/09/wrk.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://www.dnjs.xyz/21973.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//fonts.googleapis.com" crossorigin=""/><link rel="stylesheet" href="/css/index.css?v=4.13.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar@0.1.16/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web&amp;display=swap" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体中文","cht_to_chs":"你已切换为简体中文","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#1f1f1f","position":"bottom-left"},
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.11.1/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'wrk',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2024-09-22 19:29:30'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+        if (t === 'dark') activateDarkMode()
+        else if (t === 'light') activateLightMode()
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><meta name="generator" content="Hexo 7.3.0"></head><body><script>window.paceOptions = {
+  restartOnPushState: false
+}
+
+document.addEventListener('pjax:send', () => {
+  Pace.restart()
+})
+</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/themes/blue/pace-theme-minimal.min.css"/><script src="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/pace.min.js"></script><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/avatar.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">12</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">15</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">8</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 文章</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/gallery/"><i class="fa-fw fas fa-images"></i><span> 照片</span></a></div><div class="menus_item"><a class="site-page" href="/messageboard/"><i class="fa-fw fas fa-comment-dots"></i><span> 留言板</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://c5a6b8d.webp.li/2024/09/wrk.png')"><nav id="nav"><span id="blog-info"><a href="/" title="电脑教室"><span class="site-name">电脑教室</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 文章</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/gallery/"><i class="fa-fw fas fa-images"></i><span> 照片</span></a></div><div class="menus_item"><a class="site-page" href="/messageboard/"><i class="fa-fw fas fa-comment-dots"></i><span> 留言板</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">wrk</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-09-22T11:18:29.000Z" title="发表于 2024-09-22 19:18:29">2024-09-22</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-09-22T11:29:30.296Z" title="更新于 2024-09-22 19:29:30">2024-09-22</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Linux/">Linux</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/">软件推荐</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">2.9k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>11分钟</span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>被面试官经常问到之前开发的系统接口 QPS 能达到多少，经常给不出一个数值，支支吾吾，导致整体面试效果降低？<br>原因基本是一些公司中，做完功能测试就完了，压根不会有性能测试这一步，或者说并发量较少，没有必要进行性能测试，亦或者，交给测试人员后，只要整体问题不大，测试报告一般也是不会再给后端人员看的，这就导致我们在面试的时候，场面一度尴尬 ！！！</p>
+<p>其实，不单单是针对面试，作为一名后端开发者，我们在完成一个接口开发后，在交给测试工程师之前，经常也会想知道，自己写的这个接口的性能如何呢？吞吐量能达到多少？QPS（Query per second 每秒处理完的请求数） 能达到多少呢？<br>这个时候，我们就需要借助一些常用的性能测试工具，如 Apache ab, Apache JMeter (互联网公司用的较多)，LoadRunner 等。<br>我们今天主要说一说轻量级性能测试工具 wrk。</p>
+<h1 id="什么是wrk"><a href="#什么是wrk" class="headerlink" title="什么是wrk"></a>什么是wrk</h1><p>摘自官方 GitHub 上的英文介绍：</p>
+<blockquote><p>wrk - a HTTP benchmarking tool<br>wrk is a modern HTTP benchmarking tool capable of generating significant load when run on a single multi-core CPU. It combines a multithreaded design with scalable event notification systems such as epoll and kqueue.</p>
+<p>An optional LuaJIT script can perform HTTP request generation, response processing, and custom reporting. Details are available in SCRIPTING and several examples are located in scripts.</p>
+</blockquote>
+<p><strong>简单的说：</strong><br>wrk 是一款针对 Http 协议的基准测试工具，它能够在单机多核 CPU 的条件下，使用系统自带的高性能 I&#x2F;O 机制，如 epoll，kqueue 等，通过多线程和事件模式，对目标机器产生大量的负载。</p>
+<h1 id="wrk安装"><a href="#wrk安装" class="headerlink" title="wrk安装"></a>wrk安装</h1><p>wrk 只能被安装在类 Unix 系统上，所以我们需要一个 Linux 或者 MacOS 环境。Windows 10 安装需要开启自带的 Ubuntu 子系统。</p>
+<h4 id="2-1-Linux-安装"><a href="#2-1-Linux-安装" class="headerlink" title="2.1 Linux 安装"></a>2.1 Linux 安装</h4><p><strong>2.1.1 Ubuntu&#x2F;Debian</strong><br>依次执行如下命令：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install build-essential libssl-dev git -y</span><br><span class="line">git clone https://github.com/wg/wrk.git wrk</span><br><span class="line">cd wrk</span><br><span class="line">make</span><br><span class="line">将可执行文件移动到 /usr/local/bin 位置</span><br><span class="line">sudo cp wrk /usr/local/bin</span><br></pre></td></tr></table></figure>
+<p><strong>2.2.2 CentOS &#x2F; RedHat &#x2F; Fedora</strong><br>依次执行如下命令：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">sudo yum groupinstall &#x27;Development Tools&#x27;</span><br><span class="line">sudo yum install -y openssl-devel git </span><br><span class="line">git clone https://github.com/wg/wrk.git wrk</span><br><span class="line">cd wrk</span><br><span class="line">make</span><br><span class="line">-- 将可执行文件移动到 /usr/local/bin 位置</span><br><span class="line">sudo cp wrk /usr/local/bin</span><br></pre></td></tr></table></figure>
+
+<h4 id="2-2-MacOS-安装"><a href="#2-2-MacOS-安装" class="headerlink" title="2.2 MacOS 安装"></a>2.2 MacOS 安装</h4><p>Mac 系统也可以通过先编译的方式来安装，但是更推荐使用 brew 的方式来安装, 步骤如下：</p>
+<p>安装 Homebrew，安装方式参考官网 <a target="_blank" rel="noopener external nofollow noreferrer" href="https://brew.sh/">https://brew.sh</a> （也就一行命令的事）;<br>安装 wrk: brew install wrk;</p>
+<h4 id="2-3-Window-10-安装"><a href="#2-3-Window-10-安装" class="headerlink" title="2.3 Window 10 安装"></a>2.3 Window 10 安装</h4><p>Windown 10 需要在 Windows 功能 里勾选 适用于 Linux 的 Windows 子系统, 然后通过 bash 命令切换到 Ubuntu 子系统。接下来，参考 3.1.1 Ubuntu 的操作系通中，安装 wrk 的步骤。</p>
+<p>由于笔者使用的是 MacOS, Windows 上的安装步骤，并没有实际操作过，具体安装步骤，您可以参考官方 Windows 10 的安装教程：<a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/wg/wrk/wiki/Installing-wrk-on-Windows-10">https://github.com/wg/wrk/wiki/Installing-wrk-on-Windows-10</a> ，或者用您喜欢的搜索引擎来搜索 Windows 10 如何启用 Ubuntu 子系统后，再安装 wrk，亦或者通过安装 Linux 虚拟机的方式来使用 wrk。</p>
+<h4 id="2-4-验证一下，是否安装成功"><a href="#2-4-验证一下，是否安装成功" class="headerlink" title="2.4 验证一下，是否安装成功"></a>2.4 验证一下，是否安装成功</h4><p>命令行中输入命令：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">wrk -v</span><br><span class="line">wrk  [kqueue] Copyright (C) 2012 Will Glozer</span><br><span class="line">Usage: wrk &lt;options&gt; &lt;url&gt;</span><br><span class="line">  Options:</span><br><span class="line">    -c, --connections &lt;N&gt;  Connections to keep open</span><br><span class="line">    -d, --duration    &lt;T&gt;  Duration of test</span><br><span class="line">    -t, --threads     &lt;N&gt;  Number of threads to use</span><br><span class="line"></span><br><span class="line">    -s, --script      &lt;S&gt;  Load Lua script file</span><br><span class="line">    -H, --header      &lt;H&gt;  Add header to request</span><br><span class="line">        --latency          Print latency statistics</span><br><span class="line">        --timeout     &lt;T&gt;  Socket/request timeout</span><br><span class="line">    -v, --version          Print version details</span><br><span class="line">  Numeric arguments may include a SI unit (1k, 1M, 1G)</span><br><span class="line">  Time arguments may include a time unit (2s, 2m, 2h)</span><br></pre></td></tr></table></figure>
+<p>输出如上信息，说明安装成功了！</p>
+<h1 id="如何使用"><a href="#如何使用" class="headerlink" title="如何使用"></a>如何使用</h1><h2 id="简单使用"><a href="#简单使用" class="headerlink" title="简单使用"></a>简单使用</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wrk -t12 -c400 -d30s http://localhost:4000</span><br></pre></td></tr></table></figure>
+<blockquote><p>这条命令表示，利用 wrk发起压力测试，线程数为 12，模拟 400 个并发请求，持续 30 秒。</p>
+</blockquote>
+
+<h3 id="wrk-子命令参数说明"><a href="#wrk-子命令参数说明" class="headerlink" title="wrk 子命令参数说明"></a>wrk 子命令参数说明</h3><p>除了上面简单示例中使用到的子命令参数，wrk 还有其他更丰富的功能，命令行中输入 wrk –help, 可以看到支持以下子命令：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"> wrk --help</span><br><span class="line">Usage: wrk &lt;options&gt; &lt;url&gt;                            </span><br><span class="line">  Options:                                            </span><br><span class="line">    -c, --connections &lt;N&gt;  Connections to keep open   </span><br><span class="line">    -d, --duration    &lt;T&gt;  Duration of test           </span><br><span class="line">    -t, --threads     &lt;N&gt;  Number of threads to use   </span><br><span class="line">                                                      </span><br><span class="line"></span><br><span class="line">    -s, --script      &lt;S&gt;  Load Lua script file       </span><br><span class="line">    -H, --header      &lt;H&gt;  Add header to request      </span><br><span class="line">        --latency          Print latency statistics   </span><br><span class="line">        --timeout     &lt;T&gt;  Socket/request timeout     </span><br><span class="line">    -v, --version          Print version details      </span><br><span class="line"></span><br><span class="line">Numeric arguments may include a SI unit (1k, 1M, 1G)</span><br><span class="line">Time arguments may include a time unit (2s, 2m, 2h)</span><br></pre></td></tr></table></figure>
+<p>翻译一下：</p>
+<blockquote><p>使用方法: wrk &lt;选项&gt; &lt;被测HTTP服务的URL&gt;<br>  Options:<br>    -c, –connections <N>  跟服务器建立并保持的TCP连接数量<br>    -d, –duration    <T>  压测时间<br>    -t, –threads     <N>  使用多少个线程进行压测   </p>
+<pre><code>-s, --script      &lt;S&gt;  指定Lua脚本路径       
+-H, --header      &lt;H&gt;  为每一个HTTP请求添加HTTP头      
+    --latency          在压测结束后，打印延迟统计信息   
+    --timeout     &lt;T&gt;  超时时间     
+-v, --version          打印正在使用的wrk的详细版本信息
+</code></pre>
+<p>  <N>代表数字参数，支持国际单位 (1k, 1M, 1G)<br>  <T>代表时间参数，支持时间单位 (2s, 2m, 2h)</p>
+</blockquote>
+<p>关于线程数，并不是设置的越大，压测效果越好，线程设置过大，反而会导致线程切换过于频繁，效果降低，一般来说，推荐设置成压测机器 CPU 核心数的 2 倍到 4 倍就行了。</p>
+<h3 id="测试报告"><a href="#测试报告" class="headerlink" title="测试报告"></a>测试报告</h3><p>执行压测命令:</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wrk -t12 -c400 -d30s --latency http://www.baidu.com</span><br></pre></td></tr></table></figure>
+<p>执行上面的压测命令，30 秒压测过后，生成如下压测报告：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">Running 30s test @ http://www.baidu.com </span><br><span class="line">  12 threads and 400 connections</span><br><span class="line">  Thread Stats   Avg      Stdev     Max   +/- Stdev</span><br><span class="line">    Latency   386.32ms  380.75ms   2.00s    86.66%</span><br><span class="line">    Req/Sec    17.06     13.91   252.00     87.89%</span><br><span class="line">  Latency Distribution</span><br><span class="line">     50%  218.31ms</span><br><span class="line">     75%  520.60ms</span><br><span class="line">     90%  955.08ms</span><br><span class="line">     99%    1.93s </span><br><span class="line">  4922 requests in 30.06s, 73.86MB read</span><br><span class="line">  Socket errors: connect 0, read 0, write 0, timeout 311</span><br><span class="line">Requests/sec:    163.76</span><br><span class="line">Transfer/sec:      2.46MB</span><br></pre></td></tr></table></figure>
+<p>我们来具体说一说，报告中各项指标都代表什么意思：</p>
+<blockquote><p>Running 30s test @ <a target="_blank" rel="noopener external nofollow noreferrer" href="http://www.baidu.com/">http://www.baidu.com</a> （压测时间30s）<br>  12 threads and 400 connections （共12个测试线程，400个连接）<br>              （平均值） （标准差）  （最大值）（正负一个标准差所占比例）<br>  Thread Stats   Avg      Stdev     Max   +&#x2F;- Stdev<br>    （延迟）<br>    Latency   386.32ms  380.75ms   2.00s    86.66%<br>    (每秒请求数)<br>    Req&#x2F;Sec    17.06     13.91   252.00     87.89%<br>  Latency Distribution （延迟分布）<br>     50%  218.31ms<br>     75%  520.60ms<br>     90%  955.08ms<br>     99%    1.93s<br>  4922 requests in 30.06s, 73.86MB read (30.06s内处理了4922个请求，耗费流量73.86MB)<br>  Socket errors: connect 0, read 0, write 0, timeout 311 (发生错误数)<br>Requests&#x2F;sec:    163.76 (QPS 163.76,即平均每秒处理请求数为163.76)<br>Transfer&#x2F;sec:      2.46MB (平均每秒流量2.46MB)</p>
+</blockquote>
+<p>可以看到，压测报告还是非常直观的！</p>
+<blockquote><p>标准差啥意思？标准差如果太大说明样本本身离散程度比较高，有可能系统性能波动较大。</p>
+</blockquote>
+
+<h2 id="复杂测试"><a href="#复杂测试" class="headerlink" title="复杂测试"></a>复杂测试</h2><p>您可能有疑问了，你这种进行 GET 请求还凑合，我想进行 POST 请求咋办？而且我想每次的请求参数都不一样，用来模拟用户使用的实际场景，又要怎么弄呢？</p>
+<p>对于这种需求，我们可以通过编写 Lua 脚本的方式，在运行压测命令时，通过参数 –script 来指定 Lua 脚本，来满足个性化需求。</p>
+<h3 id="wrk-对-Lua-脚本的支持"><a href="#wrk-对-Lua-脚本的支持" class="headerlink" title="wrk 对 Lua 脚本的支持"></a>wrk 对 Lua 脚本的支持</h3><p>wrk 支持在三个阶段对压测进行个性化，分别是启动阶段、运行阶段和结束阶段。每个测试线程，都拥有独立的Lua 运行环境。</p>
+<p><strong>启动阶段:</strong></p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">function setup(thread)</span><br></pre></td></tr></table></figure>
+<p>在脚本文件中实现 setup 方法，wrk 就会在测试线程已经初始化，但还没有启动的时候调用该方法。wrk会为每一个测试线程调用一次 setup 方法，并传入代表测试线程的对象 thread 作为参数。setup 方法中可操作该 thread 对象，获取信息、存储信息、甚至关闭该线程。</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">thread.addr             - get or set the thread&#x27;s server address</span><br><span class="line">thread:get(name)        - get the value of a global in the thread&#x27;s env</span><br><span class="line">thread:set(name, value) - set the value of a global in the thread&#x27;s env</span><br><span class="line">thread:stop()           - stop the thread</span><br></pre></td></tr></table></figure>
+<p><strong>运行阶段：</strong></p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">function init(args)</span><br><span class="line">function delay()</span><br><span class="line">function request()</span><br><span class="line">function response(status, headers, body)</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>init(args): 由测试线程调用，只会在进入运行阶段时，调用一次。支持从启动 wrk 的命令中，获取命令行参数；</li>
+<li>delay()： 在每次发送请求之前调用，如果需要定制延迟时间，可以在这个方法中设置；</li>
+<li>request(): 用来生成请求, 每一次请求都会调用该方法，所以注意不要在该方法中做耗时的操作；</li>
+<li>response(status, headers, body): 在每次收到一个响应时被调用，为提升性能，如果没有定义该方法，那么wrk不会解析 headers 和 body；</li>
+</ul>
+<p><strong>结束阶段：</strong></p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">function done(summary, latency, requests)</span><br></pre></td></tr></table></figure>
+<p>done() 方法在整个测试过程中只会被调用一次，我们可以从给定的参数中，获取压测结果，生成定制化的测试报告。</p>
+<p><strong>自定义 Lua 脚本中可访问的变量以及方法：</strong></p>
+<p>变量：wrk</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">wrk = &#123;</span><br><span class="line">    scheme  = &quot;http&quot;,</span><br><span class="line">    host    = &quot;localhost&quot;,</span><br><span class="line">    port    = 8080,</span><br><span class="line">    method  = &quot;GET&quot;,</span><br><span class="line">    path    = &quot;/&quot;,</span><br><span class="line">    headers = &#123;&#125;,</span><br><span class="line">    body    = nil,</span><br><span class="line">    thread  = &lt;userdata&gt;,</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
+<p>以上定义了一个 table 类型的全局变量，修改该 wrk 变量，会影响所有请求。<br>方法：</p>
+<ul>
+<li><p>wrk.fomat</p>
+</li>
+<li><p>wrk.lookup</p>
+</li>
+<li><p>wrk.connect</p>
+</li>
+</ul>
+<p>上面三个方法解释如下：</p>
+<figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">wrk.format</span><span class="params">(method, path, headers, body)</span></span></span><br><span class="line"></span><br><span class="line">    wrk.<span class="built_in">format</span> returns a HTTP request <span class="built_in">string</span> containing the passed parameters</span><br><span class="line">    merged with values from the wrk <span class="built_in">table</span>.</span><br><span class="line">      </span><br><span class="line">    <span class="comment">-- 根据参数和全局变量 wrk，生成一个 HTTP rquest 字符串。</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">wrk.lookup</span><span class="params">(host, service)</span></span></span><br><span class="line"></span><br><span class="line">    wrk.lookup returns a <span class="built_in">table</span> containing all known addresses <span class="keyword">for</span> the host</span><br><span class="line">    <span class="keyword">and</span> service pair. This corresponds to the POSIX getaddrinfo() function.</span><br><span class="line">    <span class="comment">-- 给定 host 和 service（port/well known service name），返回所有可用的服务器地址信息。</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">wrk.connect</span><span class="params">(addr)</span></span></span><br><span class="line"></span><br><span class="line">    wrk.connect returns <span class="literal">true</span> <span class="keyword">if</span> the address can be connected to, otherwise</span><br><span class="line">    it returns <span class="literal">false</span>. The address must be one returned from wrk.lookup().</span><br><span class="line">    <span class="comment">-- 测试给定的服务器地址信息是否可以成功创建连接</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="通过-Lua-脚本压测示例"><a href="#通过-Lua-脚本压测示例" class="headerlink" title="通过 Lua 脚本压测示例"></a>通过 Lua 脚本压测示例</h3><p><strong>调用 POST 接口：</strong></p>
+<figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">wrk.method = <span class="string">&quot;POST&quot;</span></span><br><span class="line">wrk.body   = <span class="string">&quot;foo=bar&amp;baz=quux&quot;</span></span><br><span class="line">wrk.headers[<span class="string">&quot;Content-Type&quot;</span>] = <span class="string">&quot;application/x-www-form-urlencoded&quot;</span></span><br></pre></td></tr></table></figure>
+<p>注意: wrk 是个全局变量，这里对其做了修改，使得所有请求都使用 POST 的方式，并指定了 body 和 Content-Type头。</p>
+<p><strong>自定义每次请求的参数：</strong></p>
+<figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">request = <span class="function"><span class="keyword">function</span><span class="params">()</span></span></span><br><span class="line">   uid = <span class="built_in">math</span>.<span class="built_in">random</span>(<span class="number">1</span>, <span class="number">10000000</span>)</span><br><span class="line">   <span class="built_in">path</span> = <span class="string">&quot;/test?uid=&quot;</span> .. uid</span><br><span class="line">   <span class="keyword">return</span> wrk.<span class="built_in">format</span>(<span class="literal">nil</span>, <span class="built_in">path</span>)</span><br><span class="line"><span class="keyword">end</span></span><br></pre></td></tr></table></figure>
+<p>在 request 方法中，随机生成 1~10000000 之间的 uid，并动态生成请求 URL.</p>
+<p><strong>每次请求前，延迟 10ms:</strong></p>
+<figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">delay</span><span class="params">()</span></span></span><br><span class="line">   <span class="keyword">return</span> <span class="number">10</span></span><br><span class="line"><span class="keyword">end</span></span><br></pre></td></tr></table></figure>
+<p><strong>请求的接口需要先进行认证，获取 token 后，才能发起请求，咋办？</strong></p>
+<figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">token = <span class="literal">nil</span></span><br><span class="line"><span class="built_in">path</span>  = <span class="string">&quot;/auth&quot;</span></span><br><span class="line"></span><br><span class="line">request = <span class="function"><span class="keyword">function</span><span class="params">()</span></span></span><br><span class="line">   <span class="keyword">return</span> wrk.<span class="built_in">format</span>(<span class="string">&quot;GET&quot;</span>, <span class="built_in">path</span>)</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line">response = <span class="function"><span class="keyword">function</span><span class="params">(status, headers, body)</span></span></span><br><span class="line">   <span class="keyword">if</span> <span class="keyword">not</span> token <span class="keyword">and</span> <span class="built_in">status</span> == <span class="number">200</span> <span class="keyword">then</span></span><br><span class="line">      token = headers[<span class="string">&quot;X-Token&quot;</span>]</span><br><span class="line">      <span class="built_in">path</span>  = <span class="string">&quot;/test&quot;</span></span><br><span class="line">      wrk.headers[<span class="string">&quot;X-Token&quot;</span>] = token</span><br><span class="line">   <span class="keyword">end</span></span><br><span class="line"><span class="keyword">end</span></span><br></pre></td></tr></table></figure>
+<p>上面的脚本表示，在 token 为空的情况下，先请求 &#x2F;auth 接口来认证，获取 token, 拿到 token 以后，将 token 放置到请求头中，再请求真正需要压测的 &#x2F;test 接口。</p>
+<p><strong>压测支持 HTTP pipeline 的服务：</strong></p>
+<figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">init = <span class="function"><span class="keyword">function</span><span class="params">(args)</span></span></span><br><span class="line">   <span class="keyword">local</span> r = &#123;&#125;</span><br><span class="line">   r[<span class="number">1</span>] = wrk.<span class="built_in">format</span>(<span class="literal">nil</span>, <span class="string">&quot;/?foo&quot;</span>)</span><br><span class="line">   r[<span class="number">2</span>] = wrk.<span class="built_in">format</span>(<span class="literal">nil</span>, <span class="string">&quot;/?bar&quot;</span>)</span><br><span class="line">   r[<span class="number">3</span>] = wrk.<span class="built_in">format</span>(<span class="literal">nil</span>, <span class="string">&quot;/?baz&quot;</span>)</span><br><span class="line"></span><br><span class="line">   req = <span class="built_in">table</span>.<span class="built_in">concat</span>(r)</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line">request = <span class="function"><span class="keyword">function</span><span class="params">()</span></span></span><br><span class="line">   <span class="keyword">return</span> req</span><br><span class="line"><span class="keyword">end</span></span><br></pre></td></tr></table></figure>
+<p>通过在 init 方法中将三个 HTTP请求拼接在一起，实现每次发送三个请求，以使用 HTTP pipeline。</p>
+<blockquote><p>本文摘自网络</p>
+<footer><strong>小哈学Java</strong><cite><a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.cnblogs.com/quanxiaoha/p/10661650.html">性能测试工具wrk使用教程</a></cite></footer></blockquote></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://www.dnjs.xyz">电脑教室</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://www.dnjs.xyz/21973.html">https://www.dnjs.xyz/21973.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow noreferrer" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://www.dnjs.xyz" target="_blank">电脑教室</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/wrk/">wrk</a></div><div class="post_share"><div class="social-share" data-image="https://c5a6b8d.webp.li/2024/09/wrk.png" data-sites="wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/45555.html" title="Windows电脑装机必备，精选7个神仙级软件工具"><img class="cover" src="https://c5a6b8d.webp.li/2024/09/software-recommendations.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Windows电脑装机必备，精选7个神仙级软件工具</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/avatar.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">电脑教室</div><div class="author-info__description">电脑软件和电脑技巧的分享</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">12</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">15</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">8</div></a></div><a id="card-info-btn" target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">欢迎来到我的网站！</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BB%80%E4%B9%88%E6%98%AFwrk"><span class="toc-number">1.</span> <span class="toc-text">什么是wrk</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#wrk%E5%AE%89%E8%A3%85"><span class="toc-number">2.</span> <span class="toc-text">wrk安装</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#2-1-Linux-%E5%AE%89%E8%A3%85"><span class="toc-number">2.0.0.1.</span> <span class="toc-text">2.1 Linux 安装</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-2-MacOS-%E5%AE%89%E8%A3%85"><span class="toc-number">2.0.0.2.</span> <span class="toc-text">2.2 MacOS 安装</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-3-Window-10-%E5%AE%89%E8%A3%85"><span class="toc-number">2.0.0.3.</span> <span class="toc-text">2.3 Window 10 安装</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-4-%E9%AA%8C%E8%AF%81%E4%B8%80%E4%B8%8B%EF%BC%8C%E6%98%AF%E5%90%A6%E5%AE%89%E8%A3%85%E6%88%90%E5%8A%9F"><span class="toc-number">2.0.0.4.</span> <span class="toc-text">2.4 验证一下，是否安装成功</span></a></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8"><span class="toc-number">3.</span> <span class="toc-text">如何使用</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8"><span class="toc-number">3.1.</span> <span class="toc-text">简单使用</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#wrk-%E5%AD%90%E5%91%BD%E4%BB%A4%E5%8F%82%E6%95%B0%E8%AF%B4%E6%98%8E"><span class="toc-number">3.1.1.</span> <span class="toc-text">wrk 子命令参数说明</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B5%8B%E8%AF%95%E6%8A%A5%E5%91%8A"><span class="toc-number">3.1.2.</span> <span class="toc-text">测试报告</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%A4%8D%E6%9D%82%E6%B5%8B%E8%AF%95"><span class="toc-number">3.2.</span> <span class="toc-text">复杂测试</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#wrk-%E5%AF%B9-Lua-%E8%84%9A%E6%9C%AC%E7%9A%84%E6%94%AF%E6%8C%81"><span class="toc-number">3.2.1.</span> <span class="toc-text">wrk 对 Lua 脚本的支持</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%80%9A%E8%BF%87-Lua-%E8%84%9A%E6%9C%AC%E5%8E%8B%E6%B5%8B%E7%A4%BA%E4%BE%8B"><span class="toc-number">3.2.2.</span> <span class="toc-text">通过 Lua 脚本压测示例</span></a></li></ol></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/21973.html" title="wrk"><img src="https://c5a6b8d.webp.li/2024/09/wrk.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="wrk"/></a><div class="content"><a class="title" href="/21973.html" title="wrk">wrk</a><time datetime="2024-09-22T11:18:29.000Z" title="发表于 2024-09-22 19:18:29">2024-09-22</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/45555.html" title="Windows电脑装机必备，精选7个神仙级软件工具"><img src="https://c5a6b8d.webp.li/2024/09/software-recommendations.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Windows电脑装机必备，精选7个神仙级软件工具"/></a><div class="content"><a class="title" href="/45555.html" title="Windows电脑装机必备，精选7个神仙级软件工具">Windows电脑装机必备，精选7个神仙级软件工具</a><time datetime="2024-09-16T12:37:09.000Z" title="发表于 2024-09-16 20:37:09">2024-09-16</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/22718.html" title="某宝花钱买的电脑单机游戏集合700+"><img src="https://c5a6b8d.webp.li/2024/09/Capture-2024-09-15-140050.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="某宝花钱买的电脑单机游戏集合700+"/></a><div class="content"><a class="title" href="/22718.html" title="某宝花钱买的电脑单机游戏集合700+">某宝花钱买的电脑单机游戏集合700+</a><time datetime="2024-09-15T05:43:50.000Z" title="发表于 2024-09-15 13:43:50">2024-09-15</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/46815.html" title="这六款神级软件！ 绝对让你相见恨晚，免费开源"><img src="https://s21.ax1x.com/2024/09/09/pAezq91.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="这六款神级软件！ 绝对让你相见恨晚，免费开源"/></a><div class="content"><a class="title" href="/46815.html" title="这六款神级软件！ 绝对让你相见恨晚，免费开源">这六款神级软件！ 绝对让你相见恨晚，免费开源</a><time datetime="2024-09-12T10:38:06.000Z" title="发表于 2024-09-12 18:38:06">2024-09-12</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/22725.html" title="JSON基本概念和用途"><img src="https://c5a6b8d.webp.li/2024/09/json-cover.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="JSON基本概念和用途"/></a><div class="content"><a class="title" href="/22725.html" title="JSON基本概念和用途">JSON基本概念和用途</a><time datetime="2024-09-12T04:01:22.000Z" title="发表于 2024-09-12 12:01:22">2024-09-12</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url('https://s21.ax1x.com/2024/09/06/pAZvQJ0.png')"><div id="footer-wrap"><div class="copyright">&copy;2024 By 电脑教室</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener external nofollow noreferrer" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.13.0"></script><script src="/js/main.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page@5.2.0/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar@0.1.16/dist/snackbar.min.js"></script><div class="js-pjax"></div><script defer="defer" id="fluttering_ribbon" mobile="true" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/dist/canvas-fluttering-ribbon.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = true;
+POWERMODE.mobile = false;
+document.body.addEventListener('input', POWERMODE);
+</script><script src="https://cdn.jsdelivr.net/npm/pjax@0.2.8/pjax.min.js"></script><script>let pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"]):not([href="/music/"]):not([href="/no-pjax/"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+
+  // removeEventListener
+  btf.removeGlobalFnEvent('pjax')
+  btf.removeGlobalFnEvent('themeChange')
+
+  document.getElementById('rightside').classList.remove('rightside-show')
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+
+  typeof disqusjs === 'object' && disqusjs.destroy()
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+})
+
+document.addEventListener('pjax:error', e => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><div class="docsearch-wrap"><div id="docsearch" style="display:none"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3.5.2/dist/style.min.css"/><script src="https://cdn.jsdelivr.net/npm/@docsearch/js@3.5.2/dist/umd/index.min.js"></script><script>(() => {
+  docsearch(Object.assign({
+    appId: '0D9B6SMCY3',
+    apiKey: '102a656316544c46edf97845275afa98',
+    indexName: 'dnjs',
+    container: '#docsearch',
+  }, null))
+
+  const handleClick = () => {
+    document.querySelector('.DocSearch-Button').click()
+  }
+
+  const searchClickFn = () => {
+    btf.addEventListenerPjax(document.querySelector('#search-button > .search'), 'click', handleClick)
+  }
+
+  searchClickFn()
+  window.addEventListener('pjax:complete', searchClickFn)
+})()</script></div></div></body></html>
