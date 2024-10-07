@@ -57,6 +57,85 @@
       </tags>
   </entry>
   <entry>
+    <title>某宝花钱买的电脑单机游戏集合700+</title>
+    <url>/22718.html</url>
+    <content><![CDATA[<p>网友某宝花钱买的电脑单机游戏集合，一共700+款，附带游戏修改器、作弊、优惠代码等等信息，还有赠品，整理成了一个excel文档，游戏存放在百度网盘，感兴趣的可以前往学习。</p>
+<p><img src="https://c5a6b8d.webp.li/2024/09/single-player-games.png"></p>
+<p><strong>下载地址</strong></p>
+<p>百度网盘： <a href="https://pan.baidu.com/s/1ZlZXF5MfeUZplRMq4fqsLQ?pwd=fzwh">https://pan.baidu.com/s/1ZlZXF5MfeUZplRMq4fqsLQ?pwd=fzwh</a> 提取码: fzwh </p>
+<p>阿里云盘：<a href="https://www.alipan.com/s/QaLh9PzqpnV">https://www.alipan.com/s/QaLh9PzqpnV</a></p>
+]]></content>
+      <categories>
+        <category>Windows</category>
+      </categories>
+      <tags>
+        <tag>games</tag>
+        <tag>windows</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>软路由上安装esxi</title>
+    <url>/57580.html</url>
+    <content><![CDATA[<p>最近一直都在找路由器上适配的openWt固件，但是一直找不到。油管上无意间发现现在大家玩的都是软路由，所以现在路由器固件的适配工作明显减少。经过几个月的煎熬，最后还是没有忍住，入手了软路由，那就让我们从软路由的系统着手吧！</p>
+<span id="more"></span>
+<h5 id="下载VMware"><a href="#下载VMware" class="headerlink" title="下载VMware"></a>下载VMware</h5><ul>
+<li><p>注册账号后进行产品评估，评估完成后即可下载</p>
+</li>
+<li><p><a href="https://my.vmware.com/cn/web/vmware/info/slug/datacenter_cloud_infrastructure/vmware_vsphere/7_0">下载地址：点击跳转到官网下载</a></p>
+</li>
+</ul>
+<h5 id="制作U盘启动工具"><a href="#制作U盘启动工具" class="headerlink" title="制作U盘启动工具"></a>制作U盘启动工具</h5><ul>
+<li><a href="https://www.laomaotao.net/">下载完成版老毛桃U盘启动工具</a></li>
+<li>插上U盘，解压缩下载文件，运行exe即可</li>
+</ul>
+<h5 id="安装ESXI系统流程"><a href="#安装ESXI系统流程" class="headerlink" title="安装ESXI系统流程"></a>安装ESXI系统流程</h5><ol>
+<li>在U盘根目录新建文件夹MyExt，将下载的VMware镜像放入到该文件夹下；或直接将镜像放到LMT文件夹下也可以</li>
+<li>软路由接好键鼠，显示器，插上刚刚制作好的U盘，加电开机，以U盘引导的方式启动进入老毛桃工具</li>
+<li>选择【05 DiskGenius 硬盘分区工具】，选择软路由上的硬盘，右键选择删除硬盘所有分区，保存并应用更改</li>
+<li>重启软路由，还是以U盘的方式进入引导进入老毛桃工具，选择【10 运行自定义镜像】，进入后选择放入到U盘的Esxi镜像，回车启动。</li>
+<li>F11同意协议进入系统，选择将系统安装到哪个盘。安装完成后重启完成</li>
+</ol>
+<h5 id="设置ESXI（F2进入设置界面）"><a href="#设置ESXI（F2进入设置界面）" class="headerlink" title="设置ESXI（F2进入设置界面）"></a>设置ESXI（F2进入设置界面）</h5><ul>
+<li><p>设置ESXI的密码为空</p>
+<p>Reset System Configuration（重置系统设置）</p>
+</li>
+<li><p>配置ESXI后台地址及网关</p>
+<p>选择 Configure Management Network—&gt; IPv4 configuration—-&gt;Set static IPv4 address and…..设置好对应的IP</p>
+</li>
+<li><p>排查ESXI的管理口是否配置正确</p>
+<p>选择 Configure Management Network—&gt; Network Adapters 设置所有的端口都为管理口</p>
+</li>
+<li><p>开启SSH\SHELL等功能</p>
+<p>选择 Configure Management Network—&gt;Iroubleshootimg options—&gt;Disable SSH—&gt;Enabled</p>
+</li>
+<li><p>如何将网卡驱东写入ESXI安装包</p>
+</li>
+</ul>
+<h5 id="填入密钥注册ESXI"><a href="#填入密钥注册ESXI" class="headerlink" title="填入密钥注册ESXI"></a>填入密钥注册ESXI</h5><h5 id="有多快硬盘可以新建数据存储"><a href="#有多快硬盘可以新建数据存储" class="headerlink" title="有多快硬盘可以新建数据存储"></a>有多快硬盘可以新建数据存储</h5><h5 id="让虚拟机自动启动"><a href="#让虚拟机自动启动" class="headerlink" title="让虚拟机自动启动"></a>让虚拟机自动启动</h5><ul>
+<li>虚拟机右键设置可自动启动，ESXI里的 管理—也设置成自动启动</li>
+</ul>
+<h3 id="ESXI设置"><a href="#ESXI设置" class="headerlink" title="ESXI设置"></a>ESXI设置</h3><h5 id="网路设置"><a href="#网路设置" class="headerlink" title="网路设置"></a>网路设置</h5><ul>
+<li><p>编辑默认的网络，右键编辑—&gt;安全混杂模式—&gt;接受</p>
+</li>
+<li><p>添加其他5个虚拟交换机，上行线路不用管【选择对应的】，安全全部接口</p>
+</li>
+<li><p>添加端口组，选择对应的虚拟交换机</p>
+</li>
+<li><p>上传固件</p>
+</li>
+<li><p>选择数据存储，数据存储浏览—&gt;新建文件夹分别存放固件</p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>routing</category>
+      </categories>
+      <tags>
+        <tag>软路由</tag>
+        <tag>esxi</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>2018年终总结</title>
     <url>/50205.html</url>
     <content><![CDATA[<h3 id="年度工作概述"><a href="#年度工作概述" class="headerlink" title="年度工作概述"></a>年度工作概述</h3><p>一年的时间，每当自己在总结它的时候，感觉是那么的短暂—弹指一挥间.而也就是在这一挥间，承载着太多太多，有收获与成就，有失败与不足.回头看看2017年的足迹，伴随着自己一年的是学习与坚持。</p>
@@ -266,23 +345,6 @@
       </tags>
   </entry>
   <entry>
-    <title>某宝花钱买的电脑单机游戏集合700+</title>
-    <url>/22718.html</url>
-    <content><![CDATA[<p>网友某宝花钱买的电脑单机游戏集合，一共700+款，附带游戏修改器、作弊、优惠代码等等信息，还有赠品，整理成了一个excel文档，游戏存放在百度网盘，感兴趣的可以前往学习。</p>
-<p><img src="https://c5a6b8d.webp.li/2024/09/single-player-games.png"></p>
-<p><strong>下载地址</strong></p>
-<p>百度网盘： <a href="https://pan.baidu.com/s/1ZlZXF5MfeUZplRMq4fqsLQ?pwd=fzwh">https://pan.baidu.com/s/1ZlZXF5MfeUZplRMq4fqsLQ?pwd=fzwh</a> 提取码: fzwh </p>
-<p>阿里云盘：<a href="https://www.alipan.com/s/QaLh9PzqpnV">https://www.alipan.com/s/QaLh9PzqpnV</a></p>
-]]></content>
-      <categories>
-        <category>Windows</category>
-      </categories>
-      <tags>
-        <tag>games</tag>
-        <tag>windows</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>这六款神级软件！ 绝对让你相见恨晚，免费开源</title>
     <url>/46815.html</url>
     <content><![CDATA[<h2 id="Umi-OCR"><a href="#Umi-OCR" class="headerlink" title="Umi-OCR"></a>Umi-OCR</h2><ul>
@@ -359,68 +421,6 @@
       </tags>
   </entry>
   <entry>
-    <title>软路由上安装esxi</title>
-    <url>/57580.html</url>
-    <content><![CDATA[<p>最近一直都在找路由器上适配的openWt固件，但是一直找不到。油管上无意间发现现在大家玩的都是软路由，所以现在路由器固件的适配工作明显减少。经过几个月的煎熬，最后还是没有忍住，入手了软路由，那就让我们从软路由的系统着手吧！</p>
-<span id="more"></span>
-<h5 id="下载VMware"><a href="#下载VMware" class="headerlink" title="下载VMware"></a>下载VMware</h5><ul>
-<li><p>注册账号后进行产品评估，评估完成后即可下载</p>
-</li>
-<li><p><a href="https://my.vmware.com/cn/web/vmware/info/slug/datacenter_cloud_infrastructure/vmware_vsphere/7_0">下载地址：点击跳转到官网下载</a></p>
-</li>
-</ul>
-<h5 id="制作U盘启动工具"><a href="#制作U盘启动工具" class="headerlink" title="制作U盘启动工具"></a>制作U盘启动工具</h5><ul>
-<li><a href="https://www.laomaotao.net/">下载完成版老毛桃U盘启动工具</a></li>
-<li>插上U盘，解压缩下载文件，运行exe即可</li>
-</ul>
-<h5 id="安装ESXI系统流程"><a href="#安装ESXI系统流程" class="headerlink" title="安装ESXI系统流程"></a>安装ESXI系统流程</h5><ol>
-<li>在U盘根目录新建文件夹MyExt，将下载的VMware镜像放入到该文件夹下；或直接将镜像放到LMT文件夹下也可以</li>
-<li>软路由接好键鼠，显示器，插上刚刚制作好的U盘，加电开机，以U盘引导的方式启动进入老毛桃工具</li>
-<li>选择【05 DiskGenius 硬盘分区工具】，选择软路由上的硬盘，右键选择删除硬盘所有分区，保存并应用更改</li>
-<li>重启软路由，还是以U盘的方式进入引导进入老毛桃工具，选择【10 运行自定义镜像】，进入后选择放入到U盘的Esxi镜像，回车启动。</li>
-<li>F11同意协议进入系统，选择将系统安装到哪个盘。安装完成后重启完成</li>
-</ol>
-<h5 id="设置ESXI（F2进入设置界面）"><a href="#设置ESXI（F2进入设置界面）" class="headerlink" title="设置ESXI（F2进入设置界面）"></a>设置ESXI（F2进入设置界面）</h5><ul>
-<li><p>设置ESXI的密码为空</p>
-<p>Reset System Configuration（重置系统设置）</p>
-</li>
-<li><p>配置ESXI后台地址及网关</p>
-<p>选择 Configure Management Network—&gt; IPv4 configuration—-&gt;Set static IPv4 address and…..设置好对应的IP</p>
-</li>
-<li><p>排查ESXI的管理口是否配置正确</p>
-<p>选择 Configure Management Network—&gt; Network Adapters 设置所有的端口都为管理口</p>
-</li>
-<li><p>开启SSH\SHELL等功能</p>
-<p>选择 Configure Management Network—&gt;Iroubleshootimg options—&gt;Disable SSH—&gt;Enabled</p>
-</li>
-<li><p>如何将网卡驱东写入ESXI安装包</p>
-</li>
-</ul>
-<h5 id="填入密钥注册ESXI"><a href="#填入密钥注册ESXI" class="headerlink" title="填入密钥注册ESXI"></a>填入密钥注册ESXI</h5><h5 id="有多快硬盘可以新建数据存储"><a href="#有多快硬盘可以新建数据存储" class="headerlink" title="有多快硬盘可以新建数据存储"></a>有多快硬盘可以新建数据存储</h5><h5 id="让虚拟机自动启动"><a href="#让虚拟机自动启动" class="headerlink" title="让虚拟机自动启动"></a>让虚拟机自动启动</h5><ul>
-<li>虚拟机右键设置可自动启动，ESXI里的 管理—也设置成自动启动</li>
-</ul>
-<h3 id="ESXI设置"><a href="#ESXI设置" class="headerlink" title="ESXI设置"></a>ESXI设置</h3><h5 id="网路设置"><a href="#网路设置" class="headerlink" title="网路设置"></a>网路设置</h5><ul>
-<li><p>编辑默认的网络，右键编辑—&gt;安全混杂模式—&gt;接受</p>
-</li>
-<li><p>添加其他5个虚拟交换机，上行线路不用管【选择对应的】，安全全部接口</p>
-</li>
-<li><p>添加端口组，选择对应的虚拟交换机</p>
-</li>
-<li><p>上传固件</p>
-</li>
-<li><p>选择数据存储，数据存储浏览—&gt;新建文件夹分别存放固件</p>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>routing</category>
-      </categories>
-      <tags>
-        <tag>软路由</tag>
-        <tag>esxi</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>spring boot启动服务卡住无日志输出</title>
     <url>/4847.html</url>
     <content><![CDATA[<p>今天我们来介绍下spring boot 启动时候如果卡住，就是无日志输出，也不报错的几种解决方法</p>
@@ -441,6 +441,92 @@
       </categories>
       <tags>
         <tag>spring boot</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>vagrant</title>
+    <url>/40780.html</url>
+    <content><![CDATA[<h3 id="起源"><a href="#起源" class="headerlink" title="起源"></a>起源</h3><p>久闻Vagrant大名，之前经常看到有开源项目使用它作为分布式开发的环境配置。</p>
+<p>因为今天在看contiv正好里面使用vagrant搭建的开发测试环境，所以顺便了解下。它的Vagrantfile文件中定义了三台主机。并安装了很多依赖软件，如consul、etcd、docker、go等，整的比较复杂。</p>
+<span id="more"></span>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">vagrant status</span><br><span class="line">Current machine states:</span><br><span class="line"></span><br><span class="line">netplugin-node1           running (virtualbox)</span><br><span class="line">netplugin-node2           running (virtualbox)</span><br><span class="line">netplugin-node3           running (virtualbox)</span><br><span class="line"></span><br><span class="line">This environment represents multiple VMs. The VMs are all listed</span><br><span class="line">above with their current state. For more information about a specific</span><br><span class="line">VM, run `vagrant status NAME`.</span><br></pre></td></tr></table></figure>
+
+<p>Vagrant是hashicorp这家公司的产品，这家公司主要做数据中心PAAS和虚拟化，其名下大名鼎鼎的产品有Consul、Vault、Nomad、Terraform。他们的产品都是基于Open Source的Github地址。</p>
+<h3 id="用途"><a href="#用途" class="headerlink" title="用途"></a>用途</h3><p>Vagrant是用来管理虚拟机的，如VirtualBox、VMware、AWS等，主要好处是可以提供一个可配置、可移植和复用的软件环境，可以使用shell、chef、puppet等工具部署。所以vagrant不能单独使用，如果你用它来管理自己的开发环境的话，必须在自己的电脑里安装了虚拟机软件，我使用的是virtualbox。</p>
+<p>Vagrant提供一个命令行工具vagrant，通过这个命令行工具可以直接启动一个虚拟机，当然你需要提前定义一个Vagrantfile文件，这有点类似Dockerfile之于docker了。</p>
+<p>跟docker类比这来看vagrant就比较好理解了，vagrant也是用来提供一致性环境的，vagrant本身也提供一个镜像源，使用vagrant init hashicorp&#x2F;precise64就可以初始化一个Ubuntu 12.04的镜像。</p>
+<h3 id="用法"><a href="#用法" class="headerlink" title="用法"></a>用法</h3><p>你可以下载安装文件来安装vagrant，也可以使用RubyGem安装，它是用Ruby开发的。</p>
+<h4 id="Vagrantfile"><a href="#Vagrantfile" class="headerlink" title="Vagrantfile"></a>Vagrantfile</h4><p>Vagrantfile是用来定义vagrant project的，使用ruby语法，不过你不必了解ruby就可以写一个Vagrantfile。</p>
+<p>看个例子，选自<a href="https://github.com/fenbox/Vagrantfile">https://github.com/fenbox/Vagrantfile</a><br><img src="https://s21.ax1x.com/2024/09/06/pAeS8Qf.png"><br><img src="https://s21.ax1x.com/2024/09/06/pAeS3SP.png"></p>
+<h4 id="Boxes"><a href="#Boxes" class="headerlink" title="Boxes"></a>Boxes</h4><p>Vagrant的基础镜像，相当于docker images。可以在这些基础镜像的基础上制作自己的虚拟机镜像。</p>
+<p>添加一个box</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">vagrant box add hashicorp/precise64</span></span><br></pre></td></tr></table></figure>
+<p>在Vagrantfile中指定box</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">Vagrant.configure(&quot;2&quot;) do |config|</span><br><span class="line">  config.vm.box = &quot;hashicorp/precise64&quot;</span><br><span class="line">  config.vm.box_version = &quot;1.1.0&quot;</span><br><span class="line">end</span><br></pre></td></tr></table></figure>
+
+<h4 id="使用ssh进入vagrant"><a href="#使用ssh进入vagrant" class="headerlink" title="使用ssh进入vagrant"></a>使用ssh进入vagrant</h4><p>vagrant up后就可以用vagrant ssh $name进入虚拟机内，如果主机上就一个vagrant可以不指定名字。默认进入的用户是vagrant。</p>
+<h4 id="文件同步"><a href="#文件同步" class="headerlink" title="文件同步"></a>文件同步</h4><p>vagrant up后在虚拟机中会有一个&#x2F;vagrant目录，这跟你定义Vagrantfile是同一级目录。</p>
+<p>这个目录跟你宿主机上的目录文件是同步的。</p>
+<h4 id="软件安装"><a href="#软件安装" class="headerlink" title="软件安装"></a>软件安装</h4><p>在Vagrantfile中定义要安装的软件和操作。</p>
+<p>例如安装apache</p>
+<p>在与Vagrantfile同级的目录下创建一个bootstrap.sh文件。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_">#</span><span class="language-bash">!/usr/bin/env bash</span></span><br><span class="line"></span><br><span class="line">apt-get update</span><br><span class="line">apt-get install -y apache2</span><br><span class="line">if ! [ -L /var/www ]; then</span><br><span class="line">  rm -rf /var/www</span><br><span class="line">  ln -fs /vagrant /var/www</span><br><span class="line">fi</span><br></pre></td></tr></table></figure>
+<p>然后在Vagrantfile中使用它。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">Vagrant.configure(&quot;2&quot;) do |config|</span><br><span class="line">  config.vm.box = &quot;hashicorp/precise64&quot;</span><br><span class="line">  config.vm.box_version = &quot;1.1.0&quot;</span><br><span class="line">end</span><br></pre></td></tr></table></figure>
+
+<h4 id="网络"><a href="#网络" class="headerlink" title="网络"></a>网络</h4><p>端口转发</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">Vagrant.configure(&quot;2&quot;) do |config|</span><br><span class="line">  config.vm.box = &quot;hashicorp/precise64&quot;</span><br><span class="line">  config.vm.provision :shell, path: &quot;bootstrap.sh&quot;</span><br><span class="line">  config.vm.network :forwarded_port, guest: 80, host: 4567</span><br><span class="line">end</span><br></pre></td></tr></table></figure>
+<p>执行vagrant reload或者vagrant up可以生效。</p>
+<h4 id="分享"><a href="#分享" class="headerlink" title="分享"></a>分享</h4><p>你自己做的vagrant是可以分享给别人的用的，只要你有一个hashicorp账号，vagrant login后就可以执行vagrant share分享，会生成一个URL，其它人也可以访问到你的vagrant里的服务。</p>
+<h4 id="中止"><a href="#中止" class="headerlink" title="中止"></a>中止</h4><p>vagrant suspend<br>Vagrant halt<br>Vagrant destroy<br>重构</p>
+<p>再次执行vagrant up即可。</p>
+<h3 id="分布式环境"><a href="#分布式环境" class="headerlink" title="分布式环境"></a>分布式环境</h3><p>开发分布式环境下的应用时往往需要多个虚拟机用于测试，这时候才是vagrant显威力的时候。</p>
+<h4 id="定义多个主机"><a href="#定义多个主机" class="headerlink" title="定义多个主机"></a>定义多个主机</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">Vagrant.configure(&quot;2&quot;) do |config|</span><br><span class="line">  config.vm.provision &quot;shell&quot;, inline: &quot;echo Hello&quot;</span><br><span class="line"></span><br><span class="line">  config.vm.define &quot;web&quot; do |web|</span><br><span class="line">    web.vm.box = &quot;apache&quot;</span><br><span class="line">  end</span><br><span class="line"></span><br><span class="line">  config.vm.define &quot;db&quot; do |db|</span><br><span class="line">    db.vm.box = &quot;mysql&quot;</span><br><span class="line">  end</span><br><span class="line">end</span><br></pre></td></tr></table></figure>
+
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>总的来说说Vagrant没有Docker好用，但是对于协同开发，用它来定义分布式开发环境还可以，ruby的语法看着有点不习惯，好在也不复杂，如果是团队几个人开发，弄几个虚拟机大家互相拷贝一下也没那么复杂吧？</p>
+<blockquote><p>本文摘自网络</p>
+<footer><strong>jimmysong</strong><cite><a href="https://jimmysong.io/blog/vagrant-intro/">Vagrant从使用到放弃再到掌握完全指南</a></cite></footer></blockquote>]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>vagrant</tag>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Windows11恢复到win10的右键经典菜单</title>
+    <url>/10322.html</url>
+    <content><![CDATA[<p>如果您正在寻找在 Windows 11 中禁用或启用新上下文菜单而不是处理注册表项的<strong>一键式解决方案</strong>，您可以使用 Win 11 Classic Context Menu v 1.0 Portable freeware Application。它具有简约的界面使用第一个按钮“启用 Win 11 经典上下文菜单样式”按钮禁用 Windows 11 中右键单击菜单中的“显示更多选项”</p>
+<p><strong>官网下载地址：<a href="https://www.sordum.org/14479/windows-11-classic-context-menu-v1-0/">https://www.sordum.org/14479/windows-11-classic-context-menu-v1-0/</a></strong></p>
+<p><strong>小红书演示视频：</strong><a href="https://www.xiaohongshu.com/discovery/item/66fa28a4000000002c02d77c?source=webshare&xhsshare=pc_web&xsec_token=DBRZ1NQiKjBQuzErsBoFX4jKc7VFMWsKdKwBDIAbCm6Pg=&xsec_source=pc_share">【教你一键将Windows 11右键菜单改回经典样式 - 电脑教室 | 小红书 - 你的生活指南】</a></p>
+<p><strong>如果你需要修改更多额外的功能，那么你可以接着往下看：</strong></p>
+<p>如果您想从 Windows 11 上下文菜单中删除“显示更多选项”条目并恢复 Windows 11 中的经典右键单击菜单，您可以使用以下注册表项。</p>
+<p><strong>通过注册表在 Windows 11 中恢复完整的右键单击上下文菜单</strong></p>
+<p>Windows 注册表编辑器 5.00 版</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">[HKEY_CURRENT_USER\Software\Classes\CLSID\&#123;86ca1aa0-34aa-4e8b-a509-50c905bae2a2&#125;\InprocServer32]</span><br><span class="line">@=””</span><br></pre></td></tr></table></figure>
+<p><strong>通过注册表获取默认的 Windows 11 上下文菜单</strong></p>
+<p>Windows 注册表编辑器 5.00 版</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">[-HKEY_CURRENT_USER\Software\Classes\CLSID\&#123;86ca1aa0-34aa-4e8b-a509-50c905bae2a2&#125;]</span><br></pre></td></tr></table></figure>
+<p>应用上述注册表项后，您需要重新启动文件资源管理器以使设置生效。或者，您可以使用命令提示符来执行相同的任务。</p>
+<p><strong>使用 Cmd 在 Windows 11 上恢复经典上下文菜单</strong></p>
+<ol>
+<li>以管理员权限打开 Cmd</li>
+<li>复制并粘贴以下代码，然后按 Enter  <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">reg.exe 添加“HKCU\Software\Classes\CLSID\&#123;86ca1aa0-34aa-4e8b-a509-50c905bae2a2&#125;\InprocServer32” /f </span><br></pre></td></tr></table></figure></li>
+</ol>
+<p><strong>使用 Cmd 在 Windows 11 上恢复默认上下文菜单</strong></p>
+<ol>
+<li>以管理员权限打开 Cmd</li>
+<li>复制并粘贴以下代码，然后按 Enter  <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">reg.exe 删除“HKCU\Software\Classes\CLSID\&#123;86ca1aa0-34aa-4e8b-a509-50c905bae2a2&#125;” /f</span><br></pre></td></tr></table></figure></li>
+</ol>
+<p><strong>注意：</strong>完成上述步骤后重新启动文件资源管理器。</p>
+]]></content>
+      <categories>
+        <category>Windows</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
+        <tag>经典菜单</tag>
       </tags>
   </entry>
   <entry>
@@ -498,57 +584,6 @@
       </tags>
   </entry>
   <entry>
-    <title>vagrant</title>
-    <url>/40780.html</url>
-    <content><![CDATA[<h3 id="起源"><a href="#起源" class="headerlink" title="起源"></a>起源</h3><p>久闻Vagrant大名，之前经常看到有开源项目使用它作为分布式开发的环境配置。</p>
-<p>因为今天在看contiv正好里面使用vagrant搭建的开发测试环境，所以顺便了解下。它的Vagrantfile文件中定义了三台主机。并安装了很多依赖软件，如consul、etcd、docker、go等，整的比较复杂。</p>
-<span id="more"></span>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">vagrant status</span><br><span class="line">Current machine states:</span><br><span class="line"></span><br><span class="line">netplugin-node1           running (virtualbox)</span><br><span class="line">netplugin-node2           running (virtualbox)</span><br><span class="line">netplugin-node3           running (virtualbox)</span><br><span class="line"></span><br><span class="line">This environment represents multiple VMs. The VMs are all listed</span><br><span class="line">above with their current state. For more information about a specific</span><br><span class="line">VM, run `vagrant status NAME`.</span><br></pre></td></tr></table></figure>
-
-<p>Vagrant是hashicorp这家公司的产品，这家公司主要做数据中心PAAS和虚拟化，其名下大名鼎鼎的产品有Consul、Vault、Nomad、Terraform。他们的产品都是基于Open Source的Github地址。</p>
-<h3 id="用途"><a href="#用途" class="headerlink" title="用途"></a>用途</h3><p>Vagrant是用来管理虚拟机的，如VirtualBox、VMware、AWS等，主要好处是可以提供一个可配置、可移植和复用的软件环境，可以使用shell、chef、puppet等工具部署。所以vagrant不能单独使用，如果你用它来管理自己的开发环境的话，必须在自己的电脑里安装了虚拟机软件，我使用的是virtualbox。</p>
-<p>Vagrant提供一个命令行工具vagrant，通过这个命令行工具可以直接启动一个虚拟机，当然你需要提前定义一个Vagrantfile文件，这有点类似Dockerfile之于docker了。</p>
-<p>跟docker类比这来看vagrant就比较好理解了，vagrant也是用来提供一致性环境的，vagrant本身也提供一个镜像源，使用vagrant init hashicorp&#x2F;precise64就可以初始化一个Ubuntu 12.04的镜像。</p>
-<h3 id="用法"><a href="#用法" class="headerlink" title="用法"></a>用法</h3><p>你可以下载安装文件来安装vagrant，也可以使用RubyGem安装，它是用Ruby开发的。</p>
-<h4 id="Vagrantfile"><a href="#Vagrantfile" class="headerlink" title="Vagrantfile"></a>Vagrantfile</h4><p>Vagrantfile是用来定义vagrant project的，使用ruby语法，不过你不必了解ruby就可以写一个Vagrantfile。</p>
-<p>看个例子，选自<a href="https://github.com/fenbox/Vagrantfile">https://github.com/fenbox/Vagrantfile</a><br><img src="https://s21.ax1x.com/2024/09/06/pAeS8Qf.png"><br><img src="https://s21.ax1x.com/2024/09/06/pAeS3SP.png"></p>
-<h4 id="Boxes"><a href="#Boxes" class="headerlink" title="Boxes"></a>Boxes</h4><p>Vagrant的基础镜像，相当于docker images。可以在这些基础镜像的基础上制作自己的虚拟机镜像。</p>
-<p>添加一个box</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">vagrant box add hashicorp/precise64</span></span><br></pre></td></tr></table></figure>
-<p>在Vagrantfile中指定box</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">Vagrant.configure(&quot;2&quot;) do |config|</span><br><span class="line">  config.vm.box = &quot;hashicorp/precise64&quot;</span><br><span class="line">  config.vm.box_version = &quot;1.1.0&quot;</span><br><span class="line">end</span><br></pre></td></tr></table></figure>
-
-<h4 id="使用ssh进入vagrant"><a href="#使用ssh进入vagrant" class="headerlink" title="使用ssh进入vagrant"></a>使用ssh进入vagrant</h4><p>vagrant up后就可以用vagrant ssh $name进入虚拟机内，如果主机上就一个vagrant可以不指定名字。默认进入的用户是vagrant。</p>
-<h4 id="文件同步"><a href="#文件同步" class="headerlink" title="文件同步"></a>文件同步</h4><p>vagrant up后在虚拟机中会有一个&#x2F;vagrant目录，这跟你定义Vagrantfile是同一级目录。</p>
-<p>这个目录跟你宿主机上的目录文件是同步的。</p>
-<h4 id="软件安装"><a href="#软件安装" class="headerlink" title="软件安装"></a>软件安装</h4><p>在Vagrantfile中定义要安装的软件和操作。</p>
-<p>例如安装apache</p>
-<p>在与Vagrantfile同级的目录下创建一个bootstrap.sh文件。</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_">#</span><span class="language-bash">!/usr/bin/env bash</span></span><br><span class="line"></span><br><span class="line">apt-get update</span><br><span class="line">apt-get install -y apache2</span><br><span class="line">if ! [ -L /var/www ]; then</span><br><span class="line">  rm -rf /var/www</span><br><span class="line">  ln -fs /vagrant /var/www</span><br><span class="line">fi</span><br></pre></td></tr></table></figure>
-<p>然后在Vagrantfile中使用它。</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">Vagrant.configure(&quot;2&quot;) do |config|</span><br><span class="line">  config.vm.box = &quot;hashicorp/precise64&quot;</span><br><span class="line">  config.vm.box_version = &quot;1.1.0&quot;</span><br><span class="line">end</span><br></pre></td></tr></table></figure>
-
-<h4 id="网络"><a href="#网络" class="headerlink" title="网络"></a>网络</h4><p>端口转发</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">Vagrant.configure(&quot;2&quot;) do |config|</span><br><span class="line">  config.vm.box = &quot;hashicorp/precise64&quot;</span><br><span class="line">  config.vm.provision :shell, path: &quot;bootstrap.sh&quot;</span><br><span class="line">  config.vm.network :forwarded_port, guest: 80, host: 4567</span><br><span class="line">end</span><br></pre></td></tr></table></figure>
-<p>执行vagrant reload或者vagrant up可以生效。</p>
-<h4 id="分享"><a href="#分享" class="headerlink" title="分享"></a>分享</h4><p>你自己做的vagrant是可以分享给别人的用的，只要你有一个hashicorp账号，vagrant login后就可以执行vagrant share分享，会生成一个URL，其它人也可以访问到你的vagrant里的服务。</p>
-<h4 id="中止"><a href="#中止" class="headerlink" title="中止"></a>中止</h4><p>vagrant suspend<br>Vagrant halt<br>Vagrant destroy<br>重构</p>
-<p>再次执行vagrant up即可。</p>
-<h3 id="分布式环境"><a href="#分布式环境" class="headerlink" title="分布式环境"></a>分布式环境</h3><p>开发分布式环境下的应用时往往需要多个虚拟机用于测试，这时候才是vagrant显威力的时候。</p>
-<h4 id="定义多个主机"><a href="#定义多个主机" class="headerlink" title="定义多个主机"></a>定义多个主机</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">Vagrant.configure(&quot;2&quot;) do |config|</span><br><span class="line">  config.vm.provision &quot;shell&quot;, inline: &quot;echo Hello&quot;</span><br><span class="line"></span><br><span class="line">  config.vm.define &quot;web&quot; do |web|</span><br><span class="line">    web.vm.box = &quot;apache&quot;</span><br><span class="line">  end</span><br><span class="line"></span><br><span class="line">  config.vm.define &quot;db&quot; do |db|</span><br><span class="line">    db.vm.box = &quot;mysql&quot;</span><br><span class="line">  end</span><br><span class="line">end</span><br></pre></td></tr></table></figure>
-
-<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>总的来说说Vagrant没有Docker好用，但是对于协同开发，用它来定义分布式开发环境还可以，ruby的语法看着有点不习惯，好在也不复杂，如果是团队几个人开发，弄几个虚拟机大家互相拷贝一下也没那么复杂吧？</p>
-<blockquote><p>本文摘自网络</p>
-<footer><strong>jimmysong</strong><cite><a href="https://jimmysong.io/blog/vagrant-intro/">Vagrant从使用到放弃再到掌握完全指南</a></cite></footer></blockquote>]]></content>
-      <categories>
-        <category>Linux</category>
-      </categories>
-      <tags>
-        <tag>vagrant</tag>
-        <tag>Linux</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>查找您的 Windows 10 、11 激活密钥，以及（OEM 数字许可证密钥）</title>
     <url>/46926.html</url>
     <content><![CDATA[<p><strong>1、CMD命令终端下以管理员身份输入命令：</strong></p>
@@ -571,45 +606,10 @@
       </tags>
   </entry>
   <entry>
-    <title>Windows11恢复到win10的右键经典菜单</title>
-    <url>/10322.html</url>
-    <content><![CDATA[<p>如果您正在寻找在 Windows 11 中禁用或启用新上下文菜单而不是处理注册表项的<strong>一键式解决方案</strong>，您可以使用 Win 11 Classic Context Menu v 1.0 Portable freeware Application。它具有简约的界面使用第一个按钮“启用 Win 11 经典上下文菜单样式”按钮禁用 Windows 11 中右键单击菜单中的“显示更多选项”</p>
-<p><strong>官网下载地址：<a href="https://www.sordum.org/14479/windows-11-classic-context-menu-v1-0/">https://www.sordum.org/14479/windows-11-classic-context-menu-v1-0/</a></strong></p>
-<p><strong>小红书演示视频：</strong><a href="https://www.xiaohongshu.com/discovery/item/66fa28a4000000002c02d77c?source=webshare&xhsshare=pc_web&xsec_token=DBRZ1NQiKjBQuzErsBoFX4jKc7VFMWsKdKwBDIAbCm6Pg=&xsec_source=pc_share">【教你一键将Windows 11右键菜单改回经典样式 - 电脑教室 | 小红书 - 你的生活指南】</a></p>
-<p><strong>如果你需要修改更多额外的功能，那么你可以接着往下看：</strong></p>
-<p>如果您想从 Windows 11 上下文菜单中删除“显示更多选项”条目并恢复 Windows 11 中的经典右键单击菜单，您可以使用以下注册表项。</p>
-<p><strong>通过注册表在 Windows 11 中恢复完整的右键单击上下文菜单</strong></p>
-<p>Windows 注册表编辑器 5.00 版</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">[HKEY_CURRENT_USER\Software\Classes\CLSID\&#123;86ca1aa0-34aa-4e8b-a509-50c905bae2a2&#125;\InprocServer32]</span><br><span class="line">@=””</span><br></pre></td></tr></table></figure>
-<p><strong>通过注册表获取默认的 Windows 11 上下文菜单</strong></p>
-<p>Windows 注册表编辑器 5.00 版</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">[-HKEY_CURRENT_USER\Software\Classes\CLSID\&#123;86ca1aa0-34aa-4e8b-a509-50c905bae2a2&#125;]</span><br></pre></td></tr></table></figure>
-<p>应用上述注册表项后，您需要重新启动文件资源管理器以使设置生效。或者，您可以使用命令提示符来执行相同的任务。</p>
-<p><strong>使用 Cmd 在 Windows 11 上恢复经典上下文菜单</strong></p>
-<ol>
-<li>以管理员权限打开 Cmd</li>
-<li>复制并粘贴以下代码，然后按 Enter  <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">reg.exe 添加“HKCU\Software\Classes\CLSID\&#123;86ca1aa0-34aa-4e8b-a509-50c905bae2a2&#125;\InprocServer32” /f </span><br></pre></td></tr></table></figure></li>
-</ol>
-<p><strong>使用 Cmd 在 Windows 11 上恢复默认上下文菜单</strong></p>
-<ol>
-<li>以管理员权限打开 Cmd</li>
-<li>复制并粘贴以下代码，然后按 Enter  <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">reg.exe 删除“HKCU\Software\Classes\CLSID\&#123;86ca1aa0-34aa-4e8b-a509-50c905bae2a2&#125;” /f</span><br></pre></td></tr></table></figure></li>
-</ol>
-<p><strong>注意：</strong>完成上述步骤后重新启动文件资源管理器。</p>
-]]></content>
-      <categories>
-        <category>Windows</category>
-      </categories>
-      <tags>
-        <tag>Windows</tag>
-        <tag>经典菜单</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Windows11 24H2正式发布！官方免费下载，并绕过硬件限制安装</title>
     <url>/45623.html</url>
     <content><![CDATA[<p>微软之前一直传闻会在本月发布 Windows 11 24H2，尽管有消息称发布日期可能是 10 月 8 日，但微软显然不想让大家猜中，今天便正式发布了该版本。24H2 带来了许多新改进，不过与 Copilot+ PC 相关的功能需要等到 11 月才能向符合硬件要求的 AMD 和 Intel 系统开放。目前，微软只提供了适用于 x64 硬件的 ISO 安装镜像，而 Arm64 版本预计将在未来几周内推出。</p>
-<p><strong>小红书视频教程直达：</strong><a href="https://www.xiaohongshu.com/explore/67009dbc000000002c02f43e?app_platform=android&app_version=8.54.0&apptime=1728093637&share_from_user_hidden=true&type=video&appuid=6694a7ab0000000003033310&author_share=1&xsec_token=DBD6kwLo0uCxXSGSm_sUx7OyvkEI41em5H3wuU1MwxAxE=&xsec_source=app_share&xhsshare=WeixinSession&shareRedId=ODw7NEQ8RUs2NzUyOTgwNjY2OTo3ODc5&share_id=e88da52e865247b387f31f1c18bd9693">点击直达</a> </p>
+<p><strong>小红书视频教程直达：</strong><a href="https://www.xiaohongshu.com/explore/67009dbc000000002c02f43e?app_platform=android&app_version=8.54.0&apptime=1728093637&share_from_user_hidden=true&type=video&appuid=6694a7ab0000000003033310&author_share=1&xsec_token=DBD6kwLo0uCxXSGSm_sUx7OyvkEI41em5H3wuU1MwxAxE=&xsec_source=app_share&xhsshare=WeixinSession&shareRedId=ODw7NEQ8RUs2NzUyOTgwNjY2OTo3ODc5&share_id=e88da52e865247b387f31f1c18bd9693">Windows11 24H2 正式发布！绕过硬件限制安装</a> </p>
 <p><strong>Windows 11 24H2 官方下载链接：</strong><a href="https://www.microsoft.com/software-download/windows11">链接直达</a></p>
 <p>【<a href="https://www.microsoft.com/en-us/microsoft-copilot/for-individuals/copilot-app?form=MY02FX&OCID=MY02FX">官方英文版</a>】</p>
 <p>【<a href="https://www.microsoft.com/zh-cn/software-download/windows11">中文简体版</a>】</p>
