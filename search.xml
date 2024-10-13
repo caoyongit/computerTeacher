@@ -1,141 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>JSON基本概念和用途</title>
-    <url>/22725.html</url>
-    <content><![CDATA[<h3 id="JSON的定义"><a href="#JSON的定义" class="headerlink" title="JSON的定义"></a>JSON的定义</h3><p>JSON (Javascript Object Notation）是一种轻量級、基于文本的、与语言无关的数据交换格式。</p>
-<p>尽管JSON源于JavaScript，但它实际上是一种独立于編程语言的数据格式。这意味着它可以被任何支持JSON的編程语言使用。</p>
-<p>JSON的特点</p>
-<ol>
-<li><p><strong>易于人类调读和编写：</strong>JSON使用简单的键值对结构，类似于许多编程语言中的对象或字典。</p>
-<p>数据以层次结构组织，使用花括号 {} 表示对象，方括号 [] 表示数组。</p>
-<p>键值对使用冒号 : 分隔，多个项目之问使用逗号 , 分隔。不需要额外的标记或结束标签，减少了复杂性。</p>
-<p>JSON数据以键值对的形式表示。</p>
-<p>键 (keys）必须是宇符串。</p>
-<p>值 (values）可以是以下几种类型：宇符串，数字，对象，数组，布尔值，null。</p>
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">//###结构和语法</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="string">&quot;name&quot;</span>: <span class="string">&quot;Harry&quot;</span>,</span><br><span class="line">	<span class="string">&quot;age&quot;</span>: <span class="number">30</span>,</span><br><span class="line">	<span class="string">&quot;isStudent&quot;</span>: <span class="literal">false</span>,</span><br><span class="line">	<span class="string">&quot;address&quot;</span>: &#123;</span><br><span class="line">		<span class="string">&quot;street&quot;</span>: <span class="string">&quot;Fleet Street St&quot;</span><span class="string">&quot;city&quot;</span>,</span><br><span class="line">		<span class="string">&quot;Anytown&quot;</span><span class="string">&quot;zipcode&quot;</span>: <span class="string">&quot;263605&quot;</span></span><br><span class="line">	&#125;,</span><br><span class="line">	<span class="string">&quot;courses&quot;</span>: [<span class="string">&quot;Math&quot;</span>, <span class="string">&quot;Science&quot;</span>, <span class="string">&quot;History&quot;</span>],</span><br><span class="line">	<span class="string">&quot;score&quot;</span>: <span class="literal">null</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</li>
-<li><p><strong>易于机器解析和生成：</strong>JSON的语法规则非常简单，这使得创建解析器变得相对容易。</p>
-<p>解析过程直接，不需要处理复杂的标记或命名空间。</p>
-<p>大多数现代编程语言都内置了JSON解析和生成功能。并且许多第三方库提供了高效的JSON处理工具。</p>
-</li>
-</ol>
-<p><img src="https://c5a6b8d.webp.li/2024/09/json-users.png"></p>
-<h3 id="JSON的主要用途"><a href="#JSON的主要用途" class="headerlink" title="JSON的主要用途"></a>JSON的主要用途</h3><p>常用于在Web应用程序中传输数据，例如：从服务器向客户端发送数据，以便在网页上显示，也可以反向传输，即从客户端向服务器发送数据。</p>
-<h3 id="JSON的解析-Parsing）和宇符串化-Stringifying）过程"><a href="#JSON的解析-Parsing）和宇符串化-Stringifying）过程" class="headerlink" title="JSON的解析 (Parsing）和宇符串化 (Stringifying）过程"></a><strong>JSON的解析 (Parsing）和宇符串化 (Stringifying）过程</strong></h3><p><strong>将JSON宇符串转换为JavaScript对象</strong></p>
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> jsonString = &#123;<span class="string">&quot;name&quot;</span>: <span class="string">&quot;Harry&quot;</span>, <span class="string">&quot;age&quot;</span>: <span class="string">&quot;25&quot;</span>&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> obj = <span class="title class_">JSON</span>.<span class="property">parse</span> (jsonString) ;</span><br><span class="line"></span><br><span class="line"><span class="variable language_">console</span>. <span class="title function_">log</span> (obj.<span class="property">name</span>) ; <span class="comment">// &quot;Harry&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p><strong>将JavaScript对象转换为JSON字符串</strong></p>
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> obj = &#123;name; <span class="string">&quot;Harry&quot;</span>, <span class="attr">age</span>: <span class="number">25</span>&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> jsonString = <span class="title class_">JSON</span>.<span class="title function_">stringify</span>(obj);</span><br><span class="line"></span><br><span class="line"><span class="variable language_">console</span>. <span class="title function_">log</span> (jsonString) ;   <span class="comment">//(&quot;&#x27;name&quot; ; &quot;Harry&quot;, &quot;age&quot; :25)&#x27;</span></span><br></pre></td></tr></table></figure>
-<p><img src="https://c5a6b8d.webp.li/2024/09/json-parse.png"></p>
-]]></content>
-      <categories>
-        <category>Web</category>
-      </categories>
-      <tags>
-        <tag>json</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Nslookup 查询DNS, TXT – nslookup指令集</title>
-    <url>/46768.html</url>
-    <content><![CDATA[<h4 id="基本指令"><a href="#基本指令" class="headerlink" title="基本指令"></a>基本指令</h4><p>nslookup [-option] [name | -] [server]<br>nslookup -type&#x3D;any domain.com<br>nslookup -type&#x3D;any domain.com 8.8.8.8<br><strong>type参数</strong></p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">any</span><br><span class="line">a: A Record (IP Address)</span><br><span class="line">mx: 邮件服务器</span><br><span class="line">ns: 名称服务器</span><br><span class="line">cname: 查別名</span><br><span class="line">ptr: 由 IP Address 反查域名</span><br><span class="line">hinfo: 查服务器的系统资源</span><br><span class="line">txt: Text如SPF讯息</span><br></pre></td></tr></table></figure>
-
-<h4 id="分段指令"><a href="#分段指令" class="headerlink" title="分段指令"></a>分段指令</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">nslookup -type=[Type] [NameServer]</span><br><span class="line">set q=[Type]</span><br><span class="line">[NameServer]</span><br></pre></td></tr></table></figure>
-<h4 id="扫描所有DNS-Zone-file"><a href="#扫描所有DNS-Zone-file" class="headerlink" title="扫描所有DNS Zone file"></a>扫描所有DNS Zone file</h4><p><strong>Linux:</strong></p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">dig @nameserver example.com axfr</span><br></pre></td></tr></table></figure>
-<p><strong>Windows:</strong></p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">nslookup</span><br><span class="line">server nameserver</span><br><span class="line">ls -d example.com</span><br></pre></td></tr></table></figure>
-<p>DNS Server一般会都关闭此查询权限…</p>
-]]></content>
-      <categories>
-        <category>Linux</category>
-      </categories>
-      <tags>
-        <tag>Nslookup</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>某宝花钱买的电脑单机游戏集合700+</title>
-    <url>/22718.html</url>
-    <content><![CDATA[<p>网友某宝花钱买的电脑单机游戏集合，一共700+款，附带游戏修改器、作弊、优惠代码等等信息，还有赠品，整理成了一个excel文档，游戏存放在百度网盘，感兴趣的可以前往学习。</p>
-<p><img src="https://c5a6b8d.webp.li/2024/09/single-player-games.png"></p>
-<p><strong>下载地址</strong></p>
-<p>百度网盘： <a href="https://pan.baidu.com/s/1ZlZXF5MfeUZplRMq4fqsLQ?pwd=fzwh">https://pan.baidu.com/s/1ZlZXF5MfeUZplRMq4fqsLQ?pwd=fzwh</a> 提取码: fzwh </p>
-<p>阿里云盘：<a href="https://www.alipan.com/s/QaLh9PzqpnV">https://www.alipan.com/s/QaLh9PzqpnV</a></p>
-]]></content>
-      <categories>
-        <category>Windows</category>
-      </categories>
-      <tags>
-        <tag>games</tag>
-        <tag>windows</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>软路由上安装esxi</title>
-    <url>/57580.html</url>
-    <content><![CDATA[<p>最近一直都在找路由器上适配的openWt固件，但是一直找不到。油管上无意间发现现在大家玩的都是软路由，所以现在路由器固件的适配工作明显减少。经过几个月的煎熬，最后还是没有忍住，入手了软路由，那就让我们从软路由的系统着手吧！</p>
-<span id="more"></span>
-<h5 id="下载VMware"><a href="#下载VMware" class="headerlink" title="下载VMware"></a>下载VMware</h5><ul>
-<li><p>注册账号后进行产品评估，评估完成后即可下载</p>
-</li>
-<li><p><a href="https://my.vmware.com/cn/web/vmware/info/slug/datacenter_cloud_infrastructure/vmware_vsphere/7_0">下载地址：点击跳转到官网下载</a></p>
-</li>
-</ul>
-<h5 id="制作U盘启动工具"><a href="#制作U盘启动工具" class="headerlink" title="制作U盘启动工具"></a>制作U盘启动工具</h5><ul>
-<li><a href="https://www.laomaotao.net/">下载完成版老毛桃U盘启动工具</a></li>
-<li>插上U盘，解压缩下载文件，运行exe即可</li>
-</ul>
-<h5 id="安装ESXI系统流程"><a href="#安装ESXI系统流程" class="headerlink" title="安装ESXI系统流程"></a>安装ESXI系统流程</h5><ol>
-<li>在U盘根目录新建文件夹MyExt，将下载的VMware镜像放入到该文件夹下；或直接将镜像放到LMT文件夹下也可以</li>
-<li>软路由接好键鼠，显示器，插上刚刚制作好的U盘，加电开机，以U盘引导的方式启动进入老毛桃工具</li>
-<li>选择【05 DiskGenius 硬盘分区工具】，选择软路由上的硬盘，右键选择删除硬盘所有分区，保存并应用更改</li>
-<li>重启软路由，还是以U盘的方式进入引导进入老毛桃工具，选择【10 运行自定义镜像】，进入后选择放入到U盘的Esxi镜像，回车启动。</li>
-<li>F11同意协议进入系统，选择将系统安装到哪个盘。安装完成后重启完成</li>
-</ol>
-<h5 id="设置ESXI（F2进入设置界面）"><a href="#设置ESXI（F2进入设置界面）" class="headerlink" title="设置ESXI（F2进入设置界面）"></a>设置ESXI（F2进入设置界面）</h5><ul>
-<li><p>设置ESXI的密码为空</p>
-<p>Reset System Configuration（重置系统设置）</p>
-</li>
-<li><p>配置ESXI后台地址及网关</p>
-<p>选择 Configure Management Network—&gt; IPv4 configuration—-&gt;Set static IPv4 address and…..设置好对应的IP</p>
-</li>
-<li><p>排查ESXI的管理口是否配置正确</p>
-<p>选择 Configure Management Network—&gt; Network Adapters 设置所有的端口都为管理口</p>
-</li>
-<li><p>开启SSH\SHELL等功能</p>
-<p>选择 Configure Management Network—&gt;Iroubleshootimg options—&gt;Disable SSH—&gt;Enabled</p>
-</li>
-<li><p>如何将网卡驱东写入ESXI安装包</p>
-</li>
-</ul>
-<h5 id="填入密钥注册ESXI"><a href="#填入密钥注册ESXI" class="headerlink" title="填入密钥注册ESXI"></a>填入密钥注册ESXI</h5><h5 id="有多快硬盘可以新建数据存储"><a href="#有多快硬盘可以新建数据存储" class="headerlink" title="有多快硬盘可以新建数据存储"></a>有多快硬盘可以新建数据存储</h5><h5 id="让虚拟机自动启动"><a href="#让虚拟机自动启动" class="headerlink" title="让虚拟机自动启动"></a>让虚拟机自动启动</h5><ul>
-<li>虚拟机右键设置可自动启动，ESXI里的 管理—也设置成自动启动</li>
-</ul>
-<h3 id="ESXI设置"><a href="#ESXI设置" class="headerlink" title="ESXI设置"></a>ESXI设置</h3><h5 id="网路设置"><a href="#网路设置" class="headerlink" title="网路设置"></a>网路设置</h5><ul>
-<li><p>编辑默认的网络，右键编辑—&gt;安全混杂模式—&gt;接受</p>
-</li>
-<li><p>添加其他5个虚拟交换机，上行线路不用管【选择对应的】，安全全部接口</p>
-</li>
-<li><p>添加端口组，选择对应的虚拟交换机</p>
-</li>
-<li><p>上传固件</p>
-</li>
-<li><p>选择数据存储，数据存储浏览—&gt;新建文件夹分别存放固件</p>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>routing</category>
-      </categories>
-      <tags>
-        <tag>软路由</tag>
-        <tag>esxi</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>2018年终总结</title>
     <url>/50205.html</url>
     <content><![CDATA[<h3 id="年度工作概述"><a href="#年度工作概述" class="headerlink" title="年度工作概述"></a>年度工作概述</h3><p>一年的时间，每当自己在总结它的时候，感觉是那么的短暂—弹指一挥间.而也就是在这一挥间，承载着太多太多，有收获与成就，有失败与不足.回头看看2017年的足迹，伴随着自己一年的是学习与坚持。</p>
@@ -345,6 +210,141 @@
       </tags>
   </entry>
   <entry>
+    <title>JSON基本概念和用途</title>
+    <url>/22725.html</url>
+    <content><![CDATA[<h3 id="JSON的定义"><a href="#JSON的定义" class="headerlink" title="JSON的定义"></a>JSON的定义</h3><p>JSON (Javascript Object Notation）是一种轻量級、基于文本的、与语言无关的数据交换格式。</p>
+<p>尽管JSON源于JavaScript，但它实际上是一种独立于編程语言的数据格式。这意味着它可以被任何支持JSON的編程语言使用。</p>
+<p>JSON的特点</p>
+<ol>
+<li><p><strong>易于人类调读和编写：</strong>JSON使用简单的键值对结构，类似于许多编程语言中的对象或字典。</p>
+<p>数据以层次结构组织，使用花括号 {} 表示对象，方括号 [] 表示数组。</p>
+<p>键值对使用冒号 : 分隔，多个项目之问使用逗号 , 分隔。不需要额外的标记或结束标签，减少了复杂性。</p>
+<p>JSON数据以键值对的形式表示。</p>
+<p>键 (keys）必须是宇符串。</p>
+<p>值 (values）可以是以下几种类型：宇符串，数字，对象，数组，布尔值，null。</p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">//###结构和语法</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="string">&quot;name&quot;</span>: <span class="string">&quot;Harry&quot;</span>,</span><br><span class="line">	<span class="string">&quot;age&quot;</span>: <span class="number">30</span>,</span><br><span class="line">	<span class="string">&quot;isStudent&quot;</span>: <span class="literal">false</span>,</span><br><span class="line">	<span class="string">&quot;address&quot;</span>: &#123;</span><br><span class="line">		<span class="string">&quot;street&quot;</span>: <span class="string">&quot;Fleet Street St&quot;</span><span class="string">&quot;city&quot;</span>,</span><br><span class="line">		<span class="string">&quot;Anytown&quot;</span><span class="string">&quot;zipcode&quot;</span>: <span class="string">&quot;263605&quot;</span></span><br><span class="line">	&#125;,</span><br><span class="line">	<span class="string">&quot;courses&quot;</span>: [<span class="string">&quot;Math&quot;</span>, <span class="string">&quot;Science&quot;</span>, <span class="string">&quot;History&quot;</span>],</span><br><span class="line">	<span class="string">&quot;score&quot;</span>: <span class="literal">null</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>易于机器解析和生成：</strong>JSON的语法规则非常简单，这使得创建解析器变得相对容易。</p>
+<p>解析过程直接，不需要处理复杂的标记或命名空间。</p>
+<p>大多数现代编程语言都内置了JSON解析和生成功能。并且许多第三方库提供了高效的JSON处理工具。</p>
+</li>
+</ol>
+<p><img src="https://c5a6b8d.webp.li/2024/09/json-users.png"></p>
+<h3 id="JSON的主要用途"><a href="#JSON的主要用途" class="headerlink" title="JSON的主要用途"></a>JSON的主要用途</h3><p>常用于在Web应用程序中传输数据，例如：从服务器向客户端发送数据，以便在网页上显示，也可以反向传输，即从客户端向服务器发送数据。</p>
+<h3 id="JSON的解析-Parsing）和宇符串化-Stringifying）过程"><a href="#JSON的解析-Parsing）和宇符串化-Stringifying）过程" class="headerlink" title="JSON的解析 (Parsing）和宇符串化 (Stringifying）过程"></a><strong>JSON的解析 (Parsing）和宇符串化 (Stringifying）过程</strong></h3><p><strong>将JSON宇符串转换为JavaScript对象</strong></p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> jsonString = &#123;<span class="string">&quot;name&quot;</span>: <span class="string">&quot;Harry&quot;</span>, <span class="string">&quot;age&quot;</span>: <span class="string">&quot;25&quot;</span>&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> obj = <span class="title class_">JSON</span>.<span class="property">parse</span> (jsonString) ;</span><br><span class="line"></span><br><span class="line"><span class="variable language_">console</span>. <span class="title function_">log</span> (obj.<span class="property">name</span>) ; <span class="comment">// &quot;Harry&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p><strong>将JavaScript对象转换为JSON字符串</strong></p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> obj = &#123;name; <span class="string">&quot;Harry&quot;</span>, <span class="attr">age</span>: <span class="number">25</span>&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> jsonString = <span class="title class_">JSON</span>.<span class="title function_">stringify</span>(obj);</span><br><span class="line"></span><br><span class="line"><span class="variable language_">console</span>. <span class="title function_">log</span> (jsonString) ;   <span class="comment">//(&quot;&#x27;name&quot; ; &quot;Harry&quot;, &quot;age&quot; :25)&#x27;</span></span><br></pre></td></tr></table></figure>
+<p><img src="https://c5a6b8d.webp.li/2024/09/json-parse.png"></p>
+]]></content>
+      <categories>
+        <category>Web</category>
+      </categories>
+      <tags>
+        <tag>json</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Nslookup 查询DNS, TXT – nslookup指令集</title>
+    <url>/46768.html</url>
+    <content><![CDATA[<h4 id="基本指令"><a href="#基本指令" class="headerlink" title="基本指令"></a>基本指令</h4><p>nslookup [-option] [name | -] [server]<br>nslookup -type&#x3D;any domain.com<br>nslookup -type&#x3D;any domain.com 8.8.8.8<br><strong>type参数</strong></p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">any</span><br><span class="line">a: A Record (IP Address)</span><br><span class="line">mx: 邮件服务器</span><br><span class="line">ns: 名称服务器</span><br><span class="line">cname: 查別名</span><br><span class="line">ptr: 由 IP Address 反查域名</span><br><span class="line">hinfo: 查服务器的系统资源</span><br><span class="line">txt: Text如SPF讯息</span><br></pre></td></tr></table></figure>
+
+<h4 id="分段指令"><a href="#分段指令" class="headerlink" title="分段指令"></a>分段指令</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">nslookup -type=[Type] [NameServer]</span><br><span class="line">set q=[Type]</span><br><span class="line">[NameServer]</span><br></pre></td></tr></table></figure>
+<h4 id="扫描所有DNS-Zone-file"><a href="#扫描所有DNS-Zone-file" class="headerlink" title="扫描所有DNS Zone file"></a>扫描所有DNS Zone file</h4><p><strong>Linux:</strong></p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">dig @nameserver example.com axfr</span><br></pre></td></tr></table></figure>
+<p><strong>Windows:</strong></p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">nslookup</span><br><span class="line">server nameserver</span><br><span class="line">ls -d example.com</span><br></pre></td></tr></table></figure>
+<p>DNS Server一般会都关闭此查询权限…</p>
+]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>Nslookup</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>某宝花钱买的电脑单机游戏集合700+</title>
+    <url>/22718.html</url>
+    <content><![CDATA[<p>网友某宝花钱买的电脑单机游戏集合，一共700+款，附带游戏修改器、作弊、优惠代码等等信息，还有赠品，整理成了一个excel文档，游戏存放在百度网盘，感兴趣的可以前往学习。</p>
+<p><img src="https://c5a6b8d.webp.li/2024/09/single-player-games.png"></p>
+<p><strong>下载地址</strong></p>
+<p>百度网盘： <a href="https://pan.baidu.com/s/1ZlZXF5MfeUZplRMq4fqsLQ?pwd=fzwh">https://pan.baidu.com/s/1ZlZXF5MfeUZplRMq4fqsLQ?pwd=fzwh</a> 提取码: fzwh </p>
+<p>阿里云盘：<a href="https://www.alipan.com/s/QaLh9PzqpnV">https://www.alipan.com/s/QaLh9PzqpnV</a></p>
+]]></content>
+      <categories>
+        <category>Windows</category>
+      </categories>
+      <tags>
+        <tag>games</tag>
+        <tag>windows</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>软路由上安装esxi</title>
+    <url>/57580.html</url>
+    <content><![CDATA[<p>最近一直都在找路由器上适配的openWt固件，但是一直找不到。油管上无意间发现现在大家玩的都是软路由，所以现在路由器固件的适配工作明显减少。经过几个月的煎熬，最后还是没有忍住，入手了软路由，那就让我们从软路由的系统着手吧！</p>
+<span id="more"></span>
+<h5 id="下载VMware"><a href="#下载VMware" class="headerlink" title="下载VMware"></a>下载VMware</h5><ul>
+<li><p>注册账号后进行产品评估，评估完成后即可下载</p>
+</li>
+<li><p><a href="https://my.vmware.com/cn/web/vmware/info/slug/datacenter_cloud_infrastructure/vmware_vsphere/7_0">下载地址：点击跳转到官网下载</a></p>
+</li>
+</ul>
+<h5 id="制作U盘启动工具"><a href="#制作U盘启动工具" class="headerlink" title="制作U盘启动工具"></a>制作U盘启动工具</h5><ul>
+<li><a href="https://www.laomaotao.net/">下载完成版老毛桃U盘启动工具</a></li>
+<li>插上U盘，解压缩下载文件，运行exe即可</li>
+</ul>
+<h5 id="安装ESXI系统流程"><a href="#安装ESXI系统流程" class="headerlink" title="安装ESXI系统流程"></a>安装ESXI系统流程</h5><ol>
+<li>在U盘根目录新建文件夹MyExt，将下载的VMware镜像放入到该文件夹下；或直接将镜像放到LMT文件夹下也可以</li>
+<li>软路由接好键鼠，显示器，插上刚刚制作好的U盘，加电开机，以U盘引导的方式启动进入老毛桃工具</li>
+<li>选择【05 DiskGenius 硬盘分区工具】，选择软路由上的硬盘，右键选择删除硬盘所有分区，保存并应用更改</li>
+<li>重启软路由，还是以U盘的方式进入引导进入老毛桃工具，选择【10 运行自定义镜像】，进入后选择放入到U盘的Esxi镜像，回车启动。</li>
+<li>F11同意协议进入系统，选择将系统安装到哪个盘。安装完成后重启完成</li>
+</ol>
+<h5 id="设置ESXI（F2进入设置界面）"><a href="#设置ESXI（F2进入设置界面）" class="headerlink" title="设置ESXI（F2进入设置界面）"></a>设置ESXI（F2进入设置界面）</h5><ul>
+<li><p>设置ESXI的密码为空</p>
+<p>Reset System Configuration（重置系统设置）</p>
+</li>
+<li><p>配置ESXI后台地址及网关</p>
+<p>选择 Configure Management Network—&gt; IPv4 configuration—-&gt;Set static IPv4 address and…..设置好对应的IP</p>
+</li>
+<li><p>排查ESXI的管理口是否配置正确</p>
+<p>选择 Configure Management Network—&gt; Network Adapters 设置所有的端口都为管理口</p>
+</li>
+<li><p>开启SSH\SHELL等功能</p>
+<p>选择 Configure Management Network—&gt;Iroubleshootimg options—&gt;Disable SSH—&gt;Enabled</p>
+</li>
+<li><p>如何将网卡驱东写入ESXI安装包</p>
+</li>
+</ul>
+<h5 id="填入密钥注册ESXI"><a href="#填入密钥注册ESXI" class="headerlink" title="填入密钥注册ESXI"></a>填入密钥注册ESXI</h5><h5 id="有多快硬盘可以新建数据存储"><a href="#有多快硬盘可以新建数据存储" class="headerlink" title="有多快硬盘可以新建数据存储"></a>有多快硬盘可以新建数据存储</h5><h5 id="让虚拟机自动启动"><a href="#让虚拟机自动启动" class="headerlink" title="让虚拟机自动启动"></a>让虚拟机自动启动</h5><ul>
+<li>虚拟机右键设置可自动启动，ESXI里的 管理—也设置成自动启动</li>
+</ul>
+<h3 id="ESXI设置"><a href="#ESXI设置" class="headerlink" title="ESXI设置"></a>ESXI设置</h3><h5 id="网路设置"><a href="#网路设置" class="headerlink" title="网路设置"></a>网路设置</h5><ul>
+<li><p>编辑默认的网络，右键编辑—&gt;安全混杂模式—&gt;接受</p>
+</li>
+<li><p>添加其他5个虚拟交换机，上行线路不用管【选择对应的】，安全全部接口</p>
+</li>
+<li><p>添加端口组，选择对应的虚拟交换机</p>
+</li>
+<li><p>上传固件</p>
+</li>
+<li><p>选择数据存储，数据存储浏览—&gt;新建文件夹分别存放固件</p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>routing</category>
+      </categories>
+      <tags>
+        <tag>软路由</tag>
+        <tag>esxi</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>这六款神级软件！ 绝对让你相见恨晚，免费开源</title>
     <url>/46815.html</url>
     <content><![CDATA[<h2 id="Umi-OCR"><a href="#Umi-OCR" class="headerlink" title="Umi-OCR"></a>Umi-OCR</h2><ul>
@@ -411,6 +411,60 @@
 <p><strong>下载方式：</strong></p>
 <p>官方下载：<a href="https://tools.pdf24.org/zh/">https://tools.pdf24.org/zh/</a></p>
 <p>网盘下载：<a href="https://www.alipan.com/s/YuPQdwDNAPC">https://www.alipan.com/s/YuPQdwDNAPC</a></p>
+]]></content>
+      <categories>
+        <category>Windows</category>
+        <category>软件</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Windows电脑装机必备，精选7个神仙级软件工具</title>
+    <url>/45555.html</url>
+    <content><![CDATA[<h3 id="qBittorrent"><a href="#qBittorrent" class="headerlink" title="qBittorrent"></a>qBittorrent</h3><p>qBittorrent 是一个用 C++ &#x2F; Qt 编写的 bittorrent 客户端，它使用 Arvid Norberg 的 libtorrent（有时称为 libtorrent-rasterbar）。</p>
+<p>它旨在成为所有其他 bittorrent 客户端的良好替代品。qBittorrent 速度快、稳定，并提供 unicode 支持以及许多功能。</p>
+<p><a href="https://db-ip.com/">DB-IP</a>提供的免费<a href="https://db-ip.com/db/download/ip-to-country-lite">IP 到 Country Lite 数据库</a>用于解析同行的国家&#x2F;地区。该数据库根据<a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>获得许可。</p>
+<p><img src="https://c5a6b8d.webp.li/2024/09/SCR-20240916-pddf.png"></p>
+<p><strong>下载方式：</strong></p>
+<p>GitHub： <a href="https://github.com/c0re100/qBittorrent-Enhanced-Edition">https://github.com/c0re100/qBittorrent-Enhanced-Edition</a></p>
+<p>百度网盘：<a href="https://pan.baidu.com/s/1VYp2ZC52bFhSTf104UndbQ?pwd=8njw">https://pan.baidu.com/s/1VYp2ZC52bFhSTf104UndbQ?pwd=8njw</a><br>提取码：8njw </p>
+<h3 id="File-Converter"><a href="#File-Converter" class="headerlink" title="File Converter"></a>File Converter</h3><p><strong>Zamzar 的文件转换器</strong>是一款简单的工具，它允许您使用文件资源管理器中的上下文菜单转换文件。它支持 100 种不同的格式，包括文档、图像、音频、视频等。而且，您可以<strong>免费</strong>下载和转换前 25 个文件！</p>
+<p><img src="https://c5a6b8d.webp.li/2024/09/file-converter-usage-mac.gif"></p>
+<p><strong>下载方式：</strong></p>
+<p>官网：  <a href="https://file-converter.org/">https://file-converter.org/</a></p>
+<p>百度网盘：<a href="https://pan.baidu.com/s/1VYp2ZC52bFhSTf104UndbQ?pwd=8njw">https://pan.baidu.com/s/1VYp2ZC52bFhSTf104UndbQ?pwd=8njw</a><br>提取码：8njw </p>
+<h3 id="Kcleaner"><a href="#Kcleaner" class="headerlink" title="Kcleaner"></a>Kcleaner</h3><p>谁未曾在Windows系统中看见过关于 <em>磁盘空间</em> 的临时通知？文件信息不断增加，占用了越来越多的硬盘空间，还有不少其它程序占用了我们那少的可怜的硬盘空间。</p>
+<p><strong>KCleaner</strong>是一款免费的Windows软件，它允许你最大限度的释放硬盘空间。程序通过删除其它程序生成临时文件为你节省更多空间。</p>
+<p>使用KCleaner清除的文件可能是浏览器缓存、Windows临时文件、存储在电脑中的cookies或“回收站”中的临时文件。</p>
+<p>因此，有了KCleaner，你永远都能获取更多空间，以防紧急情况。</p>
+<p><img src="https://c5a6b8d.webp.li/2024/09/SCR-20240916-qflj.png"></p>
+<p><strong>下载方式：</strong></p>
+<p>百度网盘：<a href="https://pan.baidu.com/s/1VYp2ZC52bFhSTf104UndbQ?pwd=8njw">https://pan.baidu.com/s/1VYp2ZC52bFhSTf104UndbQ?pwd=8njw</a><br>提取码：8njw </p>
+<h3 id="dism"><a href="#dism" class="headerlink" title="dism++"></a>dism++</h3><p>DISM++，是一款轻量级的系统优化工具。我们常使使用它来修复系统，添加或者备份驱动。</p>
+<p><img src="https://c5a6b8d.webp.li/2024/09/SCR-20240916-qlhs.png"></p>
+<p><strong>下载方式：</strong></p>
+<p>GitHub：<a href="https://github.com/Chuyu-Team/Dism-Multi-language">https://github.com/Chuyu-Team/Dism-Multi-language</a></p>
+<p>百度网盘：<a href="https://pan.baidu.com/s/1VYp2ZC52bFhSTf104UndbQ?pwd=8njw">https://pan.baidu.com/s/1VYp2ZC52bFhSTf104UndbQ?pwd=8njw</a><br>提取码：8njw </p>
+<h3 id="hwinfo"><a href="#hwinfo" class="headerlink" title="hwinfo"></a>hwinfo</h3><p>专业系统信息和诊断，针对 Windows 和 DOS 的全面硬件分析、监控和报告。</p>
+<p>从快速概览开始深入介绍所有硬件组件。始终保持最新状态，支持最新技术和标准。</p>
+<p>准确监控所有系统组件的实际状态和故障预测。可定制的界面，具有多种选项。优化以降低开销。</p>
+<p>多种类型的报告、状态记录以及与其他工具或附加组件的交互。</p>
+<p><img src="https://c5a6b8d.webp.li/2024/09/SCR-20240916-qvhd.png"></p>
+<p><strong>下载方式：</strong></p>
+<p>官网：<a href="https://hwinfo.com/">https://hwinfo.com</a></p>
+<p>百度网盘：<a href="https://pan.baidu.com/s/1VYp2ZC52bFhSTf104UndbQ?pwd=8njw">https://pan.baidu.com/s/1VYp2ZC52bFhSTf104UndbQ?pwd=8njw</a><br>提取码：8njw </p>
+<h3 id="Pshutdown"><a href="#Pshutdown" class="headerlink" title="Pshutdown"></a>Pshutdown</h3><p>是一个轻量级但是功能强大的电脑开关机管理工具。可定时实现，关机、重启、注销、运行程序、运行报警，关掉显示器或显示一条消息。</p>
+<p><img src="https://c5a6b8d.webp.li/2024/09/SCR-20240916-qvly.png"></p>
+<p><strong>下载方式：</strong></p>
+<p>谷歌：<a href="https://code.google.com/archive/p/pshutdown/downloads">https://code.google.com/archive/p/pshutdown/downloads</a></p>
+<p>百度网盘：<a href="https://pan.baidu.com/s/1VYp2ZC52bFhSTf104UndbQ?pwd=8njw">https://pan.baidu.com/s/1VYp2ZC52bFhSTf104UndbQ?pwd=8njw</a><br>提取码：8njw </p>
+<h3 id="geek-uninstaller"><a href="#geek-uninstaller" class="headerlink" title="geek uninstaller"></a>geek uninstaller</h3><p>能够帮助我们卸载电脑上的程序，并且清理其在注册表留下的信心，从而做到彻底卸载。免费版已经足够使用！</p>
+<p><img src="https://c5a6b8d.webp.li/2024/09/SCR-20240916-rbou.png"></p>
+<p><strong>下载方式：</strong></p>
+<p>官网：<a href="https://geekuninstaller.com/">https://geekuninstaller.com/</a></p>
+<p>百度网盘：<a href="https://pan.baidu.com/s/1VYp2ZC52bFhSTf104UndbQ?pwd=8njw">https://pan.baidu.com/s/1VYp2ZC52bFhSTf104UndbQ?pwd=8njw</a><br>提取码：8njw </p>
 ]]></content>
       <categories>
         <category>Windows</category>
@@ -527,60 +581,6 @@
       <tags>
         <tag>Windows</tag>
         <tag>经典菜单</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Windows电脑装机必备，精选7个神仙级软件工具</title>
-    <url>/45555.html</url>
-    <content><![CDATA[<h3 id="qBittorrent"><a href="#qBittorrent" class="headerlink" title="qBittorrent"></a>qBittorrent</h3><p>qBittorrent 是一个用 C++ &#x2F; Qt 编写的 bittorrent 客户端，它使用 Arvid Norberg 的 libtorrent（有时称为 libtorrent-rasterbar）。</p>
-<p>它旨在成为所有其他 bittorrent 客户端的良好替代品。qBittorrent 速度快、稳定，并提供 unicode 支持以及许多功能。</p>
-<p><a href="https://db-ip.com/">DB-IP</a>提供的免费<a href="https://db-ip.com/db/download/ip-to-country-lite">IP 到 Country Lite 数据库</a>用于解析同行的国家&#x2F;地区。该数据库根据<a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>获得许可。</p>
-<p><img src="https://c5a6b8d.webp.li/2024/09/SCR-20240916-pddf.png"></p>
-<p><strong>下载方式：</strong></p>
-<p>GitHub： <a href="https://github.com/c0re100/qBittorrent-Enhanced-Edition">https://github.com/c0re100/qBittorrent-Enhanced-Edition</a></p>
-<p>百度网盘：<a href="https://pan.baidu.com/s/1VYp2ZC52bFhSTf104UndbQ?pwd=8njw">https://pan.baidu.com/s/1VYp2ZC52bFhSTf104UndbQ?pwd=8njw</a><br>提取码：8njw </p>
-<h3 id="File-Converter"><a href="#File-Converter" class="headerlink" title="File Converter"></a>File Converter</h3><p><strong>Zamzar 的文件转换器</strong>是一款简单的工具，它允许您使用文件资源管理器中的上下文菜单转换文件。它支持 100 种不同的格式，包括文档、图像、音频、视频等。而且，您可以<strong>免费</strong>下载和转换前 25 个文件！</p>
-<p><img src="https://c5a6b8d.webp.li/2024/09/file-converter-usage-mac.gif"></p>
-<p><strong>下载方式：</strong></p>
-<p>官网：  <a href="https://file-converter.org/">https://file-converter.org/</a></p>
-<p>百度网盘：<a href="https://pan.baidu.com/s/1VYp2ZC52bFhSTf104UndbQ?pwd=8njw">https://pan.baidu.com/s/1VYp2ZC52bFhSTf104UndbQ?pwd=8njw</a><br>提取码：8njw </p>
-<h3 id="Kcleaner"><a href="#Kcleaner" class="headerlink" title="Kcleaner"></a>Kcleaner</h3><p>谁未曾在Windows系统中看见过关于 <em>磁盘空间</em> 的临时通知？文件信息不断增加，占用了越来越多的硬盘空间，还有不少其它程序占用了我们那少的可怜的硬盘空间。</p>
-<p><strong>KCleaner</strong>是一款免费的Windows软件，它允许你最大限度的释放硬盘空间。程序通过删除其它程序生成临时文件为你节省更多空间。</p>
-<p>使用KCleaner清除的文件可能是浏览器缓存、Windows临时文件、存储在电脑中的cookies或“回收站”中的临时文件。</p>
-<p>因此，有了KCleaner，你永远都能获取更多空间，以防紧急情况。</p>
-<p><img src="https://c5a6b8d.webp.li/2024/09/SCR-20240916-qflj.png"></p>
-<p><strong>下载方式：</strong></p>
-<p>百度网盘：<a href="https://pan.baidu.com/s/1VYp2ZC52bFhSTf104UndbQ?pwd=8njw">https://pan.baidu.com/s/1VYp2ZC52bFhSTf104UndbQ?pwd=8njw</a><br>提取码：8njw </p>
-<h3 id="dism"><a href="#dism" class="headerlink" title="dism++"></a>dism++</h3><p>DISM++，是一款轻量级的系统优化工具。我们常使使用它来修复系统，添加或者备份驱动。</p>
-<p><img src="https://c5a6b8d.webp.li/2024/09/SCR-20240916-qlhs.png"></p>
-<p><strong>下载方式：</strong></p>
-<p>GitHub：<a href="https://github.com/Chuyu-Team/Dism-Multi-language">https://github.com/Chuyu-Team/Dism-Multi-language</a></p>
-<p>百度网盘：<a href="https://pan.baidu.com/s/1VYp2ZC52bFhSTf104UndbQ?pwd=8njw">https://pan.baidu.com/s/1VYp2ZC52bFhSTf104UndbQ?pwd=8njw</a><br>提取码：8njw </p>
-<h3 id="hwinfo"><a href="#hwinfo" class="headerlink" title="hwinfo"></a>hwinfo</h3><p>专业系统信息和诊断，针对 Windows 和 DOS 的全面硬件分析、监控和报告。</p>
-<p>从快速概览开始深入介绍所有硬件组件。始终保持最新状态，支持最新技术和标准。</p>
-<p>准确监控所有系统组件的实际状态和故障预测。可定制的界面，具有多种选项。优化以降低开销。</p>
-<p>多种类型的报告、状态记录以及与其他工具或附加组件的交互。</p>
-<p><img src="https://c5a6b8d.webp.li/2024/09/SCR-20240916-qvhd.png"></p>
-<p><strong>下载方式：</strong></p>
-<p>官网：<a href="https://hwinfo.com/">https://hwinfo.com</a></p>
-<p>百度网盘：<a href="https://pan.baidu.com/s/1VYp2ZC52bFhSTf104UndbQ?pwd=8njw">https://pan.baidu.com/s/1VYp2ZC52bFhSTf104UndbQ?pwd=8njw</a><br>提取码：8njw </p>
-<h3 id="Pshutdown"><a href="#Pshutdown" class="headerlink" title="Pshutdown"></a>Pshutdown</h3><p>是一个轻量级但是功能强大的电脑开关机管理工具。可定时实现，关机、重启、注销、运行程序、运行报警，关掉显示器或显示一条消息。</p>
-<p><img src="https://c5a6b8d.webp.li/2024/09/SCR-20240916-qvly.png"></p>
-<p><strong>下载方式：</strong></p>
-<p>谷歌：<a href="https://code.google.com/archive/p/pshutdown/downloads">https://code.google.com/archive/p/pshutdown/downloads</a></p>
-<p>百度网盘：<a href="https://pan.baidu.com/s/1VYp2ZC52bFhSTf104UndbQ?pwd=8njw">https://pan.baidu.com/s/1VYp2ZC52bFhSTf104UndbQ?pwd=8njw</a><br>提取码：8njw </p>
-<h3 id="geek-uninstaller"><a href="#geek-uninstaller" class="headerlink" title="geek uninstaller"></a>geek uninstaller</h3><p>能够帮助我们卸载电脑上的程序，并且清理其在注册表留下的信心，从而做到彻底卸载。免费版已经足够使用！</p>
-<p><img src="https://c5a6b8d.webp.li/2024/09/SCR-20240916-rbou.png"></p>
-<p><strong>下载方式：</strong></p>
-<p>官网：<a href="https://geekuninstaller.com/">https://geekuninstaller.com/</a></p>
-<p>百度网盘：<a href="https://pan.baidu.com/s/1VYp2ZC52bFhSTf104UndbQ?pwd=8njw">https://pan.baidu.com/s/1VYp2ZC52bFhSTf104UndbQ?pwd=8njw</a><br>提取码：8njw </p>
-]]></content>
-      <categories>
-        <category>Windows</category>
-        <category>软件</category>
-      </categories>
-      <tags>
-        <tag>Windows</tag>
       </tags>
   </entry>
   <entry>
@@ -733,6 +733,25 @@
       </categories>
       <tags>
         <tag>wrk</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>几组拉伸动作没事可以练练</title>
+    <url>/33831.html</url>
+    <content><![CDATA[<p><strong>拉伸动作</strong>是指通过适度的拉伸和伸展肌肉，帮助身体提高柔韧性、放松肌肉和缓解紧张感的动作。常见的拉伸动作包括：</p>
+<ol>
+<li><strong>肩颈拉伸</strong>：通过头部轻轻向侧面弯曲，放松肩颈肌肉，缓解久坐带来的压力。</li>
+<li><strong>腿部拉伸</strong>：伸展腿后肌群，帮助改善灵活性。</li>
+<li><strong>猫式伸展</strong>：从瑜伽中常见的一种动作，有助于舒缓背部压力。</li>
+</ol>
+<p>适度的拉伸可以增强柔韧性，改善体态，缓解肌肉疲劳，适合日常运动前后使用。</p>
+<p><img src="https://c5a6b8d.webp.li/2024/10/IMG_0449.JPG"><br><img src="https://c5a6b8d.webp.li/2024/10/IMG_0448.JPG"><br><img src="https://c5a6b8d.webp.li/2024/10/IMG_0447.JPG"><br><img src="https://c5a6b8d.webp.li/2024/10/IMG_0446.JPG"></p>
+]]></content>
+      <categories>
+        <category>sports</category>
+      </categories>
+      <tags>
+        <tag>yoga</tag>
       </tags>
   </entry>
   <entry>
