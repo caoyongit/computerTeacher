@@ -223,6 +223,13 @@
   </url>
   
   <url>
+    <loc>https://www.dnjs.xyz/tags/Nslookup/</loc>
+    <lastmod>2024-10-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.dnjs.xyz/tags/windows/</loc>
     <lastmod>2024-10-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -231,13 +238,6 @@
   
   <url>
     <loc>https://www.dnjs.xyz/tags/office/</loc>
-    <lastmod>2024-10-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.dnjs.xyz/tags/Nslookup/</loc>
     <lastmod>2024-10-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -351,14 +351,14 @@
   </url>
   
   <url>
-    <loc>https://www.dnjs.xyz/categories/Windows/</loc>
+    <loc>https://www.dnjs.xyz/categories/Linux/</loc>
     <lastmod>2024-10-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.dnjs.xyz/categories/Linux/</loc>
+    <loc>https://www.dnjs.xyz/categories/Windows/</loc>
     <lastmod>2024-10-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -379,13 +379,6 @@
   </url>
   
   <url>
-    <loc>https://www.dnjs.xyz/categories/%E8%BD%AF%E4%BB%B6/</loc>
-    <lastmod>2024-10-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.dnjs.xyz/categories/%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/</loc>
     <lastmod>2024-10-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -394,6 +387,13 @@
   
   <url>
     <loc>https://www.dnjs.xyz/categories/sports/</loc>
+    <lastmod>2024-10-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.dnjs.xyz/categories/%E8%BD%AF%E4%BB%B6/</loc>
     <lastmod>2024-10-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
