@@ -246,6 +246,43 @@
       </tags>
   </entry>
   <entry>
+    <title>正版Office全家桶永久免费使用！完全通过官方下载，放心使用</title>
+    <url>/35656.html</url>
+    <content><![CDATA[<p><img src="https://c5a6b8d.webp.li/2024/10/microsof-office.png" alt="microsoft-office"></p>
+<p><strong>1.office 软件部署工具：<a href="https://www.microsoft.com/en-us/download/details.aspx?id=49117">https://www.microsoft.com/en-us/download/details.aspx?id=49117</a></strong></p>
+<p><strong>2.office 版本自定义工具：<a href="https://config.office.com/deploymentsettings">https://config.office.com/deploymentsettings</a></strong></p>
+<p><strong>3.基于KMS的 GVLK：<a href="https://learn.microsoft.com/zh-cn/deployoffice/vlactivation/gvlks">https://learn.microsoft.com/zh-cn/deployoffice/vlactivation/gvlks</a></strong></p>
+<p>然后以管理员身份运行CMD 进入命令终端</p>
+<p><font color=#FF000 >命令终端打开后一般目录是在C盘，比如 C:\Windows\System32&gt;   ，但当你新建的目录未在C盘，当你输入完cd ……命令后，还要再加一个盘符命令才能切换到其他盘，比如我在D盘新建了一个文件夹，我的目录结构是这样的  D:\Downloads\office，那样这样操作：</font></p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">cd D:\Downloads\office</span><br><span class="line"></span><br><span class="line">D:</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p><font color=#FF000 >注意，这样不会将Office安装到你选择的目录，Office还是会安装在C盘，安装时并且无法改变安装位置。</font></p>
+<p><strong>下载命令：</strong></p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">setup /download config.xml</span><br></pre></td></tr></table></figure>
+
+<p><strong>安装命令:</strong></p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">setup /configure config.xml</span><br></pre></td></tr></table></figure>
+
+<p><strong>最后激活命令:</strong></p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd C:\Program Files\Microsoft Office\Office16</span><br><span class="line"></span><br><span class="line">cscript ospp.vbs /sethst:kms.03k.org </span><br><span class="line"></span><br><span class="line">cscript ospp.vbs /act</span><br></pre></td></tr></table></figure>
+
+<p>注意：如果你安装的是32位版本，那么启动命令第一个要改成：cd C:\Program Files (x86)\Microsoft Office\Office16 </p>
+<p><strong>安装工具下载：</strong></p>
+<p>无需输入复杂的命令，下载此工具后双击exe即可安装，安装完成后激活即可。<strong>无法选择安装目录，默认安装在C盘。</strong></p>
+<p>夸克网盘：<a href="https://pan.quark.cn/s/51f7a8183f05">https://pan.quark.cn/s/51f7a8183f05</a></p>
+<p>阿里云盘：<a href="https://www.alipan.com/s/5wQyxgviVHW">https://www.alipan.com/s/5wQyxgviVHW</a>   需要下载整个文件夹</p>
+<p>百度网盘：<a href="https://pan.baidu.com/s/1o8VZvPT7uKZvEIdcDjYF8w?pwd=pd5x">https://pan.baidu.com/s/1o8VZvPT7uKZvEIdcDjYF8w?pwd=pd5x</a> 提取码: pd5x</p>
+<p><img src="https://c5a6b8d.webp.li/2024/10/officeinstall.png" alt="officeinstall"></p>
+]]></content>
+      <categories>
+        <category>Windows</category>
+      </categories>
+      <tags>
+        <tag>windows</tag>
+        <tag>office</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Nslookup 查询DNS, TXT – nslookup指令集</title>
     <url>/46768.html</url>
     <content><![CDATA[<h4 id="基本指令"><a href="#基本指令" class="headerlink" title="基本指令"></a>基本指令</h4><p>nslookup [-option] [name | -] [server]<br>nslookup -type&#x3D;any domain.com<br>nslookup -type&#x3D;any domain.com 8.8.8.8<br><strong>type参数</strong></p>
@@ -263,33 +300,6 @@
       </categories>
       <tags>
         <tag>Nslookup</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>正版Office全家桶永久免费使用！完全通过官方下载，放心使用</title>
-    <url>/35656.html</url>
-    <content><![CDATA[<p><img src="https://c5a6b8d.webp.li/2024/10/microsof-office.png" alt="microsoft-office"></p>
-<p><strong>1.office 软件部署工具：<a href="https://www.microsoft.com/en-us/download/details.aspx?id=49117">https://www.microsoft.com/en-us/download/details.aspx?id=49117</a></strong></p>
-<p><strong>2.office 版本自定义工具：<a href="https://config.office.com/deploymentsettings">https://config.office.com/deploymentsettings</a></strong></p>
-<p><strong>3.基于KMS的 GVLK：<a href="https://learn.microsoft.com/zh-cn/deployoffice/vlactivation/gvlks">https://learn.microsoft.com/zh-cn/deployoffice/vlactivation/gvlks</a></strong></p>
-<p>然后以管理员身份运行CMD 进入命令终端</p>
-<p><strong>下载命令：</strong></p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">setup /download config.xml</span><br></pre></td></tr></table></figure>
-
-<p><strong>安装命令:</strong></p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">setup /configure config.xml</span><br></pre></td></tr></table></figure>
-
-<p><strong>最后启动命令:</strong></p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd C:\Program Files\Microsoft Office\Office16</span><br><span class="line"></span><br><span class="line">cscript ospp.vbs /sethst:kms.03k.org </span><br><span class="line"></span><br><span class="line">cscript ospp.vbs /act</span><br></pre></td></tr></table></figure>
-
-<p>注意：如果你安装的是32位版本，那么启动命令第一个要改成：cd C:\Program Files (x86)\Microsoft Office\Office16 </p>
-]]></content>
-      <categories>
-        <category>Windows</category>
-      </categories>
-      <tags>
-        <tag>windows</tag>
-        <tag>office</tag>
       </tags>
   </entry>
   <entry>
