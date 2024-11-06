@@ -1,81 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>正版Office全家桶永久免费使用！完全通过官方下载，放心使用</title>
-    <url>/35656.html</url>
-    <content><![CDATA[<p><img src="https://c5a6b8d.webp.li/2024/10/microsof-office.png" alt="microsoft-office"></p>
-<p><strong>1.office 软件部署工具：<a href="https://www.microsoft.com/en-us/download/details.aspx?id=49117">https://www.microsoft.com/en-us/download/details.aspx?id=49117</a></strong></p>
-<p><strong>2.office 版本自定义工具：<a href="https://config.office.com/deploymentsettings">https://config.office.com/deploymentsettings</a></strong></p>
-<p><strong>3.基于KMS的 GVLK：<a href="https://learn.microsoft.com/zh-cn/deployoffice/vlactivation/gvlks">https://learn.microsoft.com/zh-cn/deployoffice/vlactivation/gvlks</a></strong></p>
-<p>然后以管理员身份运行CMD 进入命令终端</p>
-<p><font color=#FF000 >命令终端打开后一般目录是在C盘，比如 C:\Windows\System32&gt;   ，但当你新建的目录未在C盘，当你输入完cd ……命令后，还要再加一个盘符命令才能切换到其他盘，比如我在D盘新建了一个文件夹，我的目录结构是这样的  D:\Downloads\office，那样这样操作：</font></p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">cd D:\Downloads\office</span><br><span class="line"></span><br><span class="line">D:</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<p><font color=#FF000 >注意，这样不会将Office安装到你选择的目录，Office还是会安装在C盘，安装时并且无法改变安装位置。</font></p>
-<p><strong>下载命令：</strong></p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">setup /download config.xml</span><br></pre></td></tr></table></figure>
-
-<p><strong>安装命令:</strong></p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">setup /configure config.xml</span><br></pre></td></tr></table></figure>
-
-<p><strong>最后激活命令:</strong></p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd C:\Program Files\Microsoft Office\Office16</span><br><span class="line"></span><br><span class="line">cscript ospp.vbs /sethst:kms.03k.org </span><br><span class="line"></span><br><span class="line">cscript ospp.vbs /act</span><br></pre></td></tr></table></figure>
-
-<p>注意：如果你安装的是32位版本，那么启动命令第一个要改成：cd C:\Program Files (x86)\Microsoft Office\Office16 </p>
-<p><strong>安装工具下载：</strong></p>
-<p>无需输入复杂的命令，下载此工具后双击exe即可安装，安装完成后激活即可。<strong>无法选择安装目录，默认安装在C盘。</strong></p>
-<p>夸克网盘：<a href="https://pan.quark.cn/s/51f7a8183f05">https://pan.quark.cn/s/51f7a8183f05</a></p>
-<p>阿里云盘：<a href="https://www.alipan.com/s/5wQyxgviVHW">https://www.alipan.com/s/5wQyxgviVHW</a>   需要下载整个文件夹</p>
-<p>百度网盘：<a href="https://pan.baidu.com/s/1o8VZvPT7uKZvEIdcDjYF8w?pwd=pd5x">https://pan.baidu.com/s/1o8VZvPT7uKZvEIdcDjYF8w?pwd=pd5x</a> 提取码: pd5x</p>
-<p><img src="https://c5a6b8d.webp.li/2024/10/officeinstall.png" alt="officeinstall"></p>
-<p><strong>卸载工具下载：</strong></p>
-<p>官网地址：<a href="https://geekuninstaller.com/">https://geekuninstaller.com/</a>  下载免费版即可</p>
-<p><img src="https://c5a6b8d.webp.li/2024/10/geek-uninstaller.png"></p>
-]]></content>
-      <categories>
-        <category>Windows</category>
-      </categories>
-      <tags>
-        <tag>windows</tag>
-        <tag>office</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>macOS 重新安装GIT</title>
-    <url>/46365.html</url>
-    <content><![CDATA[<p>程序员有时候是一种很奇怪的生物，明明系统自带的东西很好用，而且也用的很好，但是就是想用自己统一配置的。比如mac系统默认自带的git想重新安装，用brew统一管理起来。</p>
-<h4 id="卸载系统自带的git"><a href="#卸载系统自带的git" class="headerlink" title="卸载系统自带的git"></a>卸载系统自带的git</h4><ul>
-<li><p>检查默认git在哪个目录</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">which git</span><br></pre></td></tr></table></figure>
-<p>可能会输出 &#x2F;usr&#x2F;bin&#x2F;git</p>
-</li>
-<li><p>删除git</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">sudo rm -rf /usr/bin/git/</span><br><span class="line">sudo rm /etc/paths.d/git</span><br><span class="line">sudo rm /etc/manpaths.d/git</span><br><span class="line">sudo pkgutil --forget --pkgs=GitOSX\.Installer\.git[A-Za-z0-9]*\.[a-z]*.pkg</span><br></pre></td></tr></table></figure></li>
-</ul>
-<h4 id="用Brew重新安装git"><a href="#用Brew重新安装git" class="headerlink" title="用Brew重新安装git"></a>用Brew重新安装git</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">brew uninstall git</span><br><span class="line">brew update</span><br><span class="line">brew install git</span><br></pre></td></tr></table></figure>
-<p>重新检查git安装目录</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">which git</span><br></pre></td></tr></table></figure>
-<p>现在你可以看到：&#x2F;usr&#x2F;local&#x2F;bin&#x2F;git</p>
-<h4 id="报错"><a href="#报错" class="headerlink" title="报错"></a>报错</h4><h5 id="报错信息一"><a href="#报错信息一" class="headerlink" title="报错信息一"></a>报错信息一</h5><p>Mac catalina无法删除 &#x2F;usr&#x2F;bin&#x2F; 下面的文件</p>
-<p>sudo rm -rf &#x2F;usr&#x2F;bin&#x2F;git&#x2F;:Operation not permitted</p>
-<p>发现是SIP的问题 具体可以见 Mac OS X 10.11+ Rootless 介绍</p>
-<blockquote><p>尝试关闭 Rootless。重启电脑一直按住 Command+R，直到进入恢复模式，打开Terminal。<br>输入 csrutil disable<br>重启即可。这样就关掉了Sip 如果要恢复默认，那么只要输入 csrutil enable</p>
-</blockquote>
-<h5 id="报错信息二"><a href="#报错信息二" class="headerlink" title="报错信息二"></a>报错信息二</h5><p>Read-only file system</p>
-<p>执行</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">sudo mount -uw /</span><br></pre></td></tr></table></figure>
-<p>再操作就可以了</p>
-<p>记得操作完把 sip重新打开</p>
-]]></content>
-      <categories>
-        <category>Linux</category>
-      </categories>
-      <tags>
-        <tag>git</tag>
-        <tag>Linux</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>2018年终总结</title>
     <url>/50205.html</url>
     <content><![CDATA[<h3 id="年度工作概述"><a href="#年度工作概述" class="headerlink" title="年度工作概述"></a>年度工作概述</h3><p>一年的时间，每当自己在总结它的时候，感觉是那么的短暂—弹指一挥间.而也就是在这一挥间，承载着太多太多，有收获与成就，有失败与不足.回头看看2017年的足迹，伴随着自己一年的是学习与坚持。</p>
@@ -341,6 +266,81 @@
       </tags>
   </entry>
   <entry>
+    <title>正版Office全家桶永久免费使用！完全通过官方下载，放心使用</title>
+    <url>/35656.html</url>
+    <content><![CDATA[<p><img src="https://c5a6b8d.webp.li/2024/10/microsof-office.png" alt="microsoft-office"></p>
+<p><strong>1.office 软件部署工具：<a href="https://www.microsoft.com/en-us/download/details.aspx?id=49117">https://www.microsoft.com/en-us/download/details.aspx?id=49117</a></strong></p>
+<p><strong>2.office 版本自定义工具：<a href="https://config.office.com/deploymentsettings">https://config.office.com/deploymentsettings</a></strong></p>
+<p><strong>3.基于KMS的 GVLK：<a href="https://learn.microsoft.com/zh-cn/deployoffice/vlactivation/gvlks">https://learn.microsoft.com/zh-cn/deployoffice/vlactivation/gvlks</a></strong></p>
+<p>然后以管理员身份运行CMD 进入命令终端</p>
+<p><font color=#FF000 >命令终端打开后一般目录是在C盘，比如 C:\Windows\System32&gt;   ，但当你新建的目录未在C盘，当你输入完cd ……命令后，还要再加一个盘符命令才能切换到其他盘，比如我在D盘新建了一个文件夹，我的目录结构是这样的  D:\Downloads\office，那样这样操作：</font></p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">cd D:\Downloads\office</span><br><span class="line"></span><br><span class="line">D:</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p><font color=#FF000 >注意，这样不会将Office安装到你选择的目录，Office还是会安装在C盘，安装时并且无法改变安装位置。</font></p>
+<p><strong>下载命令：</strong></p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">setup /download config.xml</span><br></pre></td></tr></table></figure>
+
+<p><strong>安装命令:</strong></p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">setup /configure config.xml</span><br></pre></td></tr></table></figure>
+
+<p><strong>最后激活命令:</strong></p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">cd C:\Program Files\Microsoft Office\Office16</span><br><span class="line"></span><br><span class="line">cscript ospp.vbs /sethst:kms.03k.org </span><br><span class="line"></span><br><span class="line">cscript ospp.vbs /act</span><br></pre></td></tr></table></figure>
+
+<p>注意：如果你安装的是32位版本，那么启动命令第一个要改成：cd C:\Program Files (x86)\Microsoft Office\Office16 </p>
+<p><strong>安装工具下载：</strong></p>
+<p>无需输入复杂的命令，下载此工具后双击exe即可安装，安装完成后激活即可。<strong>无法选择安装目录，默认安装在C盘。</strong></p>
+<p>夸克网盘：<a href="https://pan.quark.cn/s/51f7a8183f05">https://pan.quark.cn/s/51f7a8183f05</a></p>
+<p>阿里云盘：<a href="https://www.alipan.com/s/5wQyxgviVHW">https://www.alipan.com/s/5wQyxgviVHW</a>   需要下载整个文件夹</p>
+<p>百度网盘：<a href="https://pan.baidu.com/s/1o8VZvPT7uKZvEIdcDjYF8w?pwd=pd5x">https://pan.baidu.com/s/1o8VZvPT7uKZvEIdcDjYF8w?pwd=pd5x</a> 提取码: pd5x</p>
+<p><img src="https://c5a6b8d.webp.li/2024/10/officeinstall.png" alt="officeinstall"></p>
+<p><strong>卸载工具下载：</strong></p>
+<p>官网地址：<a href="https://geekuninstaller.com/">https://geekuninstaller.com/</a>  下载免费版即可</p>
+<p><img src="https://c5a6b8d.webp.li/2024/10/geek-uninstaller.png"></p>
+]]></content>
+      <categories>
+        <category>Windows</category>
+      </categories>
+      <tags>
+        <tag>windows</tag>
+        <tag>office</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>macOS 重新安装GIT</title>
+    <url>/46365.html</url>
+    <content><![CDATA[<p>程序员有时候是一种很奇怪的生物，明明系统自带的东西很好用，而且也用的很好，但是就是想用自己统一配置的。比如mac系统默认自带的git想重新安装，用brew统一管理起来。</p>
+<h4 id="卸载系统自带的git"><a href="#卸载系统自带的git" class="headerlink" title="卸载系统自带的git"></a>卸载系统自带的git</h4><ul>
+<li><p>检查默认git在哪个目录</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">which git</span><br></pre></td></tr></table></figure>
+<p>可能会输出 &#x2F;usr&#x2F;bin&#x2F;git</p>
+</li>
+<li><p>删除git</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">sudo rm -rf /usr/bin/git/</span><br><span class="line">sudo rm /etc/paths.d/git</span><br><span class="line">sudo rm /etc/manpaths.d/git</span><br><span class="line">sudo pkgutil --forget --pkgs=GitOSX\.Installer\.git[A-Za-z0-9]*\.[a-z]*.pkg</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h4 id="用Brew重新安装git"><a href="#用Brew重新安装git" class="headerlink" title="用Brew重新安装git"></a>用Brew重新安装git</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">brew uninstall git</span><br><span class="line">brew update</span><br><span class="line">brew install git</span><br></pre></td></tr></table></figure>
+<p>重新检查git安装目录</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">which git</span><br></pre></td></tr></table></figure>
+<p>现在你可以看到：&#x2F;usr&#x2F;local&#x2F;bin&#x2F;git</p>
+<h4 id="报错"><a href="#报错" class="headerlink" title="报错"></a>报错</h4><h5 id="报错信息一"><a href="#报错信息一" class="headerlink" title="报错信息一"></a>报错信息一</h5><p>Mac catalina无法删除 &#x2F;usr&#x2F;bin&#x2F; 下面的文件</p>
+<p>sudo rm -rf &#x2F;usr&#x2F;bin&#x2F;git&#x2F;:Operation not permitted</p>
+<p>发现是SIP的问题 具体可以见 Mac OS X 10.11+ Rootless 介绍</p>
+<blockquote><p>尝试关闭 Rootless。重启电脑一直按住 Command+R，直到进入恢复模式，打开Terminal。<br>输入 csrutil disable<br>重启即可。这样就关掉了Sip 如果要恢复默认，那么只要输入 csrutil enable</p>
+</blockquote>
+<h5 id="报错信息二"><a href="#报错信息二" class="headerlink" title="报错信息二"></a>报错信息二</h5><p>Read-only file system</p>
+<p>执行</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">sudo mount -uw /</span><br></pre></td></tr></table></figure>
+<p>再操作就可以了</p>
+<p>记得操作完把 sip重新打开</p>
+]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>某宝花钱买的电脑单机游戏集合700+</title>
     <url>/22718.html</url>
     <content><![CDATA[<p>网友某宝花钱买的电脑单机游戏集合，一共700+款，附带游戏修改器、作弊、优惠代码等等信息，还有赠品，整理成了一个excel文档，游戏存放在百度网盘，感兴趣的可以前往学习。</p>
@@ -420,54 +420,79 @@
       </tags>
   </entry>
   <entry>
-    <title>vagrant</title>
-    <url>/40780.html</url>
-    <content><![CDATA[<h3 id="起源"><a href="#起源" class="headerlink" title="起源"></a>起源</h3><p>久闻Vagrant大名，之前经常看到有开源项目使用它作为分布式开发的环境配置。</p>
-<p>因为今天在看contiv正好里面使用vagrant搭建的开发测试环境，所以顺便了解下。它的Vagrantfile文件中定义了三台主机。并安装了很多依赖软件，如consul、etcd、docker、go等，整的比较复杂。</p>
-<span id="more"></span>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">vagrant status</span><br><span class="line">Current machine states:</span><br><span class="line"></span><br><span class="line">netplugin-node1           running (virtualbox)</span><br><span class="line">netplugin-node2           running (virtualbox)</span><br><span class="line">netplugin-node3           running (virtualbox)</span><br><span class="line"></span><br><span class="line">This environment represents multiple VMs. The VMs are all listed</span><br><span class="line">above with their current state. For more information about a specific</span><br><span class="line">VM, run `vagrant status NAME`.</span><br></pre></td></tr></table></figure>
-
-<p>Vagrant是hashicorp这家公司的产品，这家公司主要做数据中心PAAS和虚拟化，其名下大名鼎鼎的产品有Consul、Vault、Nomad、Terraform。他们的产品都是基于Open Source的Github地址。</p>
-<h3 id="用途"><a href="#用途" class="headerlink" title="用途"></a>用途</h3><p>Vagrant是用来管理虚拟机的，如VirtualBox、VMware、AWS等，主要好处是可以提供一个可配置、可移植和复用的软件环境，可以使用shell、chef、puppet等工具部署。所以vagrant不能单独使用，如果你用它来管理自己的开发环境的话，必须在自己的电脑里安装了虚拟机软件，我使用的是virtualbox。</p>
-<p>Vagrant提供一个命令行工具vagrant，通过这个命令行工具可以直接启动一个虚拟机，当然你需要提前定义一个Vagrantfile文件，这有点类似Dockerfile之于docker了。</p>
-<p>跟docker类比这来看vagrant就比较好理解了，vagrant也是用来提供一致性环境的，vagrant本身也提供一个镜像源，使用vagrant init hashicorp&#x2F;precise64就可以初始化一个Ubuntu 12.04的镜像。</p>
-<h3 id="用法"><a href="#用法" class="headerlink" title="用法"></a>用法</h3><p>你可以下载安装文件来安装vagrant，也可以使用RubyGem安装，它是用Ruby开发的。</p>
-<h4 id="Vagrantfile"><a href="#Vagrantfile" class="headerlink" title="Vagrantfile"></a>Vagrantfile</h4><p>Vagrantfile是用来定义vagrant project的，使用ruby语法，不过你不必了解ruby就可以写一个Vagrantfile。</p>
-<p>看个例子，选自<a href="https://github.com/fenbox/Vagrantfile">https://github.com/fenbox/Vagrantfile</a><br><img src="https://s21.ax1x.com/2024/09/06/pAeS8Qf.png"><br><img src="https://s21.ax1x.com/2024/09/06/pAeS3SP.png"></p>
-<h4 id="Boxes"><a href="#Boxes" class="headerlink" title="Boxes"></a>Boxes</h4><p>Vagrant的基础镜像，相当于docker images。可以在这些基础镜像的基础上制作自己的虚拟机镜像。</p>
-<p>添加一个box</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">vagrant box add hashicorp/precise64</span></span><br></pre></td></tr></table></figure>
-<p>在Vagrantfile中指定box</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">Vagrant.configure(&quot;2&quot;) do |config|</span><br><span class="line">  config.vm.box = &quot;hashicorp/precise64&quot;</span><br><span class="line">  config.vm.box_version = &quot;1.1.0&quot;</span><br><span class="line">end</span><br></pre></td></tr></table></figure>
-
-<h4 id="使用ssh进入vagrant"><a href="#使用ssh进入vagrant" class="headerlink" title="使用ssh进入vagrant"></a>使用ssh进入vagrant</h4><p>vagrant up后就可以用vagrant ssh $name进入虚拟机内，如果主机上就一个vagrant可以不指定名字。默认进入的用户是vagrant。</p>
-<h4 id="文件同步"><a href="#文件同步" class="headerlink" title="文件同步"></a>文件同步</h4><p>vagrant up后在虚拟机中会有一个&#x2F;vagrant目录，这跟你定义Vagrantfile是同一级目录。</p>
-<p>这个目录跟你宿主机上的目录文件是同步的。</p>
-<h4 id="软件安装"><a href="#软件安装" class="headerlink" title="软件安装"></a>软件安装</h4><p>在Vagrantfile中定义要安装的软件和操作。</p>
-<p>例如安装apache</p>
-<p>在与Vagrantfile同级的目录下创建一个bootstrap.sh文件。</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_">#</span><span class="language-bash">!/usr/bin/env bash</span></span><br><span class="line"></span><br><span class="line">apt-get update</span><br><span class="line">apt-get install -y apache2</span><br><span class="line">if ! [ -L /var/www ]; then</span><br><span class="line">  rm -rf /var/www</span><br><span class="line">  ln -fs /vagrant /var/www</span><br><span class="line">fi</span><br></pre></td></tr></table></figure>
-<p>然后在Vagrantfile中使用它。</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">Vagrant.configure(&quot;2&quot;) do |config|</span><br><span class="line">  config.vm.box = &quot;hashicorp/precise64&quot;</span><br><span class="line">  config.vm.box_version = &quot;1.1.0&quot;</span><br><span class="line">end</span><br></pre></td></tr></table></figure>
-
-<h4 id="网络"><a href="#网络" class="headerlink" title="网络"></a>网络</h4><p>端口转发</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">Vagrant.configure(&quot;2&quot;) do |config|</span><br><span class="line">  config.vm.box = &quot;hashicorp/precise64&quot;</span><br><span class="line">  config.vm.provision :shell, path: &quot;bootstrap.sh&quot;</span><br><span class="line">  config.vm.network :forwarded_port, guest: 80, host: 4567</span><br><span class="line">end</span><br></pre></td></tr></table></figure>
-<p>执行vagrant reload或者vagrant up可以生效。</p>
-<h4 id="分享"><a href="#分享" class="headerlink" title="分享"></a>分享</h4><p>你自己做的vagrant是可以分享给别人的用的，只要你有一个hashicorp账号，vagrant login后就可以执行vagrant share分享，会生成一个URL，其它人也可以访问到你的vagrant里的服务。</p>
-<h4 id="中止"><a href="#中止" class="headerlink" title="中止"></a>中止</h4><p>vagrant suspend<br>Vagrant halt<br>Vagrant destroy<br>重构</p>
-<p>再次执行vagrant up即可。</p>
-<h3 id="分布式环境"><a href="#分布式环境" class="headerlink" title="分布式环境"></a>分布式环境</h3><p>开发分布式环境下的应用时往往需要多个虚拟机用于测试，这时候才是vagrant显威力的时候。</p>
-<h4 id="定义多个主机"><a href="#定义多个主机" class="headerlink" title="定义多个主机"></a>定义多个主机</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">Vagrant.configure(&quot;2&quot;) do |config|</span><br><span class="line">  config.vm.provision &quot;shell&quot;, inline: &quot;echo Hello&quot;</span><br><span class="line"></span><br><span class="line">  config.vm.define &quot;web&quot; do |web|</span><br><span class="line">    web.vm.box = &quot;apache&quot;</span><br><span class="line">  end</span><br><span class="line"></span><br><span class="line">  config.vm.define &quot;db&quot; do |db|</span><br><span class="line">    db.vm.box = &quot;mysql&quot;</span><br><span class="line">  end</span><br><span class="line">end</span><br></pre></td></tr></table></figure>
-
-<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>总的来说说Vagrant没有Docker好用，但是对于协同开发，用它来定义分布式开发环境还可以，ruby的语法看着有点不习惯，好在也不复杂，如果是团队几个人开发，弄几个虚拟机大家互相拷贝一下也没那么复杂吧？</p>
-<blockquote><p>本文摘自网络</p>
-<footer><strong>jimmysong</strong><cite><a href="https://jimmysong.io/blog/vagrant-intro/">Vagrant从使用到放弃再到掌握完全指南</a></cite></footer></blockquote>]]></content>
+    <title>这六款神级软件！ 绝对让你相见恨晚，免费开源</title>
+    <url>/46815.html</url>
+    <content><![CDATA[<h2 id="Umi-OCR"><a href="#Umi-OCR" class="headerlink" title="Umi-OCR"></a>Umi-OCR</h2><ul>
+<li><p><strong>免费</strong>：本项目所有代码开源，完全免费。</p>
+</li>
+<li><p><strong>方便</strong>：解压即用，离线运行，无需网络。</p>
+</li>
+<li><p><strong>高效</strong>：自带高效率的离线OCR引擎，内置多种语言识别库。</p>
+</li>
+<li><p><strong>灵活</strong>：支持命令行、HTTP接口等外部调用方式。</p>
+</li>
+<li><p><strong>功能</strong>：截图OCR &#x2F; 批量OCR &#x2F; PDF识别 &#x2F; 二维码 &#x2F; 公式识别<br><img src="https://c5a6b8d.webp.li/2024/09/umi-ocr2.png"><br><img src="https://c5a6b8d.webp.li/2024/09/umi-ocr1.png"></p>
+</li>
+<li><p><strong>下载方式</strong></p>
+<p>GitHub：  <a href="https://github.com/hiroi-sora/Umi-OCR/releases">https://github.com/hiroi-sora/Umi-OCR/releases</a></p>
+<p>网盘下载：<a href="https://www.alipan.com/s/YuPQdwDNAPC">https://www.alipan.com/s/YuPQdwDNAPC</a></p>
+</li>
+</ul>
+<h2 id="NDM"><a href="#NDM" class="headerlink" title="NDM"></a>NDM</h2><p>许多人可能会认为IDM是最出色的下载器，但若要挑选一个与之匹敌的，NDM无疑也是一个极佳的选择。</p>
+<p>NDM也支持最高32线程的下载，从而使得原本耗时1-2小时的下载任务，如今可能仅在十几分钟乃至几分钟内便能迅速完成。</p>
+<p><img src="https://c5a6b8d.webp.li/2024/09/ndm.png"></p>
+<p><strong>简洁的下载管理器</strong></p>
+<ul>
+<li>使用优化的动态分割算法。</li>
+<li>加快您的下载速度，直至达到您的总可用带宽。</li>
+<li>根据下载状态（完成、不完整）和文件类型（视频、文档等）组织您的下载</li>
+<li>支持 HTTP、HTTPS 和 FTP 协议。</li>
+<li>支持 HTTP 代理和 SOCKS 协议。</li>
+<li>支持 HTTP 身份验证和代理身份验证（Basic、Digest、NTLM）</li>
+<li>具有暂停&#x2F;恢复功能并可以恢复崩溃的下载。</li>
+<li>具有浏览器扩展功能，可以向其发送下载链接并帮助您从任何网站下载视频&#x2F;音频。</li>
+<li>即使下载正在进行中，您也可以设置下载的带宽限制。</li>
+<li>即使下载正在进行中，您也可以设置下载的最大连接数。</li>
+<li>可以下载 HLS 视频的所有 .ts 文件，并在最后将所有片段合并为一个 .ts 文件。</li>
+<li>可以续订过期的下载。</li>
+<li>通过拖放操作进行操作</li>
+</ul>
+<p><strong>NMD 下载方式：</strong></p>
+<p>官方下载： <a href="https://www.neatdownloadmanager.com/index.php/en/">https://www.neatdownloadmanager.com/index.php/en/</a></p>
+<p>网盘下载：  <a href="https://www.alipan.com/s/YuPQdwDNAPC">https://www.alipan.com/s/YuPQdwDNAPC</a></p>
+<h2 id="DiskGenius"><a href="#DiskGenius" class="headerlink" title="DiskGenius"></a>DiskGenius</h2><p>专业的数据恢复和分区管理软件，各种文件恢复和分区问题都可以解决。这个软件更适合专业搞机用户使用，小白可以用分区助手，更好上手。</p>
+<p><img src="https://c5a6b8d.webp.li/2024/09/DiskGenius.png"></p>
+<p><strong>DiskGenius下载：</strong></p>
+<p>官方下载：<a href="https://www.diskgenius.com/">https://www.diskgenius.com/</a></p>
+<h2 id="HandBrake"><a href="#HandBrake" class="headerlink" title="HandBrake"></a>HandBrake</h2><p>HandBrake 是一个由志愿者构建的开源工具，用于将几乎任何格式的视频转换为多种现代且广泛支持的编解码器。</p>
+<p><img src="https://c5a6b8d.webp.li/2024/09/HandBrake.png"></p>
+<p><strong>您会喜欢 HandBrake 的原因：</strong></p>
+<ul>
+<li>转换几乎任何格式的视频</li>
+<li>免费且开源</li>
+<li>多平台（Windows、Mac 和 Linux）</li>
+</ul>
+<p><strong>下载方式：</strong></p>
+<p>1、官方下载：<a href="https://handbrake.fr/">https://handbrake.fr/</a></p>
+<p>2、网盘下载：<a href="https://www.alipan.com/s/YuPQdwDNAPC">https://www.alipan.com/s/YuPQdwDNAPC</a></p>
+<h2 id="Powertoys"><a href="#Powertoys" class="headerlink" title="Powertoys"></a>Powertoys</h2><p><strong>Microsoft PowerToys</strong>是一组免费的系统工具软件，由微软为Windows操作系统上的系统管理员设计。这些程序为系统加入或变更了一些功能，并加入更多自定义选项以提高生产力。PowerToys可用于Windows 95、Windows XP、Windows 10和Windows11。Windows 10版PowerToys为自由及开放源代码软件，并使用MIT授权条款托管于GitHub。</p>
+<p><img src="https://c5a6b8d.webp.li/2024/09/power-toys.png"></p>
+<p><strong>下载方式：</strong></p>
+<p>1、微软应用商店下载：<a href="https://apps.microsoft.com/store/detail/microsoft-powertoys/XP89DCGQ3K6VLD">https://apps.microsoft.com/store/detail/microsoft-powertoys/XP89DCGQ3K6VLD</a></p>
+<p>2、Github开源项目：<a href="https://github.com/microsoft/PowerToys">https://github.com/microsoft/PowerToys</a></p>
+<p>3、网盘打包下载：<a href="https://www.alipan.com/s/YuPQdwDNAPC">https://www.alipan.com/s/YuPQdwDNAPC</a></p>
+<h2 id="pdf-24"><a href="#pdf-24" class="headerlink" title="pdf-24"></a>pdf-24</h2><p>一个非常好用的 PDF 处理工具，共 27 个工具，完全免费、无广告，没有任何套路，而且支持离线使用。</p>
+<p><img src="https://c5a6b8d.webp.li/2024/09/pdf-24.png"></p>
+<p><strong>下载方式：</strong></p>
+<p>官方下载：<a href="https://tools.pdf24.org/zh/">https://tools.pdf24.org/zh/</a></p>
+<p>网盘下载：<a href="https://www.alipan.com/s/YuPQdwDNAPC">https://www.alipan.com/s/YuPQdwDNAPC</a></p>
+]]></content>
       <categories>
-        <category>Linux</category>
+        <category>Windows</category>
+        <category>软件</category>
       </categories>
       <tags>
-        <tag>Linux</tag>
-        <tag>vagrant</tag>
+        <tag>Windows</tag>
       </tags>
   </entry>
   <entry>
@@ -548,100 +573,79 @@
       </tags>
   </entry>
   <entry>
-    <title>这六款神级软件！ 绝对让你相见恨晚，免费开源</title>
-    <url>/46815.html</url>
-    <content><![CDATA[<h2 id="Umi-OCR"><a href="#Umi-OCR" class="headerlink" title="Umi-OCR"></a>Umi-OCR</h2><ul>
-<li><p><strong>免费</strong>：本项目所有代码开源，完全免费。</p>
-</li>
-<li><p><strong>方便</strong>：解压即用，离线运行，无需网络。</p>
-</li>
-<li><p><strong>高效</strong>：自带高效率的离线OCR引擎，内置多种语言识别库。</p>
-</li>
-<li><p><strong>灵活</strong>：支持命令行、HTTP接口等外部调用方式。</p>
-</li>
-<li><p><strong>功能</strong>：截图OCR &#x2F; 批量OCR &#x2F; PDF识别 &#x2F; 二维码 &#x2F; 公式识别<br><img src="https://c5a6b8d.webp.li/2024/09/umi-ocr2.png"><br><img src="https://c5a6b8d.webp.li/2024/09/umi-ocr1.png"></p>
-</li>
-<li><p><strong>下载方式</strong></p>
-<p>GitHub：  <a href="https://github.com/hiroi-sora/Umi-OCR/releases">https://github.com/hiroi-sora/Umi-OCR/releases</a></p>
-<p>网盘下载：<a href="https://www.alipan.com/s/YuPQdwDNAPC">https://www.alipan.com/s/YuPQdwDNAPC</a></p>
-</li>
-</ul>
-<h2 id="NDM"><a href="#NDM" class="headerlink" title="NDM"></a>NDM</h2><p>许多人可能会认为IDM是最出色的下载器，但若要挑选一个与之匹敌的，NDM无疑也是一个极佳的选择。</p>
-<p>NDM也支持最高32线程的下载，从而使得原本耗时1-2小时的下载任务，如今可能仅在十几分钟乃至几分钟内便能迅速完成。</p>
-<p><img src="https://c5a6b8d.webp.li/2024/09/ndm.png"></p>
-<p><strong>简洁的下载管理器</strong></p>
-<ul>
-<li>使用优化的动态分割算法。</li>
-<li>加快您的下载速度，直至达到您的总可用带宽。</li>
-<li>根据下载状态（完成、不完整）和文件类型（视频、文档等）组织您的下载</li>
-<li>支持 HTTP、HTTPS 和 FTP 协议。</li>
-<li>支持 HTTP 代理和 SOCKS 协议。</li>
-<li>支持 HTTP 身份验证和代理身份验证（Basic、Digest、NTLM）</li>
-<li>具有暂停&#x2F;恢复功能并可以恢复崩溃的下载。</li>
-<li>具有浏览器扩展功能，可以向其发送下载链接并帮助您从任何网站下载视频&#x2F;音频。</li>
-<li>即使下载正在进行中，您也可以设置下载的带宽限制。</li>
-<li>即使下载正在进行中，您也可以设置下载的最大连接数。</li>
-<li>可以下载 HLS 视频的所有 .ts 文件，并在最后将所有片段合并为一个 .ts 文件。</li>
-<li>可以续订过期的下载。</li>
-<li>通过拖放操作进行操作</li>
-</ul>
-<p><strong>NMD 下载方式：</strong></p>
-<p>官方下载： <a href="https://www.neatdownloadmanager.com/index.php/en/">https://www.neatdownloadmanager.com/index.php/en/</a></p>
-<p>网盘下载：  <a href="https://www.alipan.com/s/YuPQdwDNAPC">https://www.alipan.com/s/YuPQdwDNAPC</a></p>
-<h2 id="DiskGenius"><a href="#DiskGenius" class="headerlink" title="DiskGenius"></a>DiskGenius</h2><p>专业的数据恢复和分区管理软件，各种文件恢复和分区问题都可以解决。这个软件更适合专业搞机用户使用，小白可以用分区助手，更好上手。</p>
-<p><img src="https://c5a6b8d.webp.li/2024/09/DiskGenius.png"></p>
-<p><strong>DiskGenius下载：</strong></p>
-<p>官方下载：<a href="https://www.diskgenius.com/">https://www.diskgenius.com/</a></p>
-<h2 id="HandBrake"><a href="#HandBrake" class="headerlink" title="HandBrake"></a>HandBrake</h2><p>HandBrake 是一个由志愿者构建的开源工具，用于将几乎任何格式的视频转换为多种现代且广泛支持的编解码器。</p>
-<p><img src="https://c5a6b8d.webp.li/2024/09/HandBrake.png"></p>
-<p><strong>您会喜欢 HandBrake 的原因：</strong></p>
-<ul>
-<li>转换几乎任何格式的视频</li>
-<li>免费且开源</li>
-<li>多平台（Windows、Mac 和 Linux）</li>
-</ul>
-<p><strong>下载方式：</strong></p>
-<p>1、官方下载：<a href="https://handbrake.fr/">https://handbrake.fr/</a></p>
-<p>2、网盘下载：<a href="https://www.alipan.com/s/YuPQdwDNAPC">https://www.alipan.com/s/YuPQdwDNAPC</a></p>
-<h2 id="Powertoys"><a href="#Powertoys" class="headerlink" title="Powertoys"></a>Powertoys</h2><p><strong>Microsoft PowerToys</strong>是一组免费的系统工具软件，由微软为Windows操作系统上的系统管理员设计。这些程序为系统加入或变更了一些功能，并加入更多自定义选项以提高生产力。PowerToys可用于Windows 95、Windows XP、Windows 10和Windows11。Windows 10版PowerToys为自由及开放源代码软件，并使用MIT授权条款托管于GitHub。</p>
-<p><img src="https://c5a6b8d.webp.li/2024/09/power-toys.png"></p>
-<p><strong>下载方式：</strong></p>
-<p>1、微软应用商店下载：<a href="https://apps.microsoft.com/store/detail/microsoft-powertoys/XP89DCGQ3K6VLD">https://apps.microsoft.com/store/detail/microsoft-powertoys/XP89DCGQ3K6VLD</a></p>
-<p>2、Github开源项目：<a href="https://github.com/microsoft/PowerToys">https://github.com/microsoft/PowerToys</a></p>
-<p>3、网盘打包下载：<a href="https://www.alipan.com/s/YuPQdwDNAPC">https://www.alipan.com/s/YuPQdwDNAPC</a></p>
-<h2 id="pdf-24"><a href="#pdf-24" class="headerlink" title="pdf-24"></a>pdf-24</h2><p>一个非常好用的 PDF 处理工具，共 27 个工具，完全免费、无广告，没有任何套路，而且支持离线使用。</p>
-<p><img src="https://c5a6b8d.webp.li/2024/09/pdf-24.png"></p>
-<p><strong>下载方式：</strong></p>
-<p>官方下载：<a href="https://tools.pdf24.org/zh/">https://tools.pdf24.org/zh/</a></p>
-<p>网盘下载：<a href="https://www.alipan.com/s/YuPQdwDNAPC">https://www.alipan.com/s/YuPQdwDNAPC</a></p>
+    <title>Windows 11 超级精简版！ Tiny11 （24H2） 官方下载ISO</title>
+    <url>/62064.html</url>
+    <content><![CDATA[<p>Tiny 11 24H2 是一款非常适合想要在旧硬件上运行 Windows 11 的用户的系统安装包！，是目前最精简的版本</p>
+<p>借助 Tiny 11 和 LZX 压缩给 Windows 11 进行了全身上下的瘦身，占用空间仅为 100MB ，甚至可以在一个单层的DVD上进行安装，<br>安装后硬盘占用约 3.5GB 的空间。</p>
+<p><img src="https://c5a6b8d.webp.li/2024/11/windows11-tiny11-24H2.png" alt="windows11-tiny11-24H2"></p>
+<p><strong>Windows 11 Tiny 11 （24H2）下载方式</strong></p>
+<p><strong>1、官方下载：【<a href="https://archive.org/details/tiny11-2409">点击前往</a>】</strong></p>
+<p><strong>2、更多下载 ：【<a href="https://www.dongli7.com/thread-171-1-1.html">点击前往</a>】</strong></p>
+<h2 id="制作U盘系统安装盘："><a href="#制作U盘系统安装盘：" class="headerlink" title="制作U盘系统安装盘："></a>制作U盘系统安装盘：</h2><p>1、Rufus 【<a href="https://rufus.ie/zh/">官方下载</a>】</p>
+<p>2、Ventoy 【<a href="https://www.ventoy.net/cn/download.html">官方下载</a>】</p>
+<h3 id="Windows-11-2024-LTSC-长期服务版-KMS-官方密钥获取："><a href="#Windows-11-2024-LTSC-长期服务版-KMS-官方密钥获取：" class="headerlink" title="Windows 11 2024 LTSC 长期服务版 KMS 官方密钥获取："></a>Windows 11 2024 LTSC 长期服务版 KMS 官方密钥获取：</h3><p>【**<a href="https://learn.microsoft.com/en-us/windows-server/get-started/kms-client-activation-keys?tabs=server2025,windows1110ltsc,version1803,windows81">点击前往</a>**】</p>
+<p>激活命令：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">slmgr -ipk 这里填写视频里演示的密钥</span><br><span class="line"></span><br><span class="line">slmgr -skms kms.03k.org </span><br><span class="line"></span><br><span class="line">slmgr -ato</span><br></pre></td></tr></table></figure>
+
 ]]></content>
       <categories>
         <category>Windows</category>
-        <category>软件</category>
       </categories>
       <tags>
+        <tag>windows</tag>
         <tag>Windows</tag>
+        <tag>windows key</tag>
       </tags>
   </entry>
   <entry>
-    <title>Windows11 24H2正式发布！官方免费下载，并绕过硬件限制安装</title>
-    <url>/45623.html</url>
-    <content><![CDATA[<p>微软之前一直传闻会在本月发布 Windows 11 24H2，尽管有消息称发布日期可能是 10 月 8 日，但微软显然不想让大家猜中，今天便正式发布了该版本。24H2 带来了许多新改进，不过与 Copilot+ PC 相关的功能需要等到 11 月才能向符合硬件要求的 AMD 和 Intel 系统开放。目前，微软只提供了适用于 x64 硬件的 ISO 安装镜像，而 Arm64 版本预计将在未来几周内推出。</p>
-<p><strong>小红书视频教程直达：</strong><a href="https://www.xiaohongshu.com/explore/67009dbc000000002c02f43e?app_platform=android&app_version=8.54.0&apptime=1728093637&share_from_user_hidden=true&type=video&appuid=6694a7ab0000000003033310&author_share=1&xsec_token=DBD6kwLo0uCxXSGSm_sUx7OyvkEI41em5H3wuU1MwxAxE=&xsec_source=app_share&xhsshare=WeixinSession&shareRedId=ODw7NEQ8RUs2NzUyOTgwNjY2OTo3ODc5&share_id=e88da52e865247b387f31f1c18bd9693">Windows11 24H2 正式发布！绕过硬件限制安装</a> </p>
-<p><strong>Windows 11 24H2 官方下载链接：</strong><a href="https://www.microsoft.com/software-download/windows11">链接直达</a></p>
-<p>【<a href="https://www.microsoft.com/en-us/microsoft-copilot/for-individuals/copilot-app?form=MY02FX&OCID=MY02FX">官方英文版</a>】</p>
-<p>【<a href="https://www.microsoft.com/zh-cn/software-download/windows11">中文简体版</a>】</p>
-<p>【<a href="https://www.microsoft.com/zh-tw/software-download/windows11">中文繁體版</a>】</p>
-<h2 id="Windows-11-24H2-正式版新增的功能："><a href="#Windows-11-24H2-正式版新增的功能：" class="headerlink" title="Windows 11 24H2 正式版新增的功能："></a><strong>Windows 11 24H2 正式版新增的功能：</strong></h2><p>据微软表示，24H2 重点功能包括：</p>
-<p>Copilot+ PC 专属功能：<br>即时辅助字幕。<br>小画家中的Cocreator。<br>Windows Studio 效果。<br>自动超解析度。<br>影像建立工具和Restyle 影像。<br>Wi-Fi 7 支援。<br>辅助听力装置支援的蓝牙LE 音讯增强功能。<br>系统匣&amp; 工作列增强功能。<br>更精简的档案总管。<br>智慧电源管理。<br>使用QR Code 加入及共用Wi-Fi 网路。<br>增强的Wi-Fi 网路存取隐私控制。<br>在Microsoft Teams 中轻松管理帐户和通知。<br>跨装置扩充Voice Clarity。<br>Windows 的Sudo：提升Windows 命令列效率。<br>远端桌面：增强的连线能力和辅助功能。</p>
-<p>对于硬件不达标，无法在线升级的小伙伴，可以使用Rufus进行安装</p>
-<p><strong>Rufus 官方下载</strong>【<a href="https://rufus.ie/zh/">点击前往</a>】<br><img src="https://c5a6b8d.webp.li/2024/10/rufus.png"></p>
-]]></content>
+    <title>vagrant</title>
+    <url>/40780.html</url>
+    <content><![CDATA[<h3 id="起源"><a href="#起源" class="headerlink" title="起源"></a>起源</h3><p>久闻Vagrant大名，之前经常看到有开源项目使用它作为分布式开发的环境配置。</p>
+<p>因为今天在看contiv正好里面使用vagrant搭建的开发测试环境，所以顺便了解下。它的Vagrantfile文件中定义了三台主机。并安装了很多依赖软件，如consul、etcd、docker、go等，整的比较复杂。</p>
+<span id="more"></span>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">vagrant status</span><br><span class="line">Current machine states:</span><br><span class="line"></span><br><span class="line">netplugin-node1           running (virtualbox)</span><br><span class="line">netplugin-node2           running (virtualbox)</span><br><span class="line">netplugin-node3           running (virtualbox)</span><br><span class="line"></span><br><span class="line">This environment represents multiple VMs. The VMs are all listed</span><br><span class="line">above with their current state. For more information about a specific</span><br><span class="line">VM, run `vagrant status NAME`.</span><br></pre></td></tr></table></figure>
+
+<p>Vagrant是hashicorp这家公司的产品，这家公司主要做数据中心PAAS和虚拟化，其名下大名鼎鼎的产品有Consul、Vault、Nomad、Terraform。他们的产品都是基于Open Source的Github地址。</p>
+<h3 id="用途"><a href="#用途" class="headerlink" title="用途"></a>用途</h3><p>Vagrant是用来管理虚拟机的，如VirtualBox、VMware、AWS等，主要好处是可以提供一个可配置、可移植和复用的软件环境，可以使用shell、chef、puppet等工具部署。所以vagrant不能单独使用，如果你用它来管理自己的开发环境的话，必须在自己的电脑里安装了虚拟机软件，我使用的是virtualbox。</p>
+<p>Vagrant提供一个命令行工具vagrant，通过这个命令行工具可以直接启动一个虚拟机，当然你需要提前定义一个Vagrantfile文件，这有点类似Dockerfile之于docker了。</p>
+<p>跟docker类比这来看vagrant就比较好理解了，vagrant也是用来提供一致性环境的，vagrant本身也提供一个镜像源，使用vagrant init hashicorp&#x2F;precise64就可以初始化一个Ubuntu 12.04的镜像。</p>
+<h3 id="用法"><a href="#用法" class="headerlink" title="用法"></a>用法</h3><p>你可以下载安装文件来安装vagrant，也可以使用RubyGem安装，它是用Ruby开发的。</p>
+<h4 id="Vagrantfile"><a href="#Vagrantfile" class="headerlink" title="Vagrantfile"></a>Vagrantfile</h4><p>Vagrantfile是用来定义vagrant project的，使用ruby语法，不过你不必了解ruby就可以写一个Vagrantfile。</p>
+<p>看个例子，选自<a href="https://github.com/fenbox/Vagrantfile">https://github.com/fenbox/Vagrantfile</a><br><img src="https://s21.ax1x.com/2024/09/06/pAeS8Qf.png"><br><img src="https://s21.ax1x.com/2024/09/06/pAeS3SP.png"></p>
+<h4 id="Boxes"><a href="#Boxes" class="headerlink" title="Boxes"></a>Boxes</h4><p>Vagrant的基础镜像，相当于docker images。可以在这些基础镜像的基础上制作自己的虚拟机镜像。</p>
+<p>添加一个box</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">vagrant box add hashicorp/precise64</span></span><br></pre></td></tr></table></figure>
+<p>在Vagrantfile中指定box</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">Vagrant.configure(&quot;2&quot;) do |config|</span><br><span class="line">  config.vm.box = &quot;hashicorp/precise64&quot;</span><br><span class="line">  config.vm.box_version = &quot;1.1.0&quot;</span><br><span class="line">end</span><br></pre></td></tr></table></figure>
+
+<h4 id="使用ssh进入vagrant"><a href="#使用ssh进入vagrant" class="headerlink" title="使用ssh进入vagrant"></a>使用ssh进入vagrant</h4><p>vagrant up后就可以用vagrant ssh $name进入虚拟机内，如果主机上就一个vagrant可以不指定名字。默认进入的用户是vagrant。</p>
+<h4 id="文件同步"><a href="#文件同步" class="headerlink" title="文件同步"></a>文件同步</h4><p>vagrant up后在虚拟机中会有一个&#x2F;vagrant目录，这跟你定义Vagrantfile是同一级目录。</p>
+<p>这个目录跟你宿主机上的目录文件是同步的。</p>
+<h4 id="软件安装"><a href="#软件安装" class="headerlink" title="软件安装"></a>软件安装</h4><p>在Vagrantfile中定义要安装的软件和操作。</p>
+<p>例如安装apache</p>
+<p>在与Vagrantfile同级的目录下创建一个bootstrap.sh文件。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_">#</span><span class="language-bash">!/usr/bin/env bash</span></span><br><span class="line"></span><br><span class="line">apt-get update</span><br><span class="line">apt-get install -y apache2</span><br><span class="line">if ! [ -L /var/www ]; then</span><br><span class="line">  rm -rf /var/www</span><br><span class="line">  ln -fs /vagrant /var/www</span><br><span class="line">fi</span><br></pre></td></tr></table></figure>
+<p>然后在Vagrantfile中使用它。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">Vagrant.configure(&quot;2&quot;) do |config|</span><br><span class="line">  config.vm.box = &quot;hashicorp/precise64&quot;</span><br><span class="line">  config.vm.box_version = &quot;1.1.0&quot;</span><br><span class="line">end</span><br></pre></td></tr></table></figure>
+
+<h4 id="网络"><a href="#网络" class="headerlink" title="网络"></a>网络</h4><p>端口转发</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">Vagrant.configure(&quot;2&quot;) do |config|</span><br><span class="line">  config.vm.box = &quot;hashicorp/precise64&quot;</span><br><span class="line">  config.vm.provision :shell, path: &quot;bootstrap.sh&quot;</span><br><span class="line">  config.vm.network :forwarded_port, guest: 80, host: 4567</span><br><span class="line">end</span><br></pre></td></tr></table></figure>
+<p>执行vagrant reload或者vagrant up可以生效。</p>
+<h4 id="分享"><a href="#分享" class="headerlink" title="分享"></a>分享</h4><p>你自己做的vagrant是可以分享给别人的用的，只要你有一个hashicorp账号，vagrant login后就可以执行vagrant share分享，会生成一个URL，其它人也可以访问到你的vagrant里的服务。</p>
+<h4 id="中止"><a href="#中止" class="headerlink" title="中止"></a>中止</h4><p>vagrant suspend<br>Vagrant halt<br>Vagrant destroy<br>重构</p>
+<p>再次执行vagrant up即可。</p>
+<h3 id="分布式环境"><a href="#分布式环境" class="headerlink" title="分布式环境"></a>分布式环境</h3><p>开发分布式环境下的应用时往往需要多个虚拟机用于测试，这时候才是vagrant显威力的时候。</p>
+<h4 id="定义多个主机"><a href="#定义多个主机" class="headerlink" title="定义多个主机"></a>定义多个主机</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">Vagrant.configure(&quot;2&quot;) do |config|</span><br><span class="line">  config.vm.provision &quot;shell&quot;, inline: &quot;echo Hello&quot;</span><br><span class="line"></span><br><span class="line">  config.vm.define &quot;web&quot; do |web|</span><br><span class="line">    web.vm.box = &quot;apache&quot;</span><br><span class="line">  end</span><br><span class="line"></span><br><span class="line">  config.vm.define &quot;db&quot; do |db|</span><br><span class="line">    db.vm.box = &quot;mysql&quot;</span><br><span class="line">  end</span><br><span class="line">end</span><br></pre></td></tr></table></figure>
+
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>总的来说说Vagrant没有Docker好用，但是对于协同开发，用它来定义分布式开发环境还可以，ruby的语法看着有点不习惯，好在也不复杂，如果是团队几个人开发，弄几个虚拟机大家互相拷贝一下也没那么复杂吧？</p>
+<blockquote><p>本文摘自网络</p>
+<footer><strong>jimmysong</strong><cite><a href="https://jimmysong.io/blog/vagrant-intro/">Vagrant从使用到放弃再到掌握完全指南</a></cite></footer></blockquote>]]></content>
       <categories>
-        <category>Windows</category>
+        <category>Linux</category>
       </categories>
       <tags>
-        <tag>Windows</tag>
+        <tag>Linux</tag>
+        <tag>vagrant</tag>
       </tags>
   </entry>
   <entry>
@@ -677,6 +681,49 @@
       <tags>
         <tag>Windows</tag>
         <tag>经典菜单</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>查找您的 Windows 10 、11 激活密钥，以及（OEM 数字许可证密钥）</title>
+    <url>/46926.html</url>
+    <content><![CDATA[<p><strong>1、CMD命令终端下以管理员身份输入命令：</strong></p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">wmic path softwareLicensingService get OA3xOriginalProductKey</span><br></pre></td></tr></table></figure>
+<p>如果你通过上方的命令运行后没有看到密钥，那是因为你用的是OEM数字许可证密钥，这种情况请使用下面的第2种方法来获取密钥。</p>
+<p><strong>2、注册表下：</strong><br>计算机</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SoftwareProtectionPlatform</span><br></pre></td></tr></table></figure>
+<p>找到 BackupProductKeyDefault，在其后面就能找到你的激活密钥</p>
+<p><strong>3、Windows10 &#x2F;11 KMS激活方式</strong></p>
+<p>注意：以管理员身份运行CMD，然后依次输入下面的命令即可</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">slmgr /ipk 这里填写你的OEM密钥</span><br><span class="line"></span><br><span class="line">slmgr /skms kms.loli.best</span><br><span class="line"></span><br><span class="line">slmgr /ato</span><br><span class="line"></span><br><span class="line">slmgr /xpr</span><br></pre></td></tr></table></figure>
+
+<p>OEM激活密钥可以去微软官方免费获取<a href="https://learn.microsoft.com/zh-cn/windows-server/get-started/kms-client-activation-keys?tabs=server2022,windows10ltsc,version1803,windows81">【点击前往】</a></p>
+]]></content>
+      <categories>
+        <category>Windows</category>
+      </categories>
+      <tags>
+        <tag>windows key</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Windows11 24H2正式发布！官方免费下载，并绕过硬件限制安装</title>
+    <url>/45623.html</url>
+    <content><![CDATA[<p>微软之前一直传闻会在本月发布 Windows 11 24H2，尽管有消息称发布日期可能是 10 月 8 日，但微软显然不想让大家猜中，今天便正式发布了该版本。24H2 带来了许多新改进，不过与 Copilot+ PC 相关的功能需要等到 11 月才能向符合硬件要求的 AMD 和 Intel 系统开放。目前，微软只提供了适用于 x64 硬件的 ISO 安装镜像，而 Arm64 版本预计将在未来几周内推出。</p>
+<p><strong>小红书视频教程直达：</strong><a href="https://www.xiaohongshu.com/explore/67009dbc000000002c02f43e?app_platform=android&app_version=8.54.0&apptime=1728093637&share_from_user_hidden=true&type=video&appuid=6694a7ab0000000003033310&author_share=1&xsec_token=DBD6kwLo0uCxXSGSm_sUx7OyvkEI41em5H3wuU1MwxAxE=&xsec_source=app_share&xhsshare=WeixinSession&shareRedId=ODw7NEQ8RUs2NzUyOTgwNjY2OTo3ODc5&share_id=e88da52e865247b387f31f1c18bd9693">Windows11 24H2 正式发布！绕过硬件限制安装</a> </p>
+<p><strong>Windows 11 24H2 官方下载链接：</strong><a href="https://www.microsoft.com/software-download/windows11">链接直达</a></p>
+<p>【<a href="https://www.microsoft.com/en-us/microsoft-copilot/for-individuals/copilot-app?form=MY02FX&OCID=MY02FX">官方英文版</a>】</p>
+<p>【<a href="https://www.microsoft.com/zh-cn/software-download/windows11">中文简体版</a>】</p>
+<p>【<a href="https://www.microsoft.com/zh-tw/software-download/windows11">中文繁體版</a>】</p>
+<h2 id="Windows-11-24H2-正式版新增的功能："><a href="#Windows-11-24H2-正式版新增的功能：" class="headerlink" title="Windows 11 24H2 正式版新增的功能："></a><strong>Windows 11 24H2 正式版新增的功能：</strong></h2><p>据微软表示，24H2 重点功能包括：</p>
+<p>Copilot+ PC 专属功能：<br>即时辅助字幕。<br>小画家中的Cocreator。<br>Windows Studio 效果。<br>自动超解析度。<br>影像建立工具和Restyle 影像。<br>Wi-Fi 7 支援。<br>辅助听力装置支援的蓝牙LE 音讯增强功能。<br>系统匣&amp; 工作列增强功能。<br>更精简的档案总管。<br>智慧电源管理。<br>使用QR Code 加入及共用Wi-Fi 网路。<br>增强的Wi-Fi 网路存取隐私控制。<br>在Microsoft Teams 中轻松管理帐户和通知。<br>跨装置扩充Voice Clarity。<br>Windows 的Sudo：提升Windows 命令列效率。<br>远端桌面：增强的连线能力和辅助功能。</p>
+<p>对于硬件不达标，无法在线升级的小伙伴，可以使用Rufus进行安装</p>
+<p><strong>Rufus 官方下载</strong>【<a href="https://rufus.ie/zh/">点击前往</a>】<br><img src="https://c5a6b8d.webp.li/2024/10/rufus.png"></p>
+]]></content>
+      <categories>
+        <category>Windows</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
       </tags>
   </entry>
   <entry>
@@ -718,28 +765,6 @@
       </categories>
       <tags>
         <tag>Windows</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>查找您的 Windows 10 、11 激活密钥，以及（OEM 数字许可证密钥）</title>
-    <url>/46926.html</url>
-    <content><![CDATA[<p><strong>1、CMD命令终端下以管理员身份输入命令：</strong></p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">wmic path softwareLicensingService get OA3xOriginalProductKey</span><br></pre></td></tr></table></figure>
-<p>如果你通过上方的命令运行后没有看到密钥，那是因为你用的是OEM数字许可证密钥，这种情况请使用下面的第2种方法来获取密钥。</p>
-<p><strong>2、注册表下：</strong><br>计算机</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SoftwareProtectionPlatform</span><br></pre></td></tr></table></figure>
-<p>找到 BackupProductKeyDefault，在其后面就能找到你的激活密钥</p>
-<p><strong>3、Windows10 &#x2F;11 KMS激活方式</strong></p>
-<p>注意：以管理员身份运行CMD，然后依次输入下面的命令即可</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">slmgr /ipk 这里填写你的OEM密钥</span><br><span class="line"></span><br><span class="line">slmgr /skms kms.loli.best</span><br><span class="line"></span><br><span class="line">slmgr /ato</span><br><span class="line"></span><br><span class="line">slmgr /xpr</span><br></pre></td></tr></table></figure>
-
-<p>OEM激活密钥可以去微软官方免费获取<a href="https://learn.microsoft.com/zh-cn/windows-server/get-started/kms-client-activation-keys?tabs=server2022,windows10ltsc,version1803,windows81">【点击前往】</a></p>
-]]></content>
-      <categories>
-        <category>Windows</category>
-      </categories>
-      <tags>
-        <tag>windows key</tag>
       </tags>
   </entry>
   <entry>
