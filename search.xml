@@ -598,6 +598,37 @@
       </tags>
   </entry>
   <entry>
+    <title>如何在Mac上安装Windows 11系统？这个方法完全免费又简单好用</title>
+    <url>/53303.html</url>
+    <content><![CDATA[<p><img src="https://c5a6b8d.webp.li/2024/11/mac-vmware-function-pro.png"></p>
+<h1 id="VMware-Fusion-Pro"><a href="#VMware-Fusion-Pro" class="headerlink" title="VMware Fusion Pro"></a>VMware Fusion Pro</h1><p>下载并安装 VMware Fusion Pro ，这个软件已经正式免费提供给个人用户使用！</p>
+<p>【**<a href="https://blogs.vmware.com/teamfusion/2024/05/fusion-pro-now-available-free-for-personal-use.html">官方下载</a>**】</p>
+<p>官方需注册在管理中心进行下载【<a href="https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware+Fusion">点击前往</a>】</p>
+<h1 id="Windows-11-ARM"><a href="#Windows-11-ARM" class="headerlink" title="Windows 11 ARM"></a>Windows 11 ARM</h1><p>下载 Windows 11 ARM 结构的最新系统安装包：</p>
+<p>ED2K下载链接:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">ed2k://|file|SW_DVD9_Win_Pro_11_23H2_Arm64_ChnSimp_Pro_Ent_EDU_N_MLF_X23-59518.ISO|7142125568|769949291524FDE82A0BB52138433F06|/</span><br></pre></td></tr></table></figure>
+
+<p>BT下载链接:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">magnet:?xt=urn:btih:64fb7c011f407628471432d8cd52b2b5c6c52673&amp;dn=SW_DVD9_Win_Pro_11_23H2_Arm64_ChnSimp_Pro_Ent_EDU_N_MLF_X23-59518.ISO&amp;xl=7142125568</span><br></pre></td></tr></table></figure>
+<p>你可以使用任何的种子下载工具进行下载，比如你可以使用【<a href="https://www.qbittorrent.org/download">qBittorrent</a>】来进行下载</p>
+<h1 id="Windows-10-系统"><a href="#Windows-10-系统" class="headerlink" title="Windows 10 系统"></a>Windows 10 系统</h1><p>如果你需要在mac上安装 Windows 10 系统，那么安装步骤几乎是一样的，只需下载Windows 10 的ARM 最新安装包</p>
+<p>BT种子：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">magnet:?xt=urn:btih:1254374ee4000b9e8fed508fe2fdcdd8f49c2161&amp;dn=SW_DVD9_Win_Pro_10_22H2.3_64ARM_ChnSimp_Pro_Ent_EDU_N_MLF_X23-36949.ISO&amp;xl=5333610496</span><br></pre></td></tr></table></figure>
+
+<p>ED2K链接：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">http://ed2k//|file|SW_DVD9_Win_Pro_10_22H2.3_64ARM_ChnSimp_Pro_Ent_EDU_N_MLF_X23-36949.ISO|5333610496|401601D6C86121111B85019BAB8CD79D|/</span><br></pre></td></tr></table></figure>
+<p>后面的安装步骤跟上面的一样！</p>
+]]></content>
+      <categories>
+        <category>Mac</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+        <tag>Windows</tag>
+        <tag>VMware</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>vagrant</title>
     <url>/40780.html</url>
     <content><![CDATA[<h3 id="起源"><a href="#起源" class="headerlink" title="起源"></a>起源</h3><p>久闻Vagrant大名，之前经常看到有开源项目使用它作为分布式开发的环境配置。</p>
@@ -646,36 +677,6 @@
       <tags>
         <tag>Linux</tag>
         <tag>vagrant</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>如何在Mac上安装Windows 11系统？这个方法完全免费又简单好用</title>
-    <url>/53303.html</url>
-    <content><![CDATA[<h1 id="VMware-Fusion-Pro"><a href="#VMware-Fusion-Pro" class="headerlink" title="VMware Fusion Pro"></a>VMware Fusion Pro</h1><p>下载并安装 VMware Fusion Pro ，这个软件已经正式免费提供给个人用户使用！</p>
-<p>【**<a href="https://blogs.vmware.com/teamfusion/2024/05/fusion-pro-now-available-free-for-personal-use.html">官方下载</a>**】</p>
-<p>官方需注册在管理中心进行下载【<a href="https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware+Fusion">点击前往</a>】</p>
-<h1 id="Windows-11-ARM"><a href="#Windows-11-ARM" class="headerlink" title="Windows 11 ARM"></a>Windows 11 ARM</h1><p>下载 Windows 11 ARM 结构的最新系统安装包：</p>
-<p>ED2K下载链接:</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">ed2k://|file|SW_DVD9_Win_Pro_11_23H2_Arm64_ChnSimp_Pro_Ent_EDU_N_MLF_X23-59518.ISO|7142125568|769949291524FDE82A0BB52138433F06|/</span><br></pre></td></tr></table></figure>
-
-<p>BT下载链接:</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">magnet:?xt=urn:btih:64fb7c011f407628471432d8cd52b2b5c6c52673&amp;dn=SW_DVD9_Win_Pro_11_23H2_Arm64_ChnSimp_Pro_Ent_EDU_N_MLF_X23-59518.ISO&amp;xl=7142125568</span><br></pre></td></tr></table></figure>
-<p>你可以使用任何的种子下载工具进行下载，比如你可以使用【<a href="https://www.qbittorrent.org/download">qBittorrent</a>】来进行下载</p>
-<h1 id="Windows-10-系统"><a href="#Windows-10-系统" class="headerlink" title="Windows 10 系统"></a>Windows 10 系统</h1><p>如果你需要在mac上安装 Windows 10 系统，那么安装步骤几乎是一样的，只需下载Windows 10 的ARM 最新安装包</p>
-<p>BT种子：</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">magnet:?xt=urn:btih:1254374ee4000b9e8fed508fe2fdcdd8f49c2161&amp;dn=SW_DVD9_Win_Pro_10_22H2.3_64ARM_ChnSimp_Pro_Ent_EDU_N_MLF_X23-36949.ISO&amp;xl=5333610496</span><br></pre></td></tr></table></figure>
-
-<p>ED2K链接：</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">http://ed2k//|file|SW_DVD9_Win_Pro_10_22H2.3_64ARM_ChnSimp_Pro_Ent_EDU_N_MLF_X23-36949.ISO|5333610496|401601D6C86121111B85019BAB8CD79D|/</span><br></pre></td></tr></table></figure>
-<p>后面的安装步骤跟上面的一样！</p>
-]]></content>
-      <categories>
-        <category>Mac</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
-        <tag>Windows</tag>
-        <tag>VMware</tag>
       </tags>
   </entry>
   <entry>

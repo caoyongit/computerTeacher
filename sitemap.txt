@@ -37,8 +37,8 @@ https://www.dnjs.xyz/tags/esxi/
 https://www.dnjs.xyz/tags/Windows/
 https://www.dnjs.xyz/tags/spring-boot/
 https://www.dnjs.xyz/tags/windows-key/
-https://www.dnjs.xyz/tags/vagrant/
 https://www.dnjs.xyz/tags/VMware/
+https://www.dnjs.xyz/tags/vagrant/
 https://www.dnjs.xyz/tags/%E7%BB%8F%E5%85%B8%E8%8F%9C%E5%8D%95/
 https://www.dnjs.xyz/tags/wrk/
 https://www.dnjs.xyz/tags/yoga/
