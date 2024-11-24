@@ -210,6 +210,46 @@
       </tags>
   </entry>
   <entry>
+    <title>六款免费开源工具提升工作学习效率</title>
+    <url>/52084.html</url>
+    <content><![CDATA[<p>六款免费开源工具提升工作学习效率，其中有AI一键换衣，扣除图片背景和水印，音视频人声分离，可以单独部署的清爽备忘录，开发者环境一键配置，帮你节省时间提升效率，赶紧收藏起来</p>
+<h1 id="visual-try-on"><a href="#visual-try-on" class="headerlink" title="visual-try-on"></a>visual-try-on</h1><p>visual-try-on 是一款一键 AI 换衣的开源项目，可以完全免费使用，基于 Kolors 图像模型开发，可在任何电商网站上，上传一张自己照片，即可一键让自己试穿喜欢的衣服。</p>
+<p><img src="https://c5a6b8d.webp.li/2024/11/visual-try-on.jpeg" alt="visual-try-on"></p>
+<p>在线体验：<a href="https://huggingface.co/spaces/Kwai-Kolors/Kolors-Virtual-Try-On">https://huggingface.co/spaces/Kwai-Kolors/Kolors-Virtual-Try-On</a></p>
+<p>GitHub 开源：<a href="https://github.com/shyjal/visual-try-on">https://github.com/shyjal/visual-try-on</a></p>
+<h1 id="WebGPU"><a href="#WebGPU" class="headerlink" title="WebGPU"></a>WebGPU</h1><p>WebGPU 是一款可以在线抠图的程序，一键去除图片背景，完全免费开源！</p>
+<p><img src="https://c5a6b8d.webp.li/2024/11/WEBGPU.png" alt="WEBGPU"></p>
+<p>在线体验：<a href="https://huggingface.co/spaces/Xenova/remove-background-webgpu">https://huggingface.co/spaces/Xenova/remove-background-webgpu</a></p>
+<p>GitHub 开源：<a href="https://huggingface.co/briaai/RMBG-1.4">https://huggingface.co/briaai/RMBG-1.4</a></p>
+<h1 id="Inpaint-web"><a href="#Inpaint-web" class="headerlink" title="Inpaint-web"></a>Inpaint-web</h1><p>Inpaint-web 是基于 Webgpu 技术和 wasm 技术的免费开源 inpainting &amp; image-upscaling 工具, 纯浏览器端实现。</p>
+<p><img src="https://c5a6b8d.webp.li/2024/11/Inpaint-web.png" alt="Inpaint-web"></p>
+<p>在线体验：<a href="https://inpaintweb.lxfater.com/">https://inpaintweb.lxfater.com/</a></p>
+<p>GitHub 开源：<a href="https://github.com/lxfater/inpaint-web">https://github.com/lxfater/inpaint-web</a></p>
+<h1 id="Vocal-Remover-and-Isolation"><a href="#Vocal-Remover-and-Isolation" class="headerlink" title="Vocal Remover and Isolation"></a>Vocal Remover and Isolation</h1><p>Vocal Remover and Isolation 是一款功能非常强大的人声分离器，可以完全免费在线使用</p>
+<p><img src="https://c5a6b8d.webp.li/2024/11/Vocal-Remover.png" alt="Vocal-Remover"></p>
+<p>在线体验：<a href="https://vocalremover.org/">https://vocalremover.org/</a></p>
+<h1 id="memos"><a href="#memos" class="headerlink" title="memos"></a>memos</h1><p>这是一个采用 React+Tailwind+TypeScript+Go 开发的备忘录中心，相当于极简的微博。支持私有&#x2F;公开备忘录、标签、互动式日历等功能，以及 Docker 部署。</p>
+<p>完全开源、自托管的笔记解决方案，专为无缝部署和多平台访问而设计。体验轻松无痛的纯文本书写，并辅以强大的 Markdown 语法支持，以增强格式设置。</p>
+<p><img src="https://c5a6b8d.webp.li/2024/11/memos.png" alt="memos"></p>
+<p>在线体验：<a href="https://demo.usememos.com/explore">https://demo.usememos.com/explore</a></p>
+<p>GitHub 开源：<a href="https://github.com/usememos/memos?tab=readme-ov-file">https://github.com/usememos/memos?tab=readme-ov-file</a></p>
+<h1 id="Omakub"><a href="#Omakub" class="headerlink" title="Omakub"></a>Omakub</h1><p>Omakub 是一个专为开发者设计的 Ubuntu 环境配置项目，由 Ruby on Rails 的创造者 David Heinemeier Hansson（DHH）发起。其目标是通过一条命令将全新的 Ubuntu 系统转化为一个配置完备、美观且现代化的 Web 开发系统，简化开发环境的搭建过程。</p>
+<p><img src="https://c5a6b8d.webp.li/2024/11/omakub.png" alt="omakub"></p>
+<p>官网地址：<a href="https://omakub.org/">https://omakub.org</a></p>
+<p>GitHub 开源：<a href="https://github.com/basecamp/omakub">https://github.com/basecamp/omakub</a></p>
+]]></content>
+      <categories>
+        <category>Linux</category>
+        <category>Mac</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
+        <tag>Linux</tag>
+        <tag>Mac</tag>
+        <tag>Apps</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>JSON基本概念和用途</title>
     <url>/22725.html</url>
     <content><![CDATA[<h3 id="JSON的定义"><a href="#JSON的定义" class="headerlink" title="JSON的定义"></a>JSON的定义</h3><p>JSON (Javascript Object Notation）是一种轻量級、基于文本的、与语言无关的数据交换格式。</p>
@@ -268,8 +308,8 @@
         <category>Mac</category>
       </categories>
       <tags>
-        <tag>Mac</tag>
         <tag>Linux</tag>
+        <tag>Mac</tag>
       </tags>
   </entry>
   <entry>
@@ -385,68 +425,6 @@
       </tags>
   </entry>
   <entry>
-    <title>软路由上安装esxi</title>
-    <url>/57580.html</url>
-    <content><![CDATA[<p>最近一直都在找路由器上适配的openWt固件，但是一直找不到。油管上无意间发现现在大家玩的都是软路由，所以现在路由器固件的适配工作明显减少。经过几个月的煎熬，最后还是没有忍住，入手了软路由，那就让我们从软路由的系统着手吧！</p>
-<span id="more"></span>
-<h5 id="下载VMware"><a href="#下载VMware" class="headerlink" title="下载VMware"></a>下载VMware</h5><ul>
-<li><p>注册账号后进行产品评估，评估完成后即可下载</p>
-</li>
-<li><p><a href="https://my.vmware.com/cn/web/vmware/info/slug/datacenter_cloud_infrastructure/vmware_vsphere/7_0">下载地址：点击跳转到官网下载</a></p>
-</li>
-</ul>
-<h5 id="制作U盘启动工具"><a href="#制作U盘启动工具" class="headerlink" title="制作U盘启动工具"></a>制作U盘启动工具</h5><ul>
-<li><a href="https://www.laomaotao.net/">下载完成版老毛桃U盘启动工具</a></li>
-<li>插上U盘，解压缩下载文件，运行exe即可</li>
-</ul>
-<h5 id="安装ESXI系统流程"><a href="#安装ESXI系统流程" class="headerlink" title="安装ESXI系统流程"></a>安装ESXI系统流程</h5><ol>
-<li>在U盘根目录新建文件夹MyExt，将下载的VMware镜像放入到该文件夹下；或直接将镜像放到LMT文件夹下也可以</li>
-<li>软路由接好键鼠，显示器，插上刚刚制作好的U盘，加电开机，以U盘引导的方式启动进入老毛桃工具</li>
-<li>选择【05 DiskGenius 硬盘分区工具】，选择软路由上的硬盘，右键选择删除硬盘所有分区，保存并应用更改</li>
-<li>重启软路由，还是以U盘的方式进入引导进入老毛桃工具，选择【10 运行自定义镜像】，进入后选择放入到U盘的Esxi镜像，回车启动。</li>
-<li>F11同意协议进入系统，选择将系统安装到哪个盘。安装完成后重启完成</li>
-</ol>
-<h5 id="设置ESXI（F2进入设置界面）"><a href="#设置ESXI（F2进入设置界面）" class="headerlink" title="设置ESXI（F2进入设置界面）"></a>设置ESXI（F2进入设置界面）</h5><ul>
-<li><p>设置ESXI的密码为空</p>
-<p>Reset System Configuration（重置系统设置）</p>
-</li>
-<li><p>配置ESXI后台地址及网关</p>
-<p>选择 Configure Management Network—&gt; IPv4 configuration—-&gt;Set static IPv4 address and…..设置好对应的IP</p>
-</li>
-<li><p>排查ESXI的管理口是否配置正确</p>
-<p>选择 Configure Management Network—&gt; Network Adapters 设置所有的端口都为管理口</p>
-</li>
-<li><p>开启SSH\SHELL等功能</p>
-<p>选择 Configure Management Network—&gt;Iroubleshootimg options—&gt;Disable SSH—&gt;Enabled</p>
-</li>
-<li><p>如何将网卡驱东写入ESXI安装包</p>
-</li>
-</ul>
-<h5 id="填入密钥注册ESXI"><a href="#填入密钥注册ESXI" class="headerlink" title="填入密钥注册ESXI"></a>填入密钥注册ESXI</h5><h5 id="有多快硬盘可以新建数据存储"><a href="#有多快硬盘可以新建数据存储" class="headerlink" title="有多快硬盘可以新建数据存储"></a>有多快硬盘可以新建数据存储</h5><h5 id="让虚拟机自动启动"><a href="#让虚拟机自动启动" class="headerlink" title="让虚拟机自动启动"></a>让虚拟机自动启动</h5><ul>
-<li>虚拟机右键设置可自动启动，ESXI里的 管理—也设置成自动启动</li>
-</ul>
-<h3 id="ESXI设置"><a href="#ESXI设置" class="headerlink" title="ESXI设置"></a>ESXI设置</h3><h5 id="网路设置"><a href="#网路设置" class="headerlink" title="网路设置"></a>网路设置</h5><ul>
-<li><p>编辑默认的网络，右键编辑—&gt;安全混杂模式—&gt;接受</p>
-</li>
-<li><p>添加其他5个虚拟交换机，上行线路不用管【选择对应的】，安全全部接口</p>
-</li>
-<li><p>添加端口组，选择对应的虚拟交换机</p>
-</li>
-<li><p>上传固件</p>
-</li>
-<li><p>选择数据存储，数据存储浏览—&gt;新建文件夹分别存放固件</p>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>routing</category>
-      </categories>
-      <tags>
-        <tag>软路由</tag>
-        <tag>esxi</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>这六款神级软件！ 绝对让你相见恨晚，免费开源</title>
     <url>/46815.html</url>
     <content><![CDATA[<h2 id="Umi-OCR"><a href="#Umi-OCR" class="headerlink" title="Umi-OCR"></a>Umi-OCR</h2><ul>
@@ -520,6 +498,68 @@
       </categories>
       <tags>
         <tag>Windows</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>软路由上安装esxi</title>
+    <url>/57580.html</url>
+    <content><![CDATA[<p>最近一直都在找路由器上适配的openWt固件，但是一直找不到。油管上无意间发现现在大家玩的都是软路由，所以现在路由器固件的适配工作明显减少。经过几个月的煎熬，最后还是没有忍住，入手了软路由，那就让我们从软路由的系统着手吧！</p>
+<span id="more"></span>
+<h5 id="下载VMware"><a href="#下载VMware" class="headerlink" title="下载VMware"></a>下载VMware</h5><ul>
+<li><p>注册账号后进行产品评估，评估完成后即可下载</p>
+</li>
+<li><p><a href="https://my.vmware.com/cn/web/vmware/info/slug/datacenter_cloud_infrastructure/vmware_vsphere/7_0">下载地址：点击跳转到官网下载</a></p>
+</li>
+</ul>
+<h5 id="制作U盘启动工具"><a href="#制作U盘启动工具" class="headerlink" title="制作U盘启动工具"></a>制作U盘启动工具</h5><ul>
+<li><a href="https://www.laomaotao.net/">下载完成版老毛桃U盘启动工具</a></li>
+<li>插上U盘，解压缩下载文件，运行exe即可</li>
+</ul>
+<h5 id="安装ESXI系统流程"><a href="#安装ESXI系统流程" class="headerlink" title="安装ESXI系统流程"></a>安装ESXI系统流程</h5><ol>
+<li>在U盘根目录新建文件夹MyExt，将下载的VMware镜像放入到该文件夹下；或直接将镜像放到LMT文件夹下也可以</li>
+<li>软路由接好键鼠，显示器，插上刚刚制作好的U盘，加电开机，以U盘引导的方式启动进入老毛桃工具</li>
+<li>选择【05 DiskGenius 硬盘分区工具】，选择软路由上的硬盘，右键选择删除硬盘所有分区，保存并应用更改</li>
+<li>重启软路由，还是以U盘的方式进入引导进入老毛桃工具，选择【10 运行自定义镜像】，进入后选择放入到U盘的Esxi镜像，回车启动。</li>
+<li>F11同意协议进入系统，选择将系统安装到哪个盘。安装完成后重启完成</li>
+</ol>
+<h5 id="设置ESXI（F2进入设置界面）"><a href="#设置ESXI（F2进入设置界面）" class="headerlink" title="设置ESXI（F2进入设置界面）"></a>设置ESXI（F2进入设置界面）</h5><ul>
+<li><p>设置ESXI的密码为空</p>
+<p>Reset System Configuration（重置系统设置）</p>
+</li>
+<li><p>配置ESXI后台地址及网关</p>
+<p>选择 Configure Management Network—&gt; IPv4 configuration—-&gt;Set static IPv4 address and…..设置好对应的IP</p>
+</li>
+<li><p>排查ESXI的管理口是否配置正确</p>
+<p>选择 Configure Management Network—&gt; Network Adapters 设置所有的端口都为管理口</p>
+</li>
+<li><p>开启SSH\SHELL等功能</p>
+<p>选择 Configure Management Network—&gt;Iroubleshootimg options—&gt;Disable SSH—&gt;Enabled</p>
+</li>
+<li><p>如何将网卡驱东写入ESXI安装包</p>
+</li>
+</ul>
+<h5 id="填入密钥注册ESXI"><a href="#填入密钥注册ESXI" class="headerlink" title="填入密钥注册ESXI"></a>填入密钥注册ESXI</h5><h5 id="有多快硬盘可以新建数据存储"><a href="#有多快硬盘可以新建数据存储" class="headerlink" title="有多快硬盘可以新建数据存储"></a>有多快硬盘可以新建数据存储</h5><h5 id="让虚拟机自动启动"><a href="#让虚拟机自动启动" class="headerlink" title="让虚拟机自动启动"></a>让虚拟机自动启动</h5><ul>
+<li>虚拟机右键设置可自动启动，ESXI里的 管理—也设置成自动启动</li>
+</ul>
+<h3 id="ESXI设置"><a href="#ESXI设置" class="headerlink" title="ESXI设置"></a>ESXI设置</h3><h5 id="网路设置"><a href="#网路设置" class="headerlink" title="网路设置"></a>网路设置</h5><ul>
+<li><p>编辑默认的网络，右键编辑—&gt;安全混杂模式—&gt;接受</p>
+</li>
+<li><p>添加其他5个虚拟交换机，上行线路不用管【选择对应的】，安全全部接口</p>
+</li>
+<li><p>添加端口组，选择对应的虚拟交换机</p>
+</li>
+<li><p>上传固件</p>
+</li>
+<li><p>选择数据存储，数据存储浏览—&gt;新建文件夹分别存放固件</p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>routing</category>
+      </categories>
+      <tags>
+        <tag>软路由</tag>
+        <tag>esxi</tag>
       </tags>
   </entry>
   <entry>
@@ -624,6 +664,39 @@
       </tags>
   </entry>
   <entry>
+    <title>如何在Mac上安装Windows 11系统？这个方法完全免费又简单好用</title>
+    <url>/53303.html</url>
+    <content><![CDATA[<p><img src="https://c5a6b8d.webp.li/2024/11/mac-vmware-function-pro.png"></p>
+<h1 id="VMware-Fusion-Pro"><a href="#VMware-Fusion-Pro" class="headerlink" title="VMware Fusion Pro"></a>VMware Fusion Pro</h1><p>下载并安装 VMware Fusion Pro ，这个软件已经正式免费提供给个人用户使用！</p>
+<p>【**<a href="https://blogs.vmware.com/teamfusion/2024/05/fusion-pro-now-available-free-for-personal-use.html">官方下载</a>**】</p>
+<p>官方需注册在管理中心进行下载【<a href="https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware+Fusion">点击前往</a>】</p>
+<p>百度网盘：<a href="https://pan.baidu.com/s/1SAncVLCaa5iG8AWNIaM19w?pwd=i16i">https://pan.baidu.com/s/1SAncVLCaa5iG8AWNIaM19w?pwd=i16i</a>  提取码: i16i</p>
+<p>夸克网盘：<a href="https://pan.quark.cn/s/fed867c006d4">https://pan.quark.cn/s/fed867c006d4</a></p>
+<h1 id="Windows-11-ARM"><a href="#Windows-11-ARM" class="headerlink" title="Windows 11 ARM"></a>Windows 11 ARM</h1><p>下载 Windows 11 ARM 结构的最新系统安装包：</p>
+<p>ED2K下载链接:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">ed2k://|file|SW_DVD9_Win_Pro_11_23H2_Arm64_ChnSimp_Pro_Ent_EDU_N_MLF_X23-59518.ISO|7142125568|769949291524FDE82A0BB52138433F06|/</span><br></pre></td></tr></table></figure>
+
+<p>BT下载链接:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">magnet:?xt=urn:btih:64fb7c011f407628471432d8cd52b2b5c6c52673&amp;dn=SW_DVD9_Win_Pro_11_23H2_Arm64_ChnSimp_Pro_Ent_EDU_N_MLF_X23-59518.ISO&amp;xl=7142125568</span><br></pre></td></tr></table></figure>
+<p>你可以使用任何的种子下载工具进行下载，比如你可以使用【<a href="https://www.qbittorrent.org/download">qBittorrent</a>】来进行下载</p>
+<h1 id="Windows-10-系统"><a href="#Windows-10-系统" class="headerlink" title="Windows 10 系统"></a>Windows 10 系统</h1><p>如果你需要在mac上安装 Windows 10 系统，那么安装步骤几乎是一样的，只需下载Windows 10 的ARM 最新安装包</p>
+<p>BT种子：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">magnet:?xt=urn:btih:1254374ee4000b9e8fed508fe2fdcdd8f49c2161&amp;dn=SW_DVD9_Win_Pro_10_22H2.3_64ARM_ChnSimp_Pro_Ent_EDU_N_MLF_X23-36949.ISO&amp;xl=5333610496</span><br></pre></td></tr></table></figure>
+
+<p>ED2K链接：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">http://ed2k//|file|SW_DVD9_Win_Pro_10_22H2.3_64ARM_ChnSimp_Pro_Ent_EDU_N_MLF_X23-36949.ISO|5333610496|401601D6C86121111B85019BAB8CD79D|/</span><br></pre></td></tr></table></figure>
+<p>后面的安装步骤跟上面的一样！</p>
+]]></content>
+      <categories>
+        <category>Mac</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
+        <tag>Linux</tag>
+        <tag>VMware</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>vagrant</title>
     <url>/40780.html</url>
     <content><![CDATA[<h3 id="起源"><a href="#起源" class="headerlink" title="起源"></a>起源</h3><p>久闻Vagrant大名，之前经常看到有开源项目使用它作为分布式开发的环境配置。</p>
@@ -672,39 +745,6 @@
       <tags>
         <tag>Linux</tag>
         <tag>vagrant</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>如何在Mac上安装Windows 11系统？这个方法完全免费又简单好用</title>
-    <url>/53303.html</url>
-    <content><![CDATA[<p><img src="https://c5a6b8d.webp.li/2024/11/mac-vmware-function-pro.png"></p>
-<h1 id="VMware-Fusion-Pro"><a href="#VMware-Fusion-Pro" class="headerlink" title="VMware Fusion Pro"></a>VMware Fusion Pro</h1><p>下载并安装 VMware Fusion Pro ，这个软件已经正式免费提供给个人用户使用！</p>
-<p>【**<a href="https://blogs.vmware.com/teamfusion/2024/05/fusion-pro-now-available-free-for-personal-use.html">官方下载</a>**】</p>
-<p>官方需注册在管理中心进行下载【<a href="https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware+Fusion">点击前往</a>】</p>
-<p>百度网盘：<a href="https://pan.baidu.com/s/1SAncVLCaa5iG8AWNIaM19w?pwd=i16i">https://pan.baidu.com/s/1SAncVLCaa5iG8AWNIaM19w?pwd=i16i</a>  提取码: i16i</p>
-<p>夸克网盘：<a href="https://pan.quark.cn/s/fed867c006d4">https://pan.quark.cn/s/fed867c006d4</a></p>
-<h1 id="Windows-11-ARM"><a href="#Windows-11-ARM" class="headerlink" title="Windows 11 ARM"></a>Windows 11 ARM</h1><p>下载 Windows 11 ARM 结构的最新系统安装包：</p>
-<p>ED2K下载链接:</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">ed2k://|file|SW_DVD9_Win_Pro_11_23H2_Arm64_ChnSimp_Pro_Ent_EDU_N_MLF_X23-59518.ISO|7142125568|769949291524FDE82A0BB52138433F06|/</span><br></pre></td></tr></table></figure>
-
-<p>BT下载链接:</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">magnet:?xt=urn:btih:64fb7c011f407628471432d8cd52b2b5c6c52673&amp;dn=SW_DVD9_Win_Pro_11_23H2_Arm64_ChnSimp_Pro_Ent_EDU_N_MLF_X23-59518.ISO&amp;xl=7142125568</span><br></pre></td></tr></table></figure>
-<p>你可以使用任何的种子下载工具进行下载，比如你可以使用【<a href="https://www.qbittorrent.org/download">qBittorrent</a>】来进行下载</p>
-<h1 id="Windows-10-系统"><a href="#Windows-10-系统" class="headerlink" title="Windows 10 系统"></a>Windows 10 系统</h1><p>如果你需要在mac上安装 Windows 10 系统，那么安装步骤几乎是一样的，只需下载Windows 10 的ARM 最新安装包</p>
-<p>BT种子：</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">magnet:?xt=urn:btih:1254374ee4000b9e8fed508fe2fdcdd8f49c2161&amp;dn=SW_DVD9_Win_Pro_10_22H2.3_64ARM_ChnSimp_Pro_Ent_EDU_N_MLF_X23-36949.ISO&amp;xl=5333610496</span><br></pre></td></tr></table></figure>
-
-<p>ED2K链接：</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">http://ed2k//|file|SW_DVD9_Win_Pro_10_22H2.3_64ARM_ChnSimp_Pro_Ent_EDU_N_MLF_X23-36949.ISO|5333610496|401601D6C86121111B85019BAB8CD79D|/</span><br></pre></td></tr></table></figure>
-<p>后面的安装步骤跟上面的一样！</p>
-]]></content>
-      <categories>
-        <category>Mac</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
-        <tag>Windows</tag>
-        <tag>VMware</tag>
       </tags>
   </entry>
   <entry>
@@ -762,27 +802,6 @@
       </categories>
       <tags>
         <tag>windows key</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Windows11 24H2正式发布！官方免费下载，并绕过硬件限制安装</title>
-    <url>/45623.html</url>
-    <content><![CDATA[<p>微软之前一直传闻会在本月发布 Windows 11 24H2，尽管有消息称发布日期可能是 10 月 8 日，但微软显然不想让大家猜中，今天便正式发布了该版本。24H2 带来了许多新改进，不过与 Copilot+ PC 相关的功能需要等到 11 月才能向符合硬件要求的 AMD 和 Intel 系统开放。目前，微软只提供了适用于 x64 硬件的 ISO 安装镜像，而 Arm64 版本预计将在未来几周内推出。</p>
-<p><strong>小红书视频教程直达：</strong><a href="https://www.xiaohongshu.com/explore/67009dbc000000002c02f43e?app_platform=android&app_version=8.54.0&apptime=1728093637&share_from_user_hidden=true&type=video&appuid=6694a7ab0000000003033310&author_share=1&xsec_token=DBD6kwLo0uCxXSGSm_sUx7OyvkEI41em5H3wuU1MwxAxE=&xsec_source=app_share&xhsshare=WeixinSession&shareRedId=ODw7NEQ8RUs2NzUyOTgwNjY2OTo3ODc5&share_id=e88da52e865247b387f31f1c18bd9693">Windows11 24H2 正式发布！绕过硬件限制安装</a> </p>
-<p><strong>Windows 11 24H2 官方下载链接：</strong><a href="https://www.microsoft.com/software-download/windows11">链接直达</a></p>
-<p>【<a href="https://www.microsoft.com/en-us/microsoft-copilot/for-individuals/copilot-app?form=MY02FX&OCID=MY02FX">官方英文版</a>】</p>
-<p>【<a href="https://www.microsoft.com/zh-cn/software-download/windows11">中文简体版</a>】</p>
-<p>【<a href="https://www.microsoft.com/zh-tw/software-download/windows11">中文繁體版</a>】</p>
-<h2 id="Windows-11-24H2-正式版新增的功能："><a href="#Windows-11-24H2-正式版新增的功能：" class="headerlink" title="Windows 11 24H2 正式版新增的功能："></a><strong>Windows 11 24H2 正式版新增的功能：</strong></h2><p>据微软表示，24H2 重点功能包括：</p>
-<p>Copilot+ PC 专属功能：<br>即时辅助字幕。<br>小画家中的Cocreator。<br>Windows Studio 效果。<br>自动超解析度。<br>影像建立工具和Restyle 影像。<br>Wi-Fi 7 支援。<br>辅助听力装置支援的蓝牙LE 音讯增强功能。<br>系统匣&amp; 工作列增强功能。<br>更精简的档案总管。<br>智慧电源管理。<br>使用QR Code 加入及共用Wi-Fi 网路。<br>增强的Wi-Fi 网路存取隐私控制。<br>在Microsoft Teams 中轻松管理帐户和通知。<br>跨装置扩充Voice Clarity。<br>Windows 的Sudo：提升Windows 命令列效率。<br>远端桌面：增强的连线能力和辅助功能。</p>
-<p>对于硬件不达标，无法在线升级的小伙伴，可以使用Rufus进行安装</p>
-<p><strong>Rufus 官方下载</strong>【<a href="https://rufus.ie/zh/">点击前往</a>】<br><img src="https://c5a6b8d.webp.li/2024/10/rufus.png"></p>
-]]></content>
-      <categories>
-        <category>Windows</category>
-      </categories>
-      <tags>
-        <tag>Windows</tag>
       </tags>
   </entry>
   <entry>
@@ -952,6 +971,27 @@
       </categories>
       <tags>
         <tag>yoga</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Windows11 24H2正式发布！官方免费下载，并绕过硬件限制安装</title>
+    <url>/45623.html</url>
+    <content><![CDATA[<p>微软之前一直传闻会在本月发布 Windows 11 24H2，尽管有消息称发布日期可能是 10 月 8 日，但微软显然不想让大家猜中，今天便正式发布了该版本。24H2 带来了许多新改进，不过与 Copilot+ PC 相关的功能需要等到 11 月才能向符合硬件要求的 AMD 和 Intel 系统开放。目前，微软只提供了适用于 x64 硬件的 ISO 安装镜像，而 Arm64 版本预计将在未来几周内推出。</p>
+<p><strong>小红书视频教程直达：</strong><a href="https://www.xiaohongshu.com/explore/67009dbc000000002c02f43e?app_platform=android&app_version=8.54.0&apptime=1728093637&share_from_user_hidden=true&type=video&appuid=6694a7ab0000000003033310&author_share=1&xsec_token=DBD6kwLo0uCxXSGSm_sUx7OyvkEI41em5H3wuU1MwxAxE=&xsec_source=app_share&xhsshare=WeixinSession&shareRedId=ODw7NEQ8RUs2NzUyOTgwNjY2OTo3ODc5&share_id=e88da52e865247b387f31f1c18bd9693">Windows11 24H2 正式发布！绕过硬件限制安装</a> </p>
+<p><strong>Windows 11 24H2 官方下载链接：</strong><a href="https://www.microsoft.com/software-download/windows11">链接直达</a></p>
+<p>【<a href="https://www.microsoft.com/en-us/microsoft-copilot/for-individuals/copilot-app?form=MY02FX&OCID=MY02FX">官方英文版</a>】</p>
+<p>【<a href="https://www.microsoft.com/zh-cn/software-download/windows11">中文简体版</a>】</p>
+<p>【<a href="https://www.microsoft.com/zh-tw/software-download/windows11">中文繁體版</a>】</p>
+<h2 id="Windows-11-24H2-正式版新增的功能："><a href="#Windows-11-24H2-正式版新增的功能：" class="headerlink" title="Windows 11 24H2 正式版新增的功能："></a><strong>Windows 11 24H2 正式版新增的功能：</strong></h2><p>据微软表示，24H2 重点功能包括：</p>
+<p>Copilot+ PC 专属功能：<br>即时辅助字幕。<br>小画家中的Cocreator。<br>Windows Studio 效果。<br>自动超解析度。<br>影像建立工具和Restyle 影像。<br>Wi-Fi 7 支援。<br>辅助听力装置支援的蓝牙LE 音讯增强功能。<br>系统匣&amp; 工作列增强功能。<br>更精简的档案总管。<br>智慧电源管理。<br>使用QR Code 加入及共用Wi-Fi 网路。<br>增强的Wi-Fi 网路存取隐私控制。<br>在Microsoft Teams 中轻松管理帐户和通知。<br>跨装置扩充Voice Clarity。<br>Windows 的Sudo：提升Windows 命令列效率。<br>远端桌面：增强的连线能力和辅助功能。</p>
+<p>对于硬件不达标，无法在线升级的小伙伴，可以使用Rufus进行安装</p>
+<p><strong>Rufus 官方下载</strong>【<a href="https://rufus.ie/zh/">点击前往</a>】<br><img src="https://c5a6b8d.webp.li/2024/10/rufus.png"></p>
+]]></content>
+      <categories>
+        <category>Windows</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
       </tags>
   </entry>
   <entry>
