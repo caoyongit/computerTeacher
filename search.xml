@@ -250,6 +250,28 @@
       </tags>
   </entry>
   <entry>
+    <title>xAI 最新大模型！Grok-Beta 开启公测，每月免费提供25美金的使用额度！</title>
+    <url>/47114.html</url>
+    <content><![CDATA[<p><img src="https://c5a6b8d.webp.li/2024/12/grok-beta.png" alt="grok-beta"></p>
+<p>就在前几天，由马斯克xAI推出的大模型Grok，正式开启API的免费公测！人人均可参与，为每个账号每个月提供了25美金的免费使用额度。xAI公开了这个全新的Grok模型，代号「grok-beta」</p>
+<p>该模型上下文长度为128000 token，这意味着Grok可以处理更长的文本输入，理解更复杂的上下文关系；</p>
+<p>目前来说，性能应该处于 GPT 4o mini 和GPT 4o之间，值得一提的是，考虑到用户的使用体验，xAI的REST API完全兼容Open AI和Anthropic的API，这对于新手来说上手就比较容易了！你可以使用零度之前给大家介绍过的免费开源程序ChatBox来进行调用API。</p>
+<p>接下来我们就来详细演示下，如何免费注册并使用grok-beta AI 模型……</p>
+<p>Grok-Beta 公测官网链接： <a href="https://x.ai/">https://x.ai/</a></p>
+<p>ChatBox 开源客户端下载：<a href="https://github.com/Bin-Huang/chatbox">https://github.com/Bin-Huang/chatbox</a></p>
+<p>API接口链接：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">https://api.x.ai</span><br></pre></td></tr></table></figure>
+
+<p>模型自定义：grok-beta</p>
+]]></content>
+      <categories>
+        <category>AI</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>JSON基本概念和用途</title>
     <url>/22725.html</url>
     <content><![CDATA[<h3 id="JSON的定义"><a href="#JSON的定义" class="headerlink" title="JSON的定义"></a>JSON的定义</h3><p>JSON (Javascript Object Notation）是一种轻量級、基于文本的、与语言无关的数据交换格式。</p>
@@ -664,39 +686,6 @@
       </tags>
   </entry>
   <entry>
-    <title>如何在Mac上安装Windows 11系统？这个方法完全免费又简单好用</title>
-    <url>/53303.html</url>
-    <content><![CDATA[<p><img src="https://c5a6b8d.webp.li/2024/11/mac-vmware-function-pro.png"></p>
-<h1 id="VMware-Fusion-Pro"><a href="#VMware-Fusion-Pro" class="headerlink" title="VMware Fusion Pro"></a>VMware Fusion Pro</h1><p>下载并安装 VMware Fusion Pro ，这个软件已经正式免费提供给个人用户使用！</p>
-<p>【**<a href="https://blogs.vmware.com/teamfusion/2024/05/fusion-pro-now-available-free-for-personal-use.html">官方下载</a>**】</p>
-<p>官方需注册在管理中心进行下载【<a href="https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware+Fusion">点击前往</a>】</p>
-<p>百度网盘：<a href="https://pan.baidu.com/s/1SAncVLCaa5iG8AWNIaM19w?pwd=i16i">https://pan.baidu.com/s/1SAncVLCaa5iG8AWNIaM19w?pwd=i16i</a>  提取码: i16i</p>
-<p>夸克网盘：<a href="https://pan.quark.cn/s/fed867c006d4">https://pan.quark.cn/s/fed867c006d4</a></p>
-<h1 id="Windows-11-ARM"><a href="#Windows-11-ARM" class="headerlink" title="Windows 11 ARM"></a>Windows 11 ARM</h1><p>下载 Windows 11 ARM 结构的最新系统安装包：</p>
-<p>ED2K下载链接:</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">ed2k://|file|SW_DVD9_Win_Pro_11_23H2_Arm64_ChnSimp_Pro_Ent_EDU_N_MLF_X23-59518.ISO|7142125568|769949291524FDE82A0BB52138433F06|/</span><br></pre></td></tr></table></figure>
-
-<p>BT下载链接:</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">magnet:?xt=urn:btih:64fb7c011f407628471432d8cd52b2b5c6c52673&amp;dn=SW_DVD9_Win_Pro_11_23H2_Arm64_ChnSimp_Pro_Ent_EDU_N_MLF_X23-59518.ISO&amp;xl=7142125568</span><br></pre></td></tr></table></figure>
-<p>你可以使用任何的种子下载工具进行下载，比如你可以使用【<a href="https://www.qbittorrent.org/download">qBittorrent</a>】来进行下载</p>
-<h1 id="Windows-10-系统"><a href="#Windows-10-系统" class="headerlink" title="Windows 10 系统"></a>Windows 10 系统</h1><p>如果你需要在mac上安装 Windows 10 系统，那么安装步骤几乎是一样的，只需下载Windows 10 的ARM 最新安装包</p>
-<p>BT种子：</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">magnet:?xt=urn:btih:1254374ee4000b9e8fed508fe2fdcdd8f49c2161&amp;dn=SW_DVD9_Win_Pro_10_22H2.3_64ARM_ChnSimp_Pro_Ent_EDU_N_MLF_X23-36949.ISO&amp;xl=5333610496</span><br></pre></td></tr></table></figure>
-
-<p>ED2K链接：</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">http://ed2k//|file|SW_DVD9_Win_Pro_10_22H2.3_64ARM_ChnSimp_Pro_Ent_EDU_N_MLF_X23-36949.ISO|5333610496|401601D6C86121111B85019BAB8CD79D|/</span><br></pre></td></tr></table></figure>
-<p>后面的安装步骤跟上面的一样！</p>
-]]></content>
-      <categories>
-        <category>Mac</category>
-      </categories>
-      <tags>
-        <tag>Windows</tag>
-        <tag>Linux</tag>
-        <tag>VMware</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>vagrant</title>
     <url>/40780.html</url>
     <content><![CDATA[<h3 id="起源"><a href="#起源" class="headerlink" title="起源"></a>起源</h3><p>久闻Vagrant大名，之前经常看到有开源项目使用它作为分布式开发的环境配置。</p>
@@ -748,6 +737,61 @@
       </tags>
   </entry>
   <entry>
+    <title>如何在Mac上安装Windows 11系统？这个方法完全免费又简单好用</title>
+    <url>/53303.html</url>
+    <content><![CDATA[<p><img src="https://c5a6b8d.webp.li/2024/11/mac-vmware-function-pro.png"></p>
+<h1 id="VMware-Fusion-Pro"><a href="#VMware-Fusion-Pro" class="headerlink" title="VMware Fusion Pro"></a>VMware Fusion Pro</h1><p>下载并安装 VMware Fusion Pro ，这个软件已经正式免费提供给个人用户使用！</p>
+<p>【**<a href="https://blogs.vmware.com/teamfusion/2024/05/fusion-pro-now-available-free-for-personal-use.html">官方下载</a>**】</p>
+<p>官方需注册在管理中心进行下载【<a href="https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware+Fusion">点击前往</a>】</p>
+<p>百度网盘：<a href="https://pan.baidu.com/s/1SAncVLCaa5iG8AWNIaM19w?pwd=i16i">https://pan.baidu.com/s/1SAncVLCaa5iG8AWNIaM19w?pwd=i16i</a>  提取码: i16i</p>
+<p>夸克网盘：<a href="https://pan.quark.cn/s/fed867c006d4">https://pan.quark.cn/s/fed867c006d4</a></p>
+<h1 id="Windows-11-ARM"><a href="#Windows-11-ARM" class="headerlink" title="Windows 11 ARM"></a>Windows 11 ARM</h1><p>下载 Windows 11 ARM 结构的最新系统安装包：</p>
+<p>ED2K下载链接:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">ed2k://|file|SW_DVD9_Win_Pro_11_23H2_Arm64_ChnSimp_Pro_Ent_EDU_N_MLF_X23-59518.ISO|7142125568|769949291524FDE82A0BB52138433F06|/</span><br></pre></td></tr></table></figure>
+
+<p>BT下载链接:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">magnet:?xt=urn:btih:64fb7c011f407628471432d8cd52b2b5c6c52673&amp;dn=SW_DVD9_Win_Pro_11_23H2_Arm64_ChnSimp_Pro_Ent_EDU_N_MLF_X23-59518.ISO&amp;xl=7142125568</span><br></pre></td></tr></table></figure>
+<p>你可以使用任何的种子下载工具进行下载，比如你可以使用【<a href="https://www.qbittorrent.org/download">qBittorrent</a>】来进行下载</p>
+<h1 id="Windows-10-系统"><a href="#Windows-10-系统" class="headerlink" title="Windows 10 系统"></a>Windows 10 系统</h1><p>如果你需要在mac上安装 Windows 10 系统，那么安装步骤几乎是一样的，只需下载Windows 10 的ARM 最新安装包</p>
+<p>BT种子：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">magnet:?xt=urn:btih:1254374ee4000b9e8fed508fe2fdcdd8f49c2161&amp;dn=SW_DVD9_Win_Pro_10_22H2.3_64ARM_ChnSimp_Pro_Ent_EDU_N_MLF_X23-36949.ISO&amp;xl=5333610496</span><br></pre></td></tr></table></figure>
+
+<p>ED2K链接：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">http://ed2k//|file|SW_DVD9_Win_Pro_10_22H2.3_64ARM_ChnSimp_Pro_Ent_EDU_N_MLF_X23-36949.ISO|5333610496|401601D6C86121111B85019BAB8CD79D|/</span><br></pre></td></tr></table></figure>
+<p>后面的安装步骤跟上面的一样！</p>
+]]></content>
+      <categories>
+        <category>Mac</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
+        <tag>Linux</tag>
+        <tag>VMware</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>查找您的 Windows 10 、11 激活密钥，以及（OEM 数字许可证密钥）</title>
+    <url>/46926.html</url>
+    <content><![CDATA[<p><strong>1、CMD命令终端下以管理员身份输入命令：</strong></p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">wmic path softwareLicensingService get OA3xOriginalProductKey</span><br></pre></td></tr></table></figure>
+<p>如果你通过上方的命令运行后没有看到密钥，那是因为你用的是OEM数字许可证密钥，这种情况请使用下面的第2种方法来获取密钥。</p>
+<p><strong>2、注册表下：</strong><br>计算机</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SoftwareProtectionPlatform</span><br></pre></td></tr></table></figure>
+<p>找到 BackupProductKeyDefault，在其后面就能找到你的激活密钥</p>
+<p><strong>3、Windows10 &#x2F;11 KMS激活方式</strong></p>
+<p>注意：以管理员身份运行CMD，然后依次输入下面的命令即可</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">slmgr /ipk 这里填写你的OEM密钥</span><br><span class="line"></span><br><span class="line">slmgr /skms kms.loli.best</span><br><span class="line"></span><br><span class="line">slmgr /ato</span><br><span class="line"></span><br><span class="line">slmgr /xpr</span><br></pre></td></tr></table></figure>
+
+<p>OEM激活密钥可以去微软官方免费获取<a href="https://learn.microsoft.com/zh-cn/windows-server/get-started/kms-client-activation-keys?tabs=server2022,windows10ltsc,version1803,windows81">【点击前往】</a></p>
+]]></content>
+      <categories>
+        <category>Windows</category>
+      </categories>
+      <tags>
+        <tag>windows key</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Windows11恢复到win10的右键经典菜单</title>
     <url>/10322.html</url>
     <content><![CDATA[<p>如果您正在寻找在 Windows 11 中禁用或启用新上下文菜单而不是处理注册表项的<strong>一键式解决方案</strong>，您可以使用 Win 11 Classic Context Menu v 1.0 Portable freeware Application。它具有简约的界面使用第一个按钮“启用 Win 11 经典上下文菜单样式”按钮禁用 Windows 11 中右键单击菜单中的“显示更多选项”</p>
@@ -783,25 +827,24 @@
       </tags>
   </entry>
   <entry>
-    <title>查找您的 Windows 10 、11 激活密钥，以及（OEM 数字许可证密钥）</title>
-    <url>/46926.html</url>
-    <content><![CDATA[<p><strong>1、CMD命令终端下以管理员身份输入命令：</strong></p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">wmic path softwareLicensingService get OA3xOriginalProductKey</span><br></pre></td></tr></table></figure>
-<p>如果你通过上方的命令运行后没有看到密钥，那是因为你用的是OEM数字许可证密钥，这种情况请使用下面的第2种方法来获取密钥。</p>
-<p><strong>2、注册表下：</strong><br>计算机</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SoftwareProtectionPlatform</span><br></pre></td></tr></table></figure>
-<p>找到 BackupProductKeyDefault，在其后面就能找到你的激活密钥</p>
-<p><strong>3、Windows10 &#x2F;11 KMS激活方式</strong></p>
-<p>注意：以管理员身份运行CMD，然后依次输入下面的命令即可</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">slmgr /ipk 这里填写你的OEM密钥</span><br><span class="line"></span><br><span class="line">slmgr /skms kms.loli.best</span><br><span class="line"></span><br><span class="line">slmgr /ato</span><br><span class="line"></span><br><span class="line">slmgr /xpr</span><br></pre></td></tr></table></figure>
-
-<p>OEM激活密钥可以去微软官方免费获取<a href="https://learn.microsoft.com/zh-cn/windows-server/get-started/kms-client-activation-keys?tabs=server2022,windows10ltsc,version1803,windows81">【点击前往】</a></p>
+    <title>Windows11 24H2正式发布！官方免费下载，并绕过硬件限制安装</title>
+    <url>/45623.html</url>
+    <content><![CDATA[<p>微软之前一直传闻会在本月发布 Windows 11 24H2，尽管有消息称发布日期可能是 10 月 8 日，但微软显然不想让大家猜中，今天便正式发布了该版本。24H2 带来了许多新改进，不过与 Copilot+ PC 相关的功能需要等到 11 月才能向符合硬件要求的 AMD 和 Intel 系统开放。目前，微软只提供了适用于 x64 硬件的 ISO 安装镜像，而 Arm64 版本预计将在未来几周内推出。</p>
+<p><strong>小红书视频教程直达：</strong><a href="https://www.xiaohongshu.com/explore/67009dbc000000002c02f43e?app_platform=android&app_version=8.54.0&apptime=1728093637&share_from_user_hidden=true&type=video&appuid=6694a7ab0000000003033310&author_share=1&xsec_token=DBD6kwLo0uCxXSGSm_sUx7OyvkEI41em5H3wuU1MwxAxE=&xsec_source=app_share&xhsshare=WeixinSession&shareRedId=ODw7NEQ8RUs2NzUyOTgwNjY2OTo3ODc5&share_id=e88da52e865247b387f31f1c18bd9693">Windows11 24H2 正式发布！绕过硬件限制安装</a> </p>
+<p><strong>Windows 11 24H2 官方下载链接：</strong><a href="https://www.microsoft.com/software-download/windows11">链接直达</a></p>
+<p>【<a href="https://www.microsoft.com/en-us/microsoft-copilot/for-individuals/copilot-app?form=MY02FX&OCID=MY02FX">官方英文版</a>】</p>
+<p>【<a href="https://www.microsoft.com/zh-cn/software-download/windows11">中文简体版</a>】</p>
+<p>【<a href="https://www.microsoft.com/zh-tw/software-download/windows11">中文繁體版</a>】</p>
+<h2 id="Windows-11-24H2-正式版新增的功能："><a href="#Windows-11-24H2-正式版新增的功能：" class="headerlink" title="Windows 11 24H2 正式版新增的功能："></a><strong>Windows 11 24H2 正式版新增的功能：</strong></h2><p>据微软表示，24H2 重点功能包括：</p>
+<p>Copilot+ PC 专属功能：<br>即时辅助字幕。<br>小画家中的Cocreator。<br>Windows Studio 效果。<br>自动超解析度。<br>影像建立工具和Restyle 影像。<br>Wi-Fi 7 支援。<br>辅助听力装置支援的蓝牙LE 音讯增强功能。<br>系统匣&amp; 工作列增强功能。<br>更精简的档案总管。<br>智慧电源管理。<br>使用QR Code 加入及共用Wi-Fi 网路。<br>增强的Wi-Fi 网路存取隐私控制。<br>在Microsoft Teams 中轻松管理帐户和通知。<br>跨装置扩充Voice Clarity。<br>Windows 的Sudo：提升Windows 命令列效率。<br>远端桌面：增强的连线能力和辅助功能。</p>
+<p>对于硬件不达标，无法在线升级的小伙伴，可以使用Rufus进行安装</p>
+<p><strong>Rufus 官方下载</strong>【<a href="https://rufus.ie/zh/">点击前往</a>】<br><img src="https://c5a6b8d.webp.li/2024/10/rufus.png"></p>
 ]]></content>
       <categories>
         <category>Windows</category>
       </categories>
       <tags>
-        <tag>windows key</tag>
+        <tag>Windows</tag>
       </tags>
   </entry>
   <entry>
@@ -971,27 +1014,6 @@
       </categories>
       <tags>
         <tag>yoga</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Windows11 24H2正式发布！官方免费下载，并绕过硬件限制安装</title>
-    <url>/45623.html</url>
-    <content><![CDATA[<p>微软之前一直传闻会在本月发布 Windows 11 24H2，尽管有消息称发布日期可能是 10 月 8 日，但微软显然不想让大家猜中，今天便正式发布了该版本。24H2 带来了许多新改进，不过与 Copilot+ PC 相关的功能需要等到 11 月才能向符合硬件要求的 AMD 和 Intel 系统开放。目前，微软只提供了适用于 x64 硬件的 ISO 安装镜像，而 Arm64 版本预计将在未来几周内推出。</p>
-<p><strong>小红书视频教程直达：</strong><a href="https://www.xiaohongshu.com/explore/67009dbc000000002c02f43e?app_platform=android&app_version=8.54.0&apptime=1728093637&share_from_user_hidden=true&type=video&appuid=6694a7ab0000000003033310&author_share=1&xsec_token=DBD6kwLo0uCxXSGSm_sUx7OyvkEI41em5H3wuU1MwxAxE=&xsec_source=app_share&xhsshare=WeixinSession&shareRedId=ODw7NEQ8RUs2NzUyOTgwNjY2OTo3ODc5&share_id=e88da52e865247b387f31f1c18bd9693">Windows11 24H2 正式发布！绕过硬件限制安装</a> </p>
-<p><strong>Windows 11 24H2 官方下载链接：</strong><a href="https://www.microsoft.com/software-download/windows11">链接直达</a></p>
-<p>【<a href="https://www.microsoft.com/en-us/microsoft-copilot/for-individuals/copilot-app?form=MY02FX&OCID=MY02FX">官方英文版</a>】</p>
-<p>【<a href="https://www.microsoft.com/zh-cn/software-download/windows11">中文简体版</a>】</p>
-<p>【<a href="https://www.microsoft.com/zh-tw/software-download/windows11">中文繁體版</a>】</p>
-<h2 id="Windows-11-24H2-正式版新增的功能："><a href="#Windows-11-24H2-正式版新增的功能：" class="headerlink" title="Windows 11 24H2 正式版新增的功能："></a><strong>Windows 11 24H2 正式版新增的功能：</strong></h2><p>据微软表示，24H2 重点功能包括：</p>
-<p>Copilot+ PC 专属功能：<br>即时辅助字幕。<br>小画家中的Cocreator。<br>Windows Studio 效果。<br>自动超解析度。<br>影像建立工具和Restyle 影像。<br>Wi-Fi 7 支援。<br>辅助听力装置支援的蓝牙LE 音讯增强功能。<br>系统匣&amp; 工作列增强功能。<br>更精简的档案总管。<br>智慧电源管理。<br>使用QR Code 加入及共用Wi-Fi 网路。<br>增强的Wi-Fi 网路存取隐私控制。<br>在Microsoft Teams 中轻松管理帐户和通知。<br>跨装置扩充Voice Clarity。<br>Windows 的Sudo：提升Windows 命令列效率。<br>远端桌面：增强的连线能力和辅助功能。</p>
-<p>对于硬件不达标，无法在线升级的小伙伴，可以使用Rufus进行安装</p>
-<p><strong>Rufus 官方下载</strong>【<a href="https://rufus.ie/zh/">点击前往</a>】<br><img src="https://c5a6b8d.webp.li/2024/10/rufus.png"></p>
-]]></content>
-      <categories>
-        <category>Windows</category>
-      </categories>
-      <tags>
-        <tag>Windows</tag>
       </tags>
   </entry>
   <entry>
