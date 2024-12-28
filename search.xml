@@ -335,6 +335,35 @@
       </tags>
   </entry>
   <entry>
+    <title>Mac微信插件</title>
+    <url>/45630.html</url>
+    <content><![CDATA[<p><strong>WeChatHooks v1.2-4：</strong>为WeChat增加</p>
+<ul>
+<li>撤回消息拦截</li>
+<li>增加全局头像圆角</li>
+<li>增加折叠群聊置顶</li>
+<li>增加导出聊天表情</li>
+<li>增加显示非好友微信号</li>
+<li>增加文本快捷复读</li>
+<li>增加表情快捷复读</li>
+<li>增加图片快捷复读</li>
+<li>增加收款显示详情</li>
+<li>增加退群检测提示</li>
+<li>增加禁用日志上报</li>
+<li>多开登录账号</li>
+</ul>
+<p>均在状态工具栏开启</p>
+<p><strong>下载地址：</strong><a href="https://github.com/Netskao/MacOS-Utils">https://github.com/Netskao/MacOS-Utils</a></p>
+<p><img src="https://c5a6b8d.webp.li/2024/12/mac-wechat-plugins.png"></p>
+]]></content>
+      <categories>
+        <category>Mac</category>
+      </categories>
+      <tags>
+        <tag>Mac</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Nslookup 查询DNS, TXT – nslookup指令集</title>
     <url>/46768.html</url>
     <content><![CDATA[<h4 id="基本指令"><a href="#基本指令" class="headerlink" title="基本指令"></a>基本指令</h4><p>nslookup [-option] [name | -] [server]<br>nslookup -type&#x3D;any domain.com<br>nslookup -type&#x3D;any domain.com 8.8.8.8<br><strong>type参数</strong></p>
