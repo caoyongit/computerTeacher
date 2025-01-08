@@ -494,6 +494,68 @@
       </tags>
   </entry>
   <entry>
+    <title>软路由上安装esxi</title>
+    <url>/57580.html</url>
+    <content><![CDATA[<p>最近一直都在找路由器上适配的openWt固件，但是一直找不到。油管上无意间发现现在大家玩的都是软路由，所以现在路由器固件的适配工作明显减少。经过几个月的煎熬，最后还是没有忍住，入手了软路由，那就让我们从软路由的系统着手吧！</p>
+<span id="more"></span>
+<h5 id="下载VMware"><a href="#下载VMware" class="headerlink" title="下载VMware"></a>下载VMware</h5><ul>
+<li><p>注册账号后进行产品评估，评估完成后即可下载</p>
+</li>
+<li><p><a href="https://my.vmware.com/cn/web/vmware/info/slug/datacenter_cloud_infrastructure/vmware_vsphere/7_0">下载地址：点击跳转到官网下载</a></p>
+</li>
+</ul>
+<h5 id="制作U盘启动工具"><a href="#制作U盘启动工具" class="headerlink" title="制作U盘启动工具"></a>制作U盘启动工具</h5><ul>
+<li><a href="https://www.laomaotao.net/">下载完成版老毛桃U盘启动工具</a></li>
+<li>插上U盘，解压缩下载文件，运行exe即可</li>
+</ul>
+<h5 id="安装ESXI系统流程"><a href="#安装ESXI系统流程" class="headerlink" title="安装ESXI系统流程"></a>安装ESXI系统流程</h5><ol>
+<li>在U盘根目录新建文件夹MyExt，将下载的VMware镜像放入到该文件夹下；或直接将镜像放到LMT文件夹下也可以</li>
+<li>软路由接好键鼠，显示器，插上刚刚制作好的U盘，加电开机，以U盘引导的方式启动进入老毛桃工具</li>
+<li>选择【05 DiskGenius 硬盘分区工具】，选择软路由上的硬盘，右键选择删除硬盘所有分区，保存并应用更改</li>
+<li>重启软路由，还是以U盘的方式进入引导进入老毛桃工具，选择【10 运行自定义镜像】，进入后选择放入到U盘的Esxi镜像，回车启动。</li>
+<li>F11同意协议进入系统，选择将系统安装到哪个盘。安装完成后重启完成</li>
+</ol>
+<h5 id="设置ESXI（F2进入设置界面）"><a href="#设置ESXI（F2进入设置界面）" class="headerlink" title="设置ESXI（F2进入设置界面）"></a>设置ESXI（F2进入设置界面）</h5><ul>
+<li><p>设置ESXI的密码为空</p>
+<p>Reset System Configuration（重置系统设置）</p>
+</li>
+<li><p>配置ESXI后台地址及网关</p>
+<p>选择 Configure Management Network—&gt; IPv4 configuration—-&gt;Set static IPv4 address and…..设置好对应的IP</p>
+</li>
+<li><p>排查ESXI的管理口是否配置正确</p>
+<p>选择 Configure Management Network—&gt; Network Adapters 设置所有的端口都为管理口</p>
+</li>
+<li><p>开启SSH\SHELL等功能</p>
+<p>选择 Configure Management Network—&gt;Iroubleshootimg options—&gt;Disable SSH—&gt;Enabled</p>
+</li>
+<li><p>如何将网卡驱东写入ESXI安装包</p>
+</li>
+</ul>
+<h5 id="填入密钥注册ESXI"><a href="#填入密钥注册ESXI" class="headerlink" title="填入密钥注册ESXI"></a>填入密钥注册ESXI</h5><h5 id="有多快硬盘可以新建数据存储"><a href="#有多快硬盘可以新建数据存储" class="headerlink" title="有多快硬盘可以新建数据存储"></a>有多快硬盘可以新建数据存储</h5><h5 id="让虚拟机自动启动"><a href="#让虚拟机自动启动" class="headerlink" title="让虚拟机自动启动"></a>让虚拟机自动启动</h5><ul>
+<li>虚拟机右键设置可自动启动，ESXI里的 管理—也设置成自动启动</li>
+</ul>
+<h3 id="ESXI设置"><a href="#ESXI设置" class="headerlink" title="ESXI设置"></a>ESXI设置</h3><h5 id="网路设置"><a href="#网路设置" class="headerlink" title="网路设置"></a>网路设置</h5><ul>
+<li><p>编辑默认的网络，右键编辑—&gt;安全混杂模式—&gt;接受</p>
+</li>
+<li><p>添加其他5个虚拟交换机，上行线路不用管【选择对应的】，安全全部接口</p>
+</li>
+<li><p>添加端口组，选择对应的虚拟交换机</p>
+</li>
+<li><p>上传固件</p>
+</li>
+<li><p>选择数据存储，数据存储浏览—&gt;新建文件夹分别存放固件</p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>routing</category>
+      </categories>
+      <tags>
+        <tag>软路由</tag>
+        <tag>esxi</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>这六款神级软件！ 绝对让你相见恨晚，免费开源</title>
     <url>/46815.html</url>
     <content><![CDATA[<h2 id="Umi-OCR"><a href="#Umi-OCR" class="headerlink" title="Umi-OCR"></a>Umi-OCR</h2><ul>
@@ -570,65 +632,26 @@
       </tags>
   </entry>
   <entry>
-    <title>软路由上安装esxi</title>
-    <url>/57580.html</url>
-    <content><![CDATA[<p>最近一直都在找路由器上适配的openWt固件，但是一直找不到。油管上无意间发现现在大家玩的都是软路由，所以现在路由器固件的适配工作明显减少。经过几个月的煎熬，最后还是没有忍住，入手了软路由，那就让我们从软路由的系统着手吧！</p>
+    <title>spring boot启动服务卡住无日志输出</title>
+    <url>/4847.html</url>
+    <content><![CDATA[<p>今天我们来介绍下spring boot 启动时候如果卡住，就是无日志输出，也不报错的几种解决方法</p>
+<p><strong>断点设置太多</strong></p>
+<p>这时可以打开IDEA的断点视图，查看哪些代码有断点并去掉就行了。或者干脆禁用掉整个项目的断点功能也行。<br><img src="https://c5a6b8d.webp.li/2024/09/breakpoints.png"></p>
 <span id="more"></span>
-<h5 id="下载VMware"><a href="#下载VMware" class="headerlink" title="下载VMware"></a>下载VMware</h5><ul>
-<li><p>注册账号后进行产品评估，评估完成后即可下载</p>
-</li>
-<li><p><a href="https://my.vmware.com/cn/web/vmware/info/slug/datacenter_cloud_infrastructure/vmware_vsphere/7_0">下载地址：点击跳转到官网下载</a></p>
-</li>
-</ul>
-<h5 id="制作U盘启动工具"><a href="#制作U盘启动工具" class="headerlink" title="制作U盘启动工具"></a>制作U盘启动工具</h5><ul>
-<li><a href="https://www.laomaotao.net/">下载完成版老毛桃U盘启动工具</a></li>
-<li>插上U盘，解压缩下载文件，运行exe即可</li>
-</ul>
-<h5 id="安装ESXI系统流程"><a href="#安装ESXI系统流程" class="headerlink" title="安装ESXI系统流程"></a>安装ESXI系统流程</h5><ol>
-<li>在U盘根目录新建文件夹MyExt，将下载的VMware镜像放入到该文件夹下；或直接将镜像放到LMT文件夹下也可以</li>
-<li>软路由接好键鼠，显示器，插上刚刚制作好的U盘，加电开机，以U盘引导的方式启动进入老毛桃工具</li>
-<li>选择【05 DiskGenius 硬盘分区工具】，选择软路由上的硬盘，右键选择删除硬盘所有分区，保存并应用更改</li>
-<li>重启软路由，还是以U盘的方式进入引导进入老毛桃工具，选择【10 运行自定义镜像】，进入后选择放入到U盘的Esxi镜像，回车启动。</li>
-<li>F11同意协议进入系统，选择将系统安装到哪个盘。安装完成后重启完成</li>
-</ol>
-<h5 id="设置ESXI（F2进入设置界面）"><a href="#设置ESXI（F2进入设置界面）" class="headerlink" title="设置ESXI（F2进入设置界面）"></a>设置ESXI（F2进入设置界面）</h5><ul>
-<li><p>设置ESXI的密码为空</p>
-<p>Reset System Configuration（重置系统设置）</p>
-</li>
-<li><p>配置ESXI后台地址及网关</p>
-<p>选择 Configure Management Network—&gt; IPv4 configuration—-&gt;Set static IPv4 address and…..设置好对应的IP</p>
-</li>
-<li><p>排查ESXI的管理口是否配置正确</p>
-<p>选择 Configure Management Network—&gt; Network Adapters 设置所有的端口都为管理口</p>
-</li>
-<li><p>开启SSH\SHELL等功能</p>
-<p>选择 Configure Management Network—&gt;Iroubleshootimg options—&gt;Disable SSH—&gt;Enabled</p>
-</li>
-<li><p>如何将网卡驱东写入ESXI安装包</p>
-</li>
-</ul>
-<h5 id="填入密钥注册ESXI"><a href="#填入密钥注册ESXI" class="headerlink" title="填入密钥注册ESXI"></a>填入密钥注册ESXI</h5><h5 id="有多快硬盘可以新建数据存储"><a href="#有多快硬盘可以新建数据存储" class="headerlink" title="有多快硬盘可以新建数据存储"></a>有多快硬盘可以新建数据存储</h5><h5 id="让虚拟机自动启动"><a href="#让虚拟机自动启动" class="headerlink" title="让虚拟机自动启动"></a>让虚拟机自动启动</h5><ul>
-<li>虚拟机右键设置可自动启动，ESXI里的 管理—也设置成自动启动</li>
-</ul>
-<h3 id="ESXI设置"><a href="#ESXI设置" class="headerlink" title="ESXI设置"></a>ESXI设置</h3><h5 id="网路设置"><a href="#网路设置" class="headerlink" title="网路设置"></a>网路设置</h5><ul>
-<li><p>编辑默认的网络，右键编辑—&gt;安全混杂模式—&gt;接受</p>
-</li>
-<li><p>添加其他5个虚拟交换机，上行线路不用管【选择对应的】，安全全部接口</p>
-</li>
-<li><p>添加端口组，选择对应的虚拟交换机</p>
-</li>
-<li><p>上传固件</p>
-</li>
-<li><p>选择数据存储，数据存储浏览—&gt;新建文件夹分别存放固件</p>
-</li>
-</ul>
+<p><strong>日志级别</strong></p>
+<p>检查自己项目中的日志级别，看是否是ERROR级别还是日志设置未生效等日志原因。</p>
+<p><strong>新增异常捕捉代码块</strong></p>
+<p>在spring boot的main方法的启动代码上新增try catch 代码块。</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">try</span> &#123;</span><br><span class="line">	<span class="comment">//...</span></span><br><span class="line">&#125; <span class="keyword">catch</span>(Exception e) &#123;</span><br><span class="line">	e.printStackTrace();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>日志被捕获</strong></p>
+<p>查看日志是否被其他框架捕获或者截取，先暂时屏蔽捕获的框架或停止使用这个框架。</p>
 ]]></content>
       <categories>
-        <category>routing</category>
+        <category>Java</category>
       </categories>
       <tags>
-        <tag>软路由</tag>
-        <tag>esxi</tag>
+        <tag>spring boot</tag>
       </tags>
   </entry>
   <entry>
@@ -686,29 +709,6 @@
       </tags>
   </entry>
   <entry>
-    <title>spring boot启动服务卡住无日志输出</title>
-    <url>/4847.html</url>
-    <content><![CDATA[<p>今天我们来介绍下spring boot 启动时候如果卡住，就是无日志输出，也不报错的几种解决方法</p>
-<p><strong>断点设置太多</strong></p>
-<p>这时可以打开IDEA的断点视图，查看哪些代码有断点并去掉就行了。或者干脆禁用掉整个项目的断点功能也行。<br><img src="https://c5a6b8d.webp.li/2024/09/breakpoints.png"></p>
-<span id="more"></span>
-<p><strong>日志级别</strong></p>
-<p>检查自己项目中的日志级别，看是否是ERROR级别还是日志设置未生效等日志原因。</p>
-<p><strong>新增异常捕捉代码块</strong></p>
-<p>在spring boot的main方法的启动代码上新增try catch 代码块。</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">try</span> &#123;</span><br><span class="line">	<span class="comment">//...</span></span><br><span class="line">&#125; <span class="keyword">catch</span>(Exception e) &#123;</span><br><span class="line">	e.printStackTrace();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><strong>日志被捕获</strong></p>
-<p>查看日志是否被其他框架捕获或者截取，先暂时屏蔽捕获的框架或停止使用这个框架。</p>
-]]></content>
-      <categories>
-        <category>Java</category>
-      </categories>
-      <tags>
-        <tag>spring boot</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Windows 11 超级精简版！ Tiny11 （24H2） 官方下载ISO</title>
     <url>/62064.html</url>
     <content><![CDATA[<p>Tiny 11 24H2 是一款非常适合想要在旧硬件上运行 Windows 11 的用户的系统安装包！，是目前最精简的版本</p>
@@ -730,6 +730,41 @@
       <tags>
         <tag>Windows</tag>
         <tag>windows key</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>如何在Mac上安装Windows 11系统？这个方法完全免费又简单好用</title>
+    <url>/53303.html</url>
+    <content><![CDATA[<p><img src="https://c5a6b8d.webp.li/2024/11/mac-vmware-function-pro.png"></p>
+<h1 id="VMware-Fusion-Pro"><a href="#VMware-Fusion-Pro" class="headerlink" title="VMware Fusion Pro"></a>VMware Fusion Pro</h1><p>下载并安装 VMware Fusion Pro ，这个软件已经正式免费提供给个人用户使用！</p>
+<p>【**<a href="https://blogs.vmware.com/teamfusion/2024/05/fusion-pro-now-available-free-for-personal-use.html">官方下载</a>**】</p>
+<p>官方需注册在管理中心进行下载【<a href="https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware+Fusion">点击前往</a>】</p>
+<p>百度网盘：<a href="https://pan.baidu.com/s/1SAncVLCaa5iG8AWNIaM19w?pwd=i16i">https://pan.baidu.com/s/1SAncVLCaa5iG8AWNIaM19w?pwd=i16i</a>  提取码: i16i</p>
+<p>夸克网盘：<a href="https://pan.quark.cn/s/fed867c006d4">https://pan.quark.cn/s/fed867c006d4</a></p>
+<h1 id="Windows-11-ARM"><a href="#Windows-11-ARM" class="headerlink" title="Windows 11 ARM"></a>Windows 11 ARM</h1><p>下载 Windows 11 ARM 结构的最新系统安装包：</p>
+<p>ED2K下载链接:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">ed2k://|file|SW_DVD9_Win_Pro_11_23H2_Arm64_ChnSimp_Pro_Ent_EDU_N_MLF_X23-59518.ISO|7142125568|769949291524FDE82A0BB52138433F06|/</span><br></pre></td></tr></table></figure>
+
+<p>BT下载链接:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">magnet:?xt=urn:btih:64fb7c011f407628471432d8cd52b2b5c6c52673&amp;dn=SW_DVD9_Win_Pro_11_23H2_Arm64_ChnSimp_Pro_Ent_EDU_N_MLF_X23-59518.ISO&amp;xl=7142125568</span><br></pre></td></tr></table></figure>
+<p>你可以使用任何的种子下载工具进行下载，比如你可以使用【<a href="https://www.qbittorrent.org/download">qBittorrent</a>】来进行下载</p>
+<h1 id="Windows-10-系统"><a href="#Windows-10-系统" class="headerlink" title="Windows 10 系统"></a>Windows 10 系统</h1><p>如果你需要在mac上安装 Windows 10 系统，那么安装步骤几乎是一样的，只需下载Windows 10 的ARM 最新安装包</p>
+<p>BT种子：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">magnet:?xt=urn:btih:1254374ee4000b9e8fed508fe2fdcdd8f49c2161&amp;dn=SW_DVD9_Win_Pro_10_22H2.3_64ARM_ChnSimp_Pro_Ent_EDU_N_MLF_X23-36949.ISO&amp;xl=5333610496</span><br></pre></td></tr></table></figure>
+
+<p>ED2K链接：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">http://ed2k//|file|SW_DVD9_Win_Pro_10_22H2.3_64ARM_ChnSimp_Pro_Ent_EDU_N_MLF_X23-36949.ISO|5333610496|401601D6C86121111B85019BAB8CD79D|/</span><br></pre></td></tr></table></figure>
+<p>后面的安装步骤跟上面的一样！</p>
+<h1 id="手动下载"><a href="#手动下载" class="headerlink" title="手动下载"></a>手动下载</h1><p><font color=red><strong>如果无法安装虚拟机tools，试试下载安装包手动安装看是否可行：</strong></font></p>
+<p><a href="https://packages.vmware.com/tools/esx/latest/windows/x64/">https://packages.vmware.com/tools/esx/latest/windows/x64/</a></p>
+]]></content>
+      <categories>
+        <category>Mac</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
+        <tag>Linux</tag>
+        <tag>VMware</tag>
       </tags>
   </entry>
   <entry>
@@ -781,41 +816,6 @@
       <tags>
         <tag>Linux</tag>
         <tag>vagrant</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>如何在Mac上安装Windows 11系统？这个方法完全免费又简单好用</title>
-    <url>/53303.html</url>
-    <content><![CDATA[<p><img src="https://c5a6b8d.webp.li/2024/11/mac-vmware-function-pro.png"></p>
-<h1 id="VMware-Fusion-Pro"><a href="#VMware-Fusion-Pro" class="headerlink" title="VMware Fusion Pro"></a>VMware Fusion Pro</h1><p>下载并安装 VMware Fusion Pro ，这个软件已经正式免费提供给个人用户使用！</p>
-<p>【**<a href="https://blogs.vmware.com/teamfusion/2024/05/fusion-pro-now-available-free-for-personal-use.html">官方下载</a>**】</p>
-<p>官方需注册在管理中心进行下载【<a href="https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware+Fusion">点击前往</a>】</p>
-<p>百度网盘：<a href="https://pan.baidu.com/s/1SAncVLCaa5iG8AWNIaM19w?pwd=i16i">https://pan.baidu.com/s/1SAncVLCaa5iG8AWNIaM19w?pwd=i16i</a>  提取码: i16i</p>
-<p>夸克网盘：<a href="https://pan.quark.cn/s/fed867c006d4">https://pan.quark.cn/s/fed867c006d4</a></p>
-<h1 id="Windows-11-ARM"><a href="#Windows-11-ARM" class="headerlink" title="Windows 11 ARM"></a>Windows 11 ARM</h1><p>下载 Windows 11 ARM 结构的最新系统安装包：</p>
-<p>ED2K下载链接:</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">ed2k://|file|SW_DVD9_Win_Pro_11_23H2_Arm64_ChnSimp_Pro_Ent_EDU_N_MLF_X23-59518.ISO|7142125568|769949291524FDE82A0BB52138433F06|/</span><br></pre></td></tr></table></figure>
-
-<p>BT下载链接:</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">magnet:?xt=urn:btih:64fb7c011f407628471432d8cd52b2b5c6c52673&amp;dn=SW_DVD9_Win_Pro_11_23H2_Arm64_ChnSimp_Pro_Ent_EDU_N_MLF_X23-59518.ISO&amp;xl=7142125568</span><br></pre></td></tr></table></figure>
-<p>你可以使用任何的种子下载工具进行下载，比如你可以使用【<a href="https://www.qbittorrent.org/download">qBittorrent</a>】来进行下载</p>
-<h1 id="Windows-10-系统"><a href="#Windows-10-系统" class="headerlink" title="Windows 10 系统"></a>Windows 10 系统</h1><p>如果你需要在mac上安装 Windows 10 系统，那么安装步骤几乎是一样的，只需下载Windows 10 的ARM 最新安装包</p>
-<p>BT种子：</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">magnet:?xt=urn:btih:1254374ee4000b9e8fed508fe2fdcdd8f49c2161&amp;dn=SW_DVD9_Win_Pro_10_22H2.3_64ARM_ChnSimp_Pro_Ent_EDU_N_MLF_X23-36949.ISO&amp;xl=5333610496</span><br></pre></td></tr></table></figure>
-
-<p>ED2K链接：</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">http://ed2k//|file|SW_DVD9_Win_Pro_10_22H2.3_64ARM_ChnSimp_Pro_Ent_EDU_N_MLF_X23-36949.ISO|5333610496|401601D6C86121111B85019BAB8CD79D|/</span><br></pre></td></tr></table></figure>
-<p>后面的安装步骤跟上面的一样！</p>
-<h1 id="手动下载"><a href="#手动下载" class="headerlink" title="手动下载"></a>手动下载</h1><p><font color=red><strong>如果无法安装虚拟机tools，试试下载安装包手动安装看是否可行：</strong></font></p>
-<p><a href="https://packages.vmware.com/tools/esx/latest/windows/x64/">https://packages.vmware.com/tools/esx/latest/windows/x64/</a></p>
-]]></content>
-      <categories>
-        <category>Mac</category>
-      </categories>
-      <tags>
-        <tag>Windows</tag>
-        <tag>Linux</tag>
-        <tag>VMware</tag>
       </tags>
   </entry>
   <entry>
@@ -935,6 +935,34 @@
       </categories>
       <tags>
         <tag>Windows</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Windows 11 微软 Recall 召回功能有重大安全隐患！如何检测并禁用？</title>
+    <url>/9528.html</url>
+    <content><![CDATA[<p>最新版本的Windows 11系统中，微软默认启用了备受争议的Recall功能。这一功能通过定期截取用户屏幕并进行分析，旨在帮助用户快速检索过去操作的信息。然而，其潜在的安全和隐私风险引发了广泛关注。</p>
+<h3 id="Recall功能为何引发担忧？"><a href="#Recall功能为何引发担忧？" class="headerlink" title="Recall功能为何引发担忧？"></a><strong>Recall功能为何引发担忧？</strong></h3><ul>
+<li><strong>隐私泄露风险：</strong> Recall功能可能无意中截取包含敏感信息的屏幕截图，例如密码、银行账户信息等，这些信息一旦泄露，将对用户造成严重损失。</li>
+<li><strong>数据滥用隐患：</strong> 虽然微软声称会对数据进行加密和匿名化处理，但仍无法完全排除数据被滥用的可能性。</li>
+<li><strong>系统性能影响：</strong> 不断的屏幕截图和数据分析可能占用大量系统资源，影响电脑运行速度。</li>
+</ul>
+<p><strong>检测是否开启：</strong></p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">Dism /Online /Get-Featureinfo /Featurename:Recall</span><br></pre></td></tr></table></figure>
+
+<p><strong>关闭 Recall功能：</strong></p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">Dism /Online /Disable-Feature /Featurename:Recall</span><br></pre></td></tr></table></figure>
+
+<p><strong>开启Recall功能：</strong></p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">Dism /Online /Enable-Feature /Featurename:Recall</span><br></pre></td></tr></table></figure>
+
+<p>只需在CMD终端下，以管理员身份运行以上命令即可！</p>
+]]></content>
+      <categories>
+        <category>Windows</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
+        <tag>Recall</tag>
       </tags>
   </entry>
   <entry>
