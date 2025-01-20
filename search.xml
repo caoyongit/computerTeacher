@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>全新 Windows 11 任务栏和开始菜单的外观！超级美观大方</title>
+    <url>/47992.html</url>
+    <content><![CDATA[<p>想不想彻底改变 Windows 11 默认的任务栏和开始菜单的外观！跟着我来操作，可以让你的电脑屏幕焕然一新，超级美观又大方！</p>
+<p><img src="https://c5a6b8d.webp.li/2025/01/Windhawk.png"></p>
+<p>首先我们需要下载 <strong>Windhawk 神器，</strong>这是一款<strong>免费且开源</strong>的Windows11系统自定义工具，它采用模块化设计，旨在简化Windows系统定制的过程，并提供更多的个性化设置选项！</p>
+<p><strong>Windhawk 官方下载：【<a href="https://windhawk.net/">点击前往</a>】</strong></p>
+<p><strong>电脑桌面背景图下载：【<a href="https://bbs.freedidi.com/t/topic/1525">点击前往</a>】</strong></p>
+<p><strong>任务栏透明效果：</strong>在系统设置中心 – 辅助功能 – 视觉效果 – 开启透明效果即可！</p>
+<p><strong>代码获取</strong></p>
+<p>1、开始菜单风格：</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line">&#123;&quot;controlStyles<span class="selector-attr">[0]</span><span class="selector-class">.target</span>&quot;:<span class="string">&quot;Button#CloseAllAppsButton&quot;</span>,<span class="string">&quot;controlStyles[0].styles[0]&quot;</span>:<span class="string">&quot;CornerRadius=14&quot;</span>,<span class="string">&quot;controlStyles[0].styles[1]&quot;</span>:<span class="string">&quot;Margin=0,0,-32,0&quot;</span>,<span class="string">&quot;controlStyles[0].styles[2]&quot;</span>:<span class="string">&quot;Width=74&quot;</span>,<span class="string">&quot;controlStyles[0].styles[3]&quot;</span>:<span class="string">&quot;Height=26&quot;</span>,<span class="string">&quot;controlStyles[1].target&quot;</span>:<span class="string">&quot;Grid#ShowMoreSuggestions&quot;</span>,<span class="string">&quot;controlStyles[1].styles[0]&quot;</span>:<span class="string">&quot;Visibility=1&quot;</span>,<span class="string">&quot;controlStyles[2].target&quot;</span>:<span class="string">&quot;Grid#SuggestionsParentContainer&quot;</span>,<span class="string">&quot;controlStyles[2].styles[0]&quot;</span>:<span class="string">&quot;Visibility=1&quot;</span>,<span class="string">&quot;controlStyles[3].target&quot;</span>:<span class="string">&quot;Grid#TopLevelSuggestionsListHeader&quot;</span>,<span class="string">&quot;controlStyles[3].styles[0]&quot;</span>:<span class="string">&quot;Visibility=1&quot;</span>,<span class="string">&quot;controlStyles[4].target&quot;</span>:<span class="string">&quot;Button#ShowAllAppsButton&quot;</span>,<span class="string">&quot;controlStyles[4].styles[0]&quot;</span>:<span class="string">&quot;CornerRadius=14&quot;</span>,<span class="string">&quot;controlStyles[4].styles[1]&quot;</span>:<span class="string">&quot;Margin=0,0,32,0&quot;</span>,<span class="string">&quot;controlStyles[4].styles[2]&quot;</span>:<span class="string">&quot;Width=148&quot;</span>,<span class="string">&quot;controlStyles[4].styles[3]&quot;</span>:<span class="string">&quot;Height=26&quot;</span>,<span class="string">&quot;controlStyles[5].target&quot;</span>:<span class="string">&quot;StartDocked.SearchBoxToggleButton&quot;</span>,<span class="string">&quot;controlStyles[5].styles[0]&quot;</span>:<span class="string">&quot;Margin=30,0,31,28&quot;</span>,<span class="string">&quot;controlStyles[6].target&quot;</span>:<span class="string">&quot;PipsPager#PinnedListPipsPager&quot;</span>,<span class="string">&quot;controlStyles[6].styles[0]&quot;</span>:<span class="string">&quot;Visibility=1&quot;</span>,<span class="string">&quot;controlStyles[7].target&quot;</span>:<span class="string">&quot;Border#AcrylicBorder&quot;</span>,<span class="string">&quot;controlStyles[7].styles[0]&quot;</span>:<span class="string">&quot;Background:=&lt;AcrylicBrush TintColor=\&quot;&#123;ThemeResource CardStrokeColorDefaultSolid&#125;\&quot; FallbackColor=\&quot;&#123;ThemeResource CardStrokeColorDefaultSolid&#125;\&quot; TintOpacity=\&quot;0\&quot; TintLuminosityOpacity=\&quot;.45\&quot; Opacity=\&quot;1\&quot;/&gt;&quot;</span>,<span class="string">&quot;controlStyles[7].styles[1]&quot;</span>:<span class="string">&quot;CornerRadius=62&quot;</span>,<span class="string">&quot;controlStyles[7].styles[2]&quot;</span>:<span class="string">&quot;BorderBrush:=&lt;AcrylicBrush TintColor=\&quot;&#123;ThemeResource SurfaceStrokeColorDefault&#125;\&quot; FallbackColor=\&quot;&#123;ThemeResource SurfaceStrokeColorDefault&#125;\&quot; TintOpacity=\&quot;0\&quot; TintLuminosityOpacity=\&quot;.25\&quot; Opacity=\&quot;1\&quot;/&gt;&quot;</span>,<span class="string">&quot;controlStyles[7].styles[3]&quot;</span>:<span class="string">&quot;BorderThickness=1&quot;</span>,<span class="string">&quot;controlStyles[8].target&quot;</span>:<span class="string">&quot;Grid#MainContent&quot;</span>,<span class="string">&quot;controlStyles[8].styles[0]&quot;</span>:<span class="string">&quot;CornerRadius=12&quot;</span>,<span class="string">&quot;controlStyles[9].target&quot;</span>:<span class="string">&quot;StartMenu.PinnedList&quot;</span>,<span class="string">&quot;controlStyles[9].styles[0]&quot;</span>:<span class="string">&quot;Height=690&quot;</span>,<span class="string">&quot;controlStyles[10].target&quot;</span>:<span class="string">&quot;TextBlock#DisplayName&quot;</span>,<span class="string">&quot;controlStyles[10].styles[0]&quot;</span>:<span class="string">&quot;Margin=0,19,0,-16&quot;</span>,<span class="string">&quot;controlStyles[10].styles[1]&quot;</span>:<span class="string">&quot;FontSize=13&quot;</span>,<span class="string">&quot;controlStyles[10].styles[2]&quot;</span>:<span class="string">&quot;FontFamily=Aptos&quot;</span>,<span class="string">&quot;controlStyles[10].styles[3]&quot;</span>:<span class="string">&quot;Opacity=.98&quot;</span>,<span class="string">&quot;controlStyles[11].target&quot;</span>:<span class="string">&quot;TextBlock#PinnedListHeaderText&quot;</span>,<span class="string">&quot;controlStyles[11].styles[0]&quot;</span>:<span class="string">&quot;Margin=-29,0,0,0&quot;</span>,<span class="string">&quot;controlStyles[11].styles[1]&quot;</span>:<span class="string">&quot;FontFamily=Aptos&quot;</span>,<span class="string">&quot;controlStyles[11].styles[2]&quot;</span>:<span class="string">&quot;Opacity=.85&quot;</span>,<span class="string">&quot;controlStyles[11].styles[3]&quot;</span>:<span class="string">&quot;FontSize=16&quot;</span>,<span class="string">&quot;controlStyles[12].target&quot;</span>:<span class="string">&quot;Border#TaskbarSearchBackground&quot;</span>,<span class="string">&quot;controlStyles[12].styles[0]&quot;</span>:<span class="string">&quot;Visibility=1&quot;</span>,<span class="string">&quot;controlStyles[13].target&quot;</span>:<span class="string">&quot;Border#AppBorder&quot;</span>,<span class="string">&quot;controlStyles[13].styles[0]&quot;</span>:<span class="string">&quot;Background:=&lt;AcrylicBrush TintColor=\&quot;&#123;ThemeResource CardStrokeColorDefaultSolid&#125;\&quot;  FallbackColor=\&quot;&#123;ThemeResource CardStrokeColorDefaultSolid&#125;\&quot; TintOpacity=\&quot;0\&quot; TintLuminosityOpacity=\&quot;.85\&quot; Opacity=\&quot;1\&quot;/&gt;&quot;</span>,<span class="string">&quot;controlStyles[13].styles[1]&quot;</span>:<span class="string">&quot;BorderBrush:=&lt;AcrylicBrush TintColor=\&quot;&#123;ThemeResource SurfaceStrokeColorDefault&#125;\&quot; FallbackColor=\&quot;&#123;ThemeResource SurfaceStrokeColorDefault&#125;\&quot; TintOpacity=\&quot;0\&quot; TintLuminosityOpacity=\&quot;.25\&quot; Opacity=\&quot;1\&quot;/&gt;&quot;</span>,<span class="string">&quot;controlStyles[13].styles[2]&quot;</span>:<span class="string">&quot;CornerRadius=12&quot;</span>,<span class="string">&quot;controlStyles[14].target&quot;</span>:<span class="string">&quot;Border#dropshadow&quot;</span>,<span class="string">&quot;controlStyles[14].styles[0]&quot;</span>:<span class="string">&quot;CornerRadius=12&quot;</span>,<span class="string">&quot;controlStyles[15].target&quot;</span>:<span class="string">&quot;Cortana.UI.Views.RichSearchBoxControl#SearchBoxControl&quot;</span>,<span class="string">&quot;controlStyles[15].styles[0]&quot;</span>:<span class="string">&quot;Margin=33,33,33,10&quot;</span>,<span class="string">&quot;controlStyles[16].target&quot;</span>:<span class="string">&quot;TextBlock#UserTileNameText&quot;</span>,<span class="string">&quot;controlStyles[16].styles[0]&quot;</span>:<span class="string">&quot;Visibility=1&quot;</span>,<span class="string">&quot;controlStyles[17].target&quot;</span>:<span class="string">&quot;TextBlock#AllAppsHeading&quot;</span>,<span class="string">&quot;controlStyles[17].styles[0]&quot;</span>:<span class="string">&quot;FontFamily=Aptos&quot;</span>,<span class="string">&quot;controlStyles[17].styles[1]&quot;</span>:<span class="string">&quot;Margin=-32,0,0,0&quot;</span>,<span class="string">&quot;controlStyles[17].styles[2]&quot;</span>:<span class="string">&quot;FontSize=16&quot;</span>,<span class="string">&quot;controlStyles[17].styles[3]&quot;</span>:<span class="string">&quot;Opacity=.85&quot;</span>,<span class="string">&quot;controlStyles[18].target&quot;</span>:<span class="string">&quot;Border#ContentBorder&quot;</span>,<span class="string">&quot;controlStyles[18].styles[0]&quot;</span>:<span class="string">&quot;CornerRadius=6&quot;</span>,<span class="string">&quot;controlStyles[19].target&quot;</span>:<span class="string">&quot;GridViewItem &gt; Border#ContentBorder &gt; Grid#DroppedFlickerWorkaroundWrapper &gt; Border#BackgroundBorder&quot;</span>,<span class="string">&quot;controlStyles[19].styles[0]&quot;</span>:<span class="string">&quot;FocusVisualPrimaryThickness=0&quot;</span>,<span class="string">&quot;controlStyles[20].target&quot;</span>:<span class="string">&quot;StartDocked.SearchBoxToggleButton &gt; Grid &gt; ContentPresenter &gt; TextBlock#PlaceholderText&quot;</span>,<span class="string">&quot;controlStyles[20].styles[0]&quot;</span>:<span class="string">&quot;Text=Where to next?&quot;</span>,<span class="string">&quot;controlStyles[20].styles[1]&quot;</span>:<span class="string">&quot;FontWeight=700&quot;</span>,<span class="string">&quot;controlStyles[20].styles[2]&quot;</span>:<span class="string">&quot;FontFamily=Aptos&quot;</span>,<span class="string">&quot;controlStyles[20].styles[3]&quot;</span>:<span class="string">&quot;FontSize=24&quot;</span>,<span class="string">&quot;controlStyles[20].styles[4]&quot;</span>:<span class="string">&quot;Foreground:=&lt;SolidColorBrush Color=\&quot;&#123;ThemeResource FocusStrokeColorOuter&#125;\&quot; Opacity=\&quot;.85\&quot;/&gt;&quot;</span>,<span class="string">&quot;controlStyles[20].styles[5]&quot;</span>:<span class="string">&quot;Margin=10,0,0,0&quot;</span>,<span class="string">&quot;controlStyles[21].target&quot;</span>:<span class="string">&quot;StartDocked.SearchBoxToggleButton &gt; Grid &gt; Border&quot;</span>,<span class="string">&quot;controlStyles[21].styles[0]&quot;</span>:<span class="string">&quot;Background=transparent&quot;</span>,<span class="string">&quot;controlStyles[21].styles[1]&quot;</span>:<span class="string">&quot;BorderBrush=transparent&quot;</span>,<span class="string">&quot;controlStyles[22].target&quot;</span>:<span class="string">&quot;StartDocked.SearchBoxToggleButton &gt; Grid &gt; FontIcon&quot;</span>,<span class="string">&quot;controlStyles[22].styles[0]&quot;</span>:<span class="string">&quot;Transform3D:=&lt;CompositeTransform3D  TranslateX=\&quot;165\&quot; TranslateY=\&quot;-1\&quot;/&gt;&quot;</span>,<span class="string">&quot;controlStyles[22].styles[1]&quot;</span>:<span class="string">&quot;Foreground:=&lt;SolidColorBrush Color=\&quot;&#123;ThemeResource FocusStrokeColorOuter&#125;\&quot; FallbackColor=\&quot;&#123;ThemeResource FocusStrokeColorOuter&#125;\&quot; Opacity=\&quot;.85\&quot;/&gt;&quot;</span>,<span class="string">&quot;controlStyles[22].styles[2]&quot;</span>:<span class="string">&quot;FontSize=24&quot;</span>,<span class="string">&quot;controlStyles[23].target&quot;</span>:<span class="string">&quot;Grid#TopLevelRoot&quot;</span>,<span class="string">&quot;controlStyles[23].styles[0]&quot;</span>:<span class="string">&quot;Margin=0,-8,0,0&quot;</span>,<span class="string">&quot;controlStyles[24].target&quot;</span>:<span class="string">&quot;GridViewItem&quot;</span>,<span class="string">&quot;controlStyles[24].styles[0]&quot;</span>:<span class="string">&quot;Height=96&quot;</span>,<span class="string">&quot;controlStyles[24].styles[1]&quot;</span>:<span class="string">&quot;Margin=0,0,0,2&quot;</span>,<span class="string">&quot;controlStyles[25].target&quot;</span>:<span class="string">&quot;StartDocked.UserTileView&quot;</span>,<span class="string">&quot;controlStyles[25].styles[0]&quot;</span>:<span class="string">&quot;Margin=512,-1290,-2000,0&quot;</span>,<span class="string">&quot;controlStyles[26].target&quot;</span>:<span class="string">&quot;StartDocked.UserTileView &gt; StartDocked.NavigationPaneButton &gt; Grid &gt; Border&quot;</span>,<span class="string">&quot;controlStyles[26].styles[0]&quot;</span>:<span class="string">&quot;CornerRadius=99&quot;</span>,<span class="string">&quot;controlStyles[26].styles[1]&quot;</span>:<span class="string">&quot;Margin=8,0,8,0&quot;</span>,<span class="string">&quot;controlStyles[27].styles[0]&quot;</span>:<span class="string">&quot;Margin=-64,-1290,-2000,0&quot;</span>,<span class="string">&quot;controlStyles[27].target&quot;</span>:<span class="string">&quot;StartDocked.PowerOptionsView&quot;</span>,<span class="string">&quot;controlStyles[27].styles[1]&quot;</span>:<span class="string">&quot;CornerRadius=99&quot;</span>,<span class="string">&quot;controlStyles[27].styles[2]&quot;</span>:<span class="string">&quot;Opacity=.85&quot;</span>,<span class="string">&quot;controlStyles[28].target&quot;</span>:<span class="string">&quot;TextBlock#ShowAllAppsButtonText&quot;</span>,<span class="string">&quot;controlStyles[28].styles[0]&quot;</span>:<span class="string">&quot;FontFamily=Aptos&quot;</span>,<span class="string">&quot;controlStyles[28].styles[1]&quot;</span>:<span class="string">&quot;Opacity=.85&quot;</span>,<span class="string">&quot;controlStyles[29].target&quot;</span>:<span class="string">&quot;Button#CloseAllAppsButton &gt; ContentPresenter &gt; StackPanel &gt; TextBlock&quot;</span>,<span class="string">&quot;controlStyles[29].styles[0]&quot;</span>:<span class="string">&quot;FontFamily=Aptos&quot;</span>,<span class="string">&quot;controlStyles[29].styles[1]&quot;</span>:<span class="string">&quot;Opacity=.85&quot;</span>,<span class="string">&quot;controlStyles[30].target&quot;</span>:<span class="string">&quot;Border#AcrylicOverlay&quot;</span>,<span class="string">&quot;controlStyles[30].styles[0]&quot;</span>:<span class="string">&quot;Visibility=1&quot;</span>,<span class="string">&quot;controlStyles[31].target&quot;</span>:<span class="string">&quot;Grid#AllAppsPaneHeader&quot;</span>,<span class="string">&quot;controlStyles[31].styles[0]&quot;</span>:<span class="string">&quot;Margin=64,-8,64,0&quot;</span>,<span class="string">&quot;controlStyles[32].target&quot;</span>:<span class="string">&quot;Grid#InnerContent&quot;</span>,<span class="string">&quot;controlStyles[32].styles[0]&quot;</span>:<span class="string">&quot;Margin=0,31,0,-64&quot;</span>,<span class="string">&quot;controlStyles[33].target&quot;</span>:<span class="string">&quot;TextBlock#AppDisplayName&quot;</span>,<span class="string">&quot;controlStyles[33].styles[0]&quot;</span>:<span class="string">&quot;FontFamily=Aptos&quot;</span>,<span class="string">&quot;controlStyles[33].styles[1]&quot;</span>:<span class="string">&quot;Opacity=.85&quot;</span>,<span class="string">&quot;controlStyles[33].styles[2]&quot;</span>:<span class="string">&quot;Margin=4,0,0,0&quot;</span>,<span class="string">&quot;controlStyles[34].target&quot;</span>:<span class="string">&quot;Button#Header &gt; Border &gt; TextBlock&quot;</span>,<span class="string">&quot;controlStyles[34].styles[0]&quot;</span>:<span class="string">&quot;FontFamily=Aptos&quot;</span>,<span class="string">&quot;controlStyles[34].styles[1]&quot;</span>:<span class="string">&quot;FontWeight=600&quot;</span>,<span class="string">&quot;controlStyles[34].styles[2]&quot;</span>:<span class="string">&quot;Opacity=.85&quot;</span>,<span class="string">&quot;controlStyles[35].target&quot;</span>:<span class="string">&quot;StartDocked.PowerOptionsView &gt; StartDocked.NavigationPaneButton &gt; Grid &gt; Border&quot;</span>,<span class="string">&quot;controlStyles[35].styles[0]&quot;</span>:<span class="string">&quot;CornerRadius=99&quot;</span>,<span class="string">&quot;controlStyles[35].styles[1]&quot;</span>:<span class="string">&quot;Margin=1&quot;</span>,<span class="string">&quot;controlStyles[36].target&quot;</span>:<span class="string">&quot;TileGrid&quot;</span>,<span class="string">&quot;controlStyles[36].styles[0]&quot;</span>:<span class="string">&quot;Background:=&lt;SolidColorBrush Color=\&quot;&#123;ThemeResource ControlFillColorInputActive&#125;\&quot; FallbackColor=\&quot;&#123;ThemeResource ControlFillColorInputActive&#125;\&quot; Opacity=\&quot;.7\&quot;/&gt;&quot;</span>,<span class="string">&quot;controlStyles[36].styles[1]&quot;</span>:<span class="string">&quot;CornerRadiusProtected=8&quot;</span>,<span class="string">&quot;controlStyles[36].styles[2]&quot;</span>:<span class="string">&quot;BorderThicknessProtected=1&quot;</span>,<span class="string">&quot;controlStyles[36].styles[3]&quot;</span>:<span class="string">&quot;BorderBrushProtected:=&lt;SolidColorBrush Color=\&quot;&#123;ThemeResource SurfaceStrokeColorDefault&#125;\&quot; FallbackColor=\&quot;&#123;ThemeResource SurfaceStrokeColorDefault&#125;\&quot; Opacity=\&quot;.35\&quot;/&gt;&quot;</span>,<span class="string">&quot;controlStyles[37].target&quot;</span>:<span class="string">&quot;ListViewItem&quot;</span>,<span class="string">&quot;controlStyles[37].styles[0]&quot;</span>:<span class="string">&quot;Margin=1,0,-6,0&quot;</span>,<span class="string">&quot;controlStyles[37].styles[1]&quot;</span>:<span class="string">&quot;CornerRadius=4&quot;</span>,<span class="string">&quot;controlStyles[38].target&quot;</span>:<span class="string">&quot;Button#Header&quot;</span>,<span class="string">&quot;controlStyles[38].styles[0]&quot;</span>:<span class="string">&quot;Margin=4,0,-3,0&quot;</span>,<span class="string">&quot;controlStyles[39].target&quot;</span>:<span class="string">&quot;StartDocked.AllAppsPane#AllAppsPanel&quot;</span>,<span class="string">&quot;controlStyles[39].styles[0]&quot;</span>:<span class="string">&quot;Margin=-20,0,-6,0&quot;</span>,<span class="string">&quot;controlStyles[40].target&quot;</span>:<span class="string">&quot;TextBlock#PlaceholderTextContentPresenter&quot;</span>,<span class="string">&quot;controlStyles[40].styles[0]&quot;</span>:<span class="string">&quot;FontFamily=Aptos&quot;</span>,<span class="string">&quot;controlStyles[40].styles[1]&quot;</span>:<span class="string">&quot;FontSize=24&quot;</span>,<span class="string">&quot;controlStyles[40].styles[2]&quot;</span>:<span class="string">&quot;FontWeight=700&quot;</span>,<span class="string">&quot;controlStyles[40].styles[3]&quot;</span>:<span class="string">&quot;Foreground:=&lt;SolidColorBrush Color=\&quot;&#123;ThemeResource FocusStrokeColorOuter&#125;\&quot; FallbackColor=\&quot;&#123;ThemeResource FocusStrokeColorOuter&#125;\&quot; Opacity=\&quot;.7\&quot;/&gt;&quot;</span>,<span class="string">&quot;controlStyles[41].target&quot;</span>:<span class="string">&quot;Microsoft.UI.Xaml.Controls.AnimatedIcon#SearchIconPlayer&quot;</span>,<span class="string">&quot;controlStyles[41].styles[0]&quot;</span>:<span class="string">&quot;Visibility=1&quot;</span>,<span class="string">&quot;controlStyles[42].target&quot;</span>:<span class="string">&quot;Button#SearchGlyphContainer&quot;</span>,<span class="string">&quot;controlStyles[42].styles[0]&quot;</span>:<span class="string">&quot;FontSize=32&quot;</span>,<span class="string">&quot;controlStyles[42].styles[1]&quot;</span>:<span class="string">&quot;Visibility=1&quot;</span>,<span class="string">&quot;controlStyles[43].target&quot;</span>:<span class="string">&quot;Cortana.UI.Views.CortanaRichSearchBox#SearchTextBox&quot;</span>,<span class="string">&quot;controlStyles[43].styles[0]&quot;</span>:<span class="string">&quot;FontSize=24&quot;</span>,<span class="string">&quot;controlStyles[43].styles[1]&quot;</span>:<span class="string">&quot;Foreground:=&lt;SolidColorBrush Color=\&quot;&#123;ThemeResource TextFillColorPrimary&#125;\&quot; FallbackColor=\&quot;&#123;ThemeResource TextFillColorPrimary&#125;\&quot; Opacity=\&quot;.85\&quot;/&gt;&quot;</span>,<span class="string">&quot;controlStyles[43].styles[2]&quot;</span>:<span class="string">&quot;FontFamily=Aptos&quot;</span>,<span class="string">&quot;controlStyles[43].styles[3]&quot;</span>:<span class="string">&quot;Opacity=.85&quot;</span>,<span class="string">&quot;controlStyles[43].styles[4]&quot;</span>:<span class="string">&quot;FontWeight=ExtraBold&quot;</span>,<span class="string">&quot;controlStyles[44].target&quot;</span>:<span class="string">&quot;Border#LayerBorder&quot;</span>,<span class="string">&quot;controlStyles[44].styles[0]&quot;</span>:<span class="string">&quot;Visibility=1&quot;</span>,<span class="string">&quot;controlStyles[45].target&quot;</span>:<span class="string">&quot;Windows.UI.Xaml.Controls.FontIcon#SearchBoxOnTaskbarSearchGlyph&quot;</span>,<span class="string">&quot;controlStyles[45].styles[0]&quot;</span>:<span class="string">&quot;Visibility=0&quot;</span>,<span class="string">&quot;controlStyles[45].styles[1]&quot;</span>:<span class="string">&quot;Margin=0&quot;</span>,<span class="string">&quot;controlStyles[45].styles[2]&quot;</span>:<span class="string">&quot;FontSize=32&quot;</span>,<span class="string">&quot;controlStyles[45].styles[3]&quot;</span>:<span class="string">&quot;Opacity=.85&quot;</span>,<span class="string">&quot;controlStyles[46].target&quot;</span>:<span class="string">&quot;Cortana.UI.Views.RichSearchBoxControl#SearchBoxControl&quot;</span>,<span class="string">&quot;controlStyles[46].styles[0]&quot;</span>:<span class="string">&quot;Margin=25,32,25,13&quot;</span>,<span class="string">&quot;controlStyles[47].target&quot;</span>:<span class="string">&quot;Grid#WebViewGrid &gt; WebView&quot;</span>,<span class="string">&quot;controlStyles[47].styles[0]&quot;</span>:<span class="string">&quot;Margin=-3,0,0,0&quot;</span>,<span class="string">&quot;controlStyles[48].target&quot;</span>:<span class="string">&quot;TextBlock#StatusMessage&quot;</span>,<span class="string">&quot;controlStyles[48].styles[0]&quot;</span>:<span class="string">&quot;Visibility=1&quot;</span>,<span class="string">&quot;controlStyles[49].target&quot;</span>:<span class="string">&quot;Border#LogoBackgroundPlate&quot;</span>,<span class="string">&quot;controlStyles[49].styles[0]&quot;</span>:<span class="string">&quot;Margin=12,0,0,0&quot;</span>,<span class="string">&quot;controlStyles[50].target&quot;</span>:<span class="string">&quot;Grid#WebViewGrid&quot;</span>,<span class="string">&quot;controlStyles[50].styles[0]&quot;</span>:<span class="string">&quot;CornerRadius=0,0,12,0&quot;</span>,<span class="string">&quot;controlStyles[51].target&quot;</span>:<span class="string">&quot;Border#DropShadow&quot;</span>,<span class="string">&quot;controlStyles[51].styles[0]&quot;</span>:<span class="string">&quot;CornerRadius=62&quot;</span>,<span class="string">&quot;controlStyles[52].target&quot;</span>:<span class="string">&quot;Border#DropShadowDismissTarget&quot;</span>,<span class="string">&quot;controlStyles[52].styles[0]&quot;</span>:<span class="string">&quot;CornerRadius=12&quot;</span>,<span class="string">&quot;controlStyles[53].target&quot;</span>:<span class="string">&quot;Windows.UI.Xaml.Controls.FlyoutPresenter[1]&quot;</span>,<span class="string">&quot;controlStyles[53].styles[0]&quot;</span>:<span class="string">&quot;Margin=-250,50,0,0&quot;</span>,<span class="string">&quot;controlStyles[54].target&quot;</span>:<span class="string">&quot;StartDocked.LauncherFrame &gt; Grid#RootGrid &gt; Grid#RootContent &gt; Grid#MainContent &gt; Grid#InnerContent &gt; Rectangle&quot;</span>,<span class="string">&quot;controlStyles[54].styles[0]&quot;</span>:<span class="string">&quot;Visibility=Collapsed&quot;</span>,<span class="string">&quot;controlStyles[55].target&quot;</span>:<span class="string">&quot;Windows.UI.Xaml.Controls.FlyoutPresenter&quot;</span>,<span class="string">&quot;controlStyles[55].styles[0]&quot;</span>:<span class="string">&quot;Margin=-250,0,0,0&quot;</span>,<span class="string">&quot;controlStyles[56].target&quot;</span>:<span class="string">&quot;StartDocked.SearchBoxToggleButton &gt; Grid &gt; FontIcon#SearchGlyph&quot;</span>,<span class="string">&quot;controlStyles[56].styles[0]&quot;</span>:<span class="string">&quot;Margin=0,-3,0,0&quot;</span>,<span class="string">&quot;controlStyles[56].styles[1]&quot;</span>:<span class="string">&quot;FontSize=25&quot;</span>,<span class="string">&quot;controlStyles[56].styles[2]&quot;</span>:<span class="string">&quot;Foreground:=&lt;SolidColorBrush Color=\&quot;&#123;ThemeResource FocusStrokeColorOuter&#125;\&quot; Opacity=\&quot;.85\&quot;/&gt;&quot;</span>,<span class="string">&quot;controlStyles[57].target&quot;</span>:<span class="string">&quot;StartMenu.ExpandedFolderList &gt; Grid#Root &gt; Border&quot;</span>,<span class="string">&quot;controlStyles[57].styles[0]&quot;</span>:<span class="string">&quot;Height=420&quot;</span>,<span class="string">&quot;controlStyles[58].target&quot;</span>:<span class="string">&quot;TextBox#ExpandedFolderNameTextBox&quot;</span>,<span class="string">&quot;controlStyles[58].styles[0]&quot;</span>:<span class="string">&quot;Margin=-15,-15,15,20&quot;</span>,<span class="string">&quot;controlStyles[59].target&quot;</span>:<span class="string">&quot;Windows.UI.Xaml.Controls.GridView#FolderList &gt; Border&quot;</span>,<span class="string">&quot;controlStyles[59].styles[0]&quot;</span>:<span class="string">&quot;Margin=0,0,0,-60&quot;</span>&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<p>2、任务栏风格：</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line">&#123;&quot;controlStyles<span class="selector-attr">[0]</span><span class="selector-class">.target</span>&quot;:<span class="string">&quot;Taskbar.TaskbarFrame#TaskbarFrame&quot;</span>,<span class="string">&quot;controlStyles[0].styles[1]&quot;</span>:<span class="string">&quot;HorizontalAlignment=Center&quot;</span>,<span class="string">&quot;controlStyles[0].styles[2]&quot;</span>:<span class="string">&quot;Width=Auto&quot;</span>,<span class="string">&quot;controlStyles[1].target&quot;</span>:<span class="string">&quot;Taskbar.TaskbarFrame#TaskbarFrame &gt; Grid#RootGrid&quot;</span>,<span class="string">&quot;controlStyles[1].styles[0]&quot;</span>:<span class="string">&quot;Padding=6,0,6,0&quot;</span>,<span class="string">&quot;controlStyles[1].styles[1]&quot;</span>:<span class="string">&quot;Margin=0,2,0,3&quot;</span>,<span class="string">&quot;controlStyles[1].styles[2]&quot;</span>:<span class="string">&quot;BorderThickness=1&quot;</span>,<span class="string">&quot;controlStyles[1].styles[3]&quot;</span>:<span class="string">&quot;BorderBrush:=&lt;SolidColorBrush Color=\&quot;&#123;ThemeResource SurfaceStrokeColorDefault&#125;\&quot; Opacity=\&quot;0.5\&quot; /&gt;&quot;</span>,<span class="string">&quot;controlStyles[2].target&quot;</span>:<span class="string">&quot;Rectangle#BackgroundFill&quot;</span>,<span class="string">&quot;controlStyles[2].styles[0]&quot;</span>:<span class="string">&quot;Visibility=Collapsed&quot;</span>,<span class="string">&quot;controlStyles[3].target&quot;</span>:<span class="string">&quot;Rectangle#BackgroundStroke&quot;</span>,<span class="string">&quot;controlStyles[3].styles[0]&quot;</span>:<span class="string">&quot;Visibility=Collapsed&quot;</span>,<span class="string">&quot;controlStyles[4].target&quot;</span>:<span class="string">&quot;Taskbar.AugmentedEntryPointButton#AugmentedEntryPointButton &gt; Taskbar.TaskListButtonPanel#ExperienceToggleButtonRootPanel&quot;</span>,<span class="string">&quot;controlStyles[4].styles[0]&quot;</span>:<span class="string">&quot;Margin=0&quot;</span>,<span class="string">&quot;controlStyles[5].target&quot;</span>:<span class="string">&quot;Grid#SystemTrayFrameGrid&quot;</span>,<span class="string">&quot;controlStyles[5].styles[0]&quot;</span>:<span class="string">&quot;Background:=#00000000&quot;</span>,<span class="string">&quot;controlStyles[5].styles[1]&quot;</span>:<span class="string">&quot;CornerRadius=10&quot;</span>,<span class="string">&quot;controlStyles[5].styles[2]&quot;</span>:<span class="string">&quot;BackgroundSizing=InnerBorderEdge&quot;</span>,<span class="string">&quot;controlStyles[5].styles[3]&quot;</span>:<span class="string">&quot;Margin=0,2,0,3&quot;</span>,<span class="string">&quot;controlStyles[5].styles[4]&quot;</span>:<span class="string">&quot;BorderThickness=5&quot;</span>,<span class="string">&quot;controlStyles[6].target&quot;</span>:<span class="string">&quot;SystemTray.ChevronIconView&quot;</span>,<span class="string">&quot;controlStyles[6].styles[0]&quot;</span>:<span class="string">&quot;Padding=0&quot;</span>,<span class="string">&quot;controlStyles[7].target&quot;</span>:<span class="string">&quot;SystemTray.NotifyIconView#NotifyItemIcon&quot;</span>,<span class="string">&quot;controlStyles[7].styles[0]&quot;</span>:<span class="string">&quot;Padding=0&quot;</span>,<span class="string">&quot;controlStyles[8].target&quot;</span>:<span class="string">&quot;SystemTray.OmniButton&quot;</span>,<span class="string">&quot;controlStyles[8].styles[0]&quot;</span>:<span class="string">&quot;Padding=0&quot;</span>,<span class="string">&quot;controlStyles[9].target&quot;</span>:<span class="string">&quot;SystemTray.CopilotIcon&quot;</span>,<span class="string">&quot;controlStyles[9].styles[0]&quot;</span>:<span class="string">&quot;Padding=0&quot;</span>,<span class="string">&quot;controlStyles[10].target&quot;</span>:<span class="string">&quot;SystemTray.OmniButton#NotificationCenterButton &gt; Grid &gt; ContentPresenter &gt; ItemsPresenter &gt; StackPanel &gt; ContentPresenter &gt; systemtray:IconView#SystemTrayIcon &gt; Grid&quot;</span>,<span class="string">&quot;controlStyles[10].styles[0]&quot;</span>:<span class="string">&quot;Padding=4,0,4,0&quot;</span>,<span class="string">&quot;controlStyles[11].target&quot;</span>:<span class="string">&quot;SystemTray.IconView#SystemTrayIcon &gt; Grid#ContainerGrid &gt; ContentPresenter#ContentPresenter &gt; Grid#ContentGrid &gt; SystemTray.TextIconContent &gt; Grid#ContainerGrid&quot;</span>,<span class="string">&quot;controlStyles[11].styles[0]&quot;</span>:<span class="string">&quot;Padding=0&quot;</span>,<span class="string">&quot;controlStyles[12].target&quot;</span>:<span class="string">&quot;SystemTray.StackListView#IconStack &gt; ItemsPresenter &gt; StackPanel &gt; ContentPresenter &gt; SystemTray.IconView#SystemTrayIcon&quot;</span>,<span class="string">&quot;controlStyles[12].styles[0]&quot;</span>:<span class="string">&quot;Padding=0&quot;</span>,<span class="string">&quot;controlStyles[13].target&quot;</span>:<span class="string">&quot;SystemTray.Stack#ShowDesktopStack&quot;</span>,<span class="string">&quot;controlStyles[13].styles[0]&quot;</span>:<span class="string">&quot;Margin=0,-4,-12,-4&quot;</span>,<span class="string">&quot;controlStyles[14].target&quot;</span>:<span class="string">&quot;Taskbar.Gripper#GripperControl&quot;</span>,<span class="string">&quot;controlStyles[14].styles[0]&quot;</span>:<span class="string">&quot;Width=Auto&quot;</span>,<span class="string">&quot;controlStyles[14].styles[1]&quot;</span>:<span class="string">&quot;MinWidth=24&quot;</span>,<span class="string">&quot;controlStyles[15].target&quot;</span>:<span class="string">&quot;SystemTray.SystemTrayFrame&quot;</span>,<span class="string">&quot;controlStyles[15].styles[0]&quot;</span>:<span class="string">&quot;HorizontalAlignment=1&quot;</span>,<span class="string">&quot;controlStyles[1].styles[4]&quot;</span>:<span class="string">&quot;CornerRadius=20&quot;</span>,<span class="string">&quot;controlStyles[1].styles[5]&quot;</span>:<span class="string">&quot;Background:=&lt;AcrylicBrush TintColor=\&quot;&#123;ThemeResource CardStrokeColorDefaultSolid&#125;\&quot; FallbackColor=\&quot;&#123;ThemeResource CardStrokeColorDefaultSolid&#125;\&quot; TintOpacity=\&quot;0\&quot; TintLuminosityOpacity=\&quot;.65\&quot; Opacity=\&quot;1\&quot;/&gt;&quot;</span>,<span class="string">&quot;controlStyles[0].styles[0]&quot;</span>:<span class="string">&quot;MaxWidth=1050&quot;</span>,<span class="string">&quot;controlStyles[0].styles[3]&quot;</span>:<span class="string">&quot;MinWidth=1050&quot;</span>,<span class="string">&quot;controlStyles[15].styles[1]&quot;</span>:<span class="string">&quot;Margin=800,0,0,0&quot;</span>&#125;</span><br></pre></td></tr></table></figure>
+
+<p>如果你无法在线复制代码，可以直接点击这里<a href="https://pan.tuio.cc/s/b5OTl">【下载代码】</a>文件，也是可以的。</p>
+<p><img src="https://c5a6b8d.webp.li/2025/01/2bde4e9df720250119140600-scaled.jpg"></p>
+]]></content>
+      <categories>
+        <category>Windows</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
+        <tag>Windhawk</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>2018年终总结</title>
     <url>/50205.html</url>
     <content><![CDATA[<h3 id="年度工作概述"><a href="#年度工作概述" class="headerlink" title="年度工作概述"></a>年度工作概述</h3><p>一年的时间，每当自己在总结它的时候，感觉是那么的短暂—弹指一挥间.而也就是在这一挥间，承载着太多太多，有收获与成就，有失败与不足.回头看看2017年的足迹，伴随着自己一年的是学习与坚持。</p>
@@ -477,23 +506,6 @@
       </tags>
   </entry>
   <entry>
-    <title>某宝花钱买的电脑单机游戏集合700+</title>
-    <url>/22718.html</url>
-    <content><![CDATA[<p>网友某宝花钱买的电脑单机游戏集合，一共700+款，附带游戏修改器、作弊、优惠代码等等信息，还有赠品，整理成了一个excel文档，游戏存放在百度网盘，感兴趣的可以前往学习。</p>
-<p><img src="https://c5a6b8d.webp.li/2024/09/single-player-games.png"></p>
-<p><strong>下载地址</strong></p>
-<p>百度网盘： <a href="https://pan.baidu.com/s/1ZlZXF5MfeUZplRMq4fqsLQ?pwd=fzwh">https://pan.baidu.com/s/1ZlZXF5MfeUZplRMq4fqsLQ?pwd=fzwh</a> 提取码: fzwh </p>
-<p>阿里云盘：<a href="https://www.alipan.com/s/QaLh9PzqpnV">https://www.alipan.com/s/QaLh9PzqpnV</a></p>
-]]></content>
-      <categories>
-        <category>Windows</category>
-      </categories>
-      <tags>
-        <tag>Windows</tag>
-        <tag>games</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>软路由上安装esxi</title>
     <url>/57580.html</url>
     <content><![CDATA[<p>最近一直都在找路由器上适配的openWt固件，但是一直找不到。油管上无意间发现现在大家玩的都是软路由，所以现在路由器固件的适配工作明显减少。经过几个月的煎熬，最后还是没有忍住，入手了软路由，那就让我们从软路由的系统着手吧！</p>
@@ -553,6 +565,23 @@
       <tags>
         <tag>软路由</tag>
         <tag>esxi</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>某宝花钱买的电脑单机游戏集合700+</title>
+    <url>/22718.html</url>
+    <content><![CDATA[<p>网友某宝花钱买的电脑单机游戏集合，一共700+款，附带游戏修改器、作弊、优惠代码等等信息，还有赠品，整理成了一个excel文档，游戏存放在百度网盘，感兴趣的可以前往学习。</p>
+<p><img src="https://c5a6b8d.webp.li/2024/09/single-player-games.png"></p>
+<p><strong>下载地址</strong></p>
+<p>百度网盘： <a href="https://pan.baidu.com/s/1ZlZXF5MfeUZplRMq4fqsLQ?pwd=fzwh">https://pan.baidu.com/s/1ZlZXF5MfeUZplRMq4fqsLQ?pwd=fzwh</a> 提取码: fzwh </p>
+<p>阿里云盘：<a href="https://www.alipan.com/s/QaLh9PzqpnV">https://www.alipan.com/s/QaLh9PzqpnV</a></p>
+]]></content>
+      <categories>
+        <category>Windows</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
+        <tag>games</tag>
       </tags>
   </entry>
   <entry>
@@ -632,29 +661,6 @@
       </tags>
   </entry>
   <entry>
-    <title>spring boot启动服务卡住无日志输出</title>
-    <url>/4847.html</url>
-    <content><![CDATA[<p>今天我们来介绍下spring boot 启动时候如果卡住，就是无日志输出，也不报错的几种解决方法</p>
-<p><strong>断点设置太多</strong></p>
-<p>这时可以打开IDEA的断点视图，查看哪些代码有断点并去掉就行了。或者干脆禁用掉整个项目的断点功能也行。<br><img src="https://c5a6b8d.webp.li/2024/09/breakpoints.png"></p>
-<span id="more"></span>
-<p><strong>日志级别</strong></p>
-<p>检查自己项目中的日志级别，看是否是ERROR级别还是日志设置未生效等日志原因。</p>
-<p><strong>新增异常捕捉代码块</strong></p>
-<p>在spring boot的main方法的启动代码上新增try catch 代码块。</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">try</span> &#123;</span><br><span class="line">	<span class="comment">//...</span></span><br><span class="line">&#125; <span class="keyword">catch</span>(Exception e) &#123;</span><br><span class="line">	e.printStackTrace();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><strong>日志被捕获</strong></p>
-<p>查看日志是否被其他框架捕获或者截取，先暂时屏蔽捕获的框架或停止使用这个框架。</p>
-]]></content>
-      <categories>
-        <category>Java</category>
-      </categories>
-      <tags>
-        <tag>spring boot</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Windows电脑装机必备，精选7个神仙级软件工具</title>
     <url>/45555.html</url>
     <content><![CDATA[<h3 id="qBittorrent"><a href="#qBittorrent" class="headerlink" title="qBittorrent"></a>qBittorrent</h3><p>qBittorrent 是一个用 C++ &#x2F; Qt 编写的 bittorrent 客户端，它使用 Arvid Norberg 的 libtorrent（有时称为 libtorrent-rasterbar）。</p>
@@ -709,6 +715,29 @@
       </tags>
   </entry>
   <entry>
+    <title>spring boot启动服务卡住无日志输出</title>
+    <url>/4847.html</url>
+    <content><![CDATA[<p>今天我们来介绍下spring boot 启动时候如果卡住，就是无日志输出，也不报错的几种解决方法</p>
+<p><strong>断点设置太多</strong></p>
+<p>这时可以打开IDEA的断点视图，查看哪些代码有断点并去掉就行了。或者干脆禁用掉整个项目的断点功能也行。<br><img src="https://c5a6b8d.webp.li/2024/09/breakpoints.png"></p>
+<span id="more"></span>
+<p><strong>日志级别</strong></p>
+<p>检查自己项目中的日志级别，看是否是ERROR级别还是日志设置未生效等日志原因。</p>
+<p><strong>新增异常捕捉代码块</strong></p>
+<p>在spring boot的main方法的启动代码上新增try catch 代码块。</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">try</span> &#123;</span><br><span class="line">	<span class="comment">//...</span></span><br><span class="line">&#125; <span class="keyword">catch</span>(Exception e) &#123;</span><br><span class="line">	e.printStackTrace();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>日志被捕获</strong></p>
+<p>查看日志是否被其他框架捕获或者截取，先暂时屏蔽捕获的框架或停止使用这个框架。</p>
+]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>spring boot</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Windows 11 超级精简版！ Tiny11 （24H2） 官方下载ISO</title>
     <url>/62064.html</url>
     <content><![CDATA[<p>Tiny 11 24H2 是一款非常适合想要在旧硬件上运行 Windows 11 的用户的系统安装包！，是目前最精简的版本</p>
@@ -730,41 +759,6 @@
       <tags>
         <tag>Windows</tag>
         <tag>windows key</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>如何在Mac上安装Windows 11系统？这个方法完全免费又简单好用</title>
-    <url>/53303.html</url>
-    <content><![CDATA[<p><img src="https://c5a6b8d.webp.li/2024/11/mac-vmware-function-pro.png"></p>
-<h1 id="VMware-Fusion-Pro"><a href="#VMware-Fusion-Pro" class="headerlink" title="VMware Fusion Pro"></a>VMware Fusion Pro</h1><p>下载并安装 VMware Fusion Pro ，这个软件已经正式免费提供给个人用户使用！</p>
-<p>【**<a href="https://blogs.vmware.com/teamfusion/2024/05/fusion-pro-now-available-free-for-personal-use.html">官方下载</a>**】</p>
-<p>官方需注册在管理中心进行下载【<a href="https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware+Fusion">点击前往</a>】</p>
-<p>百度网盘：<a href="https://pan.baidu.com/s/1SAncVLCaa5iG8AWNIaM19w?pwd=i16i">https://pan.baidu.com/s/1SAncVLCaa5iG8AWNIaM19w?pwd=i16i</a>  提取码: i16i</p>
-<p>夸克网盘：<a href="https://pan.quark.cn/s/fed867c006d4">https://pan.quark.cn/s/fed867c006d4</a></p>
-<h1 id="Windows-11-ARM"><a href="#Windows-11-ARM" class="headerlink" title="Windows 11 ARM"></a>Windows 11 ARM</h1><p>下载 Windows 11 ARM 结构的最新系统安装包：</p>
-<p>ED2K下载链接:</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">ed2k://|file|SW_DVD9_Win_Pro_11_23H2_Arm64_ChnSimp_Pro_Ent_EDU_N_MLF_X23-59518.ISO|7142125568|769949291524FDE82A0BB52138433F06|/</span><br></pre></td></tr></table></figure>
-
-<p>BT下载链接:</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">magnet:?xt=urn:btih:64fb7c011f407628471432d8cd52b2b5c6c52673&amp;dn=SW_DVD9_Win_Pro_11_23H2_Arm64_ChnSimp_Pro_Ent_EDU_N_MLF_X23-59518.ISO&amp;xl=7142125568</span><br></pre></td></tr></table></figure>
-<p>你可以使用任何的种子下载工具进行下载，比如你可以使用【<a href="https://www.qbittorrent.org/download">qBittorrent</a>】来进行下载</p>
-<h1 id="Windows-10-系统"><a href="#Windows-10-系统" class="headerlink" title="Windows 10 系统"></a>Windows 10 系统</h1><p>如果你需要在mac上安装 Windows 10 系统，那么安装步骤几乎是一样的，只需下载Windows 10 的ARM 最新安装包</p>
-<p>BT种子：</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">magnet:?xt=urn:btih:1254374ee4000b9e8fed508fe2fdcdd8f49c2161&amp;dn=SW_DVD9_Win_Pro_10_22H2.3_64ARM_ChnSimp_Pro_Ent_EDU_N_MLF_X23-36949.ISO&amp;xl=5333610496</span><br></pre></td></tr></table></figure>
-
-<p>ED2K链接：</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">http://ed2k//|file|SW_DVD9_Win_Pro_10_22H2.3_64ARM_ChnSimp_Pro_Ent_EDU_N_MLF_X23-36949.ISO|5333610496|401601D6C86121111B85019BAB8CD79D|/</span><br></pre></td></tr></table></figure>
-<p>后面的安装步骤跟上面的一样！</p>
-<h1 id="手动下载"><a href="#手动下载" class="headerlink" title="手动下载"></a>手动下载</h1><p><font color=red><strong>如果无法安装虚拟机tools，试试下载安装包手动安装看是否可行：</strong></font></p>
-<p><a href="https://packages.vmware.com/tools/esx/latest/windows/x64/">https://packages.vmware.com/tools/esx/latest/windows/x64/</a></p>
-]]></content>
-      <categories>
-        <category>Mac</category>
-      </categories>
-      <tags>
-        <tag>Windows</tag>
-        <tag>Linux</tag>
-        <tag>VMware</tag>
       </tags>
   </entry>
   <entry>
@@ -819,6 +813,63 @@
       </tags>
   </entry>
   <entry>
+    <title>如何在Mac上安装Windows 11系统？这个方法完全免费又简单好用</title>
+    <url>/53303.html</url>
+    <content><![CDATA[<p><img src="https://c5a6b8d.webp.li/2024/11/mac-vmware-function-pro.png"></p>
+<h1 id="VMware-Fusion-Pro"><a href="#VMware-Fusion-Pro" class="headerlink" title="VMware Fusion Pro"></a>VMware Fusion Pro</h1><p>下载并安装 VMware Fusion Pro ，这个软件已经正式免费提供给个人用户使用！</p>
+<p>【**<a href="https://blogs.vmware.com/teamfusion/2024/05/fusion-pro-now-available-free-for-personal-use.html">官方下载</a>**】</p>
+<p>官方需注册在管理中心进行下载【<a href="https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware+Fusion">点击前往</a>】</p>
+<p>百度网盘：<a href="https://pan.baidu.com/s/1SAncVLCaa5iG8AWNIaM19w?pwd=i16i">https://pan.baidu.com/s/1SAncVLCaa5iG8AWNIaM19w?pwd=i16i</a>  提取码: i16i</p>
+<p>夸克网盘：<a href="https://pan.quark.cn/s/fed867c006d4">https://pan.quark.cn/s/fed867c006d4</a></p>
+<h1 id="Windows-11-ARM"><a href="#Windows-11-ARM" class="headerlink" title="Windows 11 ARM"></a>Windows 11 ARM</h1><p>下载 Windows 11 ARM 结构的最新系统安装包：</p>
+<p>ED2K下载链接:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">ed2k://|file|SW_DVD9_Win_Pro_11_23H2_Arm64_ChnSimp_Pro_Ent_EDU_N_MLF_X23-59518.ISO|7142125568|769949291524FDE82A0BB52138433F06|/</span><br></pre></td></tr></table></figure>
+
+<p>BT下载链接:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">magnet:?xt=urn:btih:64fb7c011f407628471432d8cd52b2b5c6c52673&amp;dn=SW_DVD9_Win_Pro_11_23H2_Arm64_ChnSimp_Pro_Ent_EDU_N_MLF_X23-59518.ISO&amp;xl=7142125568</span><br></pre></td></tr></table></figure>
+<p>你可以使用任何的种子下载工具进行下载，比如你可以使用【<a href="https://www.qbittorrent.org/download">qBittorrent</a>】来进行下载</p>
+<h1 id="Windows-10-系统"><a href="#Windows-10-系统" class="headerlink" title="Windows 10 系统"></a>Windows 10 系统</h1><p>如果你需要在mac上安装 Windows 10 系统，那么安装步骤几乎是一样的，只需下载Windows 10 的ARM 最新安装包</p>
+<p>BT种子：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">magnet:?xt=urn:btih:1254374ee4000b9e8fed508fe2fdcdd8f49c2161&amp;dn=SW_DVD9_Win_Pro_10_22H2.3_64ARM_ChnSimp_Pro_Ent_EDU_N_MLF_X23-36949.ISO&amp;xl=5333610496</span><br></pre></td></tr></table></figure>
+
+<p>ED2K链接：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">http://ed2k//|file|SW_DVD9_Win_Pro_10_22H2.3_64ARM_ChnSimp_Pro_Ent_EDU_N_MLF_X23-36949.ISO|5333610496|401601D6C86121111B85019BAB8CD79D|/</span><br></pre></td></tr></table></figure>
+<p>后面的安装步骤跟上面的一样！</p>
+<h1 id="手动下载"><a href="#手动下载" class="headerlink" title="手动下载"></a>手动下载</h1><p><font color=red><strong>如果无法安装虚拟机tools，试试下载安装包手动安装看是否可行：</strong></font></p>
+<p><a href="https://packages.vmware.com/tools/esx/latest/windows/x64/">https://packages.vmware.com/tools/esx/latest/windows/x64/</a></p>
+]]></content>
+      <categories>
+        <category>Mac</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
+        <tag>Linux</tag>
+        <tag>VMware</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>查找您的 Windows 10 、11 激活密钥，以及（OEM 数字许可证密钥）</title>
+    <url>/46926.html</url>
+    <content><![CDATA[<p><strong>1、CMD命令终端下以管理员身份输入命令：</strong></p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">wmic path softwareLicensingService get OA3xOriginalProductKey</span><br></pre></td></tr></table></figure>
+<p>如果你通过上方的命令运行后没有看到密钥，那是因为你用的是OEM数字许可证密钥，这种情况请使用下面的第2种方法来获取密钥。</p>
+<p><strong>2、注册表下：</strong><br>计算机</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SoftwareProtectionPlatform</span><br></pre></td></tr></table></figure>
+<p>找到 BackupProductKeyDefault，在其后面就能找到你的激活密钥</p>
+<p><strong>3、Windows10 &#x2F;11 KMS激活方式</strong></p>
+<p>注意：以管理员身份运行CMD，然后依次输入下面的命令即可</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">slmgr /ipk 这里填写你的OEM密钥</span><br><span class="line"></span><br><span class="line">slmgr /skms kms.loli.best</span><br><span class="line"></span><br><span class="line">slmgr /ato</span><br><span class="line"></span><br><span class="line">slmgr /xpr</span><br></pre></td></tr></table></figure>
+
+<p>OEM激活密钥可以去微软官方免费获取<a href="https://learn.microsoft.com/zh-cn/windows-server/get-started/kms-client-activation-keys?tabs=server2022,windows10ltsc,version1803,windows81">【点击前往】</a></p>
+]]></content>
+      <categories>
+        <category>Windows</category>
+      </categories>
+      <tags>
+        <tag>windows key</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Windows11恢复到win10的右键经典菜单</title>
     <url>/10322.html</url>
     <content><![CDATA[<p>如果您正在寻找在 Windows 11 中禁用或启用新上下文菜单而不是处理注册表项的<strong>一键式解决方案</strong>，您可以使用 Win 11 Classic Context Menu v 1.0 Portable freeware Application。它具有简约的界面使用第一个按钮“启用 Win 11 经典上下文菜单样式”按钮禁用 Windows 11 中右键单击菜单中的“显示更多选项”</p>
@@ -851,28 +902,6 @@
       <tags>
         <tag>Windows</tag>
         <tag>经典菜单</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>查找您的 Windows 10 、11 激活密钥，以及（OEM 数字许可证密钥）</title>
-    <url>/46926.html</url>
-    <content><![CDATA[<p><strong>1、CMD命令终端下以管理员身份输入命令：</strong></p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">wmic path softwareLicensingService get OA3xOriginalProductKey</span><br></pre></td></tr></table></figure>
-<p>如果你通过上方的命令运行后没有看到密钥，那是因为你用的是OEM数字许可证密钥，这种情况请使用下面的第2种方法来获取密钥。</p>
-<p><strong>2、注册表下：</strong><br>计算机</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SoftwareProtectionPlatform</span><br></pre></td></tr></table></figure>
-<p>找到 BackupProductKeyDefault，在其后面就能找到你的激活密钥</p>
-<p><strong>3、Windows10 &#x2F;11 KMS激活方式</strong></p>
-<p>注意：以管理员身份运行CMD，然后依次输入下面的命令即可</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">slmgr /ipk 这里填写你的OEM密钥</span><br><span class="line"></span><br><span class="line">slmgr /skms kms.loli.best</span><br><span class="line"></span><br><span class="line">slmgr /ato</span><br><span class="line"></span><br><span class="line">slmgr /xpr</span><br></pre></td></tr></table></figure>
-
-<p>OEM激活密钥可以去微软官方免费获取<a href="https://learn.microsoft.com/zh-cn/windows-server/get-started/kms-client-activation-keys?tabs=server2022,windows10ltsc,version1803,windows81">【点击前往】</a></p>
-]]></content>
-      <categories>
-        <category>Windows</category>
-      </categories>
-      <tags>
-        <tag>windows key</tag>
       </tags>
   </entry>
   <entry>
