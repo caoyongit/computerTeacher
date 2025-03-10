@@ -228,7 +228,7 @@
 <figure class="highlight css"><table><tr><td class="code"><pre><span class="line">&#123;&quot;controlStyles<span class="selector-attr">[0]</span><span class="selector-class">.target</span>&quot;:<span class="string">&quot;Taskbar.TaskbarFrame#TaskbarFrame&quot;</span>,<span class="string">&quot;controlStyles[0].styles[1]&quot;</span>:<span class="string">&quot;HorizontalAlignment=Center&quot;</span>,<span class="string">&quot;controlStyles[0].styles[2]&quot;</span>:<span class="string">&quot;Width=Auto&quot;</span>,<span class="string">&quot;controlStyles[1].target&quot;</span>:<span class="string">&quot;Taskbar.TaskbarFrame#TaskbarFrame &gt; Grid#RootGrid&quot;</span>,<span class="string">&quot;controlStyles[1].styles[0]&quot;</span>:<span class="string">&quot;Padding=6,0,6,0&quot;</span>,<span class="string">&quot;controlStyles[1].styles[1]&quot;</span>:<span class="string">&quot;Margin=0,2,0,3&quot;</span>,<span class="string">&quot;controlStyles[1].styles[2]&quot;</span>:<span class="string">&quot;BorderThickness=1&quot;</span>,<span class="string">&quot;controlStyles[1].styles[3]&quot;</span>:<span class="string">&quot;BorderBrush:=&lt;SolidColorBrush Color=\&quot;&#123;ThemeResource SurfaceStrokeColorDefault&#125;\&quot; Opacity=\&quot;0.5\&quot; /&gt;&quot;</span>,<span class="string">&quot;controlStyles[2].target&quot;</span>:<span class="string">&quot;Rectangle#BackgroundFill&quot;</span>,<span class="string">&quot;controlStyles[2].styles[0]&quot;</span>:<span class="string">&quot;Visibility=Collapsed&quot;</span>,<span class="string">&quot;controlStyles[3].target&quot;</span>:<span class="string">&quot;Rectangle#BackgroundStroke&quot;</span>,<span class="string">&quot;controlStyles[3].styles[0]&quot;</span>:<span class="string">&quot;Visibility=Collapsed&quot;</span>,<span class="string">&quot;controlStyles[4].target&quot;</span>:<span class="string">&quot;Taskbar.AugmentedEntryPointButton#AugmentedEntryPointButton &gt; Taskbar.TaskListButtonPanel#ExperienceToggleButtonRootPanel&quot;</span>,<span class="string">&quot;controlStyles[4].styles[0]&quot;</span>:<span class="string">&quot;Margin=0&quot;</span>,<span class="string">&quot;controlStyles[5].target&quot;</span>:<span class="string">&quot;Grid#SystemTrayFrameGrid&quot;</span>,<span class="string">&quot;controlStyles[5].styles[0]&quot;</span>:<span class="string">&quot;Background:=#00000000&quot;</span>,<span class="string">&quot;controlStyles[5].styles[1]&quot;</span>:<span class="string">&quot;CornerRadius=10&quot;</span>,<span class="string">&quot;controlStyles[5].styles[2]&quot;</span>:<span class="string">&quot;BackgroundSizing=InnerBorderEdge&quot;</span>,<span class="string">&quot;controlStyles[5].styles[3]&quot;</span>:<span class="string">&quot;Margin=0,2,0,3&quot;</span>,<span class="string">&quot;controlStyles[5].styles[4]&quot;</span>:<span class="string">&quot;BorderThickness=5&quot;</span>,<span class="string">&quot;controlStyles[6].target&quot;</span>:<span class="string">&quot;SystemTray.ChevronIconView&quot;</span>,<span class="string">&quot;controlStyles[6].styles[0]&quot;</span>:<span class="string">&quot;Padding=0&quot;</span>,<span class="string">&quot;controlStyles[7].target&quot;</span>:<span class="string">&quot;SystemTray.NotifyIconView#NotifyItemIcon&quot;</span>,<span class="string">&quot;controlStyles[7].styles[0]&quot;</span>:<span class="string">&quot;Padding=0&quot;</span>,<span class="string">&quot;controlStyles[8].target&quot;</span>:<span class="string">&quot;SystemTray.OmniButton&quot;</span>,<span class="string">&quot;controlStyles[8].styles[0]&quot;</span>:<span class="string">&quot;Padding=0&quot;</span>,<span class="string">&quot;controlStyles[9].target&quot;</span>:<span class="string">&quot;SystemTray.CopilotIcon&quot;</span>,<span class="string">&quot;controlStyles[9].styles[0]&quot;</span>:<span class="string">&quot;Padding=0&quot;</span>,<span class="string">&quot;controlStyles[10].target&quot;</span>:<span class="string">&quot;SystemTray.OmniButton#NotificationCenterButton &gt; Grid &gt; ContentPresenter &gt; ItemsPresenter &gt; StackPanel &gt; ContentPresenter &gt; systemtray:IconView#SystemTrayIcon &gt; Grid&quot;</span>,<span class="string">&quot;controlStyles[10].styles[0]&quot;</span>:<span class="string">&quot;Padding=4,0,4,0&quot;</span>,<span class="string">&quot;controlStyles[11].target&quot;</span>:<span class="string">&quot;SystemTray.IconView#SystemTrayIcon &gt; Grid#ContainerGrid &gt; ContentPresenter#ContentPresenter &gt; Grid#ContentGrid &gt; SystemTray.TextIconContent &gt; Grid#ContainerGrid&quot;</span>,<span class="string">&quot;controlStyles[11].styles[0]&quot;</span>:<span class="string">&quot;Padding=0&quot;</span>,<span class="string">&quot;controlStyles[12].target&quot;</span>:<span class="string">&quot;SystemTray.StackListView#IconStack &gt; ItemsPresenter &gt; StackPanel &gt; ContentPresenter &gt; SystemTray.IconView#SystemTrayIcon&quot;</span>,<span class="string">&quot;controlStyles[12].styles[0]&quot;</span>:<span class="string">&quot;Padding=0&quot;</span>,<span class="string">&quot;controlStyles[13].target&quot;</span>:<span class="string">&quot;SystemTray.Stack#ShowDesktopStack&quot;</span>,<span class="string">&quot;controlStyles[13].styles[0]&quot;</span>:<span class="string">&quot;Margin=0,-4,-12,-4&quot;</span>,<span class="string">&quot;controlStyles[14].target&quot;</span>:<span class="string">&quot;Taskbar.Gripper#GripperControl&quot;</span>,<span class="string">&quot;controlStyles[14].styles[0]&quot;</span>:<span class="string">&quot;Width=Auto&quot;</span>,<span class="string">&quot;controlStyles[14].styles[1]&quot;</span>:<span class="string">&quot;MinWidth=24&quot;</span>,<span class="string">&quot;controlStyles[15].target&quot;</span>:<span class="string">&quot;SystemTray.SystemTrayFrame&quot;</span>,<span class="string">&quot;controlStyles[15].styles[0]&quot;</span>:<span class="string">&quot;HorizontalAlignment=1&quot;</span>,<span class="string">&quot;controlStyles[1].styles[4]&quot;</span>:<span class="string">&quot;CornerRadius=20&quot;</span>,<span class="string">&quot;controlStyles[1].styles[5]&quot;</span>:<span class="string">&quot;Background:=&lt;AcrylicBrush TintColor=\&quot;&#123;ThemeResource CardStrokeColorDefaultSolid&#125;\&quot; FallbackColor=\&quot;&#123;ThemeResource CardStrokeColorDefaultSolid&#125;\&quot; TintOpacity=\&quot;0\&quot; TintLuminosityOpacity=\&quot;.65\&quot; Opacity=\&quot;1\&quot;/&gt;&quot;</span>,<span class="string">&quot;controlStyles[0].styles[0]&quot;</span>:<span class="string">&quot;MaxWidth=1050&quot;</span>,<span class="string">&quot;controlStyles[0].styles[3]&quot;</span>:<span class="string">&quot;MinWidth=1050&quot;</span>,<span class="string">&quot;controlStyles[15].styles[1]&quot;</span>:<span class="string">&quot;Margin=800,0,0,0&quot;</span>&#125;</span><br></pre></td></tr></table></figure>
 
 <p>如果你无法在线复制代码，可以直接点击这里<a href="https://pan.tuio.cc/s/b5OTl">【下载代码】</a>文件，也是可以的。</p>
-<p><strong>壁纸分享：</strong></p>
+<p><strong>壁纸和离线安装包下载：</strong></p>
 <p>百度网盘： <a href="https://pan.baidu.com/s/1_hqWKYz7jRcJfCMG2hYRag?pwd=9xba">https://pan.baidu.com/s/1_hqWKYz7jRcJfCMG2hYRag?pwd=9xba</a> 提取码: 9xba</p>
 <p>夸克网盘：<a href="https://pan.quark.cn/s/ad5b44eb53f6">https://pan.quark.cn/s/ad5b44eb53f6</a></p>
 <p><img src="https://c5a6b8d.webp.li/2025/01/2bde4e9df720250119140600-scaled.jpg"></p>
@@ -506,6 +506,64 @@
       <tags>
         <tag>Linux</tag>
         <tag>git</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>screen命令</title>
+    <url>/53358.html</url>
+    <content><![CDATA[<p>screen 是一个非常有用的命令，提供从单个 SSH 会话中使用多个 shell 窗口（会话）的能力。当会话被分离或网络中断时，screen 会话中启动的进程仍将运行，你可以随时重新连接到 screen 会话。如果你想运行一个持久的进程或者从多个位置连接到 shell 会话，这也很方便。</p>
+<p>在本文中，我们将展示在 Linux 上安装和使用 screen 的基本知识。</p>
+<ul>
+<li><strong>如何安装screen</strong></li>
+</ul>
+<p>screen 在一些流行的发行版上已经预安装了。你可以使用下面的命令检查是否已经在你的服务器上安装了。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">screen -v</span><br><span class="line">Screen version 4.00.03 (FAU)</span><br></pre></td></tr></table></figure>
+
+<p>如果在 Linux 中还没有 screen，你可以使用系统提供的包管理器很简单地安装它。</p>
+<p>CentOS&#x2F;RedHat&#x2F;Fedora</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">yum -y install screen</span><br></pre></td></tr></table></figure>
+<p>Ubuntu&#x2F;Debian</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">apt-get -y install screen</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>如何启动一个screen会话</strong></li>
+</ul>
+<p>你可以在命令行中输入 screen 来启动它，接着会有一个看上去和命令行提示符一样的 screen 会话启动。</p>
+<p>screen<br>使用描述性名称启动屏幕会话是一个很好的做法，这样你可以轻松地记住会话中正在运行的进程。要使用会话名称创建新会话，请运行以下命令：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">screen -S name</span><br></pre></td></tr></table></figure>
+
+<p>将 “name” 替换为对你会话有意义的名字。</p>
+<ul>
+<li><strong>从 screen 会话中分离</strong></li>
+</ul>
+<p>要从当前的 screen 会话中分离，你可以按下 Ctrl-A 和 d。所有的 screen 会话仍将是活跃的，你之后可以随时重新连接。</p>
+<ul>
+<li><strong>重新连接到 screen 会话</strong></li>
+</ul>
+<p>如果你从一个会话分离，或者由于某些原因你的连接被中断了，你可以使用下面的命令重新连接：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">screen -r</span><br></pre></td></tr></table></figure>
+
+<p>如果你有多个 screen 会话，你可以用 ls 参数列出它们。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">screen -ls</span><br><span class="line">There are screens on:</span><br><span class="line">7880.session    (Detached)</span><br><span class="line">7934.session2   (Detached)</span><br><span class="line">7907.session1   (Detached)</span><br><span class="line">3 Sockets in /var/run/screen/S-root.</span><br></pre></td></tr></table></figure>
+
+<p>在我们的例子中，我们有三个活跃的 screen 会话。因此，如果你想要还原 “session2” 会话，你可以执行：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">screen -r 7934</span><br></pre></td></tr></table></figure>
+
+<p>或者使用 screen 名称。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">screen -r -S session2</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>中止 screen 会话</strong></li>
+</ul>
+<p>有几种方法来中止 screen 会话。你可以按下 Ctrl+d，或者在命令行中使用 exit 命令。</p>
+<p>要查看 screen 命令所有有用的功能，你可以查看 screen 的 man 手册。</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">man screen</span><br><span class="line">NAME</span><br><span class="line">screen - screen manager with VT100/ANSI terminal emulation</span><br><span class="line">SYNOPSIS</span><br><span class="line">screen [ -options ] [ cmd [ args ] ]</span><br><span class="line">screen -r [[pid.]tty[.host]]</span><br><span class="line">screen -r sessionowner/[[pid.]tty[.host]]</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
       </tags>
   </entry>
   <entry>
