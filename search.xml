@@ -210,6 +210,26 @@
       </tags>
   </entry>
   <entry>
+    <title>Astra Linux 一款基于Linux的俄罗斯计算机操作系统(OS)</title>
+    <url>/55683.html</url>
+    <content><![CDATA[<p>Astra Linux 是一款基于Linux的俄罗斯计算机操作系统(OS)，正在俄罗斯联邦广泛部署，以取代 Microsoft Windows。因为微软曾经在俄罗斯被禁止出售，当然现已解封。</p>
+<p>Astra Linux 是公认的 Debian 衍生产品。Rusbitech 与 Linux 基金会有合作关系。它曾是文档基金会顾问委员会的一部分，但由于俄罗斯入侵乌克兰，该委员会于 2022 年 2 月 26 日被暂停。</p>
+<p>该操作系统有两个版本：主要版本称为“特别版”，另一个称为“普通版”。两者的主要区别在于前者需要付费，而后者免费；前者适用于 x86-64 架构、ARM 架构和 Elbrus 架构，而后者仅适用于 x86-64 架构；前者具有安全认证，提供 3 个级别的操作系统安全性（以俄罗斯城市命名，从低到高为：<em>Oryol</em>、<em>Voronezh</em>和<em>Smolensk</em>），而后者没有安全认证，仅提供最低级别的操作系统安全性（<em>Oryol</em>）。</p>
+<p>今天博主纯属是为了好玩，也是好奇这个系统到底长什么样，所有我决定在虚拟机上进行安装测试下。如果你也想玩玩试试，可以跟着尝试下。</p>
+<p><img src="https://c5a6b8d.webp.li/2025/04/astra.png"></p>
+<p>1、Astra Linux 系统镜像下载：</p>
+<p>时光机下载：【**<a href="https://archive.org/details/1.7.0-11.06.2021-12.40/Astra%20Linux%20Features/page/n7/mode/2up">点击前往</a>**】</p>
+<p>Astra Linux 官方：【**<a href="https://dl.astralinux.ru/astra/stable/2.12_x86-64/iso/">点击前往</a>**】</p>
+<p>2、VMware 虚拟机下载：【<a href="https://www.dnjs.xyz/53303.html"><strong>点击前往</strong></a>】</p>
+]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>全新 Windows 11 任务栏和开始菜单的外观！超级美观大方</title>
     <url>/47992.html</url>
     <content><![CDATA[<p>想不想彻底改变 Windows 11 默认的任务栏和开始菜单的外观！跟着我来操作，可以让你的电脑屏幕焕然一新，超级美观又大方！</p>
@@ -293,8 +313,8 @@
         <category>Mac</category>
       </categories>
       <tags>
-        <tag>Windows</tag>
         <tag>Linux</tag>
+        <tag>Windows</tag>
         <tag>Mac</tag>
         <tag>Apps</tag>
       </tags>
@@ -509,6 +529,23 @@
       </tags>
   </entry>
   <entry>
+    <title>某宝花钱买的电脑单机游戏集合700+</title>
+    <url>/22718.html</url>
+    <content><![CDATA[<p>网友某宝花钱买的电脑单机游戏集合，一共700+款，附带游戏修改器、作弊、优惠代码等等信息，还有赠品，整理成了一个excel文档，游戏存放在百度网盘，感兴趣的可以前往学习。</p>
+<p><img src="https://c5a6b8d.webp.li/2024/09/single-player-games.png"></p>
+<p><strong>下载地址</strong></p>
+<p>百度网盘： <a href="https://pan.baidu.com/s/1ZlZXF5MfeUZplRMq4fqsLQ?pwd=fzwh">https://pan.baidu.com/s/1ZlZXF5MfeUZplRMq4fqsLQ?pwd=fzwh</a> 提取码: fzwh </p>
+<p>阿里云盘：<a href="https://www.alipan.com/s/QaLh9PzqpnV">https://www.alipan.com/s/QaLh9PzqpnV</a></p>
+]]></content>
+      <categories>
+        <category>Windows</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
+        <tag>games</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>screen命令</title>
     <url>/53358.html</url>
     <content><![CDATA[<p>screen 是一个非常有用的命令，提供从单个 SSH 会话中使用多个 shell 窗口（会话）的能力。当会话被分离或网络中断时，screen 会话中启动的进程仍将运行，你可以随时重新连接到 screen 会话。如果你想运行一个持久的进程或者从多个位置连接到 shell 会话，这也很方便。</p>
@@ -564,23 +601,6 @@
       </categories>
       <tags>
         <tag>Linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>某宝花钱买的电脑单机游戏集合700+</title>
-    <url>/22718.html</url>
-    <content><![CDATA[<p>网友某宝花钱买的电脑单机游戏集合，一共700+款，附带游戏修改器、作弊、优惠代码等等信息，还有赠品，整理成了一个excel文档，游戏存放在百度网盘，感兴趣的可以前往学习。</p>
-<p><img src="https://c5a6b8d.webp.li/2024/09/single-player-games.png"></p>
-<p><strong>下载地址</strong></p>
-<p>百度网盘： <a href="https://pan.baidu.com/s/1ZlZXF5MfeUZplRMq4fqsLQ?pwd=fzwh">https://pan.baidu.com/s/1ZlZXF5MfeUZplRMq4fqsLQ?pwd=fzwh</a> 提取码: fzwh </p>
-<p>阿里云盘：<a href="https://www.alipan.com/s/QaLh9PzqpnV">https://www.alipan.com/s/QaLh9PzqpnV</a></p>
-]]></content>
-      <categories>
-        <category>Windows</category>
-      </categories>
-      <tags>
-        <tag>Windows</tag>
-        <tag>games</tag>
       </tags>
   </entry>
   <entry>
@@ -903,8 +923,8 @@
         <category>Mac</category>
       </categories>
       <tags>
-        <tag>Windows</tag>
         <tag>Linux</tag>
+        <tag>Windows</tag>
         <tag>VMware</tag>
       </tags>
   </entry>
