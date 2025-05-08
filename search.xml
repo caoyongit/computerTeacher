@@ -210,6 +210,26 @@
       </tags>
   </entry>
   <entry>
+    <title>Astra Linux 一款基于Linux的俄罗斯计算机操作系统(OS)</title>
+    <url>/55683.html</url>
+    <content><![CDATA[<p>Astra Linux 是一款基于Linux的俄罗斯计算机操作系统(OS)，正在俄罗斯联邦广泛部署，以取代 Microsoft Windows。因为微软曾经在俄罗斯被禁止出售，当然现已解封。</p>
+<p>Astra Linux 是公认的 Debian 衍生产品。Rusbitech 与 Linux 基金会有合作关系。它曾是文档基金会顾问委员会的一部分，但由于俄罗斯入侵乌克兰，该委员会于 2022 年 2 月 26 日被暂停。</p>
+<p>该操作系统有两个版本：主要版本称为“特别版”，另一个称为“普通版”。两者的主要区别在于前者需要付费，而后者免费；前者适用于 x86-64 架构、ARM 架构和 Elbrus 架构，而后者仅适用于 x86-64 架构；前者具有安全认证，提供 3 个级别的操作系统安全性（以俄罗斯城市命名，从低到高为：<em>Oryol</em>、<em>Voronezh</em>和<em>Smolensk</em>），而后者没有安全认证，仅提供最低级别的操作系统安全性（<em>Oryol</em>）。</p>
+<p>今天博主纯属是为了好玩，也是好奇这个系统到底长什么样，所有我决定在虚拟机上进行安装测试下。如果你也想玩玩试试，可以跟着尝试下。</p>
+<p><img src="https://c5a6b8d.webp.li/2025/04/astra.png"></p>
+<p>1、Astra Linux 系统镜像下载：</p>
+<p>时光机下载：【**<a href="https://archive.org/details/1.7.0-11.06.2021-12.40/Astra%20Linux%20Features/page/n7/mode/2up">点击前往</a>**】</p>
+<p>Astra Linux 官方：【**<a href="https://dl.astralinux.ru/astra/stable/2.12_x86-64/iso/">点击前往</a>**】</p>
+<p>2、VMware 虚拟机下载：【<a href="https://www.dnjs.xyz/53303.html"><strong>点击前往</strong></a>】</p>
+]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>全新 Windows 11 任务栏和开始菜单的外观！超级美观大方</title>
     <url>/47992.html</url>
     <content><![CDATA[<p>想不想彻底改变 Windows 11 默认的任务栏和开始菜单的外观！跟着我来操作，可以让你的电脑屏幕焕然一新，超级美观又大方！</p>
@@ -257,46 +277,6 @@
       </categories>
       <tags>
         <tag>Rainmeter</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>六款免费开源工具提升工作学习效率</title>
-    <url>/52084.html</url>
-    <content><![CDATA[<p>六款免费开源工具提升工作学习效率，其中有AI一键换衣，扣除图片背景和水印，音视频人声分离，可以单独部署的清爽备忘录，开发者环境一键配置，帮你节省时间提升效率，赶紧收藏起来</p>
-<h1 id="visual-try-on"><a href="#visual-try-on" class="headerlink" title="visual-try-on"></a>visual-try-on</h1><p>visual-try-on 是一款一键 AI 换衣的开源项目，可以完全免费使用，基于 Kolors 图像模型开发，可在任何电商网站上，上传一张自己照片，即可一键让自己试穿喜欢的衣服。</p>
-<p><img src="https://c5a6b8d.webp.li/2024/11/visual-try-on.jpeg" alt="visual-try-on"></p>
-<p>在线体验：<a href="https://huggingface.co/spaces/Kwai-Kolors/Kolors-Virtual-Try-On">https://huggingface.co/spaces/Kwai-Kolors/Kolors-Virtual-Try-On</a></p>
-<p>GitHub 开源：<a href="https://github.com/shyjal/visual-try-on">https://github.com/shyjal/visual-try-on</a></p>
-<h1 id="WebGPU"><a href="#WebGPU" class="headerlink" title="WebGPU"></a>WebGPU</h1><p>WebGPU 是一款可以在线抠图的程序，一键去除图片背景，完全免费开源！</p>
-<p><img src="https://c5a6b8d.webp.li/2024/11/WEBGPU.png" alt="WEBGPU"></p>
-<p>在线体验：<a href="https://huggingface.co/spaces/Xenova/remove-background-webgpu">https://huggingface.co/spaces/Xenova/remove-background-webgpu</a></p>
-<p>GitHub 开源：<a href="https://huggingface.co/briaai/RMBG-1.4">https://huggingface.co/briaai/RMBG-1.4</a></p>
-<h1 id="Inpaint-web"><a href="#Inpaint-web" class="headerlink" title="Inpaint-web"></a>Inpaint-web</h1><p>Inpaint-web 是基于 Webgpu 技术和 wasm 技术的免费开源 inpainting &amp; image-upscaling 工具, 纯浏览器端实现。</p>
-<p><img src="https://c5a6b8d.webp.li/2024/11/Inpaint-web.png" alt="Inpaint-web"></p>
-<p>在线体验：<a href="https://inpaintweb.lxfater.com/">https://inpaintweb.lxfater.com/</a></p>
-<p>GitHub 开源：<a href="https://github.com/lxfater/inpaint-web">https://github.com/lxfater/inpaint-web</a></p>
-<h1 id="Vocal-Remover-and-Isolation"><a href="#Vocal-Remover-and-Isolation" class="headerlink" title="Vocal Remover and Isolation"></a>Vocal Remover and Isolation</h1><p>Vocal Remover and Isolation 是一款功能非常强大的人声分离器，可以完全免费在线使用</p>
-<p><img src="https://c5a6b8d.webp.li/2024/11/Vocal-Remover.png" alt="Vocal-Remover"></p>
-<p>在线体验：<a href="https://vocalremover.org/">https://vocalremover.org/</a></p>
-<h1 id="memos"><a href="#memos" class="headerlink" title="memos"></a>memos</h1><p>这是一个采用 React+Tailwind+TypeScript+Go 开发的备忘录中心，相当于极简的微博。支持私有&#x2F;公开备忘录、标签、互动式日历等功能，以及 Docker 部署。</p>
-<p>完全开源、自托管的笔记解决方案，专为无缝部署和多平台访问而设计。体验轻松无痛的纯文本书写，并辅以强大的 Markdown 语法支持，以增强格式设置。</p>
-<p><img src="https://c5a6b8d.webp.li/2024/11/memos.png" alt="memos"></p>
-<p>在线体验：<a href="https://demo.usememos.com/explore">https://demo.usememos.com/explore</a></p>
-<p>GitHub 开源：<a href="https://github.com/usememos/memos?tab=readme-ov-file">https://github.com/usememos/memos?tab=readme-ov-file</a></p>
-<h1 id="Omakub"><a href="#Omakub" class="headerlink" title="Omakub"></a>Omakub</h1><p>Omakub 是一个专为开发者设计的 Ubuntu 环境配置项目，由 Ruby on Rails 的创造者 David Heinemeier Hansson（DHH）发起。其目标是通过一条命令将全新的 Ubuntu 系统转化为一个配置完备、美观且现代化的 Web 开发系统，简化开发环境的搭建过程。</p>
-<p><img src="https://c5a6b8d.webp.li/2024/11/omakub.png" alt="omakub"></p>
-<p>官网地址：<a href="https://omakub.org/">https://omakub.org</a></p>
-<p>GitHub 开源：<a href="https://github.com/basecamp/omakub">https://github.com/basecamp/omakub</a></p>
-]]></content>
-      <categories>
-        <category>Linux</category>
-        <category>Mac</category>
-      </categories>
-      <tags>
-        <tag>Windows</tag>
-        <tag>Linux</tag>
-        <tag>Mac</tag>
-        <tag>Apps</tag>
       </tags>
   </entry>
   <entry>
@@ -359,27 +339,97 @@
         <category>Windows</category>
       </categories>
       <tags>
-        <tag>vagrant</tag>
+        <tag>Winows</tag>
+        <tag>Mac</tag>
       </tags>
   </entry>
   <entry>
-    <title>Astra Linux 一款基于Linux的俄罗斯计算机操作系统(OS)</title>
-    <url>/55683.html</url>
-    <content><![CDATA[<p>Astra Linux 是一款基于Linux的俄罗斯计算机操作系统(OS)，正在俄罗斯联邦广泛部署，以取代 Microsoft Windows。因为微软曾经在俄罗斯被禁止出售，当然现已解封。</p>
-<p>Astra Linux 是公认的 Debian 衍生产品。Rusbitech 与 Linux 基金会有合作关系。它曾是文档基金会顾问委员会的一部分，但由于俄罗斯入侵乌克兰，该委员会于 2022 年 2 月 26 日被暂停。</p>
-<p>该操作系统有两个版本：主要版本称为“特别版”，另一个称为“普通版”。两者的主要区别在于前者需要付费，而后者免费；前者适用于 x86-64 架构、ARM 架构和 Elbrus 架构，而后者仅适用于 x86-64 架构；前者具有安全认证，提供 3 个级别的操作系统安全性（以俄罗斯城市命名，从低到高为：<em>Oryol</em>、<em>Voronezh</em>和<em>Smolensk</em>），而后者没有安全认证，仅提供最低级别的操作系统安全性（<em>Oryol</em>）。</p>
-<p>今天博主纯属是为了好玩，也是好奇这个系统到底长什么样，所有我决定在虚拟机上进行安装测试下。如果你也想玩玩试试，可以跟着尝试下。</p>
-<p><img src="https://c5a6b8d.webp.li/2025/04/astra.png"></p>
-<p>1、Astra Linux 系统镜像下载：</p>
-<p>时光机下载：【**<a href="https://archive.org/details/1.7.0-11.06.2021-12.40/Astra%20Linux%20Features/page/n7/mode/2up">点击前往</a>**】</p>
-<p>Astra Linux 官方：【**<a href="https://dl.astralinux.ru/astra/stable/2.12_x86-64/iso/">点击前往</a>**】</p>
-<p>2、VMware 虚拟机下载：【<a href="https://www.dnjs.xyz/53303.html"><strong>点击前往</strong></a>】</p>
+    <title>六款免费开源工具提升工作学习效率</title>
+    <url>/52084.html</url>
+    <content><![CDATA[<p>六款免费开源工具提升工作学习效率，其中有AI一键换衣，扣除图片背景和水印，音视频人声分离，可以单独部署的清爽备忘录，开发者环境一键配置，帮你节省时间提升效率，赶紧收藏起来</p>
+<h1 id="visual-try-on"><a href="#visual-try-on" class="headerlink" title="visual-try-on"></a>visual-try-on</h1><p>visual-try-on 是一款一键 AI 换衣的开源项目，可以完全免费使用，基于 Kolors 图像模型开发，可在任何电商网站上，上传一张自己照片，即可一键让自己试穿喜欢的衣服。</p>
+<p><img src="https://c5a6b8d.webp.li/2024/11/visual-try-on.jpeg" alt="visual-try-on"></p>
+<p>在线体验：<a href="https://huggingface.co/spaces/Kwai-Kolors/Kolors-Virtual-Try-On">https://huggingface.co/spaces/Kwai-Kolors/Kolors-Virtual-Try-On</a></p>
+<p>GitHub 开源：<a href="https://github.com/shyjal/visual-try-on">https://github.com/shyjal/visual-try-on</a></p>
+<h1 id="WebGPU"><a href="#WebGPU" class="headerlink" title="WebGPU"></a>WebGPU</h1><p>WebGPU 是一款可以在线抠图的程序，一键去除图片背景，完全免费开源！</p>
+<p><img src="https://c5a6b8d.webp.li/2024/11/WEBGPU.png" alt="WEBGPU"></p>
+<p>在线体验：<a href="https://huggingface.co/spaces/Xenova/remove-background-webgpu">https://huggingface.co/spaces/Xenova/remove-background-webgpu</a></p>
+<p>GitHub 开源：<a href="https://huggingface.co/briaai/RMBG-1.4">https://huggingface.co/briaai/RMBG-1.4</a></p>
+<h1 id="Inpaint-web"><a href="#Inpaint-web" class="headerlink" title="Inpaint-web"></a>Inpaint-web</h1><p>Inpaint-web 是基于 Webgpu 技术和 wasm 技术的免费开源 inpainting &amp; image-upscaling 工具, 纯浏览器端实现。</p>
+<p><img src="https://c5a6b8d.webp.li/2024/11/Inpaint-web.png" alt="Inpaint-web"></p>
+<p>在线体验：<a href="https://inpaintweb.lxfater.com/">https://inpaintweb.lxfater.com/</a></p>
+<p>GitHub 开源：<a href="https://github.com/lxfater/inpaint-web">https://github.com/lxfater/inpaint-web</a></p>
+<h1 id="Vocal-Remover-and-Isolation"><a href="#Vocal-Remover-and-Isolation" class="headerlink" title="Vocal Remover and Isolation"></a>Vocal Remover and Isolation</h1><p>Vocal Remover and Isolation 是一款功能非常强大的人声分离器，可以完全免费在线使用</p>
+<p><img src="https://c5a6b8d.webp.li/2024/11/Vocal-Remover.png" alt="Vocal-Remover"></p>
+<p>在线体验：<a href="https://vocalremover.org/">https://vocalremover.org/</a></p>
+<h1 id="memos"><a href="#memos" class="headerlink" title="memos"></a>memos</h1><p>这是一个采用 React+Tailwind+TypeScript+Go 开发的备忘录中心，相当于极简的微博。支持私有&#x2F;公开备忘录、标签、互动式日历等功能，以及 Docker 部署。</p>
+<p>完全开源、自托管的笔记解决方案，专为无缝部署和多平台访问而设计。体验轻松无痛的纯文本书写，并辅以强大的 Markdown 语法支持，以增强格式设置。</p>
+<p><img src="https://c5a6b8d.webp.li/2024/11/memos.png" alt="memos"></p>
+<p>在线体验：<a href="https://demo.usememos.com/explore">https://demo.usememos.com/explore</a></p>
+<p>GitHub 开源：<a href="https://github.com/usememos/memos?tab=readme-ov-file">https://github.com/usememos/memos?tab=readme-ov-file</a></p>
+<h1 id="Omakub"><a href="#Omakub" class="headerlink" title="Omakub"></a>Omakub</h1><p>Omakub 是一个专为开发者设计的 Ubuntu 环境配置项目，由 Ruby on Rails 的创造者 David Heinemeier Hansson（DHH）发起。其目标是通过一条命令将全新的 Ubuntu 系统转化为一个配置完备、美观且现代化的 Web 开发系统，简化开发环境的搭建过程。</p>
+<p><img src="https://c5a6b8d.webp.li/2024/11/omakub.png" alt="omakub"></p>
+<p>官网地址：<a href="https://omakub.org/">https://omakub.org</a></p>
+<p>GitHub 开源：<a href="https://github.com/basecamp/omakub">https://github.com/basecamp/omakub</a></p>
 ]]></content>
       <categories>
         <category>Linux</category>
+        <category>Mac</category>
       </categories>
       <tags>
         <tag>Linux</tag>
+        <tag>Windows</tag>
+        <tag>Mac</tag>
+        <tag>Apps</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>xAI 最新大模型！Grok-Beta 开启公测，每月免费提供25美金的使用额度！</title>
+    <url>/47114.html</url>
+    <content><![CDATA[<p><img src="https://c5a6b8d.webp.li/2024/12/grok-beta.png" alt="grok-beta"></p>
+<p>就在前几天，由马斯克xAI推出的大模型Grok，正式开启API的免费公测！人人均可参与，为每个账号每个月提供了25美金的免费使用额度。xAI公开了这个全新的Grok模型，代号「grok-beta」</p>
+<p>该模型上下文长度为128000 token，这意味着Grok可以处理更长的文本输入，理解更复杂的上下文关系；</p>
+<p>目前来说，性能应该处于 GPT 4o mini 和GPT 4o之间，值得一提的是，考虑到用户的使用体验，xAI的REST API完全兼容Open AI和Anthropic的API，这对于新手来说上手就比较容易了！你可以使用零度之前给大家介绍过的免费开源程序ChatBox来进行调用API。</p>
+<p>接下来我们就来详细演示下，如何免费注册并使用grok-beta AI 模型……</p>
+<p>Grok-Beta 公测官网链接： <a href="https://x.ai/">https://x.ai/</a></p>
+<p>ChatBox 开源客户端下载：<a href="https://github.com/Bin-Huang/chatbox">https://github.com/Bin-Huang/chatbox</a></p>
+<p>API接口链接：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">https://api.x.ai</span><br></pre></td></tr></table></figure>
+
+<p>模型自定义：grok-beta</p>
+]]></content>
+      <categories>
+        <category>AI</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>听我一句劝，使用Mac前一定要知道这些资源站</title>
+    <url>/51179.html</url>
+    <content><![CDATA[<h3 id="MacWK"><a href="#MacWK" class="headerlink" title="MacWK"></a>MacWK</h3><p>MacWK是一个高质量的Mac资源下载平台，致力于为Mac用户提供丰富的软件选择，涵盖办公、创意、效率等多种应用类别。平台界面简洁、分类明确，每个软件都有详细的介绍和安装教程，让新手也能轻松上手。MacWK的资源更新速度快，用户始终可以下载到新版本的软件。无论你是专业创作者、程序员，还是日常办公用户，都能在MacWK找到适合的工具，快速提升生产力和创意效率。</p>
+<p><strong>官方地址：</strong><a href="https://macwk.cn/">https://macwk.cn/</a></p>
+<p><img src="https://c5a6b8d.webp.li/2024/11/macwk.png" alt="MacWK"></p>
+<h3 id="马克菠萝"><a href="#马克菠萝" class="headerlink" title="马克菠萝"></a>马克菠萝</h3><p>马克菠萝是一个专注于Mac应用分享的站点，为用户提供大量正版、精品的Mac软件资源。平台资源丰富，涵盖从设计到开发的各类软件，特别适合内容创作者和设计师。马克菠萝的使用简单易上手，每款软件都附有详细的下载和安装指南，用户体验淑敷。站内还定期分享限时免费资源和优惠信息，让用户享受优质软件的同时节省开支。对于希望提升效率的Mac用户来说，马克菠萝是个不可多得的资源宝库。</p>
+<p><strong>官方地址：</strong><a href="https://www.macbl.com/">https://www.macbl.com/</a></p>
+<p><img src="https://c5a6b8d.webp.li/2024/11/macbl.png" alt="MacBL"></p>
+<h3 id="MacApp分享频道"><a href="#MacApp分享频道" class="headerlink" title="MacApp分享频道"></a>MacApp分享频道</h3><p>MacApp分享频道是一个专门分享Mac应用资源的平台，精选出高质量的软件满足用户的不同需求。平台以提供实用和优质的应用为核心，资源覆盖办公、学习、设计、开发等多个领域。每款软件都有详细的功能介绍和使用教程，帮助用户快速掌握和使用。MacApp分享频道还时常推出一些限时优惠和免费资源，是提升生产力的好手，帮助用户发现更多实用的Mac工具。</p>
+<p><strong>官方地址：</strong><a href="https://macapp.org.cn/">https://macapp.org.cn/</a></p>
+<p><img src="https://c5a6b8d.webp.li/2024/11/macapp.png" alt="macapp"></p>
+<h3 id="XMac"><a href="#XMac" class="headerlink" title="XMac"></a>XMac</h3><p>XMac是一个专为Mac用户打造的资源分享网站，提供丰富的软件资源以及系统工具。平台包含多种类型的应用，适用于不同需求的Mac用户，无论是轻量办公还是深度创作，XMac都有相应的资源。其界面清爽简洁，分类明确，让用户能够快速找到所需应用。XMac还会分享一些新鲜的应用资讯和使用技巧，为用户提供更多关于Mac的实用信息，帮助用户获得更优质的Mac使用体验。</p>
+<p><strong>官方地址：</strong><a href="https://xmac.app/">https://xmac.app/</a></p>
+<p><img src="https://c5a6b8d.webp.li/2024/11/xmacapp.png" alt="XMac.App"></p>
+<h3 id="MacGF"><a href="#MacGF" class="headerlink" title="MacGF"></a>MacGF</h3><p>MacGF是一个深受Mac用户喜爱的资源分享平台，以精选的应用资源和详细的安装教程著称。平台涵盖了从日常工具到专业软件的多类应用，致力于帮助Mac用户快速找到适合自己的软件。MacGF还提供一系列系统优化工具，使用户的Mac保持流畅运行。除了下载资源外，MacGF定期更新软件和实用小技巧，让用户不断提升Mac使用体验。</p>
+<p><strong>官方地址：</strong><a href="https://www.macgf.com/">https://www.macgf.com/</a></p>
+<p><img src="https://c5a6b8d.webp.li/2024/11/macgfbg.png" alt="MacGF"></p>
+]]></content>
+      <categories>
+        <category>Mac</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+        <tag>Mac</tag>
       </tags>
   </entry>
   <entry>
@@ -419,52 +469,32 @@
       </tags>
   </entry>
   <entry>
-    <title>听我一句劝，使用Mac前一定要知道这些资源站</title>
-    <url>/51179.html</url>
-    <content><![CDATA[<h3 id="MacWK"><a href="#MacWK" class="headerlink" title="MacWK"></a>MacWK</h3><p>MacWK是一个高质量的Mac资源下载平台，致力于为Mac用户提供丰富的软件选择，涵盖办公、创意、效率等多种应用类别。平台界面简洁、分类明确，每个软件都有详细的介绍和安装教程，让新手也能轻松上手。MacWK的资源更新速度快，用户始终可以下载到新版本的软件。无论你是专业创作者、程序员，还是日常办公用户，都能在MacWK找到适合的工具，快速提升生产力和创意效率。</p>
-<p><strong>官方地址：</strong><a href="https://macwk.cn/">https://macwk.cn/</a></p>
-<p><img src="https://c5a6b8d.webp.li/2024/11/macwk.png" alt="MacWK"></p>
-<h3 id="马克菠萝"><a href="#马克菠萝" class="headerlink" title="马克菠萝"></a>马克菠萝</h3><p>马克菠萝是一个专注于Mac应用分享的站点，为用户提供大量正版、精品的Mac软件资源。平台资源丰富，涵盖从设计到开发的各类软件，特别适合内容创作者和设计师。马克菠萝的使用简单易上手，每款软件都附有详细的下载和安装指南，用户体验淑敷。站内还定期分享限时免费资源和优惠信息，让用户享受优质软件的同时节省开支。对于希望提升效率的Mac用户来说，马克菠萝是个不可多得的资源宝库。</p>
-<p><strong>官方地址：</strong><a href="https://www.macbl.com/">https://www.macbl.com/</a></p>
-<p><img src="https://c5a6b8d.webp.li/2024/11/macbl.png" alt="MacBL"></p>
-<h3 id="MacApp分享频道"><a href="#MacApp分享频道" class="headerlink" title="MacApp分享频道"></a>MacApp分享频道</h3><p>MacApp分享频道是一个专门分享Mac应用资源的平台，精选出高质量的软件满足用户的不同需求。平台以提供实用和优质的应用为核心，资源覆盖办公、学习、设计、开发等多个领域。每款软件都有详细的功能介绍和使用教程，帮助用户快速掌握和使用。MacApp分享频道还时常推出一些限时优惠和免费资源，是提升生产力的好手，帮助用户发现更多实用的Mac工具。</p>
-<p><strong>官方地址：</strong><a href="https://macapp.org.cn/">https://macapp.org.cn/</a></p>
-<p><img src="https://c5a6b8d.webp.li/2024/11/macapp.png" alt="macapp"></p>
-<h3 id="XMac"><a href="#XMac" class="headerlink" title="XMac"></a>XMac</h3><p>XMac是一个专为Mac用户打造的资源分享网站，提供丰富的软件资源以及系统工具。平台包含多种类型的应用，适用于不同需求的Mac用户，无论是轻量办公还是深度创作，XMac都有相应的资源。其界面清爽简洁，分类明确，让用户能够快速找到所需应用。XMac还会分享一些新鲜的应用资讯和使用技巧，为用户提供更多关于Mac的实用信息，帮助用户获得更优质的Mac使用体验。</p>
-<p><strong>官方地址：</strong><a href="https://xmac.app/">https://xmac.app/</a></p>
-<p><img src="https://c5a6b8d.webp.li/2024/11/xmacapp.png" alt="XMac.App"></p>
-<h3 id="MacGF"><a href="#MacGF" class="headerlink" title="MacGF"></a>MacGF</h3><p>MacGF是一个深受Mac用户喜爱的资源分享平台，以精选的应用资源和详细的安装教程著称。平台涵盖了从日常工具到专业软件的多类应用，致力于帮助Mac用户快速找到适合自己的软件。MacGF还提供一系列系统优化工具，使用户的Mac保持流畅运行。除了下载资源外，MacGF定期更新软件和实用小技巧，让用户不断提升Mac使用体验。</p>
-<p><strong>官方地址：</strong><a href="https://www.macgf.com/">https://www.macgf.com/</a></p>
-<p><img src="https://c5a6b8d.webp.li/2024/11/macgfbg.png" alt="MacGF"></p>
+    <title>Mac微信插件</title>
+    <url>/45630.html</url>
+    <content><![CDATA[<p><strong>WeChatHooks v1.2-4：</strong>为WeChat增加</p>
+<ul>
+<li>撤回消息拦截</li>
+<li>增加全局头像圆角</li>
+<li>增加折叠群聊置顶</li>
+<li>增加导出聊天表情</li>
+<li>增加显示非好友微信号</li>
+<li>增加文本快捷复读</li>
+<li>增加表情快捷复读</li>
+<li>增加图片快捷复读</li>
+<li>增加收款显示详情</li>
+<li>增加退群检测提示</li>
+<li>增加禁用日志上报</li>
+<li>多开登录账号</li>
+</ul>
+<p>均在状态工具栏开启</p>
+<p><strong>下载地址：</strong><a href="https://github.com/Netskao/MacOS-Utils">https://github.com/Netskao/MacOS-Utils</a></p>
+<p><img src="https://c5a6b8d.webp.li/2024/12/mac-wechat-plugins.png"></p>
 ]]></content>
       <categories>
         <category>Mac</category>
       </categories>
       <tags>
-        <tag>Linux</tag>
         <tag>Mac</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>xAI 最新大模型！Grok-Beta 开启公测，每月免费提供25美金的使用额度！</title>
-    <url>/47114.html</url>
-    <content><![CDATA[<p><img src="https://c5a6b8d.webp.li/2024/12/grok-beta.png" alt="grok-beta"></p>
-<p>就在前几天，由马斯克xAI推出的大模型Grok，正式开启API的免费公测！人人均可参与，为每个账号每个月提供了25美金的免费使用额度。xAI公开了这个全新的Grok模型，代号「grok-beta」</p>
-<p>该模型上下文长度为128000 token，这意味着Grok可以处理更长的文本输入，理解更复杂的上下文关系；</p>
-<p>目前来说，性能应该处于 GPT 4o mini 和GPT 4o之间，值得一提的是，考虑到用户的使用体验，xAI的REST API完全兼容Open AI和Anthropic的API，这对于新手来说上手就比较容易了！你可以使用零度之前给大家介绍过的免费开源程序ChatBox来进行调用API。</p>
-<p>接下来我们就来详细演示下，如何免费注册并使用grok-beta AI 模型……</p>
-<p>Grok-Beta 公测官网链接： <a href="https://x.ai/">https://x.ai/</a></p>
-<p>ChatBox 开源客户端下载：<a href="https://github.com/Bin-Huang/chatbox">https://github.com/Bin-Huang/chatbox</a></p>
-<p>API接口链接：</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">https://api.x.ai</span><br></pre></td></tr></table></figure>
-
-<p>模型自定义：grok-beta</p>
-]]></content>
-      <categories>
-        <category>AI</category>
-      </categories>
-      <tags>
-        <tag>AI</tag>
       </tags>
   </entry>
   <entry>
@@ -528,35 +558,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Mac微信插件</title>
-    <url>/45630.html</url>
-    <content><![CDATA[<p><strong>WeChatHooks v1.2-4：</strong>为WeChat增加</p>
-<ul>
-<li>撤回消息拦截</li>
-<li>增加全局头像圆角</li>
-<li>增加折叠群聊置顶</li>
-<li>增加导出聊天表情</li>
-<li>增加显示非好友微信号</li>
-<li>增加文本快捷复读</li>
-<li>增加表情快捷复读</li>
-<li>增加图片快捷复读</li>
-<li>增加收款显示详情</li>
-<li>增加退群检测提示</li>
-<li>增加禁用日志上报</li>
-<li>多开登录账号</li>
-</ul>
-<p>均在状态工具栏开启</p>
-<p><strong>下载地址：</strong><a href="https://github.com/Netskao/MacOS-Utils">https://github.com/Netskao/MacOS-Utils</a></p>
-<p><img src="https://c5a6b8d.webp.li/2024/12/mac-wechat-plugins.png"></p>
-]]></content>
-      <categories>
-        <category>Mac</category>
-      </categories>
-      <tags>
-        <tag>Mac</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>macOS 重新安装GIT</title>
     <url>/46365.html</url>
     <content><![CDATA[<p>程序员有时候是一种很奇怪的生物，明明系统自带的东西很好用，而且也用的很好，但是就是想用自己统一配置的。比如mac系统默认自带的git想重新安装，用brew统一管理起来。</p>
@@ -589,6 +590,23 @@
       <tags>
         <tag>Linux</tag>
         <tag>git</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>某宝花钱买的电脑单机游戏集合700+</title>
+    <url>/22718.html</url>
+    <content><![CDATA[<p>网友某宝花钱买的电脑单机游戏集合，一共700+款，附带游戏修改器、作弊、优惠代码等等信息，还有赠品，整理成了一个excel文档，游戏存放在百度网盘，感兴趣的可以前往学习。</p>
+<p><img src="https://c5a6b8d.webp.li/2024/09/single-player-games.png"></p>
+<p><strong>下载地址</strong></p>
+<p>百度网盘： <a href="https://pan.baidu.com/s/1ZlZXF5MfeUZplRMq4fqsLQ?pwd=fzwh">https://pan.baidu.com/s/1ZlZXF5MfeUZplRMq4fqsLQ?pwd=fzwh</a> 提取码: fzwh </p>
+<p>阿里云盘：<a href="https://www.alipan.com/s/QaLh9PzqpnV">https://www.alipan.com/s/QaLh9PzqpnV</a></p>
+]]></content>
+      <categories>
+        <category>Windows</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
+        <tag>games</tag>
       </tags>
   </entry>
   <entry>
@@ -647,23 +665,6 @@
       </categories>
       <tags>
         <tag>Linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>某宝花钱买的电脑单机游戏集合700+</title>
-    <url>/22718.html</url>
-    <content><![CDATA[<p>网友某宝花钱买的电脑单机游戏集合，一共700+款，附带游戏修改器、作弊、优惠代码等等信息，还有赠品，整理成了一个excel文档，游戏存放在百度网盘，感兴趣的可以前往学习。</p>
-<p><img src="https://c5a6b8d.webp.li/2024/09/single-player-games.png"></p>
-<p><strong>下载地址</strong></p>
-<p>百度网盘： <a href="https://pan.baidu.com/s/1ZlZXF5MfeUZplRMq4fqsLQ?pwd=fzwh">https://pan.baidu.com/s/1ZlZXF5MfeUZplRMq4fqsLQ?pwd=fzwh</a> 提取码: fzwh </p>
-<p>阿里云盘：<a href="https://www.alipan.com/s/QaLh9PzqpnV">https://www.alipan.com/s/QaLh9PzqpnV</a></p>
-]]></content>
-      <categories>
-        <category>Windows</category>
-      </categories>
-      <tags>
-        <tag>Windows</tag>
-        <tag>games</tag>
       </tags>
   </entry>
   <entry>
@@ -986,8 +987,8 @@
         <category>Mac</category>
       </categories>
       <tags>
-        <tag>Windows</tag>
         <tag>Linux</tag>
+        <tag>Windows</tag>
         <tag>VMware</tag>
       </tags>
   </entry>
@@ -1061,6 +1062,159 @@
 <p>Copilot+ PC 专属功能：<br>即时辅助字幕。<br>小画家中的Cocreator。<br>Windows Studio 效果。<br>自动超解析度。<br>影像建立工具和Restyle 影像。<br>Wi-Fi 7 支援。<br>辅助听力装置支援的蓝牙LE 音讯增强功能。<br>系统匣&amp; 工作列增强功能。<br>更精简的档案总管。<br>智慧电源管理。<br>使用QR Code 加入及共用Wi-Fi 网路。<br>增强的Wi-Fi 网路存取隐私控制。<br>在Microsoft Teams 中轻松管理帐户和通知。<br>跨装置扩充Voice Clarity。<br>Windows 的Sudo：提升Windows 命令列效率。<br>远端桌面：增强的连线能力和辅助功能。</p>
 <p>对于硬件不达标，无法在线升级的小伙伴，可以使用Rufus进行安装</p>
 <p><strong>Rufus 官方下载</strong>【<a href="https://rufus.ie/zh/">点击前往</a>】<br><img src="https://c5a6b8d.webp.li/2024/10/rufus.png"></p>
+]]></content>
+      <categories>
+        <category>Windows</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>windows11系统增强实用工具，系统瘦身优化神器</title>
+    <url>/44455.html</url>
+    <content><![CDATA[<h1 id="Windows-11-Debloater-Tool"><a href="#Windows-11-Debloater-Tool" class="headerlink" title="Windows 11 Debloater Tool"></a>Windows 11 Debloater Tool</h1><p>Windows 11 Debloater Tool 本身是一款开源的电脑优化脚本，它具有 <strong>可快速轻松地进行去臃肿处理，Advanced Debloater 可进行基本去臃肿处理，或</strong> <strong>Fine-Tuning 可从众多选项中选择所需的选项</strong>。首先从“Debloat Preset”中选择一个预设，以创建 <strong>终极 PowerShell 脚本来去臃肿 Microsoft Windows 11！</strong> 创建您自己的单选按钮预设并分享！您可以直接从程序运行脚本。</p>
+<p><img src="https://c5a6b8d.webp.li/2025/03/Debloater.png"></p>
+<p>1、Github 开源版：【**<a href="https://github.com/Raphire/Win11Debloat">点击前往</a>**】</p>
+<p>2、Windows 11 Debloater Tool (可视化 UI 版) 【**<a href="https://freetimetech.com/W11D/Windows11DebloaterV206.zip">点击下载</a><strong>】</strong>推荐**</p>
+<p>Win11Debloat 是一个简单、易用且轻量级的 PowerShell 脚本，可以删除预装的 Windows 臃肿软件应用程序、禁用遥测并通过禁用或删除侵入性界面元素、广告等来简化体验。无需亲自费力地完成所有设置或逐个删除应用程序。Win11Debloat 使该过程变得快速而简单！</p>
+<p>该脚本还包含许多系统管理员会喜欢的功能。例如，支持 Windows 审核模式以及在运行时无需用户输入即可运行脚本的能力。</p>
+<h2 id="特征"><a href="#特征" class="headerlink" title="特征"></a>特征</h2><p>提示</p>
+<p>Win11Debloat 所做的所有更改都可以轻松恢复，并且几乎所有应用程序都可以通过 Microsoft Store 重新安装。有关如何恢复更改的完整指南可<a href="https://github.com/Raphire/Win11Debloat/discussions/114">在此处</a>找到。</p>
+<h4 id="应用程序删除"><a href="#应用程序删除" class="headerlink" title="应用程序删除"></a>应用程序删除</h4><ul>
+<li>删除各种过度膨胀的应用程序。</li>
+<li>从当前用户或所有现有用户和新用户的开始菜单中删除所有固定的应用程序。（仅限 Windows 11）</li>
+</ul>
+<h4 id="遥测、跟踪和推荐内容"><a href="#遥测、跟踪和推荐内容" class="headerlink" title="遥测、跟踪和推荐内容"></a>遥测、跟踪和推荐内容</h4><ul>
+<li>禁用遥测、诊断数据、活动历史记录、应用程序启动跟踪和定向广告。</li>
+<li>在开始、设置、通知、文件资源管理器和锁屏上禁用提示、技巧、建议和广告。</li>
+<li>禁用“Windows Spotlight”桌面背景选项。</li>
+</ul>
+<h4 id="Bing-网页搜索、Copilot-等"><a href="#Bing-网页搜索、Copilot-等" class="headerlink" title="Bing 网页搜索、Copilot 等"></a>Bing 网页搜索、Copilot 等</h4><ul>
+<li>从 Windows 搜索中禁用并删除 Bing 网络搜索和 Cortana。</li>
+<li>禁用并删除 Windows Copilot。（仅限 W11）</li>
+<li>禁用 Windows Recall 快照。（仅限 W11）</li>
+</ul>
+<h4 id="文件资源管理器"><a href="#文件资源管理器" class="headerlink" title="文件资源管理器"></a>文件资源管理器</h4><ul>
+<li>更改文件资源管理器打开的默认位置。</li>
+<li>显示隐藏的文件、文件夹和驱动器。</li>
+<li>显示已知文件类型的文件扩展名。</li>
+<li>从文件资源管理器导航窗格中隐藏主页或图库部分。（仅限 W11）</li>
+<li>从文件资源管理器导航窗格中隐藏 3D 对象、音乐或 OneDrive 文件夹。（仅限 W10）</li>
+<li>从文件资源管理器导航窗格中隐藏重复的可移动驱动器条目，因此只保留“此电脑”下的条目。</li>
+</ul>
+<h4 id="任务栏和开始"><a href="#任务栏和开始" class="headerlink" title="任务栏和开始"></a>任务栏和开始</h4><ul>
+<li>将任务栏图标左对齐。（仅限 W11）</li>
+<li>隐藏或更改任务栏上的搜索图标&#x2F;框。（仅限 W11）</li>
+<li>隐藏任务栏中的任务视图按钮。（仅限 W11）</li>
+<li>禁用小部件服务并隐藏任务栏中的图标。</li>
+<li>隐藏任务栏中的聊天（立即开会）图标。</li>
+<li>禁用并隐藏开始菜单中的推荐部分。（仅限 W11）</li>
+</ul>
+<h4 id="上下文菜单"><a href="#上下文菜单" class="headerlink" title="上下文菜单"></a>上下文菜单</h4><ul>
+<li>恢复旧的 Windows 10 样式上下文菜单。（仅限 W11）</li>
+<li>从上下文菜单中隐藏“包含在库中”、“授予访问权限”和“共享”选项。（仅限 W10）</li>
+</ul>
+<h4 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h4><ul>
+<li>禁用 Xbox 游戏&#x2F;屏幕录制，这也会停止游戏覆盖弹出窗口。</li>
+<li>关闭“增强指针精度”（也称为鼠标加速）。</li>
+<li>Sysprep 模式将更改应用于 Windows 默认用户配置文件。之后，所有新用户都将自动应用更改。</li>
+</ul>
+<h2 id="默认设置"><a href="#默认设置" class="headerlink" title="默认设置"></a>默认设置</h2><p>该脚本允许您精确选择要进行的更改，但它还提供了一键式默认模式。默认模式允许您快速轻松地应用建议大多数用户使用的更改。展开下面的部分以了解更多信息。</p>
+<h2 id="快速方法"><a href="#快速方法" class="headerlink" title="快速方法"></a>快速方法</h2><p>通过 PowerShell 自动下载并运行脚本。<code>%temp%/Win11Debloat</code>如果您想检查与脚本相关的所有文件，它们都会被保存。脚本在执行后会自动清理文件。</p>
+<ol>
+<li><p>打开 PowerShell，最好以管理员身份打开。</p>
+</li>
+<li><p>将以下代码复制并粘贴到 PowerShell 中，按 Enter 运行脚本：</p>
+</li>
+</ol>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">&amp; ([scriptblock]::Create((irm &quot;https://debloat.raphi.re/&quot;)))</span><br></pre></td></tr></table></figure>
+<ol>
+<li><p>等待脚本自动下载 Win11Debloat。</p>
+</li>
+<li><p>将打开一个新的 PowerShell 窗口，其中显示 Win11Debloat 菜单。选择默认或自定义模式以继续。</p>
+</li>
+<li><p>仔细阅读并按照屏幕上的说明进行操作。</p>
+<h3 id="传统方法"><a href="#传统方法" class="headerlink" title="传统方法"></a>传统方法</h3><p>手动下载并运行脚本。</p>
+<ol>
+<li><a href="https://github.com/Raphire/Win11Debloat/archive/master.zip">下载最新版本的脚本</a>，并将.ZIP 文件解压到所需位置。</li>
+<li>导航到 Win11Debloat 文件夹</li>
+<li>双击<code>Run.bat</code>文件启动脚本。注意：如果控制台窗口立即关闭且没有任何反应，请尝试下面的高级方法。</li>
+<li>接受 Windows UAC 提示以管理员身份运行脚本，这是脚本运行所必需的。</li>
+<li>现在将打开一个新的 PowerShell 窗口，显示 Win11Debloat 菜单。选择默认或自定义模式继续。</li>
+<li>仔细阅读并按照屏幕上的说明进行操作。</li>
+</ol>
+</li>
+</ol>
+<h1 id="Winhance"><a href="#Winhance" class="headerlink" title="Winhance"></a>Winhance</h1><p><img src="https://c5a6b8d.webp.li/2025/03/hance.png"></p>
+<h2 id="要求"><a href="#要求" class="headerlink" title="要求"></a>要求</h2><ul>
+<li>Windows 11<ul>
+<li><em>在 Windows 11 24H2 上测试</em></li>
+<li><em>大多数功能都可以在 Windows 10 22H2 上运行，但也存在一些问题，例如 Microsoft Edge（旧版）删除</em></li>
+</ul>
+</li>
+<li>Windows PowerShell 5.1（以上版本已预装）</li>
+</ul>
+<h2 id="使用说明"><a href="#使用说明" class="headerlink" title="使用说明"></a>使用说明</h2><p>要使用<strong>Winhance</strong>，请按照以下步骤以管理员身份启动 PowerShell 并运行安装脚本：</p>
+<ol>
+<li><p><strong>以管理员身份打开 PowerShell：</strong></p>
+<ul>
+<li><strong>Windows 10&#x2F;11</strong>：右键单击<strong>“开始”</strong>按钮并选择<strong>“Windows PowerShell（管理员）”</strong>或<strong>“Windows 终端（管理员）”</strong></li>
+<li>PowerShell 将在新窗口中打开。</li>
+</ul>
+</li>
+<li><p><strong>确认管理员权限</strong>：</p>
+<ul>
+<li>如果用户帐户控制 (UAC) 提示，请单击<strong>“是”</strong>以允许 PowerShell 以管理员身份运行。</li>
+</ul>
+</li>
+<li><p><strong>启用 PowerShell 脚本执行：</strong></p>
+<ul>
+<li><p>运行以下命令以允许脚本执行：</p>
+  <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">Set-ExecutionPolicy Unrestricted</span><br></pre></td></tr></table></figure>
+
+<p> <strong>粘贴并运行命令</strong>：</p>
+ <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">irm &quot;https://github.com/memstechtips/Winhance/raw/main/Winhance.ps1&quot; | iex</span><br></pre></td></tr></table></figure>
+<ul>
+<li>要粘贴到 PowerShell，请在 PowerShell 或终端窗口中<strong>单击鼠标右键</strong>或按<strong>Ctrl + V</strong></li>
+<li>按<strong>Enter</strong>执行命令</li>
+</ul>
+<p>此命令将直接从 GitHub下载并执行<strong>Winhance应用程序。</strong></p>
+</li>
+</ul>
+</li>
+</ol>
+<h2 id="当前功能"><a href="#当前功能" class="headerlink" title="当前功能"></a>当前功能</h2><h3 id="软件和应用程序"><a href="#软件和应用程序" class="headerlink" title="软件和应用程序"></a>软件和应用程序</h3><ul>
+<li>安装软件</li>
+<li>删除 Windows 应用程序（永久）<ul>
+<li>微软Edge</li>
+<li>OneDrive</li>
+<li>记起</li>
+<li>副驾驶</li>
+<li>其他无用的 Windows 过度软件</li>
+</ul>
+</li>
+</ul>
+<h3 id="优化"><a href="#优化" class="headerlink" title="优化"></a>优化</h3><ul>
+<li>设置 UAC 通知级别</li>
+<li>禁用或启用 Windows 安全套件</li>
+<li>隐私设置</li>
+<li>游戏优化</li>
+<li>Windows 更新</li>
+<li>电源设置</li>
+<li>计划任务</li>
+<li>Windows 服务</li>
+</ul>
+<h3 id="自定义"><a href="#自定义" class="headerlink" title="自定义"></a>自定义</h3><ul>
+<li>切换 Windows 暗模式或亮模式</li>
+<li>任务栏自定义</li>
+<li>开始菜单设置</li>
+<li>资源管理器选项</li>
+<li>通知偏好</li>
+<li>声音设置</li>
+<li>辅助功能选项</li>
+<li>搜索配置</li>
+</ul>
 ]]></content>
       <categories>
         <category>Windows</category>
@@ -1245,159 +1399,6 @@
       </categories>
       <tags>
         <tag>wrk</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>windows11系统增强实用工具，系统瘦身优化神器</title>
-    <url>/44455.html</url>
-    <content><![CDATA[<h1 id="Windows-11-Debloater-Tool"><a href="#Windows-11-Debloater-Tool" class="headerlink" title="Windows 11 Debloater Tool"></a>Windows 11 Debloater Tool</h1><p>Windows 11 Debloater Tool 本身是一款开源的电脑优化脚本，它具有 <strong>可快速轻松地进行去臃肿处理，Advanced Debloater 可进行基本去臃肿处理，或</strong> <strong>Fine-Tuning 可从众多选项中选择所需的选项</strong>。首先从“Debloat Preset”中选择一个预设，以创建 <strong>终极 PowerShell 脚本来去臃肿 Microsoft Windows 11！</strong> 创建您自己的单选按钮预设并分享！您可以直接从程序运行脚本。</p>
-<p><img src="https://c5a6b8d.webp.li/2025/03/Debloater.png"></p>
-<p>1、Github 开源版：【**<a href="https://github.com/Raphire/Win11Debloat">点击前往</a>**】</p>
-<p>2、Windows 11 Debloater Tool (可视化 UI 版) 【**<a href="https://freetimetech.com/W11D/Windows11DebloaterV206.zip">点击下载</a><strong>】</strong>推荐**</p>
-<p>Win11Debloat 是一个简单、易用且轻量级的 PowerShell 脚本，可以删除预装的 Windows 臃肿软件应用程序、禁用遥测并通过禁用或删除侵入性界面元素、广告等来简化体验。无需亲自费力地完成所有设置或逐个删除应用程序。Win11Debloat 使该过程变得快速而简单！</p>
-<p>该脚本还包含许多系统管理员会喜欢的功能。例如，支持 Windows 审核模式以及在运行时无需用户输入即可运行脚本的能力。</p>
-<h2 id="特征"><a href="#特征" class="headerlink" title="特征"></a>特征</h2><p>提示</p>
-<p>Win11Debloat 所做的所有更改都可以轻松恢复，并且几乎所有应用程序都可以通过 Microsoft Store 重新安装。有关如何恢复更改的完整指南可<a href="https://github.com/Raphire/Win11Debloat/discussions/114">在此处</a>找到。</p>
-<h4 id="应用程序删除"><a href="#应用程序删除" class="headerlink" title="应用程序删除"></a>应用程序删除</h4><ul>
-<li>删除各种过度膨胀的应用程序。</li>
-<li>从当前用户或所有现有用户和新用户的开始菜单中删除所有固定的应用程序。（仅限 Windows 11）</li>
-</ul>
-<h4 id="遥测、跟踪和推荐内容"><a href="#遥测、跟踪和推荐内容" class="headerlink" title="遥测、跟踪和推荐内容"></a>遥测、跟踪和推荐内容</h4><ul>
-<li>禁用遥测、诊断数据、活动历史记录、应用程序启动跟踪和定向广告。</li>
-<li>在开始、设置、通知、文件资源管理器和锁屏上禁用提示、技巧、建议和广告。</li>
-<li>禁用“Windows Spotlight”桌面背景选项。</li>
-</ul>
-<h4 id="Bing-网页搜索、Copilot-等"><a href="#Bing-网页搜索、Copilot-等" class="headerlink" title="Bing 网页搜索、Copilot 等"></a>Bing 网页搜索、Copilot 等</h4><ul>
-<li>从 Windows 搜索中禁用并删除 Bing 网络搜索和 Cortana。</li>
-<li>禁用并删除 Windows Copilot。（仅限 W11）</li>
-<li>禁用 Windows Recall 快照。（仅限 W11）</li>
-</ul>
-<h4 id="文件资源管理器"><a href="#文件资源管理器" class="headerlink" title="文件资源管理器"></a>文件资源管理器</h4><ul>
-<li>更改文件资源管理器打开的默认位置。</li>
-<li>显示隐藏的文件、文件夹和驱动器。</li>
-<li>显示已知文件类型的文件扩展名。</li>
-<li>从文件资源管理器导航窗格中隐藏主页或图库部分。（仅限 W11）</li>
-<li>从文件资源管理器导航窗格中隐藏 3D 对象、音乐或 OneDrive 文件夹。（仅限 W10）</li>
-<li>从文件资源管理器导航窗格中隐藏重复的可移动驱动器条目，因此只保留“此电脑”下的条目。</li>
-</ul>
-<h4 id="任务栏和开始"><a href="#任务栏和开始" class="headerlink" title="任务栏和开始"></a>任务栏和开始</h4><ul>
-<li>将任务栏图标左对齐。（仅限 W11）</li>
-<li>隐藏或更改任务栏上的搜索图标&#x2F;框。（仅限 W11）</li>
-<li>隐藏任务栏中的任务视图按钮。（仅限 W11）</li>
-<li>禁用小部件服务并隐藏任务栏中的图标。</li>
-<li>隐藏任务栏中的聊天（立即开会）图标。</li>
-<li>禁用并隐藏开始菜单中的推荐部分。（仅限 W11）</li>
-</ul>
-<h4 id="上下文菜单"><a href="#上下文菜单" class="headerlink" title="上下文菜单"></a>上下文菜单</h4><ul>
-<li>恢复旧的 Windows 10 样式上下文菜单。（仅限 W11）</li>
-<li>从上下文菜单中隐藏“包含在库中”、“授予访问权限”和“共享”选项。（仅限 W10）</li>
-</ul>
-<h4 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h4><ul>
-<li>禁用 Xbox 游戏&#x2F;屏幕录制，这也会停止游戏覆盖弹出窗口。</li>
-<li>关闭“增强指针精度”（也称为鼠标加速）。</li>
-<li>Sysprep 模式将更改应用于 Windows 默认用户配置文件。之后，所有新用户都将自动应用更改。</li>
-</ul>
-<h2 id="默认设置"><a href="#默认设置" class="headerlink" title="默认设置"></a>默认设置</h2><p>该脚本允许您精确选择要进行的更改，但它还提供了一键式默认模式。默认模式允许您快速轻松地应用建议大多数用户使用的更改。展开下面的部分以了解更多信息。</p>
-<h2 id="快速方法"><a href="#快速方法" class="headerlink" title="快速方法"></a>快速方法</h2><p>通过 PowerShell 自动下载并运行脚本。<code>%temp%/Win11Debloat</code>如果您想检查与脚本相关的所有文件，它们都会被保存。脚本在执行后会自动清理文件。</p>
-<ol>
-<li><p>打开 PowerShell，最好以管理员身份打开。</p>
-</li>
-<li><p>将以下代码复制并粘贴到 PowerShell 中，按 Enter 运行脚本：</p>
-</li>
-</ol>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">&amp; ([scriptblock]::Create((irm &quot;https://debloat.raphi.re/&quot;)))</span><br></pre></td></tr></table></figure>
-<ol>
-<li><p>等待脚本自动下载 Win11Debloat。</p>
-</li>
-<li><p>将打开一个新的 PowerShell 窗口，其中显示 Win11Debloat 菜单。选择默认或自定义模式以继续。</p>
-</li>
-<li><p>仔细阅读并按照屏幕上的说明进行操作。</p>
-<h3 id="传统方法"><a href="#传统方法" class="headerlink" title="传统方法"></a>传统方法</h3><p>手动下载并运行脚本。</p>
-<ol>
-<li><a href="https://github.com/Raphire/Win11Debloat/archive/master.zip">下载最新版本的脚本</a>，并将.ZIP 文件解压到所需位置。</li>
-<li>导航到 Win11Debloat 文件夹</li>
-<li>双击<code>Run.bat</code>文件启动脚本。注意：如果控制台窗口立即关闭且没有任何反应，请尝试下面的高级方法。</li>
-<li>接受 Windows UAC 提示以管理员身份运行脚本，这是脚本运行所必需的。</li>
-<li>现在将打开一个新的 PowerShell 窗口，显示 Win11Debloat 菜单。选择默认或自定义模式继续。</li>
-<li>仔细阅读并按照屏幕上的说明进行操作。</li>
-</ol>
-</li>
-</ol>
-<h1 id="Winhance"><a href="#Winhance" class="headerlink" title="Winhance"></a>Winhance</h1><p><img src="https://c5a6b8d.webp.li/2025/03/hance.png"></p>
-<h2 id="要求"><a href="#要求" class="headerlink" title="要求"></a>要求</h2><ul>
-<li>Windows 11<ul>
-<li><em>在 Windows 11 24H2 上测试</em></li>
-<li><em>大多数功能都可以在 Windows 10 22H2 上运行，但也存在一些问题，例如 Microsoft Edge（旧版）删除</em></li>
-</ul>
-</li>
-<li>Windows PowerShell 5.1（以上版本已预装）</li>
-</ul>
-<h2 id="使用说明"><a href="#使用说明" class="headerlink" title="使用说明"></a>使用说明</h2><p>要使用<strong>Winhance</strong>，请按照以下步骤以管理员身份启动 PowerShell 并运行安装脚本：</p>
-<ol>
-<li><p><strong>以管理员身份打开 PowerShell：</strong></p>
-<ul>
-<li><strong>Windows 10&#x2F;11</strong>：右键单击<strong>“开始”</strong>按钮并选择<strong>“Windows PowerShell（管理员）”</strong>或<strong>“Windows 终端（管理员）”</strong></li>
-<li>PowerShell 将在新窗口中打开。</li>
-</ul>
-</li>
-<li><p><strong>确认管理员权限</strong>：</p>
-<ul>
-<li>如果用户帐户控制 (UAC) 提示，请单击<strong>“是”</strong>以允许 PowerShell 以管理员身份运行。</li>
-</ul>
-</li>
-<li><p><strong>启用 PowerShell 脚本执行：</strong></p>
-<ul>
-<li><p>运行以下命令以允许脚本执行：</p>
-  <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">Set-ExecutionPolicy Unrestricted</span><br></pre></td></tr></table></figure>
-
-<p> <strong>粘贴并运行命令</strong>：</p>
- <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">irm &quot;https://github.com/memstechtips/Winhance/raw/main/Winhance.ps1&quot; | iex</span><br></pre></td></tr></table></figure>
-<ul>
-<li>要粘贴到 PowerShell，请在 PowerShell 或终端窗口中<strong>单击鼠标右键</strong>或按<strong>Ctrl + V</strong></li>
-<li>按<strong>Enter</strong>执行命令</li>
-</ul>
-<p>此命令将直接从 GitHub下载并执行<strong>Winhance应用程序。</strong></p>
-</li>
-</ul>
-</li>
-</ol>
-<h2 id="当前功能"><a href="#当前功能" class="headerlink" title="当前功能"></a>当前功能</h2><h3 id="软件和应用程序"><a href="#软件和应用程序" class="headerlink" title="软件和应用程序"></a>软件和应用程序</h3><ul>
-<li>安装软件</li>
-<li>删除 Windows 应用程序（永久）<ul>
-<li>微软Edge</li>
-<li>OneDrive</li>
-<li>记起</li>
-<li>副驾驶</li>
-<li>其他无用的 Windows 过度软件</li>
-</ul>
-</li>
-</ul>
-<h3 id="优化"><a href="#优化" class="headerlink" title="优化"></a>优化</h3><ul>
-<li>设置 UAC 通知级别</li>
-<li>禁用或启用 Windows 安全套件</li>
-<li>隐私设置</li>
-<li>游戏优化</li>
-<li>Windows 更新</li>
-<li>电源设置</li>
-<li>计划任务</li>
-<li>Windows 服务</li>
-</ul>
-<h3 id="自定义"><a href="#自定义" class="headerlink" title="自定义"></a>自定义</h3><ul>
-<li>切换 Windows 暗模式或亮模式</li>
-<li>任务栏自定义</li>
-<li>开始菜单设置</li>
-<li>资源管理器选项</li>
-<li>通知偏好</li>
-<li>声音设置</li>
-<li>辅助功能选项</li>
-<li>搜索配置</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Windows</category>
-      </categories>
-      <tags>
-        <tag>Windows</tag>
       </tags>
   </entry>
   <entry>

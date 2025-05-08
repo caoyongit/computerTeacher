@@ -342,6 +342,13 @@
   </url>
   
   <url>
+    <loc>https://www.dnjs.xyz/tags/Linux/</loc>
+    <lastmod>2025-05-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.dnjs.xyz/tags/Windows/</loc>
     <lastmod>2025-05-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -363,7 +370,7 @@
   </url>
   
   <url>
-    <loc>https://www.dnjs.xyz/tags/Linux/</loc>
+    <loc>https://www.dnjs.xyz/tags/Winows/</loc>
     <lastmod>2025-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -384,7 +391,7 @@
   </url>
   
   <url>
-    <loc>https://www.dnjs.xyz/tags/vagrant/</loc>
+    <loc>https://www.dnjs.xyz/tags/AI/</loc>
     <lastmod>2025-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -392,13 +399,6 @@
   
   <url>
     <loc>https://www.dnjs.xyz/tags/json/</loc>
-    <lastmod>2025-05-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.dnjs.xyz/tags/AI/</loc>
     <lastmod>2025-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -455,6 +455,13 @@
   
   <url>
     <loc>https://www.dnjs.xyz/tags/windows-key/</loc>
+    <lastmod>2025-05-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.dnjs.xyz/tags/vagrant/</loc>
     <lastmod>2025-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -519,13 +526,6 @@
   </url>
   
   <url>
-    <loc>https://www.dnjs.xyz/categories/Windows/</loc>
-    <lastmod>2025-05-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.dnjs.xyz/categories/Linux/</loc>
     <lastmod>2025-05-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -533,7 +533,14 @@
   </url>
   
   <url>
-    <loc>https://www.dnjs.xyz/categories/Web/</loc>
+    <loc>https://www.dnjs.xyz/categories/Windows/</loc>
+    <lastmod>2025-05-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.dnjs.xyz/categories/AI/</loc>
     <lastmod>2025-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -547,7 +554,7 @@
   </url>
   
   <url>
-    <loc>https://www.dnjs.xyz/categories/AI/</loc>
+    <loc>https://www.dnjs.xyz/categories/Web/</loc>
     <lastmod>2025-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
