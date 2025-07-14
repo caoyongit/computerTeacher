@@ -358,20 +358,6 @@
   </url>
   
   <url>
-    <loc>https://www.dnjs.xyz/tags/Windows/</loc>
-    <lastmod>2025-07-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.dnjs.xyz/tags/Windhawk/</loc>
-    <lastmod>2025-07-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.dnjs.xyz/tags/Rainmeter/</loc>
     <lastmod>2025-07-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -393,7 +379,21 @@
   </url>
   
   <url>
+    <loc>https://www.dnjs.xyz/tags/Windows/</loc>
+    <lastmod>2025-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.dnjs.xyz/tags/Apps/</loc>
+    <lastmod>2025-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.dnjs.xyz/tags/Windhawk/</loc>
     <lastmod>2025-07-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -428,14 +428,14 @@
   </url>
   
   <url>
-    <loc>https://www.dnjs.xyz/tags/office/</loc>
+    <loc>https://www.dnjs.xyz/tags/git/</loc>
     <lastmod>2025-07-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.dnjs.xyz/tags/git/</loc>
+    <loc>https://www.dnjs.xyz/tags/office/</loc>
     <lastmod>2025-07-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -556,14 +556,14 @@
   </url>
   
   <url>
-    <loc>https://www.dnjs.xyz/categories/Mac/</loc>
+    <loc>https://www.dnjs.xyz/categories/Web/</loc>
     <lastmod>2025-07-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.dnjs.xyz/categories/Web/</loc>
+    <loc>https://www.dnjs.xyz/categories/Mac/</loc>
     <lastmod>2025-07-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
