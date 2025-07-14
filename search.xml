@@ -406,33 +406,6 @@
       </tags>
   </entry>
   <entry>
-    <title>听我一句劝，使用Mac前一定要知道这些资源站</title>
-    <url>/51179.html</url>
-    <content><![CDATA[<h3 id="MacWK"><a href="#MacWK" class="headerlink" title="MacWK"></a>MacWK</h3><p>MacWK是一个高质量的Mac资源下载平台，致力于为Mac用户提供丰富的软件选择，涵盖办公、创意、效率等多种应用类别。平台界面简洁、分类明确，每个软件都有详细的介绍和安装教程，让新手也能轻松上手。MacWK的资源更新速度快，用户始终可以下载到新版本的软件。无论你是专业创作者、程序员，还是日常办公用户，都能在MacWK找到适合的工具，快速提升生产力和创意效率。</p>
-<p><strong>官方地址：</strong><a href="https://macwk.cn/">https://macwk.cn/</a></p>
-<p><img src="https://c5a6b8d.webp.li/2024/11/macwk.png" alt="MacWK"></p>
-<h3 id="马克菠萝"><a href="#马克菠萝" class="headerlink" title="马克菠萝"></a>马克菠萝</h3><p>马克菠萝是一个专注于Mac应用分享的站点，为用户提供大量正版、精品的Mac软件资源。平台资源丰富，涵盖从设计到开发的各类软件，特别适合内容创作者和设计师。马克菠萝的使用简单易上手，每款软件都附有详细的下载和安装指南，用户体验淑敷。站内还定期分享限时免费资源和优惠信息，让用户享受优质软件的同时节省开支。对于希望提升效率的Mac用户来说，马克菠萝是个不可多得的资源宝库。</p>
-<p><strong>官方地址：</strong><a href="https://www.macbl.com/">https://www.macbl.com/</a></p>
-<p><img src="https://c5a6b8d.webp.li/2024/11/macbl.png" alt="MacBL"></p>
-<h3 id="MacApp分享频道"><a href="#MacApp分享频道" class="headerlink" title="MacApp分享频道"></a>MacApp分享频道</h3><p>MacApp分享频道是一个专门分享Mac应用资源的平台，精选出高质量的软件满足用户的不同需求。平台以提供实用和优质的应用为核心，资源覆盖办公、学习、设计、开发等多个领域。每款软件都有详细的功能介绍和使用教程，帮助用户快速掌握和使用。MacApp分享频道还时常推出一些限时优惠和免费资源，是提升生产力的好手，帮助用户发现更多实用的Mac工具。</p>
-<p><strong>官方地址：</strong><a href="https://macapp.org.cn/">https://macapp.org.cn/</a></p>
-<p><img src="https://c5a6b8d.webp.li/2024/11/macapp.png" alt="macapp"></p>
-<h3 id="XMac"><a href="#XMac" class="headerlink" title="XMac"></a>XMac</h3><p>XMac是一个专为Mac用户打造的资源分享网站，提供丰富的软件资源以及系统工具。平台包含多种类型的应用，适用于不同需求的Mac用户，无论是轻量办公还是深度创作，XMac都有相应的资源。其界面清爽简洁，分类明确，让用户能够快速找到所需应用。XMac还会分享一些新鲜的应用资讯和使用技巧，为用户提供更多关于Mac的实用信息，帮助用户获得更优质的Mac使用体验。</p>
-<p><strong>官方地址：</strong><a href="https://xmac.app/">https://xmac.app/</a></p>
-<p><img src="https://c5a6b8d.webp.li/2024/11/xmacapp.png" alt="XMac.App"></p>
-<h3 id="MacGF"><a href="#MacGF" class="headerlink" title="MacGF"></a>MacGF</h3><p>MacGF是一个深受Mac用户喜爱的资源分享平台，以精选的应用资源和详细的安装教程著称。平台涵盖了从日常工具到专业软件的多类应用，致力于帮助Mac用户快速找到适合自己的软件。MacGF还提供一系列系统优化工具，使用户的Mac保持流畅运行。除了下载资源外，MacGF定期更新软件和实用小技巧，让用户不断提升Mac使用体验。</p>
-<p><strong>官方地址：</strong><a href="https://www.macgf.com/">https://www.macgf.com/</a></p>
-<p><img src="https://c5a6b8d.webp.li/2024/11/macgfbg.png" alt="MacGF"></p>
-]]></content>
-      <categories>
-        <category>Mac</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
-        <tag>Mac</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>JSON基本概念和用途</title>
     <url>/22725.html</url>
     <content><![CDATA[<h3 id="JSON的定义"><a href="#JSON的定义" class="headerlink" title="JSON的定义"></a>JSON的定义</h3><p>JSON (Javascript Object Notation）是一种轻量級、基于文本的、与语言无关的数据交换格式。</p>
@@ -466,6 +439,52 @@
       </categories>
       <tags>
         <tag>json</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>link22</title>
+    <url>/58540.html</url>
+    <content><![CDATA[<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">​	https://www.notion.so/link22-2307d3569dc380059bddeea62ff575f8?source=copy_link</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
+
+
+]]></content>
+      <categories>
+        <category>Linux</category>
+        <category>Windows</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+        <tag>vagrant</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>听我一句劝，使用Mac前一定要知道这些资源站</title>
+    <url>/51179.html</url>
+    <content><![CDATA[<h3 id="MacWK"><a href="#MacWK" class="headerlink" title="MacWK"></a>MacWK</h3><p>MacWK是一个高质量的Mac资源下载平台，致力于为Mac用户提供丰富的软件选择，涵盖办公、创意、效率等多种应用类别。平台界面简洁、分类明确，每个软件都有详细的介绍和安装教程，让新手也能轻松上手。MacWK的资源更新速度快，用户始终可以下载到新版本的软件。无论你是专业创作者、程序员，还是日常办公用户，都能在MacWK找到适合的工具，快速提升生产力和创意效率。</p>
+<p><strong>官方地址：</strong><a href="https://macwk.cn/">https://macwk.cn/</a></p>
+<p><img src="https://c5a6b8d.webp.li/2024/11/macwk.png" alt="MacWK"></p>
+<h3 id="马克菠萝"><a href="#马克菠萝" class="headerlink" title="马克菠萝"></a>马克菠萝</h3><p>马克菠萝是一个专注于Mac应用分享的站点，为用户提供大量正版、精品的Mac软件资源。平台资源丰富，涵盖从设计到开发的各类软件，特别适合内容创作者和设计师。马克菠萝的使用简单易上手，每款软件都附有详细的下载和安装指南，用户体验淑敷。站内还定期分享限时免费资源和优惠信息，让用户享受优质软件的同时节省开支。对于希望提升效率的Mac用户来说，马克菠萝是个不可多得的资源宝库。</p>
+<p><strong>官方地址：</strong><a href="https://www.macbl.com/">https://www.macbl.com/</a></p>
+<p><img src="https://c5a6b8d.webp.li/2024/11/macbl.png" alt="MacBL"></p>
+<h3 id="MacApp分享频道"><a href="#MacApp分享频道" class="headerlink" title="MacApp分享频道"></a>MacApp分享频道</h3><p>MacApp分享频道是一个专门分享Mac应用资源的平台，精选出高质量的软件满足用户的不同需求。平台以提供实用和优质的应用为核心，资源覆盖办公、学习、设计、开发等多个领域。每款软件都有详细的功能介绍和使用教程，帮助用户快速掌握和使用。MacApp分享频道还时常推出一些限时优惠和免费资源，是提升生产力的好手，帮助用户发现更多实用的Mac工具。</p>
+<p><strong>官方地址：</strong><a href="https://macapp.org.cn/">https://macapp.org.cn/</a></p>
+<p><img src="https://c5a6b8d.webp.li/2024/11/macapp.png" alt="macapp"></p>
+<h3 id="XMac"><a href="#XMac" class="headerlink" title="XMac"></a>XMac</h3><p>XMac是一个专为Mac用户打造的资源分享网站，提供丰富的软件资源以及系统工具。平台包含多种类型的应用，适用于不同需求的Mac用户，无论是轻量办公还是深度创作，XMac都有相应的资源。其界面清爽简洁，分类明确，让用户能够快速找到所需应用。XMac还会分享一些新鲜的应用资讯和使用技巧，为用户提供更多关于Mac的实用信息，帮助用户获得更优质的Mac使用体验。</p>
+<p><strong>官方地址：</strong><a href="https://xmac.app/">https://xmac.app/</a></p>
+<p><img src="https://c5a6b8d.webp.li/2024/11/xmacapp.png" alt="XMac.App"></p>
+<h3 id="MacGF"><a href="#MacGF" class="headerlink" title="MacGF"></a>MacGF</h3><p>MacGF是一个深受Mac用户喜爱的资源分享平台，以精选的应用资源和详细的安装教程著称。平台涵盖了从日常工具到专业软件的多类应用，致力于帮助Mac用户快速找到适合自己的软件。MacGF还提供一系列系统优化工具，使用户的Mac保持流畅运行。除了下载资源外，MacGF定期更新软件和实用小技巧，让用户不断提升Mac使用体验。</p>
+<p><strong>官方地址：</strong><a href="https://www.macgf.com/">https://www.macgf.com/</a></p>
+<p><img src="https://c5a6b8d.webp.li/2024/11/macgfbg.png" alt="MacGF"></p>
+]]></content>
+      <categories>
+        <category>Mac</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+        <tag>Mac</tag>
       </tags>
   </entry>
   <entry>
@@ -593,23 +612,6 @@
       </tags>
   </entry>
   <entry>
-    <title>某宝花钱买的电脑单机游戏集合700+</title>
-    <url>/22718.html</url>
-    <content><![CDATA[<p>网友某宝花钱买的电脑单机游戏集合，一共700+款，附带游戏修改器、作弊、优惠代码等等信息，还有赠品，整理成了一个excel文档，游戏存放在百度网盘，感兴趣的可以前往学习。</p>
-<p><img src="https://c5a6b8d.webp.li/2024/09/single-player-games.png"></p>
-<p><strong>下载地址</strong></p>
-<p>百度网盘： <a href="https://pan.baidu.com/s/1ZlZXF5MfeUZplRMq4fqsLQ?pwd=fzwh">https://pan.baidu.com/s/1ZlZXF5MfeUZplRMq4fqsLQ?pwd=fzwh</a> 提取码: fzwh </p>
-<p>阿里云盘：<a href="https://www.alipan.com/s/QaLh9PzqpnV">https://www.alipan.com/s/QaLh9PzqpnV</a></p>
-]]></content>
-      <categories>
-        <category>Windows</category>
-      </categories>
-      <tags>
-        <tag>Windows</tag>
-        <tag>games</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>screen命令</title>
     <url>/53358.html</url>
     <content><![CDATA[<p>screen 是一个非常有用的命令，提供从单个 SSH 会话中使用多个 shell 窗口（会话）的能力。当会话被分离或网络中断时，screen 会话中启动的进程仍将运行，你可以随时重新连接到 screen 会话。如果你想运行一个持久的进程或者从多个位置连接到 shell 会话，这也很方便。</p>
@@ -665,6 +667,23 @@
       </categories>
       <tags>
         <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>某宝花钱买的电脑单机游戏集合700+</title>
+    <url>/22718.html</url>
+    <content><![CDATA[<p>网友某宝花钱买的电脑单机游戏集合，一共700+款，附带游戏修改器、作弊、优惠代码等等信息，还有赠品，整理成了一个excel文档，游戏存放在百度网盘，感兴趣的可以前往学习。</p>
+<p><img src="https://c5a6b8d.webp.li/2024/09/single-player-games.png"></p>
+<p><strong>下载地址</strong></p>
+<p>百度网盘： <a href="https://pan.baidu.com/s/1ZlZXF5MfeUZplRMq4fqsLQ?pwd=fzwh">https://pan.baidu.com/s/1ZlZXF5MfeUZplRMq4fqsLQ?pwd=fzwh</a> 提取码: fzwh </p>
+<p>阿里云盘：<a href="https://www.alipan.com/s/QaLh9PzqpnV">https://www.alipan.com/s/QaLh9PzqpnV</a></p>
+]]></content>
+      <categories>
+        <category>Windows</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
+        <tag>games</tag>
       </tags>
   </entry>
   <entry>
