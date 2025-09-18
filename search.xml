@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Astra Linux 一款基于Linux的俄罗斯计算机操作系统(OS)</title>
+    <url>/55683.html</url>
+    <content><![CDATA[<p>Astra Linux 是一款基于Linux的俄罗斯计算机操作系统(OS)，正在俄罗斯联邦广泛部署，以取代 Microsoft Windows。因为微软曾经在俄罗斯被禁止出售，当然现已解封。</p>
+<p>Astra Linux 是公认的 Debian 衍生产品。Rusbitech 与 Linux 基金会有合作关系。它曾是文档基金会顾问委员会的一部分，但由于俄罗斯入侵乌克兰，该委员会于 2022 年 2 月 26 日被暂停。</p>
+<p>该操作系统有两个版本：主要版本称为“特别版”，另一个称为“普通版”。两者的主要区别在于前者需要付费，而后者免费；前者适用于 x86-64 架构、ARM 架构和 Elbrus 架构，而后者仅适用于 x86-64 架构；前者具有安全认证，提供 3 个级别的操作系统安全性（以俄罗斯城市命名，从低到高为：<em>Oryol</em>、<em>Voronezh</em>和<em>Smolensk</em>），而后者没有安全认证，仅提供最低级别的操作系统安全性（<em>Oryol</em>）。</p>
+<p>今天博主纯属是为了好玩，也是好奇这个系统到底长什么样，所有我决定在虚拟机上进行安装测试下。如果你也想玩玩试试，可以跟着尝试下。</p>
+<p><img src="https://c5a6b8d.webp.li/2025/04/astra.png"></p>
+<p>1、Astra Linux 系统镜像下载：</p>
+<p>时光机下载：【**<a href="https://archive.org/details/1.7.0-11.06.2021-12.40/Astra%20Linux%20Features/page/n7/mode/2up">点击前往</a>**】</p>
+<p>Astra Linux 官方：【**<a href="https://dl.astralinux.ru/astra/stable/2.12_x86-64/iso/">点击前往</a>**】</p>
+<p>2、VMware 虚拟机下载：【<a href="https://www.dnjs.xyz/53303.html"><strong>点击前往</strong></a>】</p>
+]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>2018年终总结</title>
     <url>/50205.html</url>
     <content><![CDATA[<h3 id="年度工作概述"><a href="#年度工作概述" class="headerlink" title="年度工作概述"></a>年度工作概述</h3><p>一年的时间，每当自己在总结它的时候，感觉是那么的短暂—弹指一挥间.而也就是在这一挥间，承载着太多太多，有收获与成就，有失败与不足.回头看看2017年的足迹，伴随着自己一年的是学习与坚持。</p>
@@ -210,23 +230,48 @@
       </tags>
   </entry>
   <entry>
-    <title>Astra Linux 一款基于Linux的俄罗斯计算机操作系统(OS)</title>
-    <url>/55683.html</url>
-    <content><![CDATA[<p>Astra Linux 是一款基于Linux的俄罗斯计算机操作系统(OS)，正在俄罗斯联邦广泛部署，以取代 Microsoft Windows。因为微软曾经在俄罗斯被禁止出售，当然现已解封。</p>
-<p>Astra Linux 是公认的 Debian 衍生产品。Rusbitech 与 Linux 基金会有合作关系。它曾是文档基金会顾问委员会的一部分，但由于俄罗斯入侵乌克兰，该委员会于 2022 年 2 月 26 日被暂停。</p>
-<p>该操作系统有两个版本：主要版本称为“特别版”，另一个称为“普通版”。两者的主要区别在于前者需要付费，而后者免费；前者适用于 x86-64 架构、ARM 架构和 Elbrus 架构，而后者仅适用于 x86-64 架构；前者具有安全认证，提供 3 个级别的操作系统安全性（以俄罗斯城市命名，从低到高为：<em>Oryol</em>、<em>Voronezh</em>和<em>Smolensk</em>），而后者没有安全认证，仅提供最低级别的操作系统安全性（<em>Oryol</em>）。</p>
-<p>今天博主纯属是为了好玩，也是好奇这个系统到底长什么样，所有我决定在虚拟机上进行安装测试下。如果你也想玩玩试试，可以跟着尝试下。</p>
-<p><img src="https://c5a6b8d.webp.li/2025/04/astra.png"></p>
-<p>1、Astra Linux 系统镜像下载：</p>
-<p>时光机下载：【**<a href="https://archive.org/details/1.7.0-11.06.2021-12.40/Astra%20Linux%20Features/page/n7/mode/2up">点击前往</a>**】</p>
-<p>Astra Linux 官方：【**<a href="https://dl.astralinux.ru/astra/stable/2.12_x86-64/iso/">点击前往</a>**】</p>
-<p>2、VMware 虚拟机下载：【<a href="https://www.dnjs.xyz/53303.html"><strong>点击前往</strong></a>】</p>
+    <title>Monitorian 显示器亮度调节，支持外接和多个显示器！</title>
+    <url>/5534.html</url>
+    <content><![CDATA[<p>Monitorian 是一款桌面工具，可轻松调节多台显示器的亮度。用户可以单独或同时更改显示器（包括外接显示器）的亮度。</p>
+<p><img src="https://c5a6b8d.webp.li/2025/09/Monitorian.png"></p>
+<p>此外，用户还可以无缝更改每台显示器的亮度和对比度的可调范围。要控制外接显示器，显示器必须兼容 DDC&#x2F;CI 并启用该功能。</p>
+<p>如果显示器通过转换器、扩展坞或其他设备连接，则此类设备也必须兼容。附加功能可通过订阅获得。</p>
+<p>这些功能包括：</p>
+<ul>
+<li><p>可单独定制的热键和快捷键</p>
+</li>
+<li><p>灵活的命令行选项</p>
+</li>
+<li><p>控制 4 台以上的显示器 建议在试用期间检查附加功能是否按预期运行。这些功能不会影响显示器的检测。</p>
+</li>
+</ul>
+<p><strong>微软应用商店下载：【<a href="https://apps.microsoft.com/detail/9NW33J738BL0?hl=neutral&gl=CN&ocid=pdpshare">点击前往</a>】</strong></p>
+<p><img src="https://c5a6b8d.webp.li/2025/09/Monitorian.png"></p>
 ]]></content>
       <categories>
-        <category>Linux</category>
+        <category>Windows</category>
       </categories>
       <tags>
-        <tag>Linux</tag>
+        <tag>Windows</tag>
+        <tag>Monitorian</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>桌面美化软件来了！Rainmeter让你的Windows桌面更酷炫、更效率</title>
+    <url>/31810.html</url>
+    <content><![CDATA[<p>桌面美化软件来了！Rainmeter让你的Windows桌面更酷炫、更效率！自定义小组件，显示天气、CPU使用率、内存占用等信息，既好看又实用。超多皮肤模板任你挑选，让桌面瞬间焕然一新！快来试试吧！</p>
+<p>视频地址： <a href="https://www.xiaohongshu.com/explore/67779fb4000000000b016405?app_platform=android&app_version=8.67.0&apptime=1735892920&share_from_user_hidden=true&type=video&appuid=6694a7ab0000000003033310&author_share=1&xsec_token=DBFAwOvqyVFaI5qGDwj1O4JKQe6Dpz6Cha_RI5CLNrmfw=&xsec_source=app_share&xhsshare=WeixinSession&shareRedId=ODw7NEQ8RUs2NzUyOTgwNjY2OTo3ODc5&share_id=7be7f6877be449deb55d683e6c860ba0">【小红书】</a></p>
+<p><img src="https://c5a6b8d.webp.li/2025/01/Rainmeter.png"></p>
+<p>rainmeter：<a href="https://www.rainmeter.net/">https://www.rainmeter.net/</a></p>
+<p>皮肤文件：<a href="https://www.deviantart.com/hiphopium/art/Lumiero-828277050">https://www.deviantart.com/hiphopium/art/Lumiero-828277050</a></p>
+<p>模板Blue Mountain_Theme：<a href="https://www.deviantart.com/hoangnobitang/art/Aesthetic-Desktop-with-Blue-Mountain-852200384">https://www.deviantart.com/hoangnobitang/art/Aesthetic-Desktop-with-Blue-Mountain-852200384</a></p>
+<p>MEGA: <a href="https://mega.nz/file/R4dRFSjD#PvO5Qa1FdbqqEJNhaxgsje4o0R744EVNRKhNOXCSO5w">https://mega.nz/file/R4dRFSjD#PvO5Qa1FdbqqEJNhaxgsje4o0R744EVNRKhNOXCSO5w</a></p>
+]]></content>
+      <categories>
+        <category>Windows</category>
+      </categories>
+      <tags>
+        <tag>Rainmeter</tag>
       </tags>
   </entry>
   <entry>
@@ -259,24 +304,6 @@
       <tags>
         <tag>Windows</tag>
         <tag>Windhawk</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>桌面美化软件来了！Rainmeter让你的Windows桌面更酷炫、更效率</title>
-    <url>/31810.html</url>
-    <content><![CDATA[<p>桌面美化软件来了！Rainmeter让你的Windows桌面更酷炫、更效率！自定义小组件，显示天气、CPU使用率、内存占用等信息，既好看又实用。超多皮肤模板任你挑选，让桌面瞬间焕然一新！快来试试吧！</p>
-<p>视频地址： <a href="https://www.xiaohongshu.com/explore/67779fb4000000000b016405?app_platform=android&app_version=8.67.0&apptime=1735892920&share_from_user_hidden=true&type=video&appuid=6694a7ab0000000003033310&author_share=1&xsec_token=DBFAwOvqyVFaI5qGDwj1O4JKQe6Dpz6Cha_RI5CLNrmfw=&xsec_source=app_share&xhsshare=WeixinSession&shareRedId=ODw7NEQ8RUs2NzUyOTgwNjY2OTo3ODc5&share_id=7be7f6877be449deb55d683e6c860ba0">【小红书】</a></p>
-<p><img src="https://c5a6b8d.webp.li/2025/01/Rainmeter.png"></p>
-<p>rainmeter：<a href="https://www.rainmeter.net/">https://www.rainmeter.net/</a></p>
-<p>皮肤文件：<a href="https://www.deviantart.com/hiphopium/art/Lumiero-828277050">https://www.deviantart.com/hiphopium/art/Lumiero-828277050</a></p>
-<p>模板Blue Mountain_Theme：<a href="https://www.deviantart.com/hoangnobitang/art/Aesthetic-Desktop-with-Blue-Mountain-852200384">https://www.deviantart.com/hoangnobitang/art/Aesthetic-Desktop-with-Blue-Mountain-852200384</a></p>
-<p>MEGA: <a href="https://mega.nz/file/R4dRFSjD#PvO5Qa1FdbqqEJNhaxgsje4o0R744EVNRKhNOXCSO5w">https://mega.nz/file/R4dRFSjD#PvO5Qa1FdbqqEJNhaxgsje4o0R744EVNRKhNOXCSO5w</a></p>
-]]></content>
-      <categories>
-        <category>Windows</category>
-      </categories>
-      <tags>
-        <tag>Rainmeter</tag>
       </tags>
   </entry>
   <entry>
@@ -518,6 +545,41 @@
       </tags>
   </entry>
   <entry>
+    <title>macOS 重新安装GIT</title>
+    <url>/46365.html</url>
+    <content><![CDATA[<p>程序员有时候是一种很奇怪的生物，明明系统自带的东西很好用，而且也用的很好，但是就是想用自己统一配置的。比如mac系统默认自带的git想重新安装，用brew统一管理起来。</p>
+<h4 id="卸载系统自带的git"><a href="#卸载系统自带的git" class="headerlink" title="卸载系统自带的git"></a>卸载系统自带的git</h4><ul>
+<li><p>检查默认git在哪个目录</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">which git</span><br></pre></td></tr></table></figure>
+<p>可能会输出 &#x2F;usr&#x2F;bin&#x2F;git</p>
+</li>
+<li><p>删除git</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">sudo rm -rf /usr/bin/git/</span><br><span class="line">sudo rm /etc/paths.d/git</span><br><span class="line">sudo rm /etc/manpaths.d/git</span><br><span class="line">sudo pkgutil --forget --pkgs=GitOSX\.Installer\.git[A-Za-z0-9]*\.[a-z]*.pkg</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h4 id="用Brew重新安装git"><a href="#用Brew重新安装git" class="headerlink" title="用Brew重新安装git"></a>用Brew重新安装git</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">brew uninstall git</span><br><span class="line">brew update</span><br><span class="line">brew install git</span><br></pre></td></tr></table></figure>
+<p>重新检查git安装目录</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">which git</span><br></pre></td></tr></table></figure>
+<p>现在你可以看到：&#x2F;usr&#x2F;local&#x2F;bin&#x2F;git</p>
+<h4 id="报错"><a href="#报错" class="headerlink" title="报错"></a>报错</h4><h5 id="报错信息一"><a href="#报错信息一" class="headerlink" title="报错信息一"></a>报错信息一</h5><p>Mac catalina无法删除 &#x2F;usr&#x2F;bin&#x2F; 下面的文件</p>
+<p>sudo rm -rf &#x2F;usr&#x2F;bin&#x2F;git&#x2F;:Operation not permitted</p>
+<p>发现是SIP的问题 具体可以见 Mac OS X 10.11+ Rootless 介绍</p>
+<blockquote><p>尝试关闭 Rootless。重启电脑一直按住 Command+R，直到进入恢复模式，打开Terminal。<br>输入 csrutil disable<br>重启即可。这样就关掉了Sip 如果要恢复默认，那么只要输入 csrutil enable</p>
+</blockquote>
+<h5 id="报错信息二"><a href="#报错信息二" class="headerlink" title="报错信息二"></a>报错信息二</h5><p>Read-only file system</p>
+<p>执行</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">sudo mount -uw /</span><br></pre></td></tr></table></figure>
+<p>再操作就可以了</p>
+<p>记得操作完把 sip重新打开</p>
+]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+        <tag>git</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>正版Office全家桶永久免费使用！完全通过官方下载，放心使用</title>
     <url>/35656.html</url>
     <content><![CDATA[<p><img src="https://c5a6b8d.webp.li/2024/10/microsof-office.png" alt="microsoft-office"></p>
@@ -555,41 +617,6 @@
       <tags>
         <tag>Windows</tag>
         <tag>office</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>macOS 重新安装GIT</title>
-    <url>/46365.html</url>
-    <content><![CDATA[<p>程序员有时候是一种很奇怪的生物，明明系统自带的东西很好用，而且也用的很好，但是就是想用自己统一配置的。比如mac系统默认自带的git想重新安装，用brew统一管理起来。</p>
-<h4 id="卸载系统自带的git"><a href="#卸载系统自带的git" class="headerlink" title="卸载系统自带的git"></a>卸载系统自带的git</h4><ul>
-<li><p>检查默认git在哪个目录</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">which git</span><br></pre></td></tr></table></figure>
-<p>可能会输出 &#x2F;usr&#x2F;bin&#x2F;git</p>
-</li>
-<li><p>删除git</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">sudo rm -rf /usr/bin/git/</span><br><span class="line">sudo rm /etc/paths.d/git</span><br><span class="line">sudo rm /etc/manpaths.d/git</span><br><span class="line">sudo pkgutil --forget --pkgs=GitOSX\.Installer\.git[A-Za-z0-9]*\.[a-z]*.pkg</span><br></pre></td></tr></table></figure></li>
-</ul>
-<h4 id="用Brew重新安装git"><a href="#用Brew重新安装git" class="headerlink" title="用Brew重新安装git"></a>用Brew重新安装git</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">brew uninstall git</span><br><span class="line">brew update</span><br><span class="line">brew install git</span><br></pre></td></tr></table></figure>
-<p>重新检查git安装目录</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">which git</span><br></pre></td></tr></table></figure>
-<p>现在你可以看到：&#x2F;usr&#x2F;local&#x2F;bin&#x2F;git</p>
-<h4 id="报错"><a href="#报错" class="headerlink" title="报错"></a>报错</h4><h5 id="报错信息一"><a href="#报错信息一" class="headerlink" title="报错信息一"></a>报错信息一</h5><p>Mac catalina无法删除 &#x2F;usr&#x2F;bin&#x2F; 下面的文件</p>
-<p>sudo rm -rf &#x2F;usr&#x2F;bin&#x2F;git&#x2F;:Operation not permitted</p>
-<p>发现是SIP的问题 具体可以见 Mac OS X 10.11+ Rootless 介绍</p>
-<blockquote><p>尝试关闭 Rootless。重启电脑一直按住 Command+R，直到进入恢复模式，打开Terminal。<br>输入 csrutil disable<br>重启即可。这样就关掉了Sip 如果要恢复默认，那么只要输入 csrutil enable</p>
-</blockquote>
-<h5 id="报错信息二"><a href="#报错信息二" class="headerlink" title="报错信息二"></a>报错信息二</h5><p>Read-only file system</p>
-<p>执行</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">sudo mount -uw /</span><br></pre></td></tr></table></figure>
-<p>再操作就可以了</p>
-<p>记得操作完把 sip重新打开</p>
-]]></content>
-      <categories>
-        <category>Linux</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
-        <tag>git</tag>
       </tags>
   </entry>
   <entry>
@@ -730,6 +757,53 @@
       </tags>
   </entry>
   <entry>
+    <title>spring boot启动服务卡住无日志输出</title>
+    <url>/4847.html</url>
+    <content><![CDATA[<p>今天我们来介绍下spring boot 启动时候如果卡住，就是无日志输出，也不报错的几种解决方法</p>
+<p><strong>断点设置太多</strong></p>
+<p>这时可以打开IDEA的断点视图，查看哪些代码有断点并去掉就行了。或者干脆禁用掉整个项目的断点功能也行。<br><img src="https://c5a6b8d.webp.li/2024/09/breakpoints.png"></p>
+<span id="more"></span>
+<p><strong>日志级别</strong></p>
+<p>检查自己项目中的日志级别，看是否是ERROR级别还是日志设置未生效等日志原因。</p>
+<p><strong>新增异常捕捉代码块</strong></p>
+<p>在spring boot的main方法的启动代码上新增try catch 代码块。</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">try</span> &#123;</span><br><span class="line">	<span class="comment">//...</span></span><br><span class="line">&#125; <span class="keyword">catch</span>(Exception e) &#123;</span><br><span class="line">	e.printStackTrace();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>日志被捕获</strong></p>
+<p>查看日志是否被其他框架捕获或者截取，先暂时屏蔽捕获的框架或停止使用这个框架。</p>
+]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>spring boot</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Windows 11 超级精简版！ Tiny11 （24H2） 官方下载ISO</title>
+    <url>/62064.html</url>
+    <content><![CDATA[<p>Tiny 11 24H2 是一款非常适合想要在旧硬件上运行 Windows 11 的用户的系统安装包！，是目前最精简的版本</p>
+<p>借助 Tiny 11 和 LZX 压缩给 Windows 11 进行了全身上下的瘦身，占用空间仅为 100MB ，甚至可以在一个单层的DVD上进行安装，<br>安装后硬盘占用约 3.5GB 的空间。</p>
+<p><img src="https://c5a6b8d.webp.li/2024/11/windows11-tiny11-24H2.png" alt="windows11-tiny11-24H2"></p>
+<p><strong>Windows 11 Tiny 11 （24H2）下载方式</strong></p>
+<p><strong>1、官方下载：【<a href="https://archive.org/details/tiny11-2409">点击前往</a>】</strong></p>
+<p><strong>2、更多下载 ：【<a href="https://www.dongli7.com/thread-171-1-1.html">点击前往</a>】</strong></p>
+<h2 id="制作U盘系统安装盘："><a href="#制作U盘系统安装盘：" class="headerlink" title="制作U盘系统安装盘："></a>制作U盘系统安装盘：</h2><p>1、Rufus 【<a href="https://rufus.ie/zh/">官方下载</a>】</p>
+<p>2、Ventoy 【<a href="https://www.ventoy.net/cn/download.html">官方下载</a>】</p>
+<h3 id="Windows-11-2024-LTSC-长期服务版-KMS-官方密钥获取："><a href="#Windows-11-2024-LTSC-长期服务版-KMS-官方密钥获取：" class="headerlink" title="Windows 11 2024 LTSC 长期服务版 KMS 官方密钥获取："></a>Windows 11 2024 LTSC 长期服务版 KMS 官方密钥获取：</h3><p>【**<a href="https://learn.microsoft.com/en-us/windows-server/get-started/kms-client-activation-keys?tabs=server2025,windows1110ltsc,version1803,windows81">点击前往</a>**】</p>
+<p>激活命令：</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">slmgr -ipk 这里填写视频里演示的密钥</span><br><span class="line"></span><br><span class="line">slmgr -skms kms.03k.org </span><br><span class="line"></span><br><span class="line">slmgr -ato</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>Windows</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
+        <tag>windows key</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>这六款神级软件！ 绝对让你相见恨晚，免费开源</title>
     <url>/46815.html</url>
     <content><![CDATA[<h2 id="Umi-OCR"><a href="#Umi-OCR" class="headerlink" title="Umi-OCR"></a>Umi-OCR</h2><ul>
@@ -860,53 +934,6 @@
       </tags>
   </entry>
   <entry>
-    <title>spring boot启动服务卡住无日志输出</title>
-    <url>/4847.html</url>
-    <content><![CDATA[<p>今天我们来介绍下spring boot 启动时候如果卡住，就是无日志输出，也不报错的几种解决方法</p>
-<p><strong>断点设置太多</strong></p>
-<p>这时可以打开IDEA的断点视图，查看哪些代码有断点并去掉就行了。或者干脆禁用掉整个项目的断点功能也行。<br><img src="https://c5a6b8d.webp.li/2024/09/breakpoints.png"></p>
-<span id="more"></span>
-<p><strong>日志级别</strong></p>
-<p>检查自己项目中的日志级别，看是否是ERROR级别还是日志设置未生效等日志原因。</p>
-<p><strong>新增异常捕捉代码块</strong></p>
-<p>在spring boot的main方法的启动代码上新增try catch 代码块。</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">try</span> &#123;</span><br><span class="line">	<span class="comment">//...</span></span><br><span class="line">&#125; <span class="keyword">catch</span>(Exception e) &#123;</span><br><span class="line">	e.printStackTrace();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><strong>日志被捕获</strong></p>
-<p>查看日志是否被其他框架捕获或者截取，先暂时屏蔽捕获的框架或停止使用这个框架。</p>
-]]></content>
-      <categories>
-        <category>Java</category>
-      </categories>
-      <tags>
-        <tag>spring boot</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Windows 11 超级精简版！ Tiny11 （24H2） 官方下载ISO</title>
-    <url>/62064.html</url>
-    <content><![CDATA[<p>Tiny 11 24H2 是一款非常适合想要在旧硬件上运行 Windows 11 的用户的系统安装包！，是目前最精简的版本</p>
-<p>借助 Tiny 11 和 LZX 压缩给 Windows 11 进行了全身上下的瘦身，占用空间仅为 100MB ，甚至可以在一个单层的DVD上进行安装，<br>安装后硬盘占用约 3.5GB 的空间。</p>
-<p><img src="https://c5a6b8d.webp.li/2024/11/windows11-tiny11-24H2.png" alt="windows11-tiny11-24H2"></p>
-<p><strong>Windows 11 Tiny 11 （24H2）下载方式</strong></p>
-<p><strong>1、官方下载：【<a href="https://archive.org/details/tiny11-2409">点击前往</a>】</strong></p>
-<p><strong>2、更多下载 ：【<a href="https://www.dongli7.com/thread-171-1-1.html">点击前往</a>】</strong></p>
-<h2 id="制作U盘系统安装盘："><a href="#制作U盘系统安装盘：" class="headerlink" title="制作U盘系统安装盘："></a>制作U盘系统安装盘：</h2><p>1、Rufus 【<a href="https://rufus.ie/zh/">官方下载</a>】</p>
-<p>2、Ventoy 【<a href="https://www.ventoy.net/cn/download.html">官方下载</a>】</p>
-<h3 id="Windows-11-2024-LTSC-长期服务版-KMS-官方密钥获取："><a href="#Windows-11-2024-LTSC-长期服务版-KMS-官方密钥获取：" class="headerlink" title="Windows 11 2024 LTSC 长期服务版 KMS 官方密钥获取："></a>Windows 11 2024 LTSC 长期服务版 KMS 官方密钥获取：</h3><p>【**<a href="https://learn.microsoft.com/en-us/windows-server/get-started/kms-client-activation-keys?tabs=server2025,windows1110ltsc,version1803,windows81">点击前往</a>**】</p>
-<p>激活命令：</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">slmgr -ipk 这里填写视频里演示的密钥</span><br><span class="line"></span><br><span class="line">slmgr -skms kms.03k.org </span><br><span class="line"></span><br><span class="line">slmgr -ato</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>Windows</category>
-      </categories>
-      <tags>
-        <tag>Windows</tag>
-        <tag>windows key</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>vagrant</title>
     <url>/40780.html</url>
     <content><![CDATA[<h3 id="起源"><a href="#起源" class="headerlink" title="起源"></a>起源</h3><p>久闻Vagrant大名，之前经常看到有开源项目使用它作为分布式开发的环境配置。</p>
@@ -1028,6 +1055,27 @@
       </tags>
   </entry>
   <entry>
+    <title>Windows11 24H2正式发布！官方免费下载，并绕过硬件限制安装</title>
+    <url>/45623.html</url>
+    <content><![CDATA[<p>微软之前一直传闻会在本月发布 Windows 11 24H2，尽管有消息称发布日期可能是 10 月 8 日，但微软显然不想让大家猜中，今天便正式发布了该版本。24H2 带来了许多新改进，不过与 Copilot+ PC 相关的功能需要等到 11 月才能向符合硬件要求的 AMD 和 Intel 系统开放。目前，微软只提供了适用于 x64 硬件的 ISO 安装镜像，而 Arm64 版本预计将在未来几周内推出。</p>
+<p><strong>小红书视频教程直达：</strong><a href="https://www.xiaohongshu.com/explore/67009dbc000000002c02f43e?app_platform=android&app_version=8.54.0&apptime=1728093637&share_from_user_hidden=true&type=video&appuid=6694a7ab0000000003033310&author_share=1&xsec_token=DBD6kwLo0uCxXSGSm_sUx7OyvkEI41em5H3wuU1MwxAxE=&xsec_source=app_share&xhsshare=WeixinSession&shareRedId=ODw7NEQ8RUs2NzUyOTgwNjY2OTo3ODc5&share_id=e88da52e865247b387f31f1c18bd9693">Windows11 24H2 正式发布！绕过硬件限制安装</a> </p>
+<p><strong>Windows 11 24H2 官方下载链接：</strong><a href="https://www.microsoft.com/software-download/windows11">链接直达</a></p>
+<p>【<a href="https://www.microsoft.com/en-us/microsoft-copilot/for-individuals/copilot-app?form=MY02FX&OCID=MY02FX">官方英文版</a>】</p>
+<p>【<a href="https://www.microsoft.com/zh-cn/software-download/windows11">中文简体版</a>】</p>
+<p>【<a href="https://www.microsoft.com/zh-tw/software-download/windows11">中文繁體版</a>】</p>
+<h2 id="Windows-11-24H2-正式版新增的功能："><a href="#Windows-11-24H2-正式版新增的功能：" class="headerlink" title="Windows 11 24H2 正式版新增的功能："></a><strong>Windows 11 24H2 正式版新增的功能：</strong></h2><p>据微软表示，24H2 重点功能包括：</p>
+<p>Copilot+ PC 专属功能：<br>即时辅助字幕。<br>小画家中的Cocreator。<br>Windows Studio 效果。<br>自动超解析度。<br>影像建立工具和Restyle 影像。<br>Wi-Fi 7 支援。<br>辅助听力装置支援的蓝牙LE 音讯增强功能。<br>系统匣&amp; 工作列增强功能。<br>更精简的档案总管。<br>智慧电源管理。<br>使用QR Code 加入及共用Wi-Fi 网路。<br>增强的Wi-Fi 网路存取隐私控制。<br>在Microsoft Teams 中轻松管理帐户和通知。<br>跨装置扩充Voice Clarity。<br>Windows 的Sudo：提升Windows 命令列效率。<br>远端桌面：增强的连线能力和辅助功能。</p>
+<p>对于硬件不达标，无法在线升级的小伙伴，可以使用Rufus进行安装</p>
+<p><strong>Rufus 官方下载</strong>【<a href="https://rufus.ie/zh/">点击前往</a>】<br><img src="https://c5a6b8d.webp.li/2024/10/rufus.png"></p>
+]]></content>
+      <categories>
+        <category>Windows</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>查找您的 Windows 10 、11 激活密钥，以及（OEM 数字许可证密钥）</title>
     <url>/46926.html</url>
     <content><![CDATA[<p><strong>1、CMD命令终端下以管理员身份输入命令：</strong></p>
@@ -1047,27 +1095,6 @@
       </categories>
       <tags>
         <tag>windows key</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Windows11 24H2正式发布！官方免费下载，并绕过硬件限制安装</title>
-    <url>/45623.html</url>
-    <content><![CDATA[<p>微软之前一直传闻会在本月发布 Windows 11 24H2，尽管有消息称发布日期可能是 10 月 8 日，但微软显然不想让大家猜中，今天便正式发布了该版本。24H2 带来了许多新改进，不过与 Copilot+ PC 相关的功能需要等到 11 月才能向符合硬件要求的 AMD 和 Intel 系统开放。目前，微软只提供了适用于 x64 硬件的 ISO 安装镜像，而 Arm64 版本预计将在未来几周内推出。</p>
-<p><strong>小红书视频教程直达：</strong><a href="https://www.xiaohongshu.com/explore/67009dbc000000002c02f43e?app_platform=android&app_version=8.54.0&apptime=1728093637&share_from_user_hidden=true&type=video&appuid=6694a7ab0000000003033310&author_share=1&xsec_token=DBD6kwLo0uCxXSGSm_sUx7OyvkEI41em5H3wuU1MwxAxE=&xsec_source=app_share&xhsshare=WeixinSession&shareRedId=ODw7NEQ8RUs2NzUyOTgwNjY2OTo3ODc5&share_id=e88da52e865247b387f31f1c18bd9693">Windows11 24H2 正式发布！绕过硬件限制安装</a> </p>
-<p><strong>Windows 11 24H2 官方下载链接：</strong><a href="https://www.microsoft.com/software-download/windows11">链接直达</a></p>
-<p>【<a href="https://www.microsoft.com/en-us/microsoft-copilot/for-individuals/copilot-app?form=MY02FX&OCID=MY02FX">官方英文版</a>】</p>
-<p>【<a href="https://www.microsoft.com/zh-cn/software-download/windows11">中文简体版</a>】</p>
-<p>【<a href="https://www.microsoft.com/zh-tw/software-download/windows11">中文繁體版</a>】</p>
-<h2 id="Windows-11-24H2-正式版新增的功能："><a href="#Windows-11-24H2-正式版新增的功能：" class="headerlink" title="Windows 11 24H2 正式版新增的功能："></a><strong>Windows 11 24H2 正式版新增的功能：</strong></h2><p>据微软表示，24H2 重点功能包括：</p>
-<p>Copilot+ PC 专属功能：<br>即时辅助字幕。<br>小画家中的Cocreator。<br>Windows Studio 效果。<br>自动超解析度。<br>影像建立工具和Restyle 影像。<br>Wi-Fi 7 支援。<br>辅助听力装置支援的蓝牙LE 音讯增强功能。<br>系统匣&amp; 工作列增强功能。<br>更精简的档案总管。<br>智慧电源管理。<br>使用QR Code 加入及共用Wi-Fi 网路。<br>增强的Wi-Fi 网路存取隐私控制。<br>在Microsoft Teams 中轻松管理帐户和通知。<br>跨装置扩充Voice Clarity。<br>Windows 的Sudo：提升Windows 命令列效率。<br>远端桌面：增强的连线能力和辅助功能。</p>
-<p>对于硬件不达标，无法在线升级的小伙伴，可以使用Rufus进行安装</p>
-<p><strong>Rufus 官方下载</strong>【<a href="https://rufus.ie/zh/">点击前往</a>】<br><img src="https://c5a6b8d.webp.li/2024/10/rufus.png"></p>
-]]></content>
-      <categories>
-        <category>Windows</category>
-      </categories>
-      <tags>
-        <tag>Windows</tag>
       </tags>
   </entry>
   <entry>
