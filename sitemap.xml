@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.dnjs.xyz/28649.html</loc>
+    
+    <lastmod>2026-05-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.dnjs.xyz/47992.html</loc>
     
     <lastmod>2026-05-15</lastmod>
@@ -557,6 +566,20 @@
   
   <url>
     <loc>https://www.dnjs.xyz/tags/%E9%AA%A8%E7%9B%86%E5%BA%95%E8%82%8C/</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.dnjs.xyz/tags/%E7%A3%81%E7%9B%98%E7%AE%A1%E7%90%86/</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.dnjs.xyz/tags/DiskGenius/</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

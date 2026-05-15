@@ -1610,4 +1610,53 @@
         <tag>骨盆底肌</tag>
       </tags>
   </entry>
+  <entry>
+    <title>Windows C盘空间不足怎么扩容</title>
+    <url>/28649.html</url>
+    <content><![CDATA[<p>很多人电脑用久了之后都会遇到一个问题：C 盘越来越红，软件更新、系统缓存、微信文件稍微多一点，空间就不够用了。这个时候如果同一块硬盘上的 D 盘、E 盘还有空余空间，就可以把一部分空间分给 C 盘。</p>
+<p><img src="https://c5a6b8d.webp.li/2026/05/c-disk-extend-01.jpg"></p>
+<p>操作前先说重点：涉及分区调整时一定要先备份重要数据。如果要删除 D 盘或其他分区，里面的数据会被清空，千万不要直接点下一步。</p>
+<h2 id="先确认分区位置"><a href="#先确认分区位置" class="headerlink" title="先确认分区位置"></a>先确认分区位置</h2><p>打开「磁盘管理」，可以按 <code>Win + X</code> 选择「磁盘管理」，也可以在运行里输入 <code>diskmgmt.msc</code>。</p>
+<p>这里需要确认两件事：</p>
+<ol>
+<li>C 盘和准备腾空间的分区是不是在同一块硬盘上。</li>
+<li>C 盘右侧是否紧挨着「未分配」空间。</li>
+</ol>
+<p><img src="https://c5a6b8d.webp.li/2026/05/c-disk-extend-02.jpg"></p>
+<p>Windows 自带的磁盘管理有一个限制：只能把 C 盘右侧紧邻的未分配空间扩展进 C 盘。如果中间隔着 D 盘、E 盘、恢复分区，就算硬盘后面有空闲，也不能直接扩展。</p>
+<h2 id="情况一：把整个-D-盘分给-C-盘"><a href="#情况一：把整个-D-盘分给-C-盘" class="headerlink" title="情况一：把整个 D 盘分给 C 盘"></a>情况一：把整个 D 盘分给 C 盘</h2><p>如果 D 盘里没有重要文件，或者已经把文件转移到了其他硬盘，可以在磁盘管理里右键 D 盘，选择「删除卷」。</p>
+<p>删除后，原来的 D 盘会变成一段「未分配」空间。</p>
+<p><img src="https://c5a6b8d.webp.li/2026/05/c-disk-extend-03.jpg"></p>
+<p>只要这段未分配空间紧挨着 C 盘右侧，就可以右键 C 盘，选择「扩展卷」，根据向导一路下一步，把空间合并到 C 盘里。</p>
+<p><img src="https://c5a6b8d.webp.li/2026/05/c-disk-extend-04.jpg"></p>
+<p>这种方式最简单，适合 D 盘不打算继续保留的情况。</p>
+<h2 id="情况二：只拿一部分空间给-C-盘"><a href="#情况二：只拿一部分空间给-C-盘" class="headerlink" title="情况二：只拿一部分空间给 C 盘"></a>情况二：只拿一部分空间给 C 盘</h2><p>如果还想保留 D 盘，只想分一部分容量给 C 盘，可以先右键 D 盘选择「压缩卷」，输入要腾出来的容量。</p>
+<p>这里需要注意单位是 MB，常见换算可以这样记：</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><span class="line">1024 MB = 1 GB</span><br><span class="line">10240 MB = 10 GB</span><br><span class="line">51200 MB = 50 GB</span><br></pre></td></tr></table></figure>
+
+<p>压缩完成后，会出现一段新的未分配空间。</p>
+<p><img src="https://c5a6b8d.webp.li/2026/05/c-disk-extend-05.jpg"></p>
+<p>但很多时候这段未分配空间并不紧挨着 C 盘，而是在 D 盘右侧。此时 Windows 磁盘管理里的「扩展卷」可能是灰色的，或者不能把这段空间直接合并进 C 盘。</p>
+<h2 id="未分配空间不相邻怎么办"><a href="#未分配空间不相邻怎么办" class="headerlink" title="未分配空间不相邻怎么办"></a>未分配空间不相邻怎么办</h2><p>如果 C 盘和未分配空间中间隔着其他分区，Windows 自带工具就不好操作了。可以进入 Windows PE，再使用 DiskGenius 这类分区工具调整分区位置。</p>
+<p><img src="https://c5a6b8d.webp.li/2026/05/c-disk-extend-06.jpg"></p>
+<p>进入 PE 后打开 DiskGenius，找到系统所在硬盘，选择需要调整的分区，通过「调整分区大小」把未分配空间移动到 C 盘旁边，或者直接把这段空间作为 C 盘的扩容空间。</p>
+<p><img src="https://c5a6b8d.webp.li/2026/05/c-disk-extend-07.jpg"></p>
+<p>确认无误后再执行操作，过程中不要断电，也不要强制关机。分区移动和扩容属于高风险操作，尤其是系统盘，建议笔记本接上电源，台式机尽量保证供电稳定。</p>
+<h2 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h2><p>C 盘扩容的关键不是看其他盘有没有空间，而是看这段空间能不能变成 C 盘右侧紧邻的未分配空间。</p>
+<ul>
+<li>如果 D 盘可以全部不要：备份数据后删除 D 盘，再扩展 C 盘。</li>
+<li>如果只想拿一部分空间：先压缩分区，再看未分配空间是否紧挨 C 盘。</li>
+<li>如果中间隔着其他分区：进入 PE，用 DiskGenius 调整分区位置后再扩容。</li>
+</ul>
+<p>操作前多看一眼磁盘编号和分区位置，确认目标盘没选错，比后面补救省事太多。</p>
+]]></content>
+      <categories>
+        <category>Windows</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
+        <tag>磁盘管理</tag>
+        <tag>DiskGenius</tag>
+      </tags>
+  </entry>
 </search>
